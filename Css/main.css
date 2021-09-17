@@ -578,8 +578,17 @@ footer
 
 /* Section Box */
 
-.section
+
+@media only screen and (min-width: 800px)
 {
+    .section
+    {
+        margin-right: 10px;
+    }
+}
+.section-article
+{
+    font-size: var(--page-text-size);
     min-height: 200px;
     max-height: 500px;
     min-width: 280px;
@@ -592,38 +601,21 @@ footer
 }
 .section :hover
 {
-    border: 1px solid var(--page-text-color);
-}
-@media only screen and (min-width: 800px)
-{
-    .section
-    {
-        margin-right: 10px;
-    }
-}
-.section-article
-{
-    font-size: var(--page-text-size);
-    min-width: 280px;
-    width: 100%;
-    min-height: 140px;
-    float: left;
-}
-.section-article:hover
-{
     background-color: var(--banner-color-select);
+    border-radius: 20px;
 }
-
-.section-img
+.section-img 
 {
     float: left;
     padding: 10px;
     width: 260px;
+    pointer-events:none;
 }
 .section-description
 {
     font-size: 18px;
     display: flex;
+    pointer-events:none;
 }
 .section-title
 {
@@ -636,6 +628,7 @@ footer
     margin-bottom: 6px;
     margin-top: 260px;
     font-weight: bold;
+    pointer-events:none;
 }
 @media only screen and (min-width: 600px)
 {
