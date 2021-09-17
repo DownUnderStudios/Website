@@ -1,0 +1,64 @@
+<div class="sidebar-top">
+    <p class="sidebar-title" onclick="ChangeMain('/Blog/Blog.html')">Blog Entries</p>
+    <button class="sidebar-close-button" onclick="SideBarClose()">☰</button>
+</div>
+<ul class="sidebar-ul"> <!-- Year -->
+    <li>
+        <input type="checkbox" id="2021">
+        <label for="2021" class="first" onclick="ChangeMain('/Blog/2021/Year.html')">2021</label>
+        <ul class="level2"> <!-- Month -->
+            <li class="sidebar-list">
+                <input type="checkbox" id="2021:September">
+                <label for="2021:September" class="second" onclick="ChangeMain('/Blog/2021/September/Month.html')">September</label>
+                <ul class="level3"> <!-- Day -->
+                    <li class="sidebar-list">
+                        <input type="checkbox" id="2021:September:1">
+                        <label for="2021:September:1" class="third" onclick="ChangeMain('/Blog/2021/September/Article/Website_Created.html')">Website Created</label>
+                    </li>
+                </ul> <!-- Day -->
+            </li>
+            <li class="sidebar-list">
+                <input type="checkbox" id="2021:October">
+                <label for="2021:October" class="second" onclick="ChangeMain('/Blog/2021/October/Month.html')">October</label>
+                <ul class="level3">
+            
+                </ul>
+            </li>
+        </ul> <!-- Month -->
+    </li> <!-- Year -->
+</ul>
+<!--
+---------------
+    Year
+---------------
+<li>
+    <input type="checkbox" id="{Year}">
+    <label for="{Year}" class="first" onclick="ChangeMain('/Blog/2021/Year.html')">2021</label>
+    <ul class="level2">
+        
+    </ul>
+</li>
+
+---------------
+    Month
+---------------
+
+<li class="sidebar-list">
+    <input type="checkbox" id="{Year}:{Month}">
+    <label for="{Year}:{Month}" class="second" onclick="ChangeMain('/Blog/{Year}/{Month}/Month.html')">{Month}</label>
+    <ul class="level3">
+
+    </ul>
+</li>
+
+---------------
+    Day
+---------------
+
+<li class="sidebar-list">
+    <input type="checkbox" id="{Year}:{Month}:{incrament}">
+    <label for="{Year}:{Month}:{incrament}" class="third" onclick="ChangeMain('/Blog/{Year}/{Month}/Article/{Article_Name}.html')">{Article_Name}</label>
+</li>
+
+
+-->
