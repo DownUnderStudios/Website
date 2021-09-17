@@ -592,7 +592,7 @@ footer
 }
 .section :hover
 {
-    background-color: var(--banner-color-select);
+    border: 1px solid var(--page-text-color);
 }
 @media only screen and (min-width: 800px)
 {
