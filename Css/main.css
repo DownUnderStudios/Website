@@ -597,6 +597,7 @@ footer
     float: left;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-right: 10px;
     border-radius: 20px;
 }
 .section :hover

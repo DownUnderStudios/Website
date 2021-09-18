@@ -147,9 +147,7 @@ function Main()
 function SideBarOpen() 
 {
     var side = document.getElementById("sidebar");
-    side.style.width = "250px";
-    var main = document.getElementById("main");
-    main.style.marginLeft= "50px";
+    side.style.width = "200px";
 }
 
 function SideBarClose() 
