@@ -271,11 +271,10 @@ main
 {
     main
     {
-        margin-left: 10%;
+        margin-left: max(200px,10%);
         margin-right: 10%;
         padding-bottom: 50px;
         padding-right: 5%;
-        min-width: 250px;
     }
     .logo-text
     {
@@ -290,11 +289,10 @@ main
 {
     main
     {
-        margin-left: 10%;
+        margin-left: max(200px,10%);
         margin-right: 10%;
         padding-bottom: 50px;
         padding-right: 0%;
-        min-width: 250px;
     }
     .wrapper
     {
