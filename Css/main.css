@@ -275,6 +275,7 @@ main
         margin-right: 10%;
         padding-bottom: 50px;
         padding-right: 5%;
+        min-width: 250px;
     }
     .logo-text
     {
@@ -293,6 +294,7 @@ main
         margin-right: 10%;
         padding-bottom: 50px;
         padding-right: 0%;
+        min-width: 250px;
     }
     .wrapper
     {
