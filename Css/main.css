@@ -184,19 +184,21 @@ select
 /* Variables */
 :root
 {
-    --page-color: #fff;
+    --page-color: #f4f4f4;
     --page-title-font: 'Open Sans', sans-serif;
     --page-text-font: 'Open Sans', sans-serif;
     --page-text-size: 18px;
     --page-text-color: #1e1e1e;
     --page-width: 100%;
     --page-img-width: 50%;
-    --page-title: 32px;
+    --page-title: 40px;
     --page-sub-title: 14px;
     --sidebar-selected: rgb(161, 161, 161);
     --page-color-hover: rgb(122, 122, 122);
     --banner-color: #e6e6e6;
     --banner-color-select: #afafafaf;
+    --section-article-games: #DCD0C0;
+    --section-article-blog: #7A8877;
 }
 /* Standard */
 * 
@@ -246,8 +248,6 @@ main
 {
     padding: 0;
     padding-top: 120px;
-    padding-right: 10%;
-    padding-left: 10%;
     padding-bottom: 50px;
     font-family: var(--page-text-font);
     margin: 0;
@@ -267,14 +267,24 @@ main
     float: inline-start;
     padding-bottom: 10px;
 }
-@media only screen and (min-width: 500px)
+.page-sub-title
+{
+    font-size: var(--page-sub-title);
+    padding-top: 5px;
+}
+.page-bottom
+{
+    margin-bottom: 900px;
+}
+@media only screen and (min-width: 400px)
 {
     main
     {
         margin-left: max(200px,10%);
         margin-right: 10%;
         padding-bottom: 50px;
-        padding-right: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
     }
     .logo-text
     {
@@ -282,7 +292,7 @@ main
         margin-left: 10px;
         float:left;
         font-family: var(--page-text-font);
-        font-size: var(--page-title);
+        font-size: 32px;
     }
 }
 @media only screen and (min-width: 800px)
@@ -304,7 +314,7 @@ main
         margin-left: 10px;
         float:left;
         font-family: var(--page-text-font);
-        font-size: var(--page-title);
+        font-size: 32px;
     }
 }
 /* Main */
@@ -373,11 +383,11 @@ header
     z-index: 1;
     text-align: center;
 }
-.dropdown-content :last-child
+.menu-button :last-child
 {
     border-radius: 0px 0px 0px 20px;
 }
-.menu-button
+.menu-button 
 {
     width: 100%;
     text-align: center;
@@ -461,6 +471,10 @@ header
 {
     margin-top: -12px;
     border-bottom: 1px solid black;
+}
+.sidebar-Bottom
+{
+    margin-bottom: 170px;
 }
 .sidebar-title
 {
@@ -577,8 +591,19 @@ footer
 
 
 /* Section Box */
-
-
+.section
+{
+    width: fit-content;
+    max-width: 280px;
+}
+@media only screen and (min-width: 650px)
+{
+    .section
+    {
+        margin-right: 10px;
+        max-width: none;
+    }
+}
 @media only screen and (min-width: 800px)
 {
     .section
@@ -589,49 +614,67 @@ footer
 .section-article
 {
     font-size: var(--page-text-size);
-    min-height: 200px;
-    max-height: 500px;
-    min-width: 280px;
-    max-width: 500px;
+    min-height: 300px;
+    width: 480px;
     background-color: var(--banner-color);
     float: left;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-right: 10px;
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 .section :hover
 {
     background-color: var(--banner-color-select);
     border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .section-img 
 {
     float: left;
-    padding: 10px;
-    width: 260px;
+    width: 100%;
+    max-width: 260px;
     pointer-events:none;
+}
+@media only screen and (min-width: 300px)
+{
+    .section-img 
+    {
+        padding: 10px;
+    }
 }
 .section-description
 {
     font-size: 18px;
     display: flex;
     pointer-events:none;
+    padding-left: 10px;
+}
+.section-footer
+{
+    font-size: 14px;
+    display: flex;
+    pointer-events:none;
+    float: right;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 .section-title
 {
     white-space: nowrap;
-    text-align: left;
+    text-align: center;
     font-size: 32px;
     padding-top: 10px;
     padding-bottom: 4px;
     border-bottom: 1px solid black;
     margin-bottom: 6px;
     margin-top: 260px;
-    font-weight: bold;
     pointer-events:none;
+    border-radius: 0px 20px 0px 0px;
 }
-@media only screen and (min-width: 600px)
+
+@media only screen and (min-width: 650px)
 {
     .section-title
     {
@@ -654,6 +697,14 @@ footer
     font-size: 18px;
     display: inline-block;
     text-align: right;
+}
+.Games
+{
+    background-color: var(--section-article-games);
+}
+.Blog
+{
+    background-color: var(--section-article-blog);
 }
 /* Section Box */
 

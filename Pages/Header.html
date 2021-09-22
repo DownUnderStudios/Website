@@ -5,11 +5,16 @@
         <div class="dropdown" style="float:right;">
             <button class="dropdown-button">☰</button>
             <ul class="dropdown-content">
-                <li class=""><button class="menu-button" onclick="ChangeMain('/Home.html') & ChangeSide('')">Home</button></li>
-                <!--<li class=""><button class="menu-button" onclick="ChangeMain('/UnityDocumentation/Documentation.html') & ChangeSide('/Pages/Sidebar-Unity.html')">Unity Documentation</button></li>-->
-                <li class=""><button class="menu-button" onclick="ChangeMain('/Blog/Blog.html') & ChangeSide('/Pages/Sidebar-blog.html')">Blog</button></li>
-                <li class=""><button class="menu-button" onclick="ChangeMain('/Games.html') & ChangeSide('')">Games</button></li>
-                <li class=""><button class="menu-button" onclick="ChangeMain('/About.html') & ChangeSide('')">About</button></li>
+                <button class="menu-button" 
+                    onclick="ChangeMain('/Pages/Home.html') & ChangeSide('')">News</button>
+                <!--<button class="menu-button" 
+                    onclick="ChangeMain('/UnityDocumentation/Documentation.html') & ChangeSide('/Pages/Sidebar-Unity.html')">Unity Documentation</button>-->
+                <button class="menu-button Blog" 
+                    onclick="ChangeMain('/Blog/Blog.html') & ChangeSide('/Pages/Sidebar-blog.html')">Blog</button>
+                <button class="menu-button Games" 
+                    onclick="ChangeMain('/Pages/Games.html') & ChangeSide('')">Games</button>
+                <button class="menu-button" 
+                    onclick="ChangeMain('/Pages/About.html') & ChangeSide('')">About</button>
             </ul>
         </div>
     </div>
