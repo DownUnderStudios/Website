@@ -147,7 +147,15 @@ function Main()
 function SideBarOpen() 
 {
     var side = document.getElementById("sidebar");
-    side.style.width = "200px";
+    if(side)
+    {
+        side.style.width = "255px";
+    }
+    var main = document.getElementById("main");
+    if(main)
+    {
+        main.style.marginLeft= "50px";
+    }
 }
 
 function SideBarClose() 
@@ -192,6 +200,7 @@ function SidebarSelect(values)
     var list = document.getElementsByTagName('input');
     for (const element of list) 
     {
+        element.checked = false;
         if(values.length != 0)
         {
             for (const value of values) 
@@ -207,6 +216,7 @@ function SidebarSelect(values)
                 {
                     element.checked = false;
                 }
+                
             }
         }
     }

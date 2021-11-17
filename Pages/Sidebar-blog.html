@@ -1,24 +1,24 @@
 <div class="sidebar-top">
-    <p class="sidebar-title" onclick="ChangeMain('/Blog/Blog.html')">Blog Entries</p>
+    <p class="sidebar-title" onclick="ChangeMain('/Blog/Blog.html') & SidebarSelect([])">Blog Entries</p>
     <button class="sidebar-close-button" onclick="SideBarClose()">☰</button>
 </div>
 <ul class="sidebar-ul"> <!-- Year -->
     <li>
-        <input type="checkbox" id="2021">
+        <input type="checkbox" id="2021" onclick="SidebarSelect(['2021'])">
         <label for="2021" class="first" onclick="ChangeMain('/Blog/2021/Year.html')">2021</label>
         <ul class="level2"> <!-- Month -->
             <li class="sidebar-list">
-                <input type="checkbox" id="2021:September">
-                <label for="2021:September" class="second" onclick="ChangeMain('/Blog/2021/September/Month.html')">September</label>
+                <input type="checkbox" id="2021:September" onclick="SidebarSelect(['2021' , '2021:September'])">
+                <label for="2021:September" class="second" onclick="ChangeMain('/Blog/2021/September/Month.html') & SidebarSelect(['2021' , '2021:September'])">September</label>
                 <ul class="level3"> <!-- Day -->
                     <li class="sidebar-list">
-                        <input type="checkbox" id="2021:September:1">
-                        <label for="2021:September:1" class="third" onclick="ChangeMain('/Blog/2021/September/Article/Website_Created.html')">Website Created</label>
+                        <input type="checkbox" id="2021:September:1" onclick="SidebarSelect(['2021' , '2021:September', '2021:September:1'])">
+                        <label for="2021:September:1" class="third" onclick="ChangeMain('/Blog/2021/September/Article/Website_Created.html') & SidebarSelect(['2021' , '2021:September', '2021:September:1'])">Website Created</label>
                     </li>
                 </ul> <!-- Day -->
             </li>
             <li class="sidebar-list">
-                <input type="checkbox" id="2021:October">
+                <input type="checkbox" id="2021:October" onclick="SidebarSelect(['2021' , '2021:October'])">
                 <label for="2021:October" class="second" onclick="ChangeMain('/Blog/2021/October/Month.html')">October</label>
                 <ul class="level3">
             
@@ -28,6 +28,7 @@
     </li> <!-- Year -->
 </ul>
 <!--
+    
 ---------------
     Year
 ---------------

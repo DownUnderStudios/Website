@@ -237,6 +237,10 @@ article
 {
     width: var(--page-img-width);
 }
+main .wrapper
+{
+    margin-bottom: 800px;
+}
 /* Standard */
 
 
@@ -272,11 +276,7 @@ main
     font-size: var(--page-sub-title);
     padding-top: 5px;
 }
-.page-bottom
-{
-    margin-bottom: 900px;
-}
-@media only screen and (min-width: 400px)
+@media only screen and (min-width: 600px)
 {
     main
     {
@@ -490,13 +490,17 @@ header
     font-size: 18px;
     text-indent: 10px;
 }
+.level1 .sidebar-list
+{
+    text-indent: 0px;
+}
 .level2 .sidebar-list
 {
-    text-indent: 20px;
+    text-indent: 10px;
 }
 .level3 .sidebar-list
 {
-    text-indent: 40px;
+    text-indent: 20px;
 }
 .level3 .sidebar-list :target
 {
@@ -510,6 +514,7 @@ header
     padding: 10px;
     border: 1px solid #fff;
     border-bottom: none;
+    font-size: 16px;
 }
 .sidebar label:hover{
     background: var(--sidebar-selected);
@@ -596,7 +601,7 @@ footer
     width: fit-content;
     max-width: 280px;
 }
-@media only screen and (min-width: 650px)
+@media only screen and (min-width: 600px)
 {
     .section
     {
@@ -637,7 +642,7 @@ footer
     max-width: 260px;
     pointer-events:none;
 }
-@media only screen and (min-width: 300px)
+@media only screen and (min-width: 600px)
 {
     .section-img 
     {
@@ -664,7 +669,7 @@ footer
 {
     white-space: nowrap;
     text-align: center;
-    font-size: 32px;
+    font-size: 24px;
     padding-top: 10px;
     padding-bottom: 4px;
     border-bottom: 1px solid black;
@@ -674,13 +679,13 @@ footer
     border-radius: 0px 20px 0px 0px;
 }
 
-@media only screen and (min-width: 650px)
+@media only screen and (min-width: 600px)
 {
     .section-title
     {
         white-space: nowrap;
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
         padding-top: 10px;
         padding-bottom: 4px;
         border-bottom: 1px solid black;
