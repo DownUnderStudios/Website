@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Down Under Studio</title>
+        <title>DownUnder Studio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="apple-touch-icon" sizes="180x180" href="/Img/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/Img/favicon-32x32.png">
@@ -23,17 +23,46 @@
         <button id="hidden" class="sidebar-open-button" onclick="SideBarOpen()">☰</button>
         <header id="header-id" Header-html="/Pages/Header.html">
         </header>
+        <!--SideBar Start-->
         <div Sidebar-html="/Pages/Sidebar-Unity.html" class="sidebar" id="sidebar">
+            <div class="sidebar-top">
+                <p class="sidebar-title" onclick="GotoPage('Unity/')">Unity Series</p>
+                <button class="sidebar-close-button" onclick="SideBarClose()">☰</button>
+            </div>
+            <ul class="level1"> <!-- Top Level Option-->
+                <li class="sidebar-list">
+                    <input type="checkbox" id="Unity-UI">
+                    <label for="Unity-UI" class="first" onclick="GotoPage('Unity/?Unity-UI')">Unity UI</label>
+                    <ul class="level2"> <!-- Middle Level Option-->
+                        <!--Secondary-->
+                        <li class="sidebar-list">
+                            <input type="checkbox" id="Unity-UI:UI-Toolkit">
+                            <label for="Unity-UI:UI-Toolkit" class="second" onclick="GotoPage('Unity/?Unity-UI/UI-Toolkit')">UI Toolkit</label>
+                            <ul class="level3"> <!-- Low Level Option-->
+                                <li class="sidebar-list">
+                                    <input type="checkbox" id="Unity-UI:UI-Toolkit:Introduction">
+                                    <label for="Unity-UI:UI-Toolkit:Introduction" class="third" onclick="GotoPage('Unity/?Unity-UI/UI-Toolkit/Introduction')">1. Introduction</label>
+                                </li>
+                            </ul> <!-- Low Level Option-->
+                        </li>
+                    </ul> <!-- Middle Level Option-->
+                </li>
+            </ul> <!-- Top Level Option-->
         </div>
-        <main id="main" Main-html="/Unity/Documentation.html">
+        <!--SideBar End-->
+        <main id="main" Main-html="/Unity/Unity.html">
         </main>
         <footer Footer-html="/Pages/Footer.html">
         </footer>
             <script>
-                Header();
-                Sidebar('/Pages/Sidebar-Unity.html');
-                Main();
-                Footer();
+                SideBarOpen();
+                GetData("Header-html");
+                GetData("Main-html");
+                GetData("Footer-html");
+                if (window.location.search.includes("?")) 
+                {
+                    GoToUnity(window.location.search);
+                }
             </script>
     </body
 </html>
