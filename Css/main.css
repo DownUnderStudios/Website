@@ -75,10 +75,6 @@ video
     vertical-align: baseline;
     background: transparent;
 }
-body 
-{
-    line-height: 1;
-}
 article,
 aside,
 details,
@@ -190,13 +186,15 @@ select
     --page-text-size: 18px;
     --page-text-color: #1e1e1e;
     --page-width: 100%;
-    --page-img-width: 50%;
+    --page-img-width: 90%;
     --page-title: 40px;
     --page-sub-title: 14px;
     --sidebar-selected: rgb(161, 161, 161);
     --page-color-hover: rgb(122, 122, 122);
+    
     --banner-color: #e6e6e6;
     --banner-color-select: #afafafaf;
+    
     --section-article-games: #DCD0C0;
     --section-article-blog: #7A8877;
     --section-article-unity: #008eb9;
@@ -211,7 +209,7 @@ select
 body
 {
     background-color: var(--page-color);
-    height: max-content;
+    display: flex;
 }
 a
 {
@@ -239,6 +237,11 @@ article
 {
     width: var(--page-img-width);
 }
+main .wrapper
+{
+    height: calc( max-content + 120px );
+    padding-top: 120px;
+}
 nav .wrapper
 {
     margin-left: 20%;
@@ -253,7 +256,6 @@ nav .wrapper
 main
 {
     padding: 0;
-    padding-top: 120px;
     padding-bottom: 50px;
     font-family: var(--page-text-font);
     margin: 0;
@@ -578,18 +580,11 @@ footer
 }
 .footer-copyright
 {
-    margin-right: 5%;
-    margin-top: -15px;
-    font-size: 14px;
-    text-align: right;
-}
-.footer-sitemap
-{
-    text-decoration: none;
+    position:absolute;
+    right: 10px;
+    bottom: 10px;
     color: var(--page-text-color);
-    margin-top: 20px;
     font-size: 14px;
-    text-align: left;
 }
 /* Footer */
 
@@ -605,6 +600,7 @@ footer
     height: fit-content;
     
 }
+
 @media only screen and (min-width: 600px)
 {
     .section
@@ -624,14 +620,15 @@ footer
 .section-article
 {
     font-size: var(--page-text-size);
-    min-height: 300px;
-    width: 480px;
+    position: relative;
+    width: 500px;
+    min-height: 200px;
     background-color: var(--banner-color);
     float: left;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,.2);
     transition: 0.3s;
 }
 .section :hover
@@ -642,24 +639,17 @@ footer
 }
 .section-img 
 {
-    float: left;
     width: 100%;
-    max-width: 260px;
+    max-width: 200px;
     pointer-events:none;
 }
-@media only screen and (min-width: 600px)
-{
-    .section-img 
-    {
-        padding: 10px;
-    }
-}
+
 .section-description
 {
     font-size: 18px;
     display: flex;
     pointer-events:none;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .section-footer
 {
@@ -686,10 +676,9 @@ footer
     padding-bottom: 4px;
     border-bottom: 1px solid black;
     margin-bottom: 6px;
-    margin-top: 270px;
     pointer-events:none;
     font-weight: bold;
-    border-radius: 0px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 @media only screen and (min-width: 600px)
@@ -700,12 +689,24 @@ footer
         text-align: center;
         font-size: 24px;
         padding-top: 10px;
-        padding-bottom: 4px;
         border-bottom: 1px solid black;
-        margin-left: 270px;
-        margin-bottom: 6px;
         font-weight: bold;
         margin-top: 0px;
+    }
+    .section-img
+    {
+        float: left;
+    }
+    div .section-footer-date
+    {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        pointer-events:none;
+    }
+    .section-footer
+    {
+        font-size: 16px;
     }
 }
 .section-date
@@ -715,6 +716,7 @@ footer
     font-size: 18px;
     display: inline-block;
     text-align: right;
+    pointer-events:none;
 }
 .Games
 {
@@ -727,6 +729,15 @@ footer
 .Unity
 {
     background-color: var(--section-article-unity);
+    
+}
+.About
+{
+    font-size: 18px;
+}
+.Bump
+{
+    height: 100px;
 }
 /* Section Box */
 
