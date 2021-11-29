@@ -1,0 +1,253 @@
+<div class="wrapper" id="wrapper">
+    <article class="article">
+        <p class="article-title">UI Builder</p>
+        <p class="article-date" id="september-2021">29/11/2021</p>
+        <hr />
+        <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/UIBuilder Thumbnail.png" alt="logo"></Img>
+        <div class="article-description">
+            <br />
+            <p>
+                <p class="article-sub-title">Instructions</p>
+
+                    The new UI Builder introduces is a tool that will allow you to create UI for runtime as well as for your editor.<br />
+                    The UI Builder can be accessed via 2 different methods. <br />
+                    Either method 1.<br />
+                        <p class="article-indent-1">
+                            •	Click the window tab.<br />
+                        <p class="article-indent-1">
+                            •	Scroll down till you find the UI Toolkit.<br />
+                        <p class="article-indent-1">
+                            •	Open it and located the UI Builder button and click.<br />
+
+                    Or alternatively use method 2.<br />
+                    If you have an existing visual asset tree (.uxml), double click and it will open the UI Builder.<br />
+                    If you don’t have a visual asset tree (.uxml)<br />
+                    <p class="article-indent-1">
+                    •	In the project section right click in the assets folder or folder of your choice.<br />
+                    <p class="article-indent-1">
+                    •	Create, UI Toolkit, UI document and that will create the visual asset tree (.uxml) file.<br />
+                    </p>
+                    When that is done open the UI Builder and I will show you a brief over view of the UI Builder layout as I will be going in to depth in subsequent videos in this series<br />
+
+                <p class="article-sub-title">Layout</p>
+                
+                The layout is split into 3 parts <br />
+
+                <p class="article-sub-title article-indent-1">Middle</p>
+
+                <p class="article-indent-1">
+                    1)	the middle being the Viewport when you drag elements onto the canvas or add them to the hierarchy they will be displayed here<br />
+                    <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Viewport.png" alt="logo"></Img><br />
+                    <p class="article-sub-title article-indent-2">Viewport</p>  
+                            <p class="article-indent-2">
+                            a)	the viewport contains several features<br />
+                                <p class="article-indent-3">
+                                i)	file: can open, new, save, save as<br />
+                                <p class="article-indent-3">
+                                ii)	zoom: by percentage<br />
+                                <p class="article-indent-3">
+                                iii)	fit canvas: will type to fit your canvas to the screen it will shrink it unless it is set to match game view.<br />
+                                <p class="article-indent-3">
+                                iv)	Theme: set a theme for the canvas<br />
+                                <p class="article-indent-3">
+                                v)	Preview: lets you preview how the canvas will work at when used of course functionality will not work.<br />
+                                <p class="article-indent-3">
+                                vi)	Settings: show UXML/ USS & Settings<br />
+                                <p class="article-indent-3">
+                                vii)	UXML/ USS: at the bottom will show you the code layout of the uxml & uss files.<br />
+                
+                <p class="article-sub-title article-indent-1">Right</p>
+
+                        <p class="article-indent-1">
+                        2)	On the right side is the inspector when you have an element selected it will show 3 drop down tabs.<br />
+                        <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Inspector.png" alt="logo"></Img><br />
+                    <p class="article-sub-title article-indent-2">Type</p>     
+                        
+                            <p class="article-indent-2">
+                            a)	the first one being type specific if you select a button, it will have button specific values and label will have label specific values, each element will have these values in common.<br />
+                                <p class="article-indent-3">
+                                i)	Name: you can name the element and it will become an #Name that can be referenced in the stylesheet.<br />
+                                <p class="article-indent-3">
+                                ii)	View data key: used for view data persistence (i.e., tree expanded states, scroll position and zoom level).<br />
+                                <p class="article-indent-3">
+                                iii)	Picking mode: determines if this element can be picked during mouse events or Ipanel.pick queries<br />
+                                <p class="article-indent-3">
+                                iv)	Tool tip: when hover it will display a tool tip that can be used <br />
+                                <p class="article-indent-3">
+                                v)	Using hints: offers a set of values that describe the intended usage patterns of a specific visual element it needs to be set before being add to a panel, as when it’s added it will effectively become read-only. <br />
+                                <p class="article-indent-3">
+                                vi)	Tab index: an integer used to sort focusable in the focus ring. Must be greater than or equal to zero.<br />
+                                <p class="article-indent-3">
+                                vii)	Focusable: a Boolean that if true will allow this element to be focused<br />
+                            
+                    <p class="article-sub-title article-indent-2">Stylesheet</p>
+
+                            <p class="article-indent-2">
+                            b)	The second tab is the Stylesheet, it has a text box, 2 buttons and a drop-down tab.<br />
+                                <p class="article-indent-3">
+                                i)	When you press the first button called “Add style class to list” it will take the text from the text box and add the class by that name for example “Test” will add. Test to this element.<br />
+                                <p class="article-indent-3">
+                                ii)	When you press the second button called “Extract inline styles to new class” it will take the changed values from the 3rd tab which I will get in a bit and create a new class for them named after the text from the text box.<br />
+                                <p class="article-indent-3">
+                                iii)	And lastly the drop-down tag called “matching selectors” when an .Class, #Name or Type matches the element it will show a drop-down tab that contains all of the style it will add to the element unless it is overwritten by…<br />
+                            
+                    <p class="article-sub-title article-indent-2">inlined styles</p>
+
+                            <p class="article-indent-2">
+                            c)	The last tab is “inlined styles” this tab contains a list of drop-down tabs that do various different changes to the element summarily to what CSS does to HTML as this new system take a lot of inspiration for its structure and style sheet.<br />
+                                <p class="article-indent-3">
+                                i)	Display controls everything to do with the visual of the element.<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Display.png" alt="logo"></Img><br />
+                                <p class="article-indent-3">
+                                ii)	Position controls as its name suggests controls its position on the canvas<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Position.png" alt="logo"></Img><br />
+                                <p class="article-indent-3">
+                                iii)	Flex is for group element controls and spacing<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Flex.png" alt="logo"></Img><br />
+                                <p class="article-indent-3">
+                                iv)	Align how the elements will be aligned on the canvas<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Align.png" alt="logo"></Img><br />
+                                <p class="article-indent-3">
+                                v)	Size as its name would imply controls the sizes of the element min max and current size using either px, %<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Size.png" alt="logo"></Img><br />
+                                <p class="article-indent-3">
+                                vi)	The margin & padding works the same here as in CSS margins push other elements away from the current element and padding shrinks the element working space while maintaining its size<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Margin-Padding.png" alt="logo"></Img><br />
+                                <p class="article-indent-3">
+                                vii)	Text is only used for elements such as the label that works with text<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Text.png" alt="logo"></Img><br />
+                                <p class="article-indent-3">
+                                viii)	Background you can set a color for the element add image and tint it to the background of the element<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Background.png" alt="logo"></Img><br />
+                                <p class="article-indent-3">
+                                ix)	Border like CSS will add borders around the element you can set a colour for each side its width and if the corners have a radius (curve)<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Border.png" alt="logo"></Img><br />
+                                <p class="article-indent-3">
+                                x)	Transform controls the pivot point on the element, translate an offset position relative to were its located, change its scale and rotate around the pivot point<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Transform.png" alt="logo"></Img><br />
+                                <p class="article-indent-3">
+                                xi)	Curser will change the mouse curser to the selected image when it is hovered over.<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Cursor.png" alt="logo"></Img><br />
+                                <p class="article-indent-3">
+                                xii)	Transition Animations allows you to create animation to the element.<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Transition-Animations.png" alt="logo"></Img><br />
+
+                <p class="article-sub-title article-indent-1">Left</p>
+
+                        <p class="article-indent-1">
+                        3)	On the left side is the “Stylesheet”, “Hierarchy”, “Library”<br />
+                        <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/UIBuilderLeft.png" alt="logo"></Img><br />
+                    <p class="article-sub-title article-indent-2">Stylesheet</p>
+
+                        <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/StyleSheet.png" alt="logo"></Img><br />
+                            <p class="article-indent-2">
+                            a)	Stylesheet will allow you too create or import an existing style sheet (.uss)<br />
+                                <p class="article-indent-3">
+                                i)	In the text box label “Add new selector” it will replace the text with a “.” And open a popup<br />
+                                <p class="article-indent-3">
+                                ii)	The popup will it will layout how to write your selector<br />
+                                <p class="article-indent-3">
+                                iii)	When you create a selector, you can click it an it will create 2 tabs in the inspector on the right <br />
+                                <p class="article-indent-3">
+                                iv)	The first tab is style selector and it contains the name of the selector and can be renamed here <br />
+                                <p class="article-indent-3">
+                                v)	The last tab contains the same tabs as the “inlined styles” and will affect all element that implement this selector<br />
+
+                    <p class="article-sub-title article-indent-2">Hierarchy</p>
+
+                        <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Hierarchy.png" alt="logo"></Img><br />
+                            <p class="article-indent-2">
+                            b)	Hierarchy is the structure of starting off with the root ({name}.uxml)<br />
+                                <p class="article-indent-3">
+                                i)	You can drag & drop elements from the library here to add them to the canvas<br />
+                                <p class="article-indent-3">
+                                ii)	and change its location in relation to the tree as a whole<br />
+                                <p class="article-indent-3">
+                                iii)	you have option when right clicking an element one of which is template it will take the element and its children and make a Visual tree asset (.uxml) file that contains the element and its children and can be located in the project button in the library.<br />
+                            
+                    <p class="article-sub-title article-indent-2">library</p>
+
+                        <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Libary.png" alt="logo"></Img><br />
+                            <p class="article-indent-2">
+                            c)	In the library tab it starts off with 2 buttons “Standard” & “Project” each containing tabs<br />
+
+                        <p class="article-sub-title article-indent-3">standard</p>
+
+                                <p class="article-indent-3">
+                                i)	With the standard button selected it shows 2 normal tabs and 5 editor only tabs that can be enabled by clicking on the root element and selecting the “editor extension authoring” Boolean in the inspector or in the Edit, Project Settings, UI Builder – “enable editor extension authoring by default” if this one is selected you will need to disable it in the UI Builder every time the editor only tabs can’t be used in you game build<br />
+                                <p class="article-indent-3">
+                                ii)	As it stands the tabs are Containers, Controls for the normal tabs & the editor only tabs are Numeric Fields, Value Fields Choice Fields, Toolbar, inspectors<br />
+                                <p class="article-indent-3">
+                                iii)	Containers contains<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Project.png" alt="logo"></Img><br />
+                                    <p class="article-indent-4">
+                                    (1)	Visual element: this is the most basic of containers and is the base of all elements<br />
+                                    <p class="article-indent-4">
+                                    (2)	Scroll view: which functions the same as the legacy UI system.<br />
+                                    <p class="article-indent-4">
+                                    (3)	List View: which functions the same as the legacy UI system.<br />
+                                    <p class="article-indent-4">
+                                    (4)	IMGUI Container is the same as visual element but has focusable true<br />
+                                    <p class="article-indent-4">
+                                    (5)	Group box does the same as visual element but has 2 more variables binding path & text<br />
+                                        <p class="article-indent-5">
+                                        (a)	Bonding path is the path of the target property to be bound<br />
+                                        <p class="article-indent-5">
+                                        (b)	Text is just text and is affected but the “Text” option tab and effects it’s children if unset<br />
+                                <p class="article-indent-3">
+                                iv)	Controls these are the same as the legacy UI system<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Controls.png" alt="logo"></Img><br />
+                                    <p class="article-indent-4">
+                                    (1)	Label, button, toggle, scroller, text field, foldout, slider, slider(int), min max slider, progress bar dropdown radio button & group<br />
+                                <p class="article-indent-3">
+                                v)	Numeric fields for the editor only<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Numeric-Fields.png" alt="logo"></Img><br />
+                                    <p class="article-indent-4">
+                                    (1)	Integer, float, long, progress bar, vector2, vector 3, vector 4, rect, bounds, vector2(int), vector3(int), rect(int), bounds(int), object field<br />
+                                <p class="article-indent-3">
+                                vi)	Value field for the editor only<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Value-Fields.png" alt="logo"></Img><br />
+                                    <p class="article-indent-4">
+                                    (1)	Color, curve, gradient<br />
+                                <p class="article-indent-3">
+                                vii)	Choice field for editor only<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Choice-Fields.png" alt="logo"></Img><br />
+                                    <p class="article-indent-4">
+                                    (1)	Enum, tag, mask, layer, layer mask<br />
+                                <p class="article-indent-3">
+                                viii)	Toolbar<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Toolbar-Fields.png" alt="logo"></Img><br />
+                                    <p class="article-indent-4">
+                                    (1)	Toolbar<br />
+                                    <p class="article-indent-4">
+                                    (2)	Menu<br />
+                                    <p class="article-indent-4">
+                                    (3)	Button<br />
+                                    <p class="article-indent-4">
+                                    (4)	Spacer<br />
+                                    <p class="article-indent-4">
+                                    (5)	Toggle<br />
+                                    <p class="article-indent-4">
+                                    (6)	Breadcrumbs<br />
+                                    <p class="article-indent-4">
+                                    (7)	Search field<br />
+                                    <p class="article-indent-4">
+                                    (8)	Popup search field<br />
+                                <p class="article-indent-3">
+                                ix)	Inspectors<br />
+                                <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Inspector-Field.png" alt="logo"></Img><br />
+                                    <p class="article-indent-5">
+                                    (1)	Property field<br />
+                                    </p>
+
+                        <p class="article-sub-title article-indent-3">Project</p>
+                        <Img class="article-img" src="/Img\Unity\Unity UI\UI-Toolkit/Project.png" alt="logo"></Img><br />
+                            <p class="article-indent-3">
+                                (1)	The project button shows all .UXML located inside of your project and some of thoses can be templates you have created for your project.<br />
+            <br />
+            <hr />
+            <p class="article-footer" id="september-2021">Author: Matthew</p>
+            <p class="article-date-footer" id="september-2021">17/11/2021</p>
+        </div>
+    </article>
+</div>
