@@ -233,18 +233,22 @@ article
     aspect-ratio: 16/9;
     width: var(--page-width);
 }
-.hr
-{
-    width: var(--page-img-width);
-}
 main .wrapper
 {
-    height: calc( max-content + 120px );
     padding-top: 120px;
+    padding-bottom: 50px;
 }
 nav .wrapper
 {
     margin-left: 20%;
+}
+.pointer
+{
+    cursor: pointer;
+}
+hr 
+{
+    width: 100%;
 }
 /* Standard */
 
@@ -261,6 +265,7 @@ main
     margin: 0;
     min-width: 250px;
     margin-left: 5%;
+    display: flex;
 }
 .logo-text
 {
@@ -273,19 +278,28 @@ main
 .page-title
 {
     font-size: var(--page-title);
-    float: inline-start;
+    float: left;
     padding-bottom: 10px;
+    width: 100%;
 }
 .page-sub-title
 {
     font-size: var(--page-sub-title);
     padding-top: 5px;
+    
 }
 @media only screen and (max-width: 340px)
 {
     nav .wrapper
     {
         margin-left: 10%;
+    }
+}
+@media only screen and (min-width: 360px)
+{
+    main .wrapper
+    {
+        margin-left: 0%;
     }
 }
 @media only screen and (min-width: 600px)
@@ -341,6 +355,7 @@ header
     background-color: var(--banner-color);
     width: 100%;
     height: 100px;
+    z-index: 1;
 }
 .logo-img
 {
@@ -462,7 +477,7 @@ header
 {
     bottom: 5%;
     position: fixed;
-    max-width: max-c;
+    max-width: 165px;
     z-index: 1;
     top: 100px;
     left: 0;
@@ -486,11 +501,13 @@ header
 {
     font-size: 24px;
     position: absolute;
+    width: 100%;
     top: 0;
     left: 0;
     padding: 10px;
     padding-bottom: 5px;
     background-color: var(--page-color);
+    cursor: pointer;
 }
 .sidebar-top :hover
 {
@@ -599,7 +616,7 @@ footer
 {
     width: fit-content;
     max-width: 280px;
-    height: fit-content;
+    height: max-content;
     
 }
 
@@ -608,7 +625,7 @@ footer
     .section
     {
         margin-right: 10px;
-        max-width: none;
+        max-width: 500px;
     }
 }
 @media only screen and (min-width: 800px)
@@ -624,7 +641,19 @@ footer
     font-size: var(--page-text-size);
     position: relative;
     width: 500px;
-    min-height: 200px;
+    background-color: var(--banner-color);
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,.2);
+    transition: 0.3s;
+}
+.section-article-News
+{
+    font-size: var(--page-text-size);
+    position: relative;
+    width: 300px;
     background-color: var(--banner-color);
     float: left;
     margin-top: 10px;
@@ -685,7 +714,13 @@ footer
     font-weight: bold;
     border-radius: 20px 20px 0px 0px;
 }
-
+div .section-footer-date
+    {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        pointer-events:none;
+    }
 @media only screen and (min-width: 600px)
 {
     .section-title
@@ -702,13 +737,7 @@ footer
     {
         float: left;
     }
-    div .section-footer-date
-    {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        pointer-events:none;
-    }
+    
     .section-footer
     {
         font-size: 16px;
