@@ -75,7 +75,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/toc.html",
-          "hash": "NqT/0fb1gMdavI74Pgb2IfNetOsqFQ61atrEjcfJZiw="
+          "hash": "IcxnjUlJ5wJmCjG5Pa7unzieOgZVEkZLYDPEwWGwD5I="
         }
       },
       "is_incremental": false,
@@ -119,18 +119,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Connect/Introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "Connect/Introduction.html",
-          "hash": "wUDmqNXomg8Eq8/J19Rrqvi1jc4SHH0/Ll/ydqLm/zg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "Connect/Social.md",
       "output": {
         ".html": {
@@ -159,7 +147,7 @@
       "output": {
         ".html": {
           "relative_path": "Connect/toc.html",
-          "hash": "NtA8KDBB5zzB76jtE3pB+HZIXocTFo6bTNd1CHYiips="
+          "hash": "+m1I7v2mku5WPrsgu8gxZUFZXr+1PKaCtaQ9t0lm3f4="
         }
       },
       "is_incremental": false,
@@ -1665,7 +1653,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "WIRsSdRME52IzcVkXrkNlp6j0892MVA+vtNNaXItEK4="
+          "hash": "UIuPyBkTeS1yCZkHxnIDwWcmGmmWYOWftnnxO1vl3DI="
         }
       },
       "is_incremental": false,
@@ -1743,7 +1731,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "oxaTVDWsxSjc5UcGNIT8cEaU7RQsjaOqZCttuPN4+2c="
+          "hash": "kq8jT3PGmg4dd7l0gSLTUEMpEKveW5tKBNqWPoKE9oE="
         }
       },
       "is_incremental": false,
@@ -1762,8 +1750,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 21,
-          "skipped_file_count": 21
+          "total_file_count": 20,
+          "skipped_file_count": 19
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

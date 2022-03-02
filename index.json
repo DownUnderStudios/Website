@@ -34,11 +34,6 @@
     "title": "FAQ | Inventory System Documentation",
     "keywords": "FAQ Under Construction."
   },
-  "Connect/Introduction.html": {
-    "href": "Connect/Introduction.html",
-    "title": "Introduction | Inventory System Documentation",
-    "keywords": "Introduction DownUnder Studios DownUnder Studios is a leading Unity asset store publisher that create tools & systems for developers. DownUnder Studios also publishes tutorials on youtube about unity and C#."
-  },
   "Connect/Social.html": {
     "href": "Connect/Social.html",
     "title": "Socials | Inventory System Documentation",
@@ -427,7 +422,7 @@
   "index.html": {
     "href": "index.html",
     "title": "Welcome To DownUnder Studios | Inventory System Documentation",
-    "keywords": "Welcome To DownUnder Studios <!-- > [!NOTE] > note content > [!TIP] > TIP content > [!WARNING] > warning content > [!IMPORTANT] > IMPORTANT content > [!CAUTION] > CAUTION content -->"
+    "keywords": "Welcome To DownUnder Studios DownUnder Studios is a leading Unity asset store publisher that create tools & systems for developers. DownUnder Studios also publishes tutorials on youtube about unity and C#. <!-- > [!NOTE] > note content > [!TIP] > TIP content > [!WARNING] > warning content > [!IMPORTANT] > IMPORTANT content > [!CAUTION] > CAUTION content -->"
   },
   "Tutorials/index.html": {
     "href": "Tutorials/index.html",
