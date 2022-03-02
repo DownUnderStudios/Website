@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>UI Builder | Inventory System Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="UI Builder | Inventory System Documentation ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../resources/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="ui-builder">UI Builder</h1>
+
+<p>Author: Matthew Williams</p>
+<p>Date: 17/11/2021</p>
+<hr>
+<p><img src="/images/Unity/UI/UIToolkit/UIBuilder-Thumbnail.png" alt="logo"></p>
+<h2 id="instructions">Instructions</h2>
+<p>The new UI Builder introduces is a tool that will allow you to create UI for runtime as well as for your editor.<br>The UI Builder can be accessed via 2 different methods.<br>Either method *  </p>
+<ul>
+<li><p>Click the window tab.  </p>
+</li>
+<li><p>Scroll down till you find the UI Toolkit.  </p>
+</li>
+<li><p>Open it and located the UI Builder button and click.<br>Or alternatively use method *<br>If you have an existing visual asset tree (.uxml)</p>
+</li>
+<li><p>double click and it will open the UI Builder.<br>If you don’t have a visual asset tree (.uxml)  </p>
+</li>
+<li><p>In the project section right click in the assets folder or folder of your choice.  </p>
+</li>
+<li><p>Create</p>
+</li>
+<li>UI Toolkit</li>
+<li>UI document and that will create the visual asset tree (.uxml) file.  </li>
+</ul>
+<p>When that is done open the UI Builder and I will show you a brief over view of the UI Builder layout as I will be going in to depth in subsequent videos in this series  </p>
+<h2 id="layout">Layout</h2>
+<p>The layout is split into 3 parts  </p>
+<hr>
+<h2 id="middle">Middle</h2>
+<hr>
+<p>The middle being the Viewport when you drag elements onto the canvas or add them to the hierarchy they will be displayed here
+<img src="/images/Unity/UI/UIToolkit/Viewport.png" alt="logo">  </p>
+<h3 id="viewport">Viewport</h3>
+<ul>
+<li>the viewport contains several features  <ul>
+<li>file: can open, new, save, save as  </li>
+<li>zoom: by percentage  </li>
+<li>fit canvas: will type to fit your canvas to the screen it will shrink it unless it is set to match game view.  </li>
+<li>Theme: set a theme for the canvas  </li>
+<li>Preview: lets you preview how the canvas will work at when used of course functionality will not work.  </li>
+<li>Settings: show UXML/ USS &amp; Settings  </li>
+<li>UXML/ USS: at the bottom will show you the code layout of the uxml &amp; uss files.  </li>
+</ul>
+</li>
+</ul>
+<h2 id="right">Right</h2>
+<hr>
+<p>On the right side is the inspector when you have an element selected it will show 3 drop down tabs.<br><img src="/images/Unity/UI/UIToolkit/Inspector.png" alt="logo">  </p>
+<h3 id="type">Type</h3>
+<ul>
+<li>the first one being type specific if you select a button, it will have button specific values and label will have label specific values, each element will have these values in common.  <ul>
+<li>Name: you can name the element and it will become an #Name that can be referenced in the stylesheet.  </li>
+<li>View data key: used for view data persistence (i.e., tree expanded states, scroll position and zoom level).  </li>
+<li>Picking mode: determines if this element can be picked during mouse events or Ipanel.pick queries  </li>
+<li>Tool tip: when hover it will display a tool tip that can be used  </li>
+<li>Using hints: offers a set of values that describe the intended usage patterns of a specific visual element it needs to be set before being add to a panel, as when it’s added it will effectively become read-only.  </li>
+<li>Tab index: an integer used to sort focusable in the focus ring. Must be greater than or equal to zero.  </li>
+<li>Focusable: a Boolean that if true will allow this element to be focused</li>
+</ul>
+</li>
+</ul>
+<h3 id="stylesheet">Stylesheet</h3>
+<ul>
+<li>The second tab is the Stylesheet, it has a text box, 2 buttons and a drop-down tab.  <ul>
+<li>When you press the first button called “Add style class to list” it will take the text from the text box and add the class by that name for example “Test” will add. Test to this element.  </li>
+<li>When you press the second button called “Extract inline styles to new class” it will take the changed values from the 3rd tab which I will get in a bit and create a new class for them named after the text from the text box.  </li>
+<li>And lastly the drop-down tag called “matching selectors” when an .Class, #Name or Type matches the element it will show a drop-down tab that contains all of the style it will add to the element unless it is overwritten by…  </li>
+</ul>
+</li>
+</ul>
+<h3 id="inlined-styles">Inlined Styles</h3>
+<ul>
+<li>The last tab is “inlined styles” this tab contains a list of drop-down tabs that do various different changes to the element summarily to what CSS does to HTML as this new system take a lot of inspiration for its structure and style sheet.  <ul>
+<li>Display controls everything to do with the visual of the element.<br><img src="/images/Unity/UI/UIToolkit/Display.png" alt="logo">  </li>
+<li>Position controls as its name suggests controls its position on the canvas<br><img src="/images/Unity/UI/UIToolkit/Position.png" alt="logo">  </li>
+<li>Flex is for group element controls and spacing<br><img src="/images/Unity/UI/UIToolkit/Flex.png" alt="logo">  </li>
+<li>Align how the elements will be aligned on the canvas<br><img src="/images/Unity/UI/UIToolkit/Align.png" alt="logo">  </li>
+<li>Size as its name would imply controls the sizes of the element min max and current size using either px, %<br><img src="/images/Unity/UI/UIToolkit/Size.png" alt="logo">  </li>
+<li>The margin &amp; padding works the same here as in CSS margins push other elements away from the current element and padding shrinks the element working space while maintaining its size<br><img src="/images/Unity/UI/UIToolkit/Margin-Padding.png" alt="logo">  </li>
+<li>Text is only used for elements such as the label that works with text<br><img src="/images/Unity/UI/UIToolkit/Text.png" alt="logo">  </li>
+<li>Background you can set a color for the element add image and tint it to the background of the element<br><img src="/images/Unity/UI/UIToolkit/Background.png" alt="logo">  </li>
+<li>Border like CSS will add borders around the element you can set a colour for each side its width and if the corners have a radius (curve)<br><img src="/images/Unity/UI/UIToolkit/Border.png" alt="logo">  </li>
+<li>Transform controls the pivot point on the element, translate an offset position relative to were its located, change its scale and rotate around the pivot point<br><img src="/images/Unity/UI/UIToolkit/Transform.png" alt="logo">  </li>
+<li>Curser will change the mouse curser to the selected image when it is hovered over.<br><img src="/images/Unity/UI/UIToolkit/Cursor.png" alt="logo">  </li>
+<li>Transition Animations allows you to create animation to the element.<br><img src="/images/Unity/UI/UIToolkit/Transition-Animations.png" alt="logo">  </li>
+</ul>
+</li>
+</ul>
+<h2 id="left">Left</h2>
+<hr>
+<p>On the left side is the “Stylesheet”, “Hierarchy”, “Library”<br><img src="/images/Unity/UI/UIToolkit/UIBuilderLeft.png" alt="logo">  </p>
+<h3 id="stylesheets">Stylesheets</h3>
+<p><img src="/images/Unity/UI/UIToolkit/StyleSheet.png" alt="logo">  </p>
+<ul>
+<li>Stylesheet will allow you too create or import an existing style sheet (.uss)  <ul>
+<li>In the text box label “Add new selector” it will replace the text with a “.” And open a popup  </li>
+<li>The popup will it will layout how to write your selector  </li>
+<li>When you create a selector, you can click it an it will create 2 tabs in the inspector on the right  </li>
+<li>The first tab is style selector and it contains the name of the selector and can be renamed here  </li>
+<li>The last tab contains the same tabs as the “inlined styles” and will affect all element that implement this selector  </li>
+</ul>
+</li>
+</ul>
+<h3 id="hierarchy">Hierarchy</h3>
+<p><img src="/images/Unity/UI/UIToolkit/Hierarchy.png" alt="logo">  </p>
+<ul>
+<li>Hierarchy is the structure of starting off with the root ({name}.uxml)  <ul>
+<li>You can drag &amp; drop elements from the library here to add them to the canvas  </li>
+<li>and change its location in relation to the tree as a whole  </li>
+<li>you have option when right clicking an element one of which is template it will take the element and its children and make a Visual tree asset (.uxml) file that contains the element and its children and can be located in the project button in the library.  </li>
+</ul>
+</li>
+</ul>
+<h3 id="library">Library</h3>
+<p><img src="/images/Unity/UI/UIToolkit/Libary.png" alt="logo">  </p>
+<p>In the library tab it starts off with 2 buttons “Standard” &amp; “Project” each containing tabs  </p>
+<h4 id="standard">Standard</h4>
+<p>With the standard button selected it shows 2 normal tabs and 5 editor only tabs that can be enabled by clicking on the root element and selecting the “editor extension authoring” Boolean in the inspector or in the Edit, Project Settings, UI Builder – “enable editor extension authoring by default” if this one is selected you will need to disable it in the UI Builder every time the editor only tabs can’t be used in you game build  </p>
+<p>As it stands the tabs are Containers, Controls for the normal tabs &amp; the editor only tabs are Numeric Fields, Value Fields Choice Fields, Toolbar, inspectors  </p>
+<h5 id="containers-contains">Containers contains</h5>
+<hr>
+<p><img src="/images/Unity/UI/UIToolkit/Project.png" alt="logo">  </p>
+<ul>
+<li>Visual element: this is the most basic of containers and is the base of all elements  </li>
+<li>Scroll view: which functions the same as the legacy UI system.  </li>
+<li>List View: which functions the same as the legacy UI system.  </li>
+<li>IMGUI Container is the same as visual element but has focusable true  </li>
+<li>Group box does the same as visual element but has 2 more variables binding path &amp; text  <ul>
+<li>Bonding path is the path of the target property to be bound  </li>
+<li>Text is just text and is affected but the “Text” option tab and effects it’s children if unset  </li>
+</ul>
+</li>
+</ul>
+<h5 id="controls-these-are-the-same-as-the-legacy-ui-system">Controls these are the same as the legacy UI system</h5>
+<hr>
+<p><img src="/images/Unity/UI/UIToolkit/Controls.png" alt="logo">  </p>
+<ul>
+<li>Label</li>
+<li>button</li>
+<li>toggle</li>
+<li>scroller</li>
+<li>text field</li>
+<li>foldout</li>
+<li>slider</li>
+<li>slider(int)</li>
+<li>min max slider</li>
+<li>progress bar dropdown radio button &amp; group  </li>
+</ul>
+<h5 id="numeric-fields-for-the-editor-only">Numeric fields for the editor only</h5>
+<hr>
+<p><img src="/images/Unity/UI/UIToolkit/Numeric-Fields.png" alt="logo">  </p>
+<ul>
+<li>Integer</li>
+<li>float</li>
+<li>long</li>
+<li>progress bar</li>
+<li>vector2</li>
+<li>vector 3</li>
+<li>vector 4</li>
+<li>rect</li>
+<li>bounds</li>
+<li>vector2(int)</li>
+<li>vector3(int)</li>
+<li>rect(int)</li>
+<li>bounds(int)</li>
+<li>object field  </li>
+</ul>
+<h5 id="value-field-for-the-editor-only">Value field for the editor only</h5>
+<hr>
+<p><img src="/images/Unity/UI/UIToolkit/Value-Fields.png" alt="logo">  </p>
+<ul>
+<li>Color</li>
+<li>curve</li>
+<li>gradient  </li>
+</ul>
+<h5 id="choice-field-for-editor-only">Choice field for editor only</h5>
+<hr>
+<p><img src="/images/Unity/UI/UIToolkit/Choice-Fields.png" alt="logo">  </p>
+<ul>
+<li>Enum</li>
+<li>tag</li>
+<li>mask</li>
+<li>layer</li>
+<li>layer mask  </li>
+</ul>
+<h5 id="toolbar">Toolbar</h5>
+<hr>
+<p><img src="/images/Unity/UI/UIToolkit/Toolbar-Fields.png" alt="logo">  </p>
+<ul>
+<li>Toolbar  </li>
+<li>Menu  </li>
+<li>Button  </li>
+<li>Spacer  </li>
+<li>Toggle  </li>
+<li>Breadcrumbs  </li>
+<li>Search field  </li>
+<li>Popup search field  </li>
+</ul>
+<h5 id="inspectors">Inspectors</h5>
+<hr>
+<p><img src="/images/Unity/UI/UIToolkit/Inspector-Field.png" alt="logo">  </p>
+<ul>
+<li>Property field  </li>
+</ul>
+<h5 id="project">Project</h5>
+<hr>
+<p><img src="/images/Unity/UI/UIToolkit/Project.png" alt="logo">  </p>
+<ul>
+<li>The project button shows all .UXML located inside of your project and some of these can be templates you have created for your project.  </li>
+</ul>
+<hr>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Inventory System Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

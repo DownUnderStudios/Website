@@ -1,0 +1,1807 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://www.downunderstudios.com.au/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "C:/Users/matt_/Documents/GitHub/Inventory System/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Articles/Blog/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Articles/Blog/index.html",
+          "hash": "98piUJr96dKC3yksu4wf3Dixcg3+iCsBpoRceK1j1Ms="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Articles/Unity-Asset-Package/Installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "Articles/Unity-Asset-Package/Installation.html",
+          "hash": "E/CXH9/aiftDMwbw0tx6xSea77Y2wJlHwp3+uZ+d3kY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Articles/Unity-Asset-Package/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Articles/Unity-Asset-Package/index.html",
+          "hash": "FSvOVn5gBZIHP8kxtFYUvarF/XYsWVAod9iVtP87Q08="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Articles/index.html",
+          "hash": "ZXISqv0VtwkLyYxZTNIYFNisRNzWPJGBIZBFQbGhiDI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Articles/toc.html",
+          "hash": "NqT/0fb1gMdavI74Pgb2IfNetOsqFQ61atrEjcfJZiw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Connect/Contact.md",
+      "output": {
+        ".html": {
+          "relative_path": "Connect/Contact.html",
+          "hash": "jNRNRpeDmzIAFMRJ5LiZIbj4A5AA5ip3b4xma9C4O/Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Connect/Email-list.md",
+      "output": {
+        ".html": {
+          "relative_path": "Connect/Email-list.html",
+          "hash": "Z3d6l4YKQoRebovIjGSrcfFKZ/4mJIwvv6p9zvEP7ys="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Connect/FAQ.md",
+      "output": {
+        ".html": {
+          "relative_path": "Connect/FAQ.html",
+          "hash": "oLSLGvAVsNBGJPktEhP1D25hAKkKq86zvQ2Y5GlPD14="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Connect/Introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "Connect/Introduction.html",
+          "hash": "wUDmqNXomg8Eq8/J19Rrqvi1jc4SHH0/Ll/ydqLm/zg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Connect/Social.md",
+      "output": {
+        ".html": {
+          "relative_path": "Connect/Social.html",
+          "hash": "BtUnLuE8vY0O42umQwwr217vaXmbBzSbe7FACeeG6AU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Connect/Store.md",
+      "output": {
+        ".html": {
+          "relative_path": "Connect/Store.html",
+          "hash": "84y4Ky8FGONkhtfK120iEPy8bOZU63XIxP6+cfPG3XE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Connect/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Connect/toc.html",
+          "hash": "NtA8KDBB5zzB76jtE3pB+HZIXocTFo6bTNd1CHYiips="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Data.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Data.Inventory.html",
+          "hash": "yWU9Wxda2YSvwRPi+VvJMiFWd1H39NTJVOZ15xgysFU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Data.InventoryDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Data.InventoryDictionary.html",
+          "hash": "i9DqY2tZTo8h9fN+6/DfONa8XHDAuAS+v6sppw+MClM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Data.InventoryItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Data.InventoryItem.html",
+          "hash": "+TYEMm5VNXXF3kC1NKPMSfX0fuh9wzjmRrqdQs9maGk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Data.InventoryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Data.InventoryType.html",
+          "hash": "yhw68t41lT4Qp/yj87puyn2lspfLneBaiFZs19xFmFw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Data.SortByEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Data.SortByEnum.html",
+          "hash": "tHETyDqjjAjDPeljuYUHJR1XEIdXQ2ypCf9mmwJzxqw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Data.html",
+          "hash": "Vt9hysHYeVvPpGEslhQ2tGil/YqMkO82W5i9KfieaKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Editor.InventoryWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Editor.InventoryWindow.html",
+          "hash": "h2f/LrqwDJ+io0jye+xbmHLJhWiPnR5zJgMl4Wcs+Cg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Editor.html",
+          "hash": "ijjfvIOkg1mTKeEgZUjdTJPd5sHYVRqjTfqS8ALE5ro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.GameManager.LoadEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.GameManager.LoadEvent-1.html",
+          "hash": "8avnF3ju2vdCq3H+woFM9zj3mAhGDwCBETtndOKP+ms="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.GameManager.Restock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.GameManager.Restock.html",
+          "hash": "pzlvYMXUdK1nxtIgWwsMwJ8oFFcQcp82MDvGf/sAv9Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.GameManager.SaveEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.GameManager.SaveEvent-1.html",
+          "hash": "00mwjA4zGflLI/SwlOUcbSLzJPqDM2wvYSngE+Cwg8s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.GameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.GameManager.html",
+          "hash": "X/MrIycsLHvZIIMPFDbY+gRQJdnRcSsx1sQOjvBmzos="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.InputManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.InputManager.html",
+          "hash": "PxGVtvg94RAiNIUkwI4uZN2zAeTH0jaGnPsIqLZBYhk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.InventorySystemManager.UIChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.InventorySystemManager.UIChanged.html",
+          "hash": "j7KQmnLs0HyNmjaRDxeDuEALcsm5BLSDKUcNhx9FqLU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.InventorySystemManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.InventorySystemManager.html",
+          "hash": "Q4lsRBLprXjutRmwc6rqxClLP+QtMM1RyKk5vy2+yI4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.MouseManager.KeyPressed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.MouseManager.KeyPressed.html",
+          "hash": "CmLbi+CQOVZDxj/aD0B9oURZMpqbi/cp0BIRl31mxi0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.MouseManager.ScreenClick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.MouseManager.ScreenClick.html",
+          "hash": "ddLFhOhCXuuwzIllPAaBNvyuTnrMH/upOnqBIbFYdVQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.MouseManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.MouseManager.html",
+          "hash": "xU06b9kcQaojY4GvJY6JfJ4O3MAPha0YCdauhVN9Mp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.ControllerUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.ControllerUpdate.html",
+          "hash": "i8CBdawehvmK8qHoxtXjNAwjvV2v4bBrHXdHJy+ZeUc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.html",
+          "hash": "PauScWtok6mxH7CWv6ZPvimH6Ghy6ulrfOoj2ox8fYk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.UIModelManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.UIModelManager.html",
+          "hash": "sLkQqh8UVM76NuXuOBcV3l5SnC23PH4y/gkCuCztLn8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.UIViewManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.UIViewManager.html",
+          "hash": "XCSsqF8pv8GUvVvDAOfy3W8a7hO38FTM6Wwtr7Snb8o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Manager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.html",
+          "hash": "5tli6xwSuupbKOXXbWF8TkbJu18yNEzMyOWMsjzhCFs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Enemy.DeathEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Enemy.DeathEvent.html",
+          "hash": "YoNVUekz2qDwBc87dVpvsTrk2E63rpMb/vejkja76x8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Enemy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Enemy.html",
+          "hash": "VGDiMZC1W5ssH8WBjcRFlf6QhVpsLrFAtT/z8WH5G8Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Player.html",
+          "hash": "kyOONb5nKpkEZ/wUr2GIuZeLWJWSy9CDzqt4EiXn9kk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Player2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Player2D.html",
+          "hash": "X5HM4PD+KlXmZLimyMncvHTZzF+mTeGKC19dJBs0JEI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Player3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Player3D.html",
+          "hash": "SjdIUXqTz+lLHn97ysWhxPjnUhwb+ZW3jevixCxAizw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.html",
+          "hash": "EoUJytDRau2rKPQVvPWXmZOVRaB++rZyPADJkLGx9Ks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.Static.GenerateData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Static.GenerateData.html",
+          "hash": "udybP65RsyjdJRWQJTnmFZWPIrSKHTt7iBRxiTcv86o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.Static.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Static.html",
+          "hash": "Fo1CrqxFWxed/Az3jAdl1gw9/ovTNPCOXS9TM7suUUU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.InventoryInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.InventoryInteraction.html",
+          "hash": "NOqpfnLTxkOhwxmnVWFZbHu5w8PCoUmS/O7+O+LVcYg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.LootInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.LootInteraction.html",
+          "hash": "Msl64jKl8KSXzZwJh21VheHcwe298fCfRbl50S+DhXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.StorageInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.StorageInteraction.html",
+          "hash": "/2PzXV4JklLWX3pDY8Iq7+W5qMomkWpfdJHmOiMkC8s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.TraderInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.TraderInteraction.html",
+          "hash": "dpofjbs+qPa8t4JtIjPmO1zOBK9D1+KDzkU/AxzJZpE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.html",
+          "hash": "rKMQQTiRRhul31VIxBBBdb3V6Db4Z3jAh5Gh5QfPbeA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.ConsumableHotbarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.ConsumableHotbarItem.html",
+          "hash": "j1i7g6klOMbXOhCmwfe3JsX0C2hY+jKU9XEwCDUvG5o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.DroppedItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.DroppedItem.html",
+          "hash": "Mbob6zql+wlSKIfzTPoZ+Hmb6Do8HOPqQXe3g80nsjY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.GenerateInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.GenerateInventory.html",
+          "hash": "fKSrBdXEhotcpG+CTis7+mBlkHyzk4YGDD94Uc2/T94="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.Hotbar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.Hotbar.html",
+          "hash": "2PpzKvB1rk8ufmGZON+yA/J3uN23+1F6MzVWWXboB4w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.HotbarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.HotbarItem.html",
+          "hash": "j9ZPHUJqobp92KR5jvvsjewH+ZopIHj4fCbyOrQIsJo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.WeaponHotbarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.WeaponHotbarItem.html",
+          "hash": "bqwSpWSO0AURsscLzF7LaIMcHeKcxcXsyZDh55l0NPM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.WorldItem.UseItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.WorldItem.UseItem.html",
+          "hash": "MRPe0YQQ+vkKp2kJ/y7cvvu/wTFB7LsOFJtVlDLhBzM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.WorldItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.WorldItem.html",
+          "hash": "QROKSca2ld2o9CvInN1jnSOtMgYo2PQaSBkIZ2lWQo4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.html",
+          "hash": "VZ+S/+9oZ5BsCbtUSrHnO0nV9NuYvSuVHLi8aGXhhkE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.Script.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.Script.html",
+          "hash": "o1X2ypNsgDN5AfvKn5K9/Q/asCcOts4CGLV1heX+MCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/InventorySystem/InventorySystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/InventorySystem/InventorySystem.html",
+          "hash": "/IwSGgzit6gd/3iPqRFbTPj3jw+oKpNhAn2jLWzJpN4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/ItemSystem/ItemSystem.Data.ItemData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/ItemSystem/ItemSystem.Data.ItemData.html",
+          "hash": "tXF1cwyjBjDjeunSzwbc+Gm28JfCO0wlJSzfw7dbxkY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/ItemSystem/ItemSystem.Data.ItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/ItemSystem/ItemSystem.Data.ItemType.html",
+          "hash": "dLTUHfI2xflugvctjeM8Xm3T5DNjro8QNmSxMXh9vK0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/ItemSystem/ItemSystem.Data.WeaponState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/ItemSystem/ItemSystem.Data.WeaponState.html",
+          "hash": "ICAWX12ymSXK1s8QmaoK6qtkfvSuXwzXLDXMrEv9XUo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/ItemSystem/ItemSystem.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/ItemSystem/ItemSystem.Data.html",
+          "hash": "5vRgaf0u4VB/IBtg04evPD/pGqOSU2ebAxEDHWQqwzY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/ItemSystem/ItemSystem.Editor.CreateItem.GiveItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/ItemSystem/ItemSystem.Editor.CreateItem.GiveItem.html",
+          "hash": "jgIkm23ceGGWKKMaXN0uW6FVPAWqKhcQzV8EaBvgBss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/ItemSystem/ItemSystem.Editor.CreateItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/ItemSystem/ItemSystem.Editor.CreateItem.html",
+          "hash": "QpMV3gaY9Erko6IKj0/ia9jh9O2+BAVowY4eqWXXhUo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/ItemSystem/ItemSystem.Editor.EditItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/ItemSystem/ItemSystem.Editor.EditItem.html",
+          "hash": "cNRr6I0W7Kzp3sdNqf58WzS0UzgeIYdHxWJ7uALSnZk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/ItemSystem/ItemSystem.Editor.ItemIDScrubber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/ItemSystem/ItemSystem.Editor.ItemIDScrubber.html",
+          "hash": "YfVdiLdrg2OPz9xg/D5XYsBDAbWGSRaqvyCc/hsGuXs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/ItemSystem/ItemSystem.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/ItemSystem/ItemSystem.Editor.html",
+          "hash": "/t9trIAxViarj52cBBhL/PsaZwg4LIH4TUxIxuMlQQE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/ItemSystem/ItemSystem.Script.Interface.IPickUp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/ItemSystem/ItemSystem.Script.Interface.IPickUp.html",
+          "hash": "dBnD9JKVKzPGJdzekuAOSB0XqZSnANXrAjRQ7r6LW5o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/ItemSystem/ItemSystem.Script.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/ItemSystem/ItemSystem.Script.Interface.html",
+          "hash": "c6OiaEUgV7m+cI4WL8R68/gscybObfKKVU5mEQKFNKI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/ItemSystem/ItemSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/ItemSystem/ItemSystem.html",
+          "hash": "38f8cg/qF5fIofSEttc1POlyNKBgXKcwMgKJEXhK/Gc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.FloatExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.FloatExtension.html",
+          "hash": "A2ephE4ik3+TH4bA8yvuoltYEZtGHzp/N5Fay09Jxg8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.IntExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.IntExtension.html",
+          "hash": "AzICGODUtzIWS+PB1oTtu/Tnt2CwZevPJLBbIW3oQ3s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.TransformExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.TransformExtension.html",
+          "hash": "7g5GDmDrx/ckA7fLPj9fffa5NeOyyI19v4LsmBBQY3I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.html",
+          "hash": "dmqmS86jk2MJyJ3dB/6imjtMwLje9h7oZ4IeY6YmR+Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.html",
+          "hash": "XJy3UjkxQAGtFOZpJ3vNhC5/hVGqXvrxLcoPwN4Fwqg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.Tool.Timer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.Tool.Timer.html",
+          "hash": "VbYg2xK/FGf6Ngd9BBGqxsfx579dmaT7dOI13B5tUYM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.Tool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.Tool.html",
+          "hash": "BZBjuMBJgV71fxvrVLvoJkxwsOk2AI72akFGvcv3nwc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Icon.UxmlFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Icon.UxmlFactory.html",
+          "hash": "COwGpec4EbVQnfKByu7p00qdU5h7TwqJX2UQCFf3cZI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Icon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Icon.html",
+          "hash": "RzbyOKCU9gEfCQP/H+sUKhKEE6+BUNcVrLYKFPjHffE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Slot.UxmlFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Slot.UxmlFactory.html",
+          "hash": "AzLVXuH1WyjWI57zpRyYF1HCO00juE2ps+P/OtPyd5Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Slot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Slot.html",
+          "hash": "yGcUOth5ztNIL8oq5vnbnnf6IjjWlI2rs+feVzePEMo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.UxmlFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.UxmlFactory.html",
+          "hash": "bNO65v8atIXeF2b1+rWa9ZucdVCBU/CWaFQJYp4CrKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.html",
+          "hash": "8vYrNxNiiy9ft7NR1Lus0MP718B88Pl8ewk0P7xTpCY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.html",
+          "hash": "HHmjUWrw+G5GD2aySexWBxyqUmacLV9EMG+8ri32OZY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/UtilitySystem/UtilitySystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/UtilitySystem/UtilitySystem.html",
+          "hash": "s8Tkl4dodAYy9yAzsWT2RADjBeUYtpNfbKnyttnCrm0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Documentation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/index.html",
+          "hash": "NeXX2hgDLRLfeD85TU4aDDk4+DzfxE7ZxskLzrSrvUU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/toc.html",
+          "hash": "RYxPimEBIDrKOoGelU+3hvJxS88rakRQuSnTDfqdeDo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Tutorials/UIToolkit/CodeReview.md",
+      "output": {
+        ".html": {
+          "relative_path": "Tutorials/UIToolkit/CodeReview.html",
+          "hash": "7U2EsgTnDHDfbfb5GP79J81n2JhcqE8kzpDnSA/Aee0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Tutorials/UIToolkit/CustomUXML.md",
+      "output": {
+        ".html": {
+          "relative_path": "Tutorials/UIToolkit/CustomUXML.html",
+          "hash": "eZbyPkn0iiAWqQrv5OmnXUAGsT695k424icoA1ddN6o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Tutorials/UIToolkit/Debugger.md",
+      "output": {
+        ".html": {
+          "relative_path": "Tutorials/UIToolkit/Debugger.html",
+          "hash": "/WPZdvNvED2M4r+MoKHjSmOJSRe7C8/LIxdMezj21nY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Tutorials/UIToolkit/Examples.md",
+      "output": {
+        ".html": {
+          "relative_path": "Tutorials/UIToolkit/Examples.html",
+          "hash": "pmh8vvbnVIZ0KX20Y/fK6JC5dTu00g+ATE49/g5RX6k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Tutorials/UIToolkit/Introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "Tutorials/UIToolkit/Introduction.html",
+          "hash": "R7f56r8tGA3MEKHA5v4fL1zC6wxO9JE6l490wXVu4B8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Tutorials/UIToolkit/Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "Tutorials/UIToolkit/Setup.html",
+          "hash": "vnvxQ/LRjA3ZYm9Ar2mcUdtWez+oM880aizKnmL2wyg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Tutorials/UIToolkit/UIBuilder.md",
+      "output": {
+        ".html": {
+          "relative_path": "Tutorials/UIToolkit/UIBuilder.html",
+          "hash": "IfRx4Gzo25T2PpXs24wbN2tmnIg0gqQk4QlGJnvKm1w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Tutorials/UIToolkit/Uss.md",
+      "output": {
+        ".html": {
+          "relative_path": "Tutorials/UIToolkit/Uss.html",
+          "hash": "C3WEs6xv0WR2NH4fVz3URLdBorCEeiscEINvq9Usjc4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Tutorials/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Tutorials/index.html",
+          "hash": "UkEzbsilEZahJP9hEZsx7Ynf6P/Qhy7FYrzyRr5cI3A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Tutorials/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Tutorials/toc.html",
+          "hash": "MYbhJdpqjklXvu6m7cqUnAPVYd6SwvfsuvK44Uq2jnY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Social/Discord-Icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Social/Discord-Icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Social/Twitter-Icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Social/Twitter-Icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Social/Youtube-Icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Social/Youtube-Icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Align.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Align.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Background.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Background.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Border.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Border.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Choice-Fields.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Choice-Fields.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/CodeReview-Thumbnail.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/CodeReview-Thumbnail.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Containers.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Containers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Controls.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Controls.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Cursor.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Cursor.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/CustomUxml-Thumbnail.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/CustomUxml-Thumbnail.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Debugger-Thumbnail.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Debugger-Thumbnail.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Display.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Display.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Flex.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Flex.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Hierarchy.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Hierarchy.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Inspector-Field.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Inspector-Field.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Inspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Inspector.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Introduction-Thumbnail.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Introduction-Thumbnail.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Libary.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Libary.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Margin-Padding.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Margin-Padding.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Numeric-Fields.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Numeric-Fields.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Position.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Position.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Project.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Project.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Setup-Thumbnail.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Setup-Thumbnail.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Size.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Size.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Slide-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Slide-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Slide-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Slide-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Slide-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Slide-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Slide-4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Slide-4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Slide-5.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Slide-5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/StyleSheet.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/StyleSheet.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/StyleSheet_Pop-up.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/StyleSheet_Pop-up.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Text.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Text.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Toolbar-Fields.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Toolbar-Fields.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Transform.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Transform.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Transition-Animations.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Transition-Animations.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/UIBuilder-Thumbnail.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/UIBuilder-Thumbnail.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/UIBuilderLeft.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/UIBuilderLeft.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Uss-Thumbnail.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Uss-Thumbnail.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Value-Fields.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Value-Fields.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Unity/UI/UIToolkit/Viewport.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Unity/UI/UIToolkit/Viewport.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "GjC9ZdxmOSqTxt/92ltw6tt9neo+USY/z7Z38gkb8lY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "resources/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/pdf/Documentation_Inventory-System-Package.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "resources/pdf/Documentation_Inventory-System-Package.pdf"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/pdf/Documentation_Inventory-System.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "resources/pdf/Documentation_Inventory-System.pdf"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/pdf/Documentation_Item-System.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "resources/pdf/Documentation_Item-System.pdf"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/pdf/Documentation_Utility-System.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "resources/pdf/Documentation_Utility-System.pdf"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "NZQ+b9njeNKLEyH64XAWntcj5P3WUjhZsfpRcbTI1dw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 21,
+          "skipped_file_count": 20
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 74,
+          "skipped_file_count": 74
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

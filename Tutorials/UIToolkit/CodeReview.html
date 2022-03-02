@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>CodeReview | Inventory System Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="CodeReview | Inventory System Documentation ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../resources/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="codereview">CodeReview</h1>
+
+<p>Author: Matthew Williams</p>
+<p>Date: 17/11/2021</p>
+<hr>
+<p><img src="/images/Unity/UI/UIToolkit/CodeReview-Thumbnail.png" alt="logo"></p>
+<h2 id="visual-element">Visual Element</h2>
+<p>To be able to write code you need to understand how the code is written what can be used to make your UI<br>I would always advocate using the UI Builder so you know how your UI looks at runtime, but there are some things that can done at runtime only, so you will need to understand the code you will be working with.<br>We’ll start with the Visual Element as it is what all of the elements are derived from.  </p>
+<h2 id="variables">Variables</h2>
+<ul>
+<li>Transform – is of type ITransform which contains the position, rotation, scale &amp; matrix.  </li>
+<li>Visible – is whether the element is seen or not.  </li>
+<li>Enabled Self – if this element is enabled or not.  </li>
+<li>Enabled In Hierarchy – if this element is enabled or disabled by its Hierarchy.  </li>
+<li>Picking Mode – if this element can be picked during mouse events or IPanel.pick queries.  </li>
+<li>View Data Key – is data persistence such as scroll position &amp; zoom level.  </li>
+<li>Usage Hints – can only be set when not part of a panel. Is used to boost performance.  <ul>
+<li>None – not hint applicable.  </li>
+<li>Dynamic Transform – is for an element that change its transformation often.  </li>
+<li>Group Transform – is for an element that has many children that are Dynamic Transform.  </li>
+<li>Mask Container – is for an element that operates with “Overflow: hidden” style.  </li>
+<li>Dynamic Color – is for an element that changes any of its colors often.  </li>
+</ul>
+</li>
+<li>Hierarchy – is a struct listed below.  </li>
+<li>Experimental – is for Transition Animations.  </li>
+<li>Resolved Style – style values after layout pass.  </li>
+<li>Tool Tips – when hovered over will display text informing what it is.  </li>
+<li>Style Sheet – are for the uss files attached to this element.  </li>
+<li>Style – is for the inline style of this element and overrides any other styles.  </li>
+</ul>
+<h2 id="functions">Functions</h2>
+<ul>
+<li>Add – adds a child to this element.  </li>
+<li>Add To Class List – adds a class to this element.  </li>
+<li>Bring To Front will move this element to the end of the list of children in its parent.  </li>
+<li>Children – will return its children.  </li>
+<li>Class List Contains – returns true if it contains the class  </li>
+<li>Clear – removes all children from this element.  </li>
+<li>Clear Class List – removes all classes from this element.  </li>
+<li>Contains – returns true if this element is an ancestor of the child element.  </li>
+<li>Contains Point – if this element intersects with the point.  </li>
+<li>Element At – return the child at this index.  </li>
+<li>Enable In Class List – will add or remove the class based on the Boolean.  </li>
+<li>Find Common Ancestor – check closest ancestor that this and the other element share.  </li>
+<li>Focus - is a sealed function that was inherited from Focusable class and isn’t inheritable after visual element.  </li>
+<li>Get Classes – returns a list of the classes.  </li>
+<li>Index Of – returns and integer of the child or -1 if it isn’t found.  </li>
+<li>Insert – element at index.  </li>
+<li>Mark Dirty Repaint – when triggered will force the element to refresh on next frame.  </li>
+<li>Place Behind – will place this element behind its sibling.  </li>
+<li>Place In Front – will place this element in front of its sibling.  </li>
+<li>Remove – will remove this child.  </li>
+<li>Remove At – will remove child at index.  </li>
+<li>Remove From Hierarchy – will remove this element from its parent  </li>
+<li>Send Event – will send an event to the event handler, this function is also sealed and can’t be override from classes that inherit from this one.  </li>
+<li>Send To Back – is the opposite from Bring to Front as it will move this element to the top of its parents’ children list.  </li>
+<li>Set Enabled – same as Game object’s Set Active function, disabled elements don’t receive most events.  </li>
+<li>Toggle In Class List – if the class exist then remove it, if the class doesn’t exist then add it.  </li>
+</ul>
+<h2 id="classes">Classes</h2>
+<ul>
+<li>UXML Factory – Instantiates this visual element from the data stored in the UXML file.  <ul>
+<li>Inherits from UXMLFactory  </li>
+<li>Type - is the parent class.  </li>
+<li>UxmlTraits - is the next class.  </li>
+<li>All that is required it the contractor.  </li>
+</ul>
+</li>
+<li>UXML Traits – Defines the UXML Traits for this element  </li>
+</ul>
+<p>If you want to create your own elements you will need these 2 classes.  </p>
+<hr>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Inventory System Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

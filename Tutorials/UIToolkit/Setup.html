@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Setup | Inventory System Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Setup | Inventory System Documentation ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../resources/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="setup">Setup</h1>
+
+<p>Author: Matthew Williams</p>
+<p>Date: 17/11/2021</p>
+<hr>
+<p><img src="/images/Unity/UI/UIToolkit/Setup-Thumbnail.png" alt="logo"></p>
+<h2 id="runtime-ui">Runtime UI</h2>
+<p>First you need to right click the Hierarchy -&gt; UI Toolkit -&gt; UI Document<br>When you create the Game object it comes with a Component called UI Document it has 3 exposed variables<br>Called Panel Settings, Source Asset &amp; Sort Order.<br>If you created it though this method a Folder is added in your Assets called “UI Toolkit” it contains<br>A panel Settings asset by the same name and a folder with a theme style sheet<br>If the panel Settings is empty apply the panel settings file.<br>Panel Settings the panel settings asset to be used to display the UI in its panel.<br>The panel is what is rendered to the screen the Source Assets are added to the panel based on the sorting order and if it is a child object of another UI Document  </p>
+<p>The Source Asset that requires a Visual Tree Asset is you’re (.UXML) file  </p>
+<h2 id="editor-window">Editor Window</h2>
+<p>First you need to right click the Assets -&gt; Create -&gt; UI Toolkit -&gt; Editor Window<br>Then type the text into it you can choice if you want the uxml or uss but for the C# file is needed for the editor window unless you already have one and are going to attach a new uxml file to your existing C# file.  </p>
+<p>When it is created the window will pop up and it will have 3 labels created 2 from the script (one with the uss attached) and the last 1 from the uxml document.<br>This is the example they give you to teach the new editor windows style<br>Open the C# script and you will see:<br>It has using unity engine &amp; editor UIElements as this is what UI Toolkit was originally called<br>3 functions the first is Show Example and has a menu item attribute and show where you can access the editor window<br>And the function is the same as the original editor window  </p>
+<p>Next is the Create GUI which is called when the window is opened  </p>
+<p>the first line is the root element and it serves the same function as the panel settings.<br>The next block of text is the first text label from the editor window that is added to the root element.<br>Then comes the UXML that is imported from the asset and is in Instantiated and added to the root<br>And the last block of code is the uss style sheet imported then a label is created the same way as the first but the stylesheet is added to the label which is added to the root  </p>
+<p>As the editor window shows how the order, they are added to the root informs you that they will be loaded in 1 by 1.  </p>
+<h2 id="editor">Editor</h2>
+<p>First you need a C# script to edit for this example I will uses a basic player script with current/max health and level<br>Next you need a folder called “Editor” so when you build your game it’s not included in the build as it may break your build.<br>Then create a C# script with the suffix of “Editor” as it is a common practice so as to make sure you know it is an editor script<br>You will need to add using UnityEngine.UIElements; &amp; using UnityEditor.UIElements;<br>Add the attribute above the class then replace MonoBehaviour with Editor</p>
+<blockquote><p>[CustomEditor(typeof(*ScriptName*))]</p>
+</blockquote>
+<p>Editors have 2 functions called “OnInspectorGUI” &amp; “CreateInspectorGUI” the first is the old function that allows for the editing of the script’s component in the inspector using the old method and the second is for new visual element it differs slightly from the editor window as it doesn’t have a “rootvisualelement” that you add to, for the editor function it returns a visual element and that visual element will serve as the root element that you will add to.<br>You can create your UI in the code here and add to your root visual element or you can create it in the UI Builder and add that to the root as I have done here.  </p>
+<p>None of the buttons work as this is a demo I create to show how to works I will make this functional in a future example video and attach it to the in-game UI example that was shown.  </p>
+<hr>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Inventory System Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

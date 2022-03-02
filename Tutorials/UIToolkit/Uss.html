@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Uss | Inventory System Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Uss | Inventory System Documentation ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../resources/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="uss">Uss</h1>
+
+<p>Author: Matthew Williams</p>
+<p>Date: 17/11/2021</p>
+<hr>
+<p><img src="/images/Unity/UI/UIToolkit/Uss-Thumbnail.png" alt="logo"></p>
+<h2 id="introduction">Introduction</h2>
+<p>USS unity style sheet operate on the same Selector system as CSS by not as fleshed out. Like is CSS there is a hierarchy with goes * &lt; Type &lt; .Class &lt; #Name &lt; Inline-Style &lt; Pseudo-Classes They way to think of it is the more specific the selector the more seniority it has.</p>
+<h2 id="selector">Selector</h2>
+<ul>
+<li>* Root Selector  <ul>
+<li>This root selector matches to all elements and affect everything.  </li>
+</ul>
+</li>
+<li>Type  <ul>
+<li>The type of element such as “Button” this will affect all of the buttons.  </li>
+<li>Type overrides the * universal selector  </li>
+</ul>
+</li>
+<li>.Class  <ul>
+<li>The Class is represented with the “.ClassName” controls all elements with class name attached.  </li>
+<li>Class overrides Type  </li>
+</ul>
+</li>
+<li><h1 id="name--id">Name | #ID</h1>
+<ul>
+<li><p>The Name or (ID in CSS) is the name you give to an element(s) denoted by the “#Name” and any element with that name will be controlled by this.  </p>
+</li>
+<li><p>Name overrides Class  </p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="pseudo-classes">Pseudo Classes</h2>
+<p>Pseudo classes like in CSS can be attached to Type, Class, Name and will affect if conditions are met.</p>
+<ul>
+<li>:hover – when the mouse hovers over an element.  </li>
+<li>:active – When an Element is active (can be Interacted with).  </li>
+<li>:inactive – When an Element is inactive (can’t be Interacted with).  </li>
+<li>:focus – when an element is the current focus.  </li>
+<li>:selected – This is not implemented yet.  </li>
+<li>:disabled – When the element is Disabled.  </li>
+<li>:enabled – When the element is enabled.  </li>
+<li>:checked – When the element is toggled on.  </li>
+<li>:root – This is different from the other Pseudo classes as it is used by it’s self to define the default style for the element the style sheet affects  </li>
+</ul>
+<p>You can combine multiple of these selectors together like in CSS.  </p>
+<h2 id="properties">Properties</h2>
+<p>USS Data Types</p>
+<ul>
+<li>- Represents a distance value  </li>
+<li>- Represents either an integer or a number with a fractional component.  </li>
+<li>- Represents a whole number.  </li>
+<li>- Represents a color. You can define with a #HexDecimal code, the rgb() or rgba()function, or a color keyword(for example blue or transparent).  </li>
+<li>- Represents an asset in a Resources folder.  </li>
+<li>- Represents an asset specified by a path. It can be expressed as either a relative path or an absolute path.  </li>
+</ul>
+<h2 id="uss-data-types">USS Data Types</h2>
+<p>UI Toolkit style properties use the same grammar syntax as W3C CSS documents:<br>Keyword values appear as is. For example: auto, baseline.<br>Basic data types appear between angle brackets ( &lt; and &gt;). For example: , .<br>Non-terminals that share the same name as a property appear between angle brackets and single straight quotes ( &lt;&#39; and &#39;&gt;). For example, &lt;&#39;width&#39;&gt;.<br>If a property value has more than one component:<br>Side-by-side words mean that all of them must occur in the given order.<br>A bar (|) separates two or more alternatives: exactly one must occur.<br>A double bar (||) separates two or more options: one or more must occur, in any order.<br>A double ampersand (&amp;&amp;) separates two or more components, all of which must occur, in any order.<br>Square brackets ([ ]) denote grouping.<br>Every type, keyword, or angle-bracketed group may be followed by modifiers:<br>an asterisk (*) indicates that the preceding type, word, or group occurs zero or more times.<br>a plus (+) indicates that the preceding type, word, or group occurs one or more times.<br>a question mark (?) indicates that the preceding type, word, or group is optional.<br>a pair of numbers in curly braces ({A,B}) indicates that the preceding type, word, or group occurs at least A and at most B times.  </p>
+<h2 id="uss-custom-properties-variables">USS custom Properties (Variables)</h2>
+<p>Variables like in CSS it uses the prefix of double-hyphen“--&quot;.<br>For example “—color-1: red”;<br>It can be used by var()<br>For example var(--color-1);<br>Variables is declared in a selector and can b e used by any child selectors, it is common practice to uses the variable in the root selector (*) as all other selectors can uses it.  </p>
+<hr>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Inventory System Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
