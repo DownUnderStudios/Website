@@ -427,7 +427,7 @@
   "index.html": {
     "href": "index.html",
     "title": "Welcome To DownUnder Studios | Inventory System Documentation",
-    "keywords": "Welcome To DownUnder Studios Note note content Tip TIP content Warning warning content Important IMPORTANT content Caution CAUTION content"
+    "keywords": "Welcome To DownUnder Studios <!-- > [!NOTE] > note content > [!TIP] > TIP content > [!WARNING] > warning content > [!IMPORTANT] > IMPORTANT content > [!CAUTION] > CAUTION content -->"
   },
   "Tutorials/index.html": {
     "href": "Tutorials/index.html",
