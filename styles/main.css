@@ -327,6 +327,32 @@ button:hover, button:focus, a:hover, a:focus {
 .decalaration, .fieldValue, .parameters, .returns {
     color: var(--Text-color);
 }
+article {
+    display: block;
+}
+div[classs=implements] > div {
+    display: none;
+}
+div[classs=implements]:hover > div{
+    display: block;
+    content: '↳';
+    margin-right: 5px;
+}
+div[classs=implements]:hover > div::before{
+    content: '↳';
+    margin-right: 5px;
+}
+.inheritedMembers > div {
+    display: none;
+}
+.inheritedMembers:hover > div{
+    display: block;
+}
+.inheritedMembers:hover > div::before{
+    content: '↳';
+    margin-right: 5px;
+}
+
 
 /* CODE HIGHLIGHT */
 

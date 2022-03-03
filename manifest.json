@@ -159,7 +159,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Data.Inventory.html",
-          "hash": "yWU9Wxda2YSvwRPi+VvJMiFWd1H39NTJVOZ15xgysFU="
+          "hash": "mYQSFQZ89H09oSdqa24C73gfVQ7a8+f/BF9B9W+8UpE="
         }
       },
       "is_incremental": false,
@@ -171,7 +171,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Data.InventoryDictionary.html",
-          "hash": "i9DqY2tZTo8h9fN+6/DfONa8XHDAuAS+v6sppw+MClM="
+          "hash": "S7vUDU/aYi8tvcQJoQzYlm0x2FO0Jj8O8GCdcsvEfys="
         }
       },
       "is_incremental": false,
@@ -183,7 +183,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Data.InventoryItem.html",
-          "hash": "+TYEMm5VNXXF3kC1NKPMSfX0fuh9wzjmRrqdQs9maGk="
+          "hash": "FS/6dryEo/v66j9cU3VJFFQH0BnUbDhE+QOzMRF4En8="
         }
       },
       "is_incremental": false,
@@ -195,7 +195,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Data.InventoryType.html",
-          "hash": "yhw68t41lT4Qp/yj87puyn2lspfLneBaiFZs19xFmFw="
+          "hash": "KnqCH3hqITRFK3Eg9pwJVDoRtEDaKkyAA++IBy++2Lo="
         }
       },
       "is_incremental": false,
@@ -207,7 +207,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Data.SortByEnum.html",
-          "hash": "tHETyDqjjAjDPeljuYUHJR1XEIdXQ2ypCf9mmwJzxqw="
+          "hash": "ld7mDFyEb9d26FZ6zhu4wmmZcgEOMik9hZDNXiozq1c="
         }
       },
       "is_incremental": false,
@@ -219,7 +219,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Data.html",
-          "hash": "Vt9hysHYeVvPpGEslhQ2tGil/YqMkO82W5i9KfieaKg="
+          "hash": "JtVz81t79P0pH4eees/NUzhAV1GcSk5qLhuqFely6j8="
         }
       },
       "is_incremental": false,
@@ -231,7 +231,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Editor.InventoryWindow.html",
-          "hash": "h2f/LrqwDJ+io0jye+xbmHLJhWiPnR5zJgMl4Wcs+Cg="
+          "hash": "jv8jrA0AGP1K5XfmttiDhT48ZRALYTBbPBdpEKzE15Y="
         }
       },
       "is_incremental": false,
@@ -243,7 +243,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Editor.html",
-          "hash": "ijjfvIOkg1mTKeEgZUjdTJPd5sHYVRqjTfqS8ALE5ro="
+          "hash": "5IqKwbhWL+2TWdwFrmSpiQIMIK348dNsXImRmZ6a9bk="
         }
       },
       "is_incremental": false,
@@ -255,7 +255,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.GameManager.LoadEvent-1.html",
-          "hash": "8avnF3ju2vdCq3H+woFM9zj3mAhGDwCBETtndOKP+ms="
+          "hash": "cEo4IX1kmBHTHDqXnQUgSCwIW3k+oe2N9x9AzvuXnkI="
         }
       },
       "is_incremental": false,
@@ -267,7 +267,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.GameManager.Restock.html",
-          "hash": "pzlvYMXUdK1nxtIgWwsMwJ8oFFcQcp82MDvGf/sAv9Y="
+          "hash": "lq0+hU+7ootHFvxxovr0SRQDlykjT/1JSKlgiWpZqzU="
         }
       },
       "is_incremental": false,
@@ -279,7 +279,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.GameManager.SaveEvent-1.html",
-          "hash": "00mwjA4zGflLI/SwlOUcbSLzJPqDM2wvYSngE+Cwg8s="
+          "hash": "sp+Kk6iY45EFBRBitknNPlsBLc1uwcFfKol3dj5gfj8="
         }
       },
       "is_incremental": false,
@@ -291,7 +291,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.GameManager.html",
-          "hash": "X/MrIycsLHvZIIMPFDbY+gRQJdnRcSsx1sQOjvBmzos="
+          "hash": "RfcEGhtlPijIzrLGpb7nJAA1JLNwdtzyBQiKCYy+vfA="
         }
       },
       "is_incremental": false,
@@ -303,7 +303,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.InputManager.html",
-          "hash": "PxGVtvg94RAiNIUkwI4uZN2zAeTH0jaGnPsIqLZBYhk="
+          "hash": "eLMNUoji3Ee/mKoDerym0AU+9wcVKNoXFvGvcsPHOuc="
         }
       },
       "is_incremental": false,
@@ -315,7 +315,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.InventorySystemManager.UIChanged.html",
-          "hash": "j7KQmnLs0HyNmjaRDxeDuEALcsm5BLSDKUcNhx9FqLU="
+          "hash": "SvP6trF+zJiNAJ2mVee189EFKIYY1qJjsLW9IdaoXJE="
         }
       },
       "is_incremental": false,
@@ -327,7 +327,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.InventorySystemManager.html",
-          "hash": "Q4lsRBLprXjutRmwc6rqxClLP+QtMM1RyKk5vy2+yI4="
+          "hash": "TaEEYoFxoCZcHOJPMf9L9wB14HdtgmOKJ95Swk5b0k4="
         }
       },
       "is_incremental": false,
@@ -339,7 +339,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.MouseManager.KeyPressed.html",
-          "hash": "CmLbi+CQOVZDxj/aD0B9oURZMpqbi/cp0BIRl31mxi0="
+          "hash": "kNxU4lAGbBbeDN9Y3R0idjrRV0PjqmLshmxNCvqJOQ4="
         }
       },
       "is_incremental": false,
@@ -351,7 +351,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.MouseManager.ScreenClick.html",
-          "hash": "ddLFhOhCXuuwzIllPAaBNvyuTnrMH/upOnqBIbFYdVQ="
+          "hash": "wewppI5g0pIQg2FjWunjBwEwSKCSdpiXWzqI3Ubh6vs="
         }
       },
       "is_incremental": false,
@@ -363,7 +363,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.MouseManager.html",
-          "hash": "xU06b9kcQaojY4GvJY6JfJ4O3MAPha0YCdauhVN9Mp0="
+          "hash": "ReL+8AGzfJ2HubsUI+apJGMuPdjedbXNTbFiLfi/oBo="
         }
       },
       "is_incremental": false,
@@ -375,7 +375,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.ControllerUpdate.html",
-          "hash": "i8CBdawehvmK8qHoxtXjNAwjvV2v4bBrHXdHJy+ZeUc="
+          "hash": "G/6WddUWaFqIYYRgONkbTe4lI+PZF/d8noq313PGNrI="
         }
       },
       "is_incremental": false,
@@ -387,7 +387,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.html",
-          "hash": "PauScWtok6mxH7CWv6ZPvimH6Ghy6ulrfOoj2ox8fYk="
+          "hash": "q+ZaMSxtOb7ShEO0/po6sCjxVeriBGjlv6u00UGMFzc="
         }
       },
       "is_incremental": false,
@@ -399,7 +399,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.UIModelManager.html",
-          "hash": "sLkQqh8UVM76NuXuOBcV3l5SnC23PH4y/gkCuCztLn8="
+          "hash": "uLNthSEatz8mcvFzzG3a2VSA9a7PEt8cQcsr/xfoKjM="
         }
       },
       "is_incremental": false,
@@ -411,7 +411,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.UIViewManager.html",
-          "hash": "XCSsqF8pv8GUvVvDAOfy3W8a7hO38FTM6Wwtr7Snb8o="
+          "hash": "psUUVzktNs1IKSzZbsQIHDmsCuPdlvEzOOzVX18fSj0="
         }
       },
       "is_incremental": false,
@@ -423,7 +423,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Manager.html",
-          "hash": "5tli6xwSuupbKOXXbWF8TkbJu18yNEzMyOWMsjzhCFs="
+          "hash": "stiZayw67sT65VRcw9G2OZ5UKmETsk//rc3RWP22PeE="
         }
       },
       "is_incremental": false,
@@ -435,7 +435,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Enemy.DeathEvent.html",
-          "hash": "YoNVUekz2qDwBc87dVpvsTrk2E63rpMb/vejkja76x8="
+          "hash": "mJHnnLU4X3fdUVjrcqQdAySKws+L0HsCD/GZ0yFbngg="
         }
       },
       "is_incremental": false,
@@ -447,7 +447,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Enemy.html",
-          "hash": "VGDiMZC1W5ssH8WBjcRFlf6QhVpsLrFAtT/z8WH5G8Y="
+          "hash": "bvyGnWHQWbn4MmmUNzpGM4vn6U6RD7cFtUX0Nc8IngE="
         }
       },
       "is_incremental": false,
@@ -459,7 +459,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Player.html",
-          "hash": "kyOONb5nKpkEZ/wUr2GIuZeLWJWSy9CDzqt4EiXn9kk="
+          "hash": "p/sVVvM2x7vM90zbiCk/aMIjwZ1Wiu5pHlTq3m5OkmU="
         }
       },
       "is_incremental": false,
@@ -471,7 +471,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Player2D.html",
-          "hash": "X5HM4PD+KlXmZLimyMncvHTZzF+mTeGKC19dJBs0JEI="
+          "hash": "J9qQbNNMT7ucvi/sbxBNdTjrGmo+saIlIan3ruGz3AQ="
         }
       },
       "is_incremental": false,
@@ -483,7 +483,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.Player3D.html",
-          "hash": "SjdIUXqTz+lLHn97ysWhxPjnUhwb+ZW3jevixCxAizw="
+          "hash": "Uq1laSSg+cYXjdnvizomEHYh2eXCbP2MPvAt8/9oiqE="
         }
       },
       "is_incremental": false,
@@ -495,7 +495,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Characters.html",
-          "hash": "EoUJytDRau2rKPQVvPWXmZOVRaB++rZyPADJkLGx9Ks="
+          "hash": "6AyGeK4JI7d51DPAacs7Xyok5PcHInKttIKTkoKkgN4="
         }
       },
       "is_incremental": false,
@@ -507,7 +507,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Static.GenerateData.html",
-          "hash": "udybP65RsyjdJRWQJTnmFZWPIrSKHTt7iBRxiTcv86o="
+          "hash": "mmEAhhxLKY1AZIMx9vr7EOARWL/FWghr5v5XIbkAYOs="
         }
       },
       "is_incremental": false,
@@ -519,7 +519,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.Static.html",
-          "hash": "Fo1CrqxFWxed/Az3jAdl1gw9/ovTNPCOXS9TM7suUUU="
+          "hash": "ub3cqAdFcK4CJCtpbM6YYHoaxGf5y4NsLJJ8D5oe6iA="
         }
       },
       "is_incremental": false,
@@ -531,7 +531,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.InventoryInteraction.html",
-          "hash": "NOqpfnLTxkOhwxmnVWFZbHu5w8PCoUmS/O7+O+LVcYg="
+          "hash": "o+JF0LpyT86n4RftN1y+O4xGfcHsBfViAfs+uD3Jt0o="
         }
       },
       "is_incremental": false,
@@ -543,7 +543,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.LootInteraction.html",
-          "hash": "Msl64jKl8KSXzZwJh21VheHcwe298fCfRbl50S+DhXM="
+          "hash": "sBxcJftEV3/apZ/7SAUOE609J6h5gZfV3D1WwcqmUr0="
         }
       },
       "is_incremental": false,
@@ -555,7 +555,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.StorageInteraction.html",
-          "hash": "/2PzXV4JklLWX3pDY8Iq7+W5qMomkWpfdJHmOiMkC8s="
+          "hash": "/a9pmhlZ8QhldW7SMidUcsMe43t47uy2N4bFwvt9oFg="
         }
       },
       "is_incremental": false,
@@ -567,7 +567,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.TraderInteraction.html",
-          "hash": "dpofjbs+qPa8t4JtIjPmO1zOBK9D1+KDzkU/AxzJZpE="
+          "hash": "kIg59y8u+8E16Vj7XDkvnAgp5aJnc4GFlpFb9NyJhpE="
         }
       },
       "is_incremental": false,
@@ -579,7 +579,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.UI.html",
-          "hash": "rKMQQTiRRhul31VIxBBBdb3V6Db4Z3jAh5Gh5QfPbeA="
+          "hash": "g8dRZZZNnGxCdTbfyUrHCsQeDemJblLw16GGqL1UlKg="
         }
       },
       "is_incremental": false,
@@ -591,7 +591,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.ConsumableHotbarItem.html",
-          "hash": "j1i7g6klOMbXOhCmwfe3JsX0C2hY+jKU9XEwCDUvG5o="
+          "hash": "n56zc6Mos1ECUpHf2umycYnRQn7+/ez+tltJO4sQ+ic="
         }
       },
       "is_incremental": false,
@@ -603,7 +603,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.DroppedItem.html",
-          "hash": "Mbob6zql+wlSKIfzTPoZ+Hmb6Do8HOPqQXe3g80nsjY="
+          "hash": "3TgCv8qkHeGZaHWh3UWEqET0vT/KDupLS2W5eXvPoXw="
         }
       },
       "is_incremental": false,
@@ -615,7 +615,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.GenerateInventory.html",
-          "hash": "fKSrBdXEhotcpG+CTis7+mBlkHyzk4YGDD94Uc2/T94="
+          "hash": "fO3gNNHP8LBSiI5NAmKsYIcMAN8RCTSwhxsOI8RqHxw="
         }
       },
       "is_incremental": false,
@@ -627,7 +627,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.Hotbar.html",
-          "hash": "2PpzKvB1rk8ufmGZON+yA/J3uN23+1F6MzVWWXboB4w="
+          "hash": "loGG/bT8155aE+mdCTPbWAYykSVqbG/NzFkVLzoi4Pw="
         }
       },
       "is_incremental": false,
@@ -639,7 +639,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.HotbarItem.html",
-          "hash": "j9ZPHUJqobp92KR5jvvsjewH+ZopIHj4fCbyOrQIsJo="
+          "hash": "lJ5x+qon6KV1m6iGOrMnHlys/UKua75cp0tbpseOd6k="
         }
       },
       "is_incremental": false,
@@ -651,7 +651,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.WeaponHotbarItem.html",
-          "hash": "bqwSpWSO0AURsscLzF7LaIMcHeKcxcXsyZDh55l0NPM="
+          "hash": "tXO02f3dnD5iwedvEclrEyYP+N+D73rz2lPD7hlPhJk="
         }
       },
       "is_incremental": false,
@@ -663,7 +663,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.WorldItem.UseItem.html",
-          "hash": "MRPe0YQQ+vkKp2kJ/y7cvvu/wTFB7LsOFJtVlDLhBzM="
+          "hash": "tP2fREYXXlzQGd/Lap3Vo+T70H3GwqQs9UH1MGiY+70="
         }
       },
       "is_incremental": false,
@@ -675,7 +675,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.WorldItem.html",
-          "hash": "QROKSca2ld2o9CvInN1jnSOtMgYo2PQaSBkIZ2lWQo4="
+          "hash": "dup0pd8IElkaBVBHTZtttUThseW8a/mnlpWxNZwI2aQ="
         }
       },
       "is_incremental": false,
@@ -687,7 +687,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.World.html",
-          "hash": "VZ+S/+9oZ5BsCbtUSrHnO0nV9NuYvSuVHLi8aGXhhkE="
+          "hash": "Z5/jLi/FCQAMygeNc+4NvXxj2x/TgNF1rHRmtpFZPHg="
         }
       },
       "is_incremental": false,
@@ -699,7 +699,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.Script.html",
-          "hash": "o1X2ypNsgDN5AfvKn5K9/Q/asCcOts4CGLV1heX+MCk="
+          "hash": "Bg81qfjVzSutWjfhMqjxg61/fVI0Mp+1pJWynTnMTH0="
         }
       },
       "is_incremental": false,
@@ -711,7 +711,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/InventorySystem/InventorySystem.html",
-          "hash": "/IwSGgzit6gd/3iPqRFbTPj3jw+oKpNhAn2jLWzJpN4="
+          "hash": "TEDMgNNM0qXj30Bi2XTufrFP9J8r7zHKvt6gkWlXKkQ="
         }
       },
       "is_incremental": false,
@@ -723,7 +723,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/ItemSystem/ItemSystem.Data.ItemData.html",
-          "hash": "tXF1cwyjBjDjeunSzwbc+Gm28JfCO0wlJSzfw7dbxkY="
+          "hash": "WXYy11PlJjudKq6+02BT7U5c43mTXQskmk4KiJjzO1o="
         }
       },
       "is_incremental": false,
@@ -735,7 +735,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/ItemSystem/ItemSystem.Data.ItemType.html",
-          "hash": "dLTUHfI2xflugvctjeM8Xm3T5DNjro8QNmSxMXh9vK0="
+          "hash": "fG4MQia8ru69zmc51z1AtJKrwtLtW5IF1RWPoZ81eDA="
         }
       },
       "is_incremental": false,
@@ -747,7 +747,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/ItemSystem/ItemSystem.Data.WeaponState.html",
-          "hash": "ICAWX12ymSXK1s8QmaoK6qtkfvSuXwzXLDXMrEv9XUo="
+          "hash": "RWZRCuYLCei6oH7zELgWdMYhI4jMbxp7w2QvydaSnPY="
         }
       },
       "is_incremental": false,
@@ -759,7 +759,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/ItemSystem/ItemSystem.Data.html",
-          "hash": "5vRgaf0u4VB/IBtg04evPD/pGqOSU2ebAxEDHWQqwzY="
+          "hash": "zNQjrnODhd5+laX9vZqHtW426tgXi5d93bBIh7wIpXc="
         }
       },
       "is_incremental": false,
@@ -771,7 +771,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/ItemSystem/ItemSystem.Editor.CreateItem.GiveItem.html",
-          "hash": "jgIkm23ceGGWKKMaXN0uW6FVPAWqKhcQzV8EaBvgBss="
+          "hash": "zCiyBJLg7hm0DJOsJROvOGrLVBxiQ49X8tZMhRwxEvw="
         }
       },
       "is_incremental": false,
@@ -783,7 +783,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/ItemSystem/ItemSystem.Editor.CreateItem.html",
-          "hash": "QpMV3gaY9Erko6IKj0/ia9jh9O2+BAVowY4eqWXXhUo="
+          "hash": "MZlFKFWlyXt58ZQkj5rykYObGhsmXmJ+prnaB3ZA/oI="
         }
       },
       "is_incremental": false,
@@ -795,7 +795,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/ItemSystem/ItemSystem.Editor.EditItem.html",
-          "hash": "cNRr6I0W7Kzp3sdNqf58WzS0UzgeIYdHxWJ7uALSnZk="
+          "hash": "Fw3njcgR5MoHaV3GVA5TUJ5L1c1pQtTuq44LeRaJp2o="
         }
       },
       "is_incremental": false,
@@ -807,7 +807,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/ItemSystem/ItemSystem.Editor.ItemIDScrubber.html",
-          "hash": "YfVdiLdrg2OPz9xg/D5XYsBDAbWGSRaqvyCc/hsGuXs="
+          "hash": "vXmje3oDPbfxmT57JWyX9skskJJ5nCee6umFq99k+nc="
         }
       },
       "is_incremental": false,
@@ -819,7 +819,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/ItemSystem/ItemSystem.Editor.html",
-          "hash": "/t9trIAxViarj52cBBhL/PsaZwg4LIH4TUxIxuMlQQE="
+          "hash": "JtsEAFXpcxo8dvylsD/LtqXfmYb5fSkQw5sqYeL9+fw="
         }
       },
       "is_incremental": false,
@@ -831,7 +831,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/ItemSystem/ItemSystem.Script.Interface.IPickUp.html",
-          "hash": "dBnD9JKVKzPGJdzekuAOSB0XqZSnANXrAjRQ7r6LW5o="
+          "hash": "c30GganYMDbnDiCQLikOThGFhtwOlDUBlbSEs206bTM="
         }
       },
       "is_incremental": false,
@@ -843,7 +843,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/ItemSystem/ItemSystem.Script.Interface.html",
-          "hash": "c6OiaEUgV7m+cI4WL8R68/gscybObfKKVU5mEQKFNKI="
+          "hash": "PCsb5xhiUtEbPMjk6vb6LMNl+KUUJT9pFkfVEu+PNUg="
         }
       },
       "is_incremental": false,
@@ -855,7 +855,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/ItemSystem/ItemSystem.html",
-          "hash": "38f8cg/qF5fIofSEttc1POlyNKBgXKcwMgKJEXhK/Gc="
+          "hash": "BtVvnFkecIFwdJ3cwEb8QBYPCG+HQBA+bhZKuRfXcHw="
         }
       },
       "is_incremental": false,
@@ -867,7 +867,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.FloatExtension.html",
-          "hash": "A2ephE4ik3+TH4bA8yvuoltYEZtGHzp/N5Fay09Jxg8="
+          "hash": "oI72H+GjbAkp8tI2sPO6iGXpkU7SAEaP2iulvLbs57w="
         }
       },
       "is_incremental": false,
@@ -879,7 +879,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.IntExtension.html",
-          "hash": "AzICGODUtzIWS+PB1oTtu/Tnt2CwZevPJLBbIW3oQ3s="
+          "hash": "CJkayWSKejvU3SeJ11Bb8VPiODV7i2kdOY7eVrBAQ/M="
         }
       },
       "is_incremental": false,
@@ -891,7 +891,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.TransformExtension.html",
-          "hash": "7g5GDmDrx/ckA7fLPj9fffa5NeOyyI19v4LsmBBQY3I="
+          "hash": "Rj5/BS4CtKpOac0GCttKgqvDGjQHhbLh617nreA9q0U="
         }
       },
       "is_incremental": false,
@@ -903,7 +903,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.html",
-          "hash": "dmqmS86jk2MJyJ3dB/6imjtMwLje9h7oZ4IeY6YmR+Q="
+          "hash": "k2hP4pVi0u8iS50vryBclmX4nWuz6v2XLMPe0cKks70="
         }
       },
       "is_incremental": false,
@@ -915,7 +915,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.html",
-          "hash": "XJy3UjkxQAGtFOZpJ3vNhC5/hVGqXvrxLcoPwN4Fwqg="
+          "hash": "Swvx/tVAQybcozcBP2ymdWtg7tBmdohEkYMdOfcmXVc="
         }
       },
       "is_incremental": false,
@@ -927,7 +927,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.Tool.Timer.html",
-          "hash": "VbYg2xK/FGf6Ngd9BBGqxsfx579dmaT7dOI13B5tUYM="
+          "hash": "tfvaUXtszKerP6wC4peIyNnwG55EfgAMXU06BmTF+Cw="
         }
       },
       "is_incremental": false,
@@ -939,7 +939,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.Tool.html",
-          "hash": "BZBjuMBJgV71fxvrVLvoJkxwsOk2AI72akFGvcv3nwc="
+          "hash": "tShXcD7Qn6GU4Rkw8zXJoqDc6qHrRGrOnDaGTGIsoWo="
         }
       },
       "is_incremental": false,
@@ -951,7 +951,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Icon.UxmlFactory.html",
-          "hash": "COwGpec4EbVQnfKByu7p00qdU5h7TwqJX2UQCFf3cZI="
+          "hash": "iRG2b8BasYQM3Xis3Mh+qymsj3gzmolDyTAkRXNI2Ss="
         }
       },
       "is_incremental": false,
@@ -963,7 +963,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Icon.html",
-          "hash": "RzbyOKCU9gEfCQP/H+sUKhKEE6+BUNcVrLYKFPjHffE="
+          "hash": "s3Kixl5cgmxirP3fVJZ5lQZa0gzl2nz3e4X6z7z2+pA="
         }
       },
       "is_incremental": false,
@@ -975,7 +975,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Slot.UxmlFactory.html",
-          "hash": "AzLVXuH1WyjWI57zpRyYF1HCO00juE2ps+P/OtPyd5Y="
+          "hash": "0dKfYT8m0/6zfHayfYYa+48VVYhlgJLCBpAWIeWl3Q0="
         }
       },
       "is_incremental": false,
@@ -987,7 +987,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Slot.html",
-          "hash": "yGcUOth5ztNIL8oq5vnbnnf6IjjWlI2rs+feVzePEMo="
+          "hash": "8XdTOmkqwAopvQP9v/lEVhPwUCvAC8oWx1ZW0jVEimo="
         }
       },
       "is_incremental": false,
@@ -999,7 +999,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.UxmlFactory.html",
-          "hash": "bNO65v8atIXeF2b1+rWa9ZucdVCBU/CWaFQJYp4CrKw="
+          "hash": "RFo2cK5Y8iRiBfGOnaMYY8uOP93R9klL+C2yHf4nkRs="
         }
       },
       "is_incremental": false,
@@ -1011,7 +1011,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.html",
-          "hash": "8vYrNxNiiy9ft7NR1Lus0MP718B88Pl8ewk0P7xTpCY="
+          "hash": "CIWJ1wdQVdg+g69oPx1RgsgBUhc4AHkSopi0xgDCyC8="
         }
       },
       "is_incremental": false,
@@ -1023,7 +1023,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.html",
-          "hash": "HHmjUWrw+G5GD2aySexWBxyqUmacLV9EMG+8ri32OZY="
+          "hash": "joy4f2+L25UeOKgryOLyPp5P7S2ccxPxZk15NUup9PQ="
         }
       },
       "is_incremental": false,
@@ -1035,7 +1035,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.html",
-          "hash": "s8Tkl4dodAYy9yAzsWT2RADjBeUYtpNfbKnyttnCrm0="
+          "hash": "yt0bJ6+a6BU7e2s23tgYS2mKgTNXKjvSRDh8TWa1PD0="
         }
       },
       "is_incremental": false,
@@ -1741,23 +1741,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 20,
-          "skipped_file_count": 20
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 74,
-          "skipped_file_count": 74
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

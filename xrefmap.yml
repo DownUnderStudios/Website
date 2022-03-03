@@ -8,11 +8,11 @@ references:
   fullName: InventorySystem
   nameWithType: InventorySystem
 - uid: InventorySystem.Data
-  name: Data
+  name: InventorySystem.Data
   href: Documentation/InventorySystem/InventorySystem.Data.html
   commentId: N:InventorySystem.Data
   fullName: InventorySystem.Data
-  nameWithType: Data
+  nameWithType: InventorySystem.Data
 - uid: InventorySystem.Data.Inventory
   name: Inventory
   href: Documentation/InventorySystem/InventorySystem.Data.Inventory.html
@@ -401,11 +401,11 @@ references:
   commentId: M:InventorySystem.Data.InventoryItem.SetData(InventorySystem.Data.InventoryItem)
   fullName: InventorySystem.Data.InventoryItem.SetData(InventorySystem.Data.InventoryItem)
   nameWithType: InventoryItem.SetData(InventoryItem)
-- uid: InventorySystem.Data.InventoryItem.SetData(ItemData,System.Int32)
+- uid: InventorySystem.Data.InventoryItem.SetData(ItemSystem.Data.ItemData,System.Int32)
   name: SetData(ItemData, Int32)
-  href: Documentation/InventorySystem/InventorySystem.Data.InventoryItem.html#InventorySystem_Data_InventoryItem_SetData_ItemData_System_Int32_
-  commentId: M:InventorySystem.Data.InventoryItem.SetData(ItemData,System.Int32)
-  fullName: InventorySystem.Data.InventoryItem.SetData(ItemData, System.Int32)
+  href: Documentation/InventorySystem/InventorySystem.Data.InventoryItem.html#InventorySystem_Data_InventoryItem_SetData_ItemSystem_Data_ItemData_System_Int32_
+  commentId: M:InventorySystem.Data.InventoryItem.SetData(ItemSystem.Data.ItemData,System.Int32)
+  fullName: InventorySystem.Data.InventoryItem.SetData(ItemSystem.Data.ItemData, System.Int32)
   nameWithType: InventoryItem.SetData(ItemData, Int32)
 - uid: InventorySystem.Data.InventoryItem.SetData*
   name: SetData
@@ -499,22 +499,22 @@ references:
   fullName: InventorySystem.Data.SortByEnum.SortByWeight
   nameWithType: SortByEnum.SortByWeight
 - uid: InventorySystem.Editor
-  name: Editor
+  name: InventorySystem.Editor
   href: Documentation/InventorySystem/InventorySystem.Editor.html
   commentId: N:InventorySystem.Editor
   fullName: InventorySystem.Editor
-  nameWithType: Editor
+  nameWithType: InventorySystem.Editor
 - uid: InventorySystem.Editor.InventoryWindow
   name: InventoryWindow
   href: Documentation/InventorySystem/InventorySystem.Editor.InventoryWindow.html
   commentId: T:InventorySystem.Editor.InventoryWindow
   fullName: InventorySystem.Editor.InventoryWindow
   nameWithType: InventoryWindow
-- uid: InventorySystem.Editor.InventoryWindow.AddItemData(ItemData)
+- uid: InventorySystem.Editor.InventoryWindow.AddItemData(ItemSystem.Data.ItemData)
   name: AddItemData(ItemData)
-  href: Documentation/InventorySystem/InventorySystem.Editor.InventoryWindow.html#InventorySystem_Editor_InventoryWindow_AddItemData_ItemData_
-  commentId: M:InventorySystem.Editor.InventoryWindow.AddItemData(ItemData)
-  fullName: InventorySystem.Editor.InventoryWindow.AddItemData(ItemData)
+  href: Documentation/InventorySystem/InventorySystem.Editor.InventoryWindow.html#InventorySystem_Editor_InventoryWindow_AddItemData_ItemSystem_Data_ItemData_
+  commentId: M:InventorySystem.Editor.InventoryWindow.AddItemData(ItemSystem.Data.ItemData)
+  fullName: InventorySystem.Editor.InventoryWindow.AddItemData(ItemSystem.Data.ItemData)
   nameWithType: InventoryWindow.AddItemData(ItemData)
 - uid: InventorySystem.Editor.InventoryWindow.AddItemData*
   name: AddItemData
@@ -536,11 +536,11 @@ references:
   isSpec: "True"
   fullName: InventorySystem.Editor.InventoryWindow.AddToDropdown
   nameWithType: InventoryWindow.AddToDropdown
-- uid: InventorySystem.Editor.InventoryWindow.ChangeItemData(ItemData)
+- uid: InventorySystem.Editor.InventoryWindow.ChangeItemData(ItemSystem.Data.ItemData)
   name: ChangeItemData(ItemData)
-  href: Documentation/InventorySystem/InventorySystem.Editor.InventoryWindow.html#InventorySystem_Editor_InventoryWindow_ChangeItemData_ItemData_
-  commentId: M:InventorySystem.Editor.InventoryWindow.ChangeItemData(ItemData)
-  fullName: InventorySystem.Editor.InventoryWindow.ChangeItemData(ItemData)
+  href: Documentation/InventorySystem/InventorySystem.Editor.InventoryWindow.html#InventorySystem_Editor_InventoryWindow_ChangeItemData_ItemSystem_Data_ItemData_
+  commentId: M:InventorySystem.Editor.InventoryWindow.ChangeItemData(ItemSystem.Data.ItemData)
+  fullName: InventorySystem.Editor.InventoryWindow.ChangeItemData(ItemSystem.Data.ItemData)
   nameWithType: InventoryWindow.ChangeItemData(ItemData)
 - uid: InventorySystem.Editor.InventoryWindow.ChangeItemData*
   name: ChangeItemData
@@ -640,11 +640,11 @@ references:
   isSpec: "True"
   fullName: InventorySystem.Editor.InventoryWindow.OpenCreateItem
   nameWithType: InventoryWindow.OpenCreateItem
-- uid: InventorySystem.Editor.InventoryWindow.OpenEditItem(ItemData)
+- uid: InventorySystem.Editor.InventoryWindow.OpenEditItem(ItemSystem.Data.ItemData)
   name: OpenEditItem(ItemData)
-  href: Documentation/InventorySystem/InventorySystem.Editor.InventoryWindow.html#InventorySystem_Editor_InventoryWindow_OpenEditItem_ItemData_
-  commentId: M:InventorySystem.Editor.InventoryWindow.OpenEditItem(ItemData)
-  fullName: InventorySystem.Editor.InventoryWindow.OpenEditItem(ItemData)
+  href: Documentation/InventorySystem/InventorySystem.Editor.InventoryWindow.html#InventorySystem_Editor_InventoryWindow_OpenEditItem_ItemSystem_Data_ItemData_
+  commentId: M:InventorySystem.Editor.InventoryWindow.OpenEditItem(ItemSystem.Data.ItemData)
+  fullName: InventorySystem.Editor.InventoryWindow.OpenEditItem(ItemSystem.Data.ItemData)
   nameWithType: InventoryWindow.OpenEditItem(ItemData)
 - uid: InventorySystem.Editor.InventoryWindow.OpenEditItem*
   name: OpenEditItem
@@ -732,11 +732,11 @@ references:
   fullName: InventorySystem.Editor.InventoryWindow.UpdateUI
   nameWithType: InventoryWindow.UpdateUI
 - uid: InventorySystem.Manager
-  name: Manager
+  name: InventorySystem.Manager
   href: Documentation/InventorySystem/InventorySystem.Manager.html
   commentId: N:InventorySystem.Manager
   fullName: InventorySystem.Manager
-  nameWithType: Manager
+  nameWithType: InventorySystem.Manager
 - uid: InventorySystem.Manager.GameManager
   name: GameManager
   href: Documentation/InventorySystem/InventorySystem.Manager.GameManager.html
@@ -783,13 +783,13 @@ references:
   fullName.vb: InventorySystem.Manager.GameManager.LoadEvent(Of T)
   nameWithType: GameManager.LoadEvent<T>
   nameWithType.vb: GameManager.LoadEvent(Of T)
-- uid: InventorySystem.Manager.GameManager.LoadInventories(System.Collections.Generic.List{Inventory})
+- uid: InventorySystem.Manager.GameManager.LoadInventories(System.Collections.Generic.List{InventorySystem.Data.Inventory})
   name: LoadInventories(List<Inventory>)
-  href: Documentation/InventorySystem/InventorySystem.Manager.GameManager.html#InventorySystem_Manager_GameManager_LoadInventories_System_Collections_Generic_List_Inventory__
-  commentId: M:InventorySystem.Manager.GameManager.LoadInventories(System.Collections.Generic.List{Inventory})
+  href: Documentation/InventorySystem/InventorySystem.Manager.GameManager.html#InventorySystem_Manager_GameManager_LoadInventories_System_Collections_Generic_List_InventorySystem_Data_Inventory__
+  commentId: M:InventorySystem.Manager.GameManager.LoadInventories(System.Collections.Generic.List{InventorySystem.Data.Inventory})
   name.vb: LoadInventories(List(Of Inventory))
-  fullName: InventorySystem.Manager.GameManager.LoadInventories(System.Collections.Generic.List<Inventory>)
-  fullName.vb: InventorySystem.Manager.GameManager.LoadInventories(System.Collections.Generic.List(Of Inventory))
+  fullName: InventorySystem.Manager.GameManager.LoadInventories(System.Collections.Generic.List<InventorySystem.Data.Inventory>)
+  fullName.vb: InventorySystem.Manager.GameManager.LoadInventories(System.Collections.Generic.List(Of InventorySystem.Data.Inventory))
   nameWithType: GameManager.LoadInventories(List<Inventory>)
   nameWithType.vb: GameManager.LoadInventories(List(Of Inventory))
 - uid: InventorySystem.Manager.GameManager.LoadInventories*
@@ -900,13 +900,13 @@ references:
   isSpec: "True"
   fullName: InventorySystem.Manager.InventorySystemManager.CloseInventory
   nameWithType: InventorySystemManager.CloseInventory
-- uid: InventorySystem.Manager.InventorySystemManager.GetController(InventoryType,InventorySystem.Manager.UIControllerManager@)
+- uid: InventorySystem.Manager.InventorySystemManager.GetController(InventorySystem.Data.InventoryType,InventorySystem.Manager.UIControllerManager@)
   name: GetController(InventoryType, out UIControllerManager)
-  href: Documentation/InventorySystem/InventorySystem.Manager.InventorySystemManager.html#InventorySystem_Manager_InventorySystemManager_GetController_InventoryType_InventorySystem_Manager_UIControllerManager__
-  commentId: M:InventorySystem.Manager.InventorySystemManager.GetController(InventoryType,InventorySystem.Manager.UIControllerManager@)
+  href: Documentation/InventorySystem/InventorySystem.Manager.InventorySystemManager.html#InventorySystem_Manager_InventorySystemManager_GetController_InventorySystem_Data_InventoryType_InventorySystem_Manager_UIControllerManager__
+  commentId: M:InventorySystem.Manager.InventorySystemManager.GetController(InventorySystem.Data.InventoryType,InventorySystem.Manager.UIControllerManager@)
   name.vb: GetController(InventoryType, ByRef UIControllerManager)
-  fullName: InventorySystem.Manager.InventorySystemManager.GetController(InventoryType, out InventorySystem.Manager.UIControllerManager)
-  fullName.vb: InventorySystem.Manager.InventorySystemManager.GetController(InventoryType, ByRef InventorySystem.Manager.UIControllerManager)
+  fullName: InventorySystem.Manager.InventorySystemManager.GetController(InventorySystem.Data.InventoryType, out InventorySystem.Manager.UIControllerManager)
+  fullName.vb: InventorySystem.Manager.InventorySystemManager.GetController(InventorySystem.Data.InventoryType, ByRef InventorySystem.Manager.UIControllerManager)
   nameWithType: InventorySystemManager.GetController(InventoryType, out UIControllerManager)
   nameWithType.vb: InventorySystemManager.GetController(InventoryType, ByRef UIControllerManager)
 - uid: InventorySystem.Manager.InventorySystemManager.GetController*
@@ -1030,11 +1030,11 @@ references:
   commentId: T:InventorySystem.Manager.MouseManager
   fullName: InventorySystem.Manager.MouseManager
   nameWithType: MouseManager
-- uid: InventorySystem.Manager.MouseManager.AddItem(Icon,System.Int32,InventoryType,InventoryItem)
+- uid: InventorySystem.Manager.MouseManager.AddItem(UtilitySystem.UI.Icon,System.Int32,InventorySystem.Data.InventoryType,InventorySystem.Data.InventoryItem)
   name: AddItem(Icon, Int32, InventoryType, InventoryItem)
-  href: Documentation/InventorySystem/InventorySystem.Manager.MouseManager.html#InventorySystem_Manager_MouseManager_AddItem_Icon_System_Int32_InventoryType_InventoryItem_
-  commentId: M:InventorySystem.Manager.MouseManager.AddItem(Icon,System.Int32,InventoryType,InventoryItem)
-  fullName: InventorySystem.Manager.MouseManager.AddItem(Icon, System.Int32, InventoryType, InventoryItem)
+  href: Documentation/InventorySystem/InventorySystem.Manager.MouseManager.html#InventorySystem_Manager_MouseManager_AddItem_UtilitySystem_UI_Icon_System_Int32_InventorySystem_Data_InventoryType_InventorySystem_Data_InventoryItem_
+  commentId: M:InventorySystem.Manager.MouseManager.AddItem(UtilitySystem.UI.Icon,System.Int32,InventorySystem.Data.InventoryType,InventorySystem.Data.InventoryItem)
+  fullName: InventorySystem.Manager.MouseManager.AddItem(UtilitySystem.UI.Icon, System.Int32, InventorySystem.Data.InventoryType, InventorySystem.Data.InventoryItem)
   nameWithType: MouseManager.AddItem(Icon, Int32, InventoryType, InventoryItem)
 - uid: InventorySystem.Manager.MouseManager.AddItem*
   name: AddItem
@@ -1043,11 +1043,11 @@ references:
   isSpec: "True"
   fullName: InventorySystem.Manager.MouseManager.AddItem
   nameWithType: MouseManager.AddItem
-- uid: InventorySystem.Manager.MouseManager.AddItemDataToPlayerInventory(InventoryItem)
+- uid: InventorySystem.Manager.MouseManager.AddItemDataToPlayerInventory(InventorySystem.Data.InventoryItem)
   name: AddItemDataToPlayerInventory(InventoryItem)
-  href: Documentation/InventorySystem/InventorySystem.Manager.MouseManager.html#InventorySystem_Manager_MouseManager_AddItemDataToPlayerInventory_InventoryItem_
-  commentId: M:InventorySystem.Manager.MouseManager.AddItemDataToPlayerInventory(InventoryItem)
-  fullName: InventorySystem.Manager.MouseManager.AddItemDataToPlayerInventory(InventoryItem)
+  href: Documentation/InventorySystem/InventorySystem.Manager.MouseManager.html#InventorySystem_Manager_MouseManager_AddItemDataToPlayerInventory_InventorySystem_Data_InventoryItem_
+  commentId: M:InventorySystem.Manager.MouseManager.AddItemDataToPlayerInventory(InventorySystem.Data.InventoryItem)
+  fullName: InventorySystem.Manager.MouseManager.AddItemDataToPlayerInventory(InventorySystem.Data.InventoryItem)
   nameWithType: MouseManager.AddItemDataToPlayerInventory(InventoryItem)
 - uid: InventorySystem.Manager.MouseManager.AddItemDataToPlayerInventory*
   name: AddItemDataToPlayerInventory
@@ -1118,11 +1118,11 @@ references:
   commentId: E:InventorySystem.Manager.MouseManager.onScreenClick
   fullName: InventorySystem.Manager.MouseManager.onScreenClick
   nameWithType: MouseManager.onScreenClick
-- uid: InventorySystem.Manager.MouseManager.OpenItemDetailScreen(Slot,InventoryItem)
+- uid: InventorySystem.Manager.MouseManager.OpenItemDetailScreen(UtilitySystem.UI.Slot,InventorySystem.Data.InventoryItem)
   name: OpenItemDetailScreen(Slot, InventoryItem)
-  href: Documentation/InventorySystem/InventorySystem.Manager.MouseManager.html#InventorySystem_Manager_MouseManager_OpenItemDetailScreen_Slot_InventoryItem_
-  commentId: M:InventorySystem.Manager.MouseManager.OpenItemDetailScreen(Slot,InventoryItem)
-  fullName: InventorySystem.Manager.MouseManager.OpenItemDetailScreen(Slot, InventoryItem)
+  href: Documentation/InventorySystem/InventorySystem.Manager.MouseManager.html#InventorySystem_Manager_MouseManager_OpenItemDetailScreen_UtilitySystem_UI_Slot_InventorySystem_Data_InventoryItem_
+  commentId: M:InventorySystem.Manager.MouseManager.OpenItemDetailScreen(UtilitySystem.UI.Slot,InventorySystem.Data.InventoryItem)
+  fullName: InventorySystem.Manager.MouseManager.OpenItemDetailScreen(UtilitySystem.UI.Slot, InventorySystem.Data.InventoryItem)
   nameWithType: MouseManager.OpenItemDetailScreen(Slot, InventoryItem)
 - uid: InventorySystem.Manager.MouseManager.OpenItemDetailScreen*
   name: OpenItemDetailScreen
@@ -1175,13 +1175,13 @@ references:
   commentId: T:InventorySystem.Manager.UIControllerManager
   fullName: InventorySystem.Manager.UIControllerManager
   nameWithType: UIControllerManager
-- uid: InventorySystem.Manager.UIControllerManager.AddInventoryItem(System.Collections.Generic.List{System.Int32}@,InventoryItem,System.Int32,System.Boolean)
+- uid: InventorySystem.Manager.UIControllerManager.AddInventoryItem(System.Collections.Generic.List{System.Int32}@,InventorySystem.Data.InventoryItem,System.Int32,System.Boolean)
   name: AddInventoryItem(out List<Int32>, InventoryItem, Int32, Boolean)
-  href: Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.html#InventorySystem_Manager_UIControllerManager_AddInventoryItem_System_Collections_Generic_List_System_Int32___InventoryItem_System_Int32_System_Boolean_
-  commentId: M:InventorySystem.Manager.UIControllerManager.AddInventoryItem(System.Collections.Generic.List{System.Int32}@,InventoryItem,System.Int32,System.Boolean)
+  href: Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.html#InventorySystem_Manager_UIControllerManager_AddInventoryItem_System_Collections_Generic_List_System_Int32___InventorySystem_Data_InventoryItem_System_Int32_System_Boolean_
+  commentId: M:InventorySystem.Manager.UIControllerManager.AddInventoryItem(System.Collections.Generic.List{System.Int32}@,InventorySystem.Data.InventoryItem,System.Int32,System.Boolean)
   name.vb: AddInventoryItem(ByRef List(Of Int32), InventoryItem, Int32, Boolean)
-  fullName: InventorySystem.Manager.UIControllerManager.AddInventoryItem(out System.Collections.Generic.List<System.Int32>, InventoryItem, System.Int32, System.Boolean)
-  fullName.vb: InventorySystem.Manager.UIControllerManager.AddInventoryItem(ByRef System.Collections.Generic.List(Of System.Int32), InventoryItem, System.Int32, System.Boolean)
+  fullName: InventorySystem.Manager.UIControllerManager.AddInventoryItem(out System.Collections.Generic.List<System.Int32>, InventorySystem.Data.InventoryItem, System.Int32, System.Boolean)
+  fullName.vb: InventorySystem.Manager.UIControllerManager.AddInventoryItem(ByRef System.Collections.Generic.List(Of System.Int32), InventorySystem.Data.InventoryItem, System.Int32, System.Boolean)
   nameWithType: UIControllerManager.AddInventoryItem(out List<Int32>, InventoryItem, Int32, Boolean)
   nameWithType.vb: UIControllerManager.AddInventoryItem(ByRef List(Of Int32), InventoryItem, Int32, Boolean)
 - uid: InventorySystem.Manager.UIControllerManager.AddInventoryItem*
@@ -1489,11 +1489,11 @@ references:
   isSpec: "True"
   fullName: InventorySystem.Manager.UIControllerManager.SetDisplayState
   nameWithType: UIControllerManager.SetDisplayState
-- uid: InventorySystem.Manager.UIControllerManager.SlotInteraction(Slot,MouseDownEvent)
+- uid: InventorySystem.Manager.UIControllerManager.SlotInteraction(UtilitySystem.UI.Slot,UnityEngine.UIElements.MouseDownEvent)
   name: SlotInteraction(Slot, MouseDownEvent)
-  href: Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.html#InventorySystem_Manager_UIControllerManager_SlotInteraction_Slot_MouseDownEvent_
-  commentId: M:InventorySystem.Manager.UIControllerManager.SlotInteraction(Slot,MouseDownEvent)
-  fullName: InventorySystem.Manager.UIControllerManager.SlotInteraction(Slot, MouseDownEvent)
+  href: Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.html#InventorySystem_Manager_UIControllerManager_SlotInteraction_UtilitySystem_UI_Slot_UnityEngine_UIElements_MouseDownEvent_
+  commentId: M:InventorySystem.Manager.UIControllerManager.SlotInteraction(UtilitySystem.UI.Slot,UnityEngine.UIElements.MouseDownEvent)
+  fullName: InventorySystem.Manager.UIControllerManager.SlotInteraction(UtilitySystem.UI.Slot, UnityEngine.UIElements.MouseDownEvent)
   nameWithType: UIControllerManager.SlotInteraction(Slot, MouseDownEvent)
 - uid: InventorySystem.Manager.UIControllerManager.SlotInteraction*
   name: SlotInteraction
@@ -1502,11 +1502,11 @@ references:
   isSpec: "True"
   fullName: InventorySystem.Manager.UIControllerManager.SlotInteraction
   nameWithType: UIControllerManager.SlotInteraction
-- uid: InventorySystem.Manager.UIControllerManager.Sortby(SortByEnum)
+- uid: InventorySystem.Manager.UIControllerManager.Sortby(InventorySystem.Data.SortByEnum)
   name: Sortby(SortByEnum)
-  href: Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.html#InventorySystem_Manager_UIControllerManager_Sortby_SortByEnum_
-  commentId: M:InventorySystem.Manager.UIControllerManager.Sortby(SortByEnum)
-  fullName: InventorySystem.Manager.UIControllerManager.Sortby(SortByEnum)
+  href: Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.html#InventorySystem_Manager_UIControllerManager_Sortby_InventorySystem_Data_SortByEnum_
+  commentId: M:InventorySystem.Manager.UIControllerManager.Sortby(InventorySystem.Data.SortByEnum)
+  fullName: InventorySystem.Manager.UIControllerManager.Sortby(InventorySystem.Data.SortByEnum)
   nameWithType: UIControllerManager.Sortby(SortByEnum)
 - uid: InventorySystem.Manager.UIControllerManager.Sortby*
   name: Sortby
@@ -1515,13 +1515,13 @@ references:
   isSpec: "True"
   fullName: InventorySystem.Manager.UIControllerManager.Sortby
   nameWithType: UIControllerManager.Sortby
-- uid: InventorySystem.Manager.UIControllerManager.TryFindInventoryItem(System.Int32,InventoryItem@)
+- uid: InventorySystem.Manager.UIControllerManager.TryFindInventoryItem(System.Int32,InventorySystem.Data.InventoryItem@)
   name: TryFindInventoryItem(Int32, out InventoryItem)
-  href: Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.html#InventorySystem_Manager_UIControllerManager_TryFindInventoryItem_System_Int32_InventoryItem__
-  commentId: M:InventorySystem.Manager.UIControllerManager.TryFindInventoryItem(System.Int32,InventoryItem@)
+  href: Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.html#InventorySystem_Manager_UIControllerManager_TryFindInventoryItem_System_Int32_InventorySystem_Data_InventoryItem__
+  commentId: M:InventorySystem.Manager.UIControllerManager.TryFindInventoryItem(System.Int32,InventorySystem.Data.InventoryItem@)
   name.vb: TryFindInventoryItem(Int32, ByRef InventoryItem)
-  fullName: InventorySystem.Manager.UIControllerManager.TryFindInventoryItem(System.Int32, out InventoryItem)
-  fullName.vb: InventorySystem.Manager.UIControllerManager.TryFindInventoryItem(System.Int32, ByRef InventoryItem)
+  fullName: InventorySystem.Manager.UIControllerManager.TryFindInventoryItem(System.Int32, out InventorySystem.Data.InventoryItem)
+  fullName.vb: InventorySystem.Manager.UIControllerManager.TryFindInventoryItem(System.Int32, ByRef InventorySystem.Data.InventoryItem)
   nameWithType: UIControllerManager.TryFindInventoryItem(Int32, out InventoryItem)
   nameWithType.vb: UIControllerManager.TryFindInventoryItem(Int32, ByRef InventoryItem)
 - uid: InventorySystem.Manager.UIControllerManager.TryFindInventoryItem*
@@ -1547,11 +1547,11 @@ references:
   isSpec: "True"
   fullName: InventorySystem.Manager.UIControllerManager.UpdateListSlots
   nameWithType: UIControllerManager.UpdateListSlots
-- uid: InventorySystem.Manager.UIControllerManager.UpdateSlot(System.Int32,InventoryItem)
+- uid: InventorySystem.Manager.UIControllerManager.UpdateSlot(System.Int32,InventorySystem.Data.InventoryItem)
   name: UpdateSlot(Int32, InventoryItem)
-  href: Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.html#InventorySystem_Manager_UIControllerManager_UpdateSlot_System_Int32_InventoryItem_
-  commentId: M:InventorySystem.Manager.UIControllerManager.UpdateSlot(System.Int32,InventoryItem)
-  fullName: InventorySystem.Manager.UIControllerManager.UpdateSlot(System.Int32, InventoryItem)
+  href: Documentation/InventorySystem/InventorySystem.Manager.UIControllerManager.html#InventorySystem_Manager_UIControllerManager_UpdateSlot_System_Int32_InventorySystem_Data_InventoryItem_
+  commentId: M:InventorySystem.Manager.UIControllerManager.UpdateSlot(System.Int32,InventorySystem.Data.InventoryItem)
+  fullName: InventorySystem.Manager.UIControllerManager.UpdateSlot(System.Int32, InventorySystem.Data.InventoryItem)
   nameWithType: UIControllerManager.UpdateSlot(Int32, InventoryItem)
 - uid: InventorySystem.Manager.UIControllerManager.UpdateSlot*
   name: UpdateSlot
@@ -1579,11 +1579,11 @@ references:
   commentId: T:InventorySystem.Manager.UIModelManager
   fullName: InventorySystem.Manager.UIModelManager
   nameWithType: UIModelManager
-- uid: InventorySystem.Manager.UIModelManager.AddInventory(Inventory)
+- uid: InventorySystem.Manager.UIModelManager.AddInventory(InventorySystem.Data.Inventory)
   name: AddInventory(Inventory)
-  href: Documentation/InventorySystem/InventorySystem.Manager.UIModelManager.html#InventorySystem_Manager_UIModelManager_AddInventory_Inventory_
-  commentId: M:InventorySystem.Manager.UIModelManager.AddInventory(Inventory)
-  fullName: InventorySystem.Manager.UIModelManager.AddInventory(Inventory)
+  href: Documentation/InventorySystem/InventorySystem.Manager.UIModelManager.html#InventorySystem_Manager_UIModelManager_AddInventory_InventorySystem_Data_Inventory_
+  commentId: M:InventorySystem.Manager.UIModelManager.AddInventory(InventorySystem.Data.Inventory)
+  fullName: InventorySystem.Manager.UIModelManager.AddInventory(InventorySystem.Data.Inventory)
   nameWithType: UIModelManager.AddInventory(Inventory)
 - uid: InventorySystem.Manager.UIModelManager.AddInventory*
   name: AddInventory
@@ -1648,13 +1648,13 @@ references:
   commentId: F:InventorySystem.Manager.UIModelManager.inventoryDictionary
   fullName: InventorySystem.Manager.UIModelManager.inventoryDictionary
   nameWithType: UIModelManager.inventoryDictionary
-- uid: InventorySystem.Manager.UIModelManager.InventorySpace(System.Int32@,InventoryItem)
+- uid: InventorySystem.Manager.UIModelManager.InventorySpace(System.Int32@,InventorySystem.Data.InventoryItem)
   name: InventorySpace(out Int32, InventoryItem)
-  href: Documentation/InventorySystem/InventorySystem.Manager.UIModelManager.html#InventorySystem_Manager_UIModelManager_InventorySpace_System_Int32__InventoryItem_
-  commentId: M:InventorySystem.Manager.UIModelManager.InventorySpace(System.Int32@,InventoryItem)
+  href: Documentation/InventorySystem/InventorySystem.Manager.UIModelManager.html#InventorySystem_Manager_UIModelManager_InventorySpace_System_Int32__InventorySystem_Data_InventoryItem_
+  commentId: M:InventorySystem.Manager.UIModelManager.InventorySpace(System.Int32@,InventorySystem.Data.InventoryItem)
   name.vb: InventorySpace(ByRef Int32, InventoryItem)
-  fullName: InventorySystem.Manager.UIModelManager.InventorySpace(out System.Int32, InventoryItem)
-  fullName.vb: InventorySystem.Manager.UIModelManager.InventorySpace(ByRef System.Int32, InventoryItem)
+  fullName: InventorySystem.Manager.UIModelManager.InventorySpace(out System.Int32, InventorySystem.Data.InventoryItem)
+  fullName.vb: InventorySystem.Manager.UIModelManager.InventorySpace(ByRef System.Int32, InventorySystem.Data.InventoryItem)
   nameWithType: UIModelManager.InventorySpace(out Int32, InventoryItem)
   nameWithType.vb: UIModelManager.InventorySpace(ByRef Int32, InventoryItem)
 - uid: InventorySystem.Manager.UIModelManager.InventorySpace*
@@ -1670,11 +1670,11 @@ references:
   commentId: F:InventorySystem.Manager.UIModelManager.isOpen
   fullName: InventorySystem.Manager.UIModelManager.isOpen
   nameWithType: UIModelManager.isOpen
-- uid: InventorySystem.Manager.UIModelManager.SortBy(SortByEnum,System.Boolean)
+- uid: InventorySystem.Manager.UIModelManager.SortBy(InventorySystem.Data.SortByEnum,System.Boolean)
   name: SortBy(SortByEnum, Boolean)
-  href: Documentation/InventorySystem/InventorySystem.Manager.UIModelManager.html#InventorySystem_Manager_UIModelManager_SortBy_SortByEnum_System_Boolean_
-  commentId: M:InventorySystem.Manager.UIModelManager.SortBy(SortByEnum,System.Boolean)
-  fullName: InventorySystem.Manager.UIModelManager.SortBy(SortByEnum, System.Boolean)
+  href: Documentation/InventorySystem/InventorySystem.Manager.UIModelManager.html#InventorySystem_Manager_UIModelManager_SortBy_InventorySystem_Data_SortByEnum_System_Boolean_
+  commentId: M:InventorySystem.Manager.UIModelManager.SortBy(InventorySystem.Data.SortByEnum,System.Boolean)
+  fullName: InventorySystem.Manager.UIModelManager.SortBy(InventorySystem.Data.SortByEnum, System.Boolean)
   nameWithType: UIModelManager.SortBy(SortByEnum, Boolean)
 - uid: InventorySystem.Manager.UIModelManager.SortBy*
   name: SortBy
@@ -1727,13 +1727,13 @@ references:
   commentId: F:InventorySystem.Manager.UIViewManager.isDescending
   fullName: InventorySystem.Manager.UIViewManager.isDescending
   nameWithType: UIViewManager.isDescending
-- uid: InventorySystem.Manager.UIViewManager.TryGetSlotFromKey(System.Int32,Slot@)
+- uid: InventorySystem.Manager.UIViewManager.TryGetSlotFromKey(System.Int32,UtilitySystem.UI.Slot@)
   name: TryGetSlotFromKey(Int32, out Slot)
-  href: Documentation/InventorySystem/InventorySystem.Manager.UIViewManager.html#InventorySystem_Manager_UIViewManager_TryGetSlotFromKey_System_Int32_Slot__
-  commentId: M:InventorySystem.Manager.UIViewManager.TryGetSlotFromKey(System.Int32,Slot@)
+  href: Documentation/InventorySystem/InventorySystem.Manager.UIViewManager.html#InventorySystem_Manager_UIViewManager_TryGetSlotFromKey_System_Int32_UtilitySystem_UI_Slot__
+  commentId: M:InventorySystem.Manager.UIViewManager.TryGetSlotFromKey(System.Int32,UtilitySystem.UI.Slot@)
   name.vb: TryGetSlotFromKey(Int32, ByRef Slot)
-  fullName: InventorySystem.Manager.UIViewManager.TryGetSlotFromKey(System.Int32, out Slot)
-  fullName.vb: InventorySystem.Manager.UIViewManager.TryGetSlotFromKey(System.Int32, ByRef Slot)
+  fullName: InventorySystem.Manager.UIViewManager.TryGetSlotFromKey(System.Int32, out UtilitySystem.UI.Slot)
+  fullName.vb: InventorySystem.Manager.UIViewManager.TryGetSlotFromKey(System.Int32, ByRef UtilitySystem.UI.Slot)
   nameWithType: UIViewManager.TryGetSlotFromKey(Int32, out Slot)
   nameWithType.vb: UIViewManager.TryGetSlotFromKey(Int32, ByRef Slot)
 - uid: InventorySystem.Manager.UIViewManager.TryGetSlotFromKey*
@@ -1785,11 +1785,11 @@ references:
   isSpec: "True"
   fullName: InventorySystem.Manager.UIViewManager.UpdateListSlots
   nameWithType: UIViewManager.UpdateListSlots
-- uid: InventorySystem.Manager.UIViewManager.UpdateSlot(System.Int32,InventoryItem)
+- uid: InventorySystem.Manager.UIViewManager.UpdateSlot(System.Int32,InventorySystem.Data.InventoryItem)
   name: UpdateSlot(Int32, InventoryItem)
-  href: Documentation/InventorySystem/InventorySystem.Manager.UIViewManager.html#InventorySystem_Manager_UIViewManager_UpdateSlot_System_Int32_InventoryItem_
-  commentId: M:InventorySystem.Manager.UIViewManager.UpdateSlot(System.Int32,InventoryItem)
-  fullName: InventorySystem.Manager.UIViewManager.UpdateSlot(System.Int32, InventoryItem)
+  href: Documentation/InventorySystem/InventorySystem.Manager.UIViewManager.html#InventorySystem_Manager_UIViewManager_UpdateSlot_System_Int32_InventorySystem_Data_InventoryItem_
+  commentId: M:InventorySystem.Manager.UIViewManager.UpdateSlot(System.Int32,InventorySystem.Data.InventoryItem)
+  fullName: InventorySystem.Manager.UIViewManager.UpdateSlot(System.Int32, InventorySystem.Data.InventoryItem)
   nameWithType: UIViewManager.UpdateSlot(Int32, InventoryItem)
 - uid: InventorySystem.Manager.UIViewManager.UpdateSlot*
   name: UpdateSlot
@@ -1805,11 +1805,11 @@ references:
   fullName: InventorySystem.Script
   nameWithType: Script
 - uid: InventorySystem.Script.Characters
-  name: Characters
+  name: InventorySystem.Script.Characters
   href: Documentation/InventorySystem/InventorySystem.Script.Characters.html
   commentId: N:InventorySystem.Script.Characters
   fullName: InventorySystem.Script.Characters
-  nameWithType: Characters
+  nameWithType: InventorySystem.Script.Characters
 - uid: InventorySystem.Script.Characters.Enemy
   name: Enemy
   href: Documentation/InventorySystem/InventorySystem.Script.Characters.Enemy.html
@@ -1908,24 +1908,24 @@ references:
   fullName: InventorySystem.Script.Characters.Player3D.playerHand
   nameWithType: Player3D.playerHand
 - uid: InventorySystem.Script.Static
-  name: Static
+  name: InventorySystem.Script.Static
   href: Documentation/InventorySystem/InventorySystem.Script.Static.html
   commentId: N:InventorySystem.Script.Static
   fullName: InventorySystem.Script.Static
-  nameWithType: Static
+  nameWithType: InventorySystem.Script.Static
 - uid: InventorySystem.Script.Static.GenerateData
   name: GenerateData
   href: Documentation/InventorySystem/InventorySystem.Script.Static.GenerateData.html
   commentId: T:InventorySystem.Script.Static.GenerateData
   fullName: InventorySystem.Script.Static.GenerateData
   nameWithType: GenerateData
-- uid: InventorySystem.Script.Static.GenerateData.CreateInventory(Inventory@,System.Int32,System.Collections.Generic.List{ItemData},System.Int32,System.Boolean)
+- uid: InventorySystem.Script.Static.GenerateData.CreateInventory(InventorySystem.Data.Inventory@,System.Int32,System.Collections.Generic.List{ItemSystem.Data.ItemData},System.Int32,System.Boolean)
   name: CreateInventory(out Inventory, Int32, List<ItemData>, Int32, Boolean)
-  href: Documentation/InventorySystem/InventorySystem.Script.Static.GenerateData.html#InventorySystem_Script_Static_GenerateData_CreateInventory_Inventory__System_Int32_System_Collections_Generic_List_ItemData__System_Int32_System_Boolean_
-  commentId: M:InventorySystem.Script.Static.GenerateData.CreateInventory(Inventory@,System.Int32,System.Collections.Generic.List{ItemData},System.Int32,System.Boolean)
+  href: Documentation/InventorySystem/InventorySystem.Script.Static.GenerateData.html#InventorySystem_Script_Static_GenerateData_CreateInventory_InventorySystem_Data_Inventory__System_Int32_System_Collections_Generic_List_ItemSystem_Data_ItemData__System_Int32_System_Boolean_
+  commentId: M:InventorySystem.Script.Static.GenerateData.CreateInventory(InventorySystem.Data.Inventory@,System.Int32,System.Collections.Generic.List{ItemSystem.Data.ItemData},System.Int32,System.Boolean)
   name.vb: CreateInventory(ByRef Inventory, Int32, List(Of ItemData), Int32, Boolean)
-  fullName: InventorySystem.Script.Static.GenerateData.CreateInventory(out Inventory, System.Int32, System.Collections.Generic.List<ItemData>, System.Int32, System.Boolean)
-  fullName.vb: InventorySystem.Script.Static.GenerateData.CreateInventory(ByRef Inventory, System.Int32, System.Collections.Generic.List(Of ItemData), System.Int32, System.Boolean)
+  fullName: InventorySystem.Script.Static.GenerateData.CreateInventory(out InventorySystem.Data.Inventory, System.Int32, System.Collections.Generic.List<ItemSystem.Data.ItemData>, System.Int32, System.Boolean)
+  fullName.vb: InventorySystem.Script.Static.GenerateData.CreateInventory(ByRef InventorySystem.Data.Inventory, System.Int32, System.Collections.Generic.List(Of ItemSystem.Data.ItemData), System.Int32, System.Boolean)
   nameWithType: GenerateData.CreateInventory(out Inventory, Int32, List<ItemData>, Int32, Boolean)
   nameWithType.vb: GenerateData.CreateInventory(ByRef Inventory, Int32, List(Of ItemData), Int32, Boolean)
 - uid: InventorySystem.Script.Static.GenerateData.CreateInventory*
@@ -1987,13 +1987,13 @@ references:
   isSpec: "True"
   fullName: InventorySystem.Script.Static.GenerateData.GetItems
   nameWithType: GenerateData.GetItems
-- uid: InventorySystem.Script.Static.GenerateData.TryFindItemData(System.String,ItemData@)
+- uid: InventorySystem.Script.Static.GenerateData.TryFindItemData(System.String,ItemSystem.Data.ItemData@)
   name: TryFindItemData(String, out ItemData)
-  href: Documentation/InventorySystem/InventorySystem.Script.Static.GenerateData.html#InventorySystem_Script_Static_GenerateData_TryFindItemData_System_String_ItemData__
-  commentId: M:InventorySystem.Script.Static.GenerateData.TryFindItemData(System.String,ItemData@)
+  href: Documentation/InventorySystem/InventorySystem.Script.Static.GenerateData.html#InventorySystem_Script_Static_GenerateData_TryFindItemData_System_String_ItemSystem_Data_ItemData__
+  commentId: M:InventorySystem.Script.Static.GenerateData.TryFindItemData(System.String,ItemSystem.Data.ItemData@)
   name.vb: TryFindItemData(String, ByRef ItemData)
-  fullName: InventorySystem.Script.Static.GenerateData.TryFindItemData(System.String, out ItemData)
-  fullName.vb: InventorySystem.Script.Static.GenerateData.TryFindItemData(System.String, ByRef ItemData)
+  fullName: InventorySystem.Script.Static.GenerateData.TryFindItemData(System.String, out ItemSystem.Data.ItemData)
+  fullName.vb: InventorySystem.Script.Static.GenerateData.TryFindItemData(System.String, ByRef ItemSystem.Data.ItemData)
   nameWithType: GenerateData.TryFindItemData(String, out ItemData)
   nameWithType.vb: GenerateData.TryFindItemData(String, ByRef ItemData)
 - uid: InventorySystem.Script.Static.GenerateData.TryFindItemData*
@@ -2004,11 +2004,11 @@ references:
   fullName: InventorySystem.Script.Static.GenerateData.TryFindItemData
   nameWithType: GenerateData.TryFindItemData
 - uid: InventorySystem.Script.UI
-  name: UI
+  name: InventorySystem.Script.UI
   href: Documentation/InventorySystem/InventorySystem.Script.UI.html
   commentId: N:InventorySystem.Script.UI
   fullName: InventorySystem.Script.UI
-  nameWithType: UI
+  nameWithType: InventorySystem.Script.UI
 - uid: InventorySystem.Script.UI.InventoryInteraction
   name: InventoryInteraction
   href: Documentation/InventorySystem/InventorySystem.Script.UI.InventoryInteraction.html
@@ -2070,13 +2070,13 @@ references:
   commentId: F:InventorySystem.Script.UI.InventoryInteraction.itemIDs
   fullName: InventorySystem.Script.UI.InventoryInteraction.itemIDs
   nameWithType: InventoryInteraction.itemIDs
-- uid: InventorySystem.Script.UI.InventoryInteraction.Load(System.Collections.Generic.List{Inventory})
+- uid: InventorySystem.Script.UI.InventoryInteraction.Load(System.Collections.Generic.List{InventorySystem.Data.Inventory})
   name: Load(List<Inventory>)
-  href: Documentation/InventorySystem/InventorySystem.Script.UI.InventoryInteraction.html#InventorySystem_Script_UI_InventoryInteraction_Load_System_Collections_Generic_List_Inventory__
-  commentId: M:InventorySystem.Script.UI.InventoryInteraction.Load(System.Collections.Generic.List{Inventory})
+  href: Documentation/InventorySystem/InventorySystem.Script.UI.InventoryInteraction.html#InventorySystem_Script_UI_InventoryInteraction_Load_System_Collections_Generic_List_InventorySystem_Data_Inventory__
+  commentId: M:InventorySystem.Script.UI.InventoryInteraction.Load(System.Collections.Generic.List{InventorySystem.Data.Inventory})
   name.vb: Load(List(Of Inventory))
-  fullName: InventorySystem.Script.UI.InventoryInteraction.Load(System.Collections.Generic.List<Inventory>)
-  fullName.vb: InventorySystem.Script.UI.InventoryInteraction.Load(System.Collections.Generic.List(Of Inventory))
+  fullName: InventorySystem.Script.UI.InventoryInteraction.Load(System.Collections.Generic.List<InventorySystem.Data.Inventory>)
+  fullName.vb: InventorySystem.Script.UI.InventoryInteraction.Load(System.Collections.Generic.List(Of InventorySystem.Data.Inventory))
   nameWithType: InventoryInteraction.Load(List<Inventory>)
   nameWithType.vb: InventoryInteraction.Load(List(Of Inventory))
 - uid: InventorySystem.Script.UI.InventoryInteraction.Load*
@@ -2291,11 +2291,11 @@ references:
   fullName: InventorySystem.Script.UI.TraderInteraction.Start
   nameWithType: TraderInteraction.Start
 - uid: InventorySystem.Script.World
-  name: World
+  name: InventorySystem.Script.World
   href: Documentation/InventorySystem/InventorySystem.Script.World.html
   commentId: N:InventorySystem.Script.World
   fullName: InventorySystem.Script.World
-  nameWithType: World
+  nameWithType: InventorySystem.Script.World
 - uid: InventorySystem.Script.World.ConsumableHotbarItem
   name: ConsumableHotbarItem
   href: Documentation/InventorySystem/InventorySystem.Script.World.ConsumableHotbarItem.html
@@ -2418,11 +2418,11 @@ references:
   isSpec: "True"
   fullName: InventorySystem.Script.World.GenerateInventory.Decay
   nameWithType: GenerateInventory.Decay
-- uid: InventorySystem.Script.World.GenerateInventory.Init(Inventory)
+- uid: InventorySystem.Script.World.GenerateInventory.Init(InventorySystem.Data.Inventory)
   name: Init(Inventory)
-  href: Documentation/InventorySystem/InventorySystem.Script.World.GenerateInventory.html#InventorySystem_Script_World_GenerateInventory_Init_Inventory_
-  commentId: M:InventorySystem.Script.World.GenerateInventory.Init(Inventory)
-  fullName: InventorySystem.Script.World.GenerateInventory.Init(Inventory)
+  href: Documentation/InventorySystem/InventorySystem.Script.World.GenerateInventory.html#InventorySystem_Script_World_GenerateInventory_Init_InventorySystem_Data_Inventory_
+  commentId: M:InventorySystem.Script.World.GenerateInventory.Init(InventorySystem.Data.Inventory)
+  fullName: InventorySystem.Script.World.GenerateInventory.Init(InventorySystem.Data.Inventory)
   nameWithType: GenerateInventory.Init(Inventory)
 - uid: InventorySystem.Script.World.GenerateInventory.Init*
   name: Init
@@ -2759,11 +2759,11 @@ references:
   fullName: ItemSystem
   nameWithType: ItemSystem
 - uid: ItemSystem.Data
-  name: Data
+  name: ItemSystem.Data
   href: Documentation/ItemSystem/ItemSystem.Data.html
   commentId: N:ItemSystem.Data
   fullName: ItemSystem.Data
-  nameWithType: Data
+  nameWithType: ItemSystem.Data
 - uid: ItemSystem.Data.ItemData
   name: ItemData
   href: Documentation/ItemSystem/ItemSystem.Data.ItemData.html
@@ -2782,11 +2782,11 @@ references:
   commentId: F:ItemSystem.Data.ItemData.canStack
   fullName: ItemSystem.Data.ItemData.canStack
   nameWithType: ItemData.canStack
-- uid: ItemSystem.Data.ItemData.CreateWorldObject(Transform)
+- uid: ItemSystem.Data.ItemData.CreateWorldObject(UnityEngine.Transform)
   name: CreateWorldObject(Transform)
-  href: Documentation/ItemSystem/ItemSystem.Data.ItemData.html#ItemSystem_Data_ItemData_CreateWorldObject_Transform_
-  commentId: M:ItemSystem.Data.ItemData.CreateWorldObject(Transform)
-  fullName: ItemSystem.Data.ItemData.CreateWorldObject(Transform)
+  href: Documentation/ItemSystem/ItemSystem.Data.ItemData.html#ItemSystem_Data_ItemData_CreateWorldObject_UnityEngine_Transform_
+  commentId: M:ItemSystem.Data.ItemData.CreateWorldObject(UnityEngine.Transform)
+  fullName: ItemSystem.Data.ItemData.CreateWorldObject(UnityEngine.Transform)
   nameWithType: ItemData.CreateWorldObject(Transform)
 - uid: ItemSystem.Data.ItemData.CreateWorldObject*
   name: CreateWorldObject
@@ -2795,11 +2795,11 @@ references:
   isSpec: "True"
   fullName: ItemSystem.Data.ItemData.CreateWorldObject
   nameWithType: ItemData.CreateWorldObject
-- uid: ItemSystem.Data.ItemData.CreateWorldObject2D(Transform)
+- uid: ItemSystem.Data.ItemData.CreateWorldObject2D(UnityEngine.Transform)
   name: CreateWorldObject2D(Transform)
-  href: Documentation/ItemSystem/ItemSystem.Data.ItemData.html#ItemSystem_Data_ItemData_CreateWorldObject2D_Transform_
-  commentId: M:ItemSystem.Data.ItemData.CreateWorldObject2D(Transform)
-  fullName: ItemSystem.Data.ItemData.CreateWorldObject2D(Transform)
+  href: Documentation/ItemSystem/ItemSystem.Data.ItemData.html#ItemSystem_Data_ItemData_CreateWorldObject2D_UnityEngine_Transform_
+  commentId: M:ItemSystem.Data.ItemData.CreateWorldObject2D(UnityEngine.Transform)
+  fullName: ItemSystem.Data.ItemData.CreateWorldObject2D(UnityEngine.Transform)
   nameWithType: ItemData.CreateWorldObject2D(Transform)
 - uid: ItemSystem.Data.ItemData.CreateWorldObject2D*
   name: CreateWorldObject2D
@@ -2935,11 +2935,11 @@ references:
   fullName: ItemSystem.Data.WeaponState.Parry
   nameWithType: WeaponState.Parry
 - uid: ItemSystem.Editor
-  name: Editor
+  name: ItemSystem.Editor
   href: Documentation/ItemSystem/ItemSystem.Editor.html
   commentId: N:ItemSystem.Editor
   fullName: ItemSystem.Editor
-  nameWithType: Editor
+  nameWithType: ItemSystem.Editor
 - uid: ItemSystem.Editor.CreateItem
   name: CreateItem
   href: Documentation/ItemSystem/ItemSystem.Editor.CreateItem.html
@@ -3214,11 +3214,11 @@ references:
   isSpec: "True"
   fullName: ItemSystem.Editor.EditItem.OpenWindow
   nameWithType: EditItem.OpenWindow
-- uid: ItemSystem.Editor.EditItem.SetItemData(ItemData)
+- uid: ItemSystem.Editor.EditItem.SetItemData(ItemSystem.Data.ItemData)
   name: SetItemData(ItemData)
-  href: Documentation/ItemSystem/ItemSystem.Editor.EditItem.html#ItemSystem_Editor_EditItem_SetItemData_ItemData_
-  commentId: M:ItemSystem.Editor.EditItem.SetItemData(ItemData)
-  fullName: ItemSystem.Editor.EditItem.SetItemData(ItemData)
+  href: Documentation/ItemSystem/ItemSystem.Editor.EditItem.html#ItemSystem_Editor_EditItem_SetItemData_ItemSystem_Data_ItemData_
+  commentId: M:ItemSystem.Editor.EditItem.SetItemData(ItemSystem.Data.ItemData)
+  fullName: ItemSystem.Editor.EditItem.SetItemData(ItemSystem.Data.ItemData)
   nameWithType: EditItem.SetItemData(ItemData)
 - uid: ItemSystem.Editor.EditItem.SetItemData*
   name: SetItemData
@@ -3415,11 +3415,11 @@ references:
   fullName: ItemSystem.Editor.ItemIDScrubber.startButton
   nameWithType: ItemIDScrubber.startButton
 - uid: ItemSystem.Script.Interface
-  name: Interface
+  name: ItemSystem.Script.Interface
   href: Documentation/ItemSystem/ItemSystem.Script.Interface.html
   commentId: N:ItemSystem.Script.Interface
   fullName: ItemSystem.Script.Interface
-  nameWithType: Interface
+  nameWithType: ItemSystem.Script.Interface
 - uid: ItemSystem.Script.Interface.IPickUp
   name: IPickUp
   href: Documentation/ItemSystem/ItemSystem.Script.Interface.IPickUp.html
@@ -3459,11 +3459,11 @@ references:
   fullName: UtilitySystem
   nameWithType: UtilitySystem
 - uid: UtilitySystem.Extension
-  name: Extension
+  name: UtilitySystem.Extension
   href: Documentation/UtilitySystem/UtilitySystem.Extension.html
   commentId: N:UtilitySystem.Extension
   fullName: UtilitySystem.Extension
-  nameWithType: Extension
+  nameWithType: UtilitySystem.Extension
 - uid: UtilitySystem.Extension.FloatExtension
   name: FloatExtension
   href: Documentation/UtilitySystem/UtilitySystem.Extension.FloatExtension.html
@@ -3560,11 +3560,11 @@ references:
   commentId: T:UtilitySystem.Extension.TransformExtension
   fullName: UtilitySystem.Extension.TransformExtension
   nameWithType: TransformExtension
-- uid: UtilitySystem.Extension.TransformExtension.GetChildren(Transform,System.Boolean)
+- uid: UtilitySystem.Extension.TransformExtension.GetChildren(UnityEngine.Transform,System.Boolean)
   name: GetChildren(Transform, Boolean)
-  href: Documentation/UtilitySystem/UtilitySystem.Extension.TransformExtension.html#UtilitySystem_Extension_TransformExtension_GetChildren_Transform_System_Boolean_
-  commentId: M:UtilitySystem.Extension.TransformExtension.GetChildren(Transform,System.Boolean)
-  fullName: UtilitySystem.Extension.TransformExtension.GetChildren(Transform, System.Boolean)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.TransformExtension.html#UtilitySystem_Extension_TransformExtension_GetChildren_UnityEngine_Transform_System_Boolean_
+  commentId: M:UtilitySystem.Extension.TransformExtension.GetChildren(UnityEngine.Transform,System.Boolean)
+  fullName: UtilitySystem.Extension.TransformExtension.GetChildren(UnityEngine.Transform, System.Boolean)
   nameWithType: TransformExtension.GetChildren(Transform, Boolean)
 - uid: UtilitySystem.Extension.TransformExtension.GetChildren*
   name: GetChildren
@@ -3573,11 +3573,11 @@ references:
   isSpec: "True"
   fullName: UtilitySystem.Extension.TransformExtension.GetChildren
   nameWithType: TransformExtension.GetChildren
-- uid: UtilitySystem.Extension.TransformExtension.ResetTransformation(Transform)
+- uid: UtilitySystem.Extension.TransformExtension.ResetTransformation(UnityEngine.Transform)
   name: ResetTransformation(Transform)
-  href: Documentation/UtilitySystem/UtilitySystem.Extension.TransformExtension.html#UtilitySystem_Extension_TransformExtension_ResetTransformation_Transform_
-  commentId: M:UtilitySystem.Extension.TransformExtension.ResetTransformation(Transform)
-  fullName: UtilitySystem.Extension.TransformExtension.ResetTransformation(Transform)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.TransformExtension.html#UtilitySystem_Extension_TransformExtension_ResetTransformation_UnityEngine_Transform_
+  commentId: M:UtilitySystem.Extension.TransformExtension.ResetTransformation(UnityEngine.Transform)
+  fullName: UtilitySystem.Extension.TransformExtension.ResetTransformation(UnityEngine.Transform)
   nameWithType: TransformExtension.ResetTransformation(Transform)
 - uid: UtilitySystem.Extension.TransformExtension.ResetTransformation*
   name: ResetTransformation
@@ -3587,11 +3587,11 @@ references:
   fullName: UtilitySystem.Extension.TransformExtension.ResetTransformation
   nameWithType: TransformExtension.ResetTransformation
 - uid: UtilitySystem.Tool
-  name: Tool
+  name: UtilitySystem.Tool
   href: Documentation/UtilitySystem/UtilitySystem.Tool.html
   commentId: N:UtilitySystem.Tool
   fullName: UtilitySystem.Tool
-  nameWithType: Tool
+  nameWithType: UtilitySystem.Tool
 - uid: UtilitySystem.Tool.CustomLogger
   name: CustomLogger
   href: Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.html
@@ -3618,11 +3618,11 @@ references:
   fullName: UtilitySystem.Tool.CustomLogger.Error(System.String)
   nameWithType: CustomLogger.Error(String)
 - uid: UtilitySystem.Tool.CustomLogger.Error(System.String,UnityEngine.Object)
-  name: Error(String, UnityEngine.Object)
+  name: Error(String, Object)
   href: Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.html#UtilitySystem_Tool_CustomLogger_Error_System_String_UnityEngine_Object_
   commentId: M:UtilitySystem.Tool.CustomLogger.Error(System.String,UnityEngine.Object)
   fullName: UtilitySystem.Tool.CustomLogger.Error(System.String, UnityEngine.Object)
-  nameWithType: CustomLogger.Error(String, UnityEngine.Object)
+  nameWithType: CustomLogger.Error(String, Object)
 - uid: UtilitySystem.Tool.CustomLogger.Error*
   name: Error
   href: Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.html#UtilitySystem_Tool_CustomLogger_Error_
@@ -3637,11 +3637,11 @@ references:
   fullName: UtilitySystem.Tool.CustomLogger.Log(System.String)
   nameWithType: CustomLogger.Log(String)
 - uid: UtilitySystem.Tool.CustomLogger.Log(System.String,UnityEngine.Object)
-  name: Log(String, UnityEngine.Object)
+  name: Log(String, Object)
   href: Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.html#UtilitySystem_Tool_CustomLogger_Log_System_String_UnityEngine_Object_
   commentId: M:UtilitySystem.Tool.CustomLogger.Log(System.String,UnityEngine.Object)
   fullName: UtilitySystem.Tool.CustomLogger.Log(System.String, UnityEngine.Object)
-  nameWithType: CustomLogger.Log(String, UnityEngine.Object)
+  nameWithType: CustomLogger.Log(String, Object)
 - uid: UtilitySystem.Tool.CustomLogger.Log*
   name: Log
   href: Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.html#UtilitySystem_Tool_CustomLogger_Log_
@@ -3669,11 +3669,11 @@ references:
   fullName: UtilitySystem.Tool.CustomLogger.LogException(System.Exception)
   nameWithType: CustomLogger.LogException(Exception)
 - uid: UtilitySystem.Tool.CustomLogger.LogException(System.Exception,UnityEngine.Object)
-  name: LogException(Exception, UnityEngine.Object)
+  name: LogException(Exception, Object)
   href: Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.html#UtilitySystem_Tool_CustomLogger_LogException_System_Exception_UnityEngine_Object_
   commentId: M:UtilitySystem.Tool.CustomLogger.LogException(System.Exception,UnityEngine.Object)
   fullName: UtilitySystem.Tool.CustomLogger.LogException(System.Exception, UnityEngine.Object)
-  nameWithType: CustomLogger.LogException(Exception, UnityEngine.Object)
+  nameWithType: CustomLogger.LogException(Exception, Object)
 - uid: UtilitySystem.Tool.CustomLogger.LogException*
   name: LogException
   href: Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.html#UtilitySystem_Tool_CustomLogger_LogException_
@@ -3688,11 +3688,11 @@ references:
   fullName: UtilitySystem.Tool.CustomLogger.Warning(System.String)
   nameWithType: CustomLogger.Warning(String)
 - uid: UtilitySystem.Tool.CustomLogger.Warning(System.String,UnityEngine.Object)
-  name: Warning(String, UnityEngine.Object)
+  name: Warning(String, Object)
   href: Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.html#UtilitySystem_Tool_CustomLogger_Warning_System_String_UnityEngine_Object_
   commentId: M:UtilitySystem.Tool.CustomLogger.Warning(System.String,UnityEngine.Object)
   fullName: UtilitySystem.Tool.CustomLogger.Warning(System.String, UnityEngine.Object)
-  nameWithType: CustomLogger.Warning(String, UnityEngine.Object)
+  nameWithType: CustomLogger.Warning(String, Object)
 - uid: UtilitySystem.Tool.CustomLogger.Warning*
   name: Warning
   href: Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.html#UtilitySystem_Tool_CustomLogger_Warning_
@@ -3772,11 +3772,11 @@ references:
   fullName: UtilitySystem.Tool.Timer.UpdateTimer
   nameWithType: Timer.UpdateTimer
 - uid: UtilitySystem.UI
-  name: UI
+  name: UtilitySystem.UI
   href: Documentation/UtilitySystem/UtilitySystem.UI.html
   commentId: N:UtilitySystem.UI
   fullName: UtilitySystem.UI
-  nameWithType: UI
+  nameWithType: UtilitySystem.UI
 - uid: UtilitySystem.UI.Icon
   name: Icon
   href: Documentation/UtilitySystem/UtilitySystem.UI.Icon.html
@@ -3789,11 +3789,11 @@ references:
   commentId: M:UtilitySystem.UI.Icon.#ctor
   fullName: UtilitySystem.UI.Icon.Icon()
   nameWithType: Icon.Icon()
-- uid: UtilitySystem.UI.Icon.#ctor(InventoryItem)
+- uid: UtilitySystem.UI.Icon.#ctor(InventorySystem.Data.InventoryItem)
   name: Icon(InventoryItem)
-  href: Documentation/UtilitySystem/UtilitySystem.UI.Icon.html#UtilitySystem_UI_Icon__ctor_InventoryItem_
-  commentId: M:UtilitySystem.UI.Icon.#ctor(InventoryItem)
-  fullName: UtilitySystem.UI.Icon.Icon(InventoryItem)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.Icon.html#UtilitySystem_UI_Icon__ctor_InventorySystem_Data_InventoryItem_
+  commentId: M:UtilitySystem.UI.Icon.#ctor(InventorySystem.Data.InventoryItem)
+  fullName: UtilitySystem.UI.Icon.Icon(InventorySystem.Data.InventoryItem)
   nameWithType: Icon.Icon(InventoryItem)
 - uid: UtilitySystem.UI.Icon.#ctor*
   name: Icon
@@ -3911,11 +3911,11 @@ references:
   commentId: F:UtilitySystem.UI.Slot.key
   fullName: UtilitySystem.UI.Slot.key
   nameWithType: Slot.key
-- uid: UtilitySystem.UI.Slot.SetIcon(InventoryItem)
+- uid: UtilitySystem.UI.Slot.SetIcon(InventorySystem.Data.InventoryItem)
   name: SetIcon(InventoryItem)
-  href: Documentation/UtilitySystem/UtilitySystem.UI.Slot.html#UtilitySystem_UI_Slot_SetIcon_InventoryItem_
-  commentId: M:UtilitySystem.UI.Slot.SetIcon(InventoryItem)
-  fullName: UtilitySystem.UI.Slot.SetIcon(InventoryItem)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.Slot.html#UtilitySystem_UI_Slot_SetIcon_InventorySystem_Data_InventoryItem_
+  commentId: M:UtilitySystem.UI.Slot.SetIcon(InventorySystem.Data.InventoryItem)
+  fullName: UtilitySystem.UI.Slot.SetIcon(InventorySystem.Data.InventoryItem)
   nameWithType: Slot.SetIcon(InventoryItem)
 - uid: UtilitySystem.UI.Slot.SetIcon(UtilitySystem.UI.Icon)
   name: SetIcon(Icon)
@@ -3977,11 +3977,11 @@ references:
   commentId: M:UtilitySystem.UI.SpriteElement.#ctor
   fullName: UtilitySystem.UI.SpriteElement.SpriteElement()
   nameWithType: SpriteElement.SpriteElement()
-- uid: UtilitySystem.UI.SpriteElement.#ctor(Sprite)
+- uid: UtilitySystem.UI.SpriteElement.#ctor(UnityEngine.Sprite)
   name: SpriteElement(Sprite)
-  href: Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.html#UtilitySystem_UI_SpriteElement__ctor_Sprite_
-  commentId: M:UtilitySystem.UI.SpriteElement.#ctor(Sprite)
-  fullName: UtilitySystem.UI.SpriteElement.SpriteElement(Sprite)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.html#UtilitySystem_UI_SpriteElement__ctor_UnityEngine_Sprite_
+  commentId: M:UtilitySystem.UI.SpriteElement.#ctor(UnityEngine.Sprite)
+  fullName: UtilitySystem.UI.SpriteElement.SpriteElement(UnityEngine.Sprite)
   nameWithType: SpriteElement.SpriteElement(Sprite)
 - uid: UtilitySystem.UI.SpriteElement.#ctor*
   name: SpriteElement
@@ -4003,11 +4003,11 @@ references:
   isSpec: "True"
   fullName: UtilitySystem.UI.SpriteElement.RemoveSprite
   nameWithType: SpriteElement.RemoveSprite
-- uid: UtilitySystem.UI.SpriteElement.SetSprite(Sprite)
+- uid: UtilitySystem.UI.SpriteElement.SetSprite(UnityEngine.Sprite)
   name: SetSprite(Sprite)
-  href: Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.html#UtilitySystem_UI_SpriteElement_SetSprite_Sprite_
-  commentId: M:UtilitySystem.UI.SpriteElement.SetSprite(Sprite)
-  fullName: UtilitySystem.UI.SpriteElement.SetSprite(Sprite)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.html#UtilitySystem_UI_SpriteElement_SetSprite_UnityEngine_Sprite_
+  commentId: M:UtilitySystem.UI.SpriteElement.SetSprite(UnityEngine.Sprite)
+  fullName: UtilitySystem.UI.SpriteElement.SetSprite(UnityEngine.Sprite)
   nameWithType: SpriteElement.SetSprite(Sprite)
 - uid: UtilitySystem.UI.SpriteElement.SetSprite*
   name: SetSprite
