@@ -211,27 +211,26 @@ ul.nav>li.active.in>a.active {
     color: var(--Nav-color);
     content: "+";
     display: table;
-    margin-top: 3px;
     text-align: center;
 }
 
-.toc .nav>li>.expand-stub::before
+.toc .nav>li>.expand-stub
 {
     margin-top: 4px;
 }
-.toc .nav>li.active>.expand-stub::before
+.toc .nav>li.active>.expand-stub
 {
     margin-top: 5px;
 }
-.toc .nav>li.in.active>.expand-stub::before
+.toc .nav>li.in.active>.expand-stub
 {
     margin-top: 11px;
 }
-.toc .nav.level1>li>.expand-stub::before
+.toc .nav.level1>li>.expand-stub
 {
     margin-top: 6px;
 }
-.toc .nav.level1>li.active>.expand-stub::before
+.toc .nav.level1>li.active>.expand-stub
 {
     margin-top: 7px;
 }
