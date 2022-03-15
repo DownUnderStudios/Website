@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate GameManager.LoadEvent&lt;T&gt;
+    <title>Interface IWeapon
    | Inventory System Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate GameManager.LoadEvent&lt;T&gt;
+    <meta name="title" content="Interface IWeapon
    | Inventory System Documentation ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -78,52 +78,185 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="InventorySystem.Manager.GameManager.LoadEvent`1">
+            <article class="content wrap" id="_content" data-uid="ItemSystem.Script.Interface.IWeapon">
   
   
-  <h1 id="InventorySystem_Manager_GameManager_LoadEvent_1" data-uid="InventorySystem.Manager.GameManager.LoadEvent`1" class="text-break">Delegate GameManager.LoadEvent&lt;T&gt;
+  <h1 id="ItemSystem_Script_Interface_IWeapon" data-uid="ItemSystem.Script.Interface.IWeapon" class="text-break">Interface IWeapon
   </h1>
-  <div class="markdown level0 summary"><p>This Variable is the delegate for the Loading of inventories.</p>
+  <div class="markdown level0 summary"><p>This Interface should be used by an Weapon type item class.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="InventorySystem.Manager.html">InventorySystem.Manager</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ItemSystem.Script.Interface.html">ItemSystem.Script.Interface</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="InventorySystem_Manager_GameManager_LoadEvent_1_syntax">Syntax</h5>
+  <h5 id="ItemSystem_Script_Interface_IWeapon_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void LoadEvent&lt;T&gt;(List&lt;T&gt; inventory);</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IWeapon</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <a id="ItemSystem_Script_Interface_IWeapon_State_" data-uid="ItemSystem.Script.Interface.IWeapon.State*"></a>
+  <h4 id="ItemSystem_Script_Interface_IWeapon_State" data-uid="ItemSystem.Script.Interface.IWeapon.State">v</h4>
+  <div class="markdown level1 summary"><p>This property is the currentState of the weapon.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">WeaponState State { get; set; }</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</td>
-        <td><span class="parametername">inventory</span></td>
+        <td><a class="xref" href="ItemSystem.Data.WeaponState.html">WeaponState</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="ItemSystem_Script_Interface_IWeapon_canAttack_" data-uid="ItemSystem.Script.Interface.IWeapon.canAttack*"></a>
+  <h4 id="ItemSystem_Script_Interface_IWeapon_canAttack" data-uid="ItemSystem.Script.Interface.IWeapon.canAttack">canAttack</h4>
+  <div class="markdown level1 summary"><p>This Variable determines if the weapon can attack.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool canAttack { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="ItemSystem_Script_Interface_IWeapon_canParry_" data-uid="ItemSystem.Script.Interface.IWeapon.canParry*"></a>
+  <h4 id="ItemSystem_Script_Interface_IWeapon_canParry" data-uid="ItemSystem.Script.Interface.IWeapon.canParry">canParry</h4>
+  <div class="markdown level1 summary"><p>This Variable determines if the weapon can parry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool canParry { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ItemSystem_Script_Interface_IWeapon_canDefend_" data-uid="ItemSystem.Script.Interface.IWeapon.canDefend*"></a>
+  <h4 id="ItemSystem_Script_Interface_IWeapon_canDefend" data-uid="ItemSystem.Script.Interface.IWeapon.canDefend">canDefend</h4>
+  <div class="markdown level1 summary"><p>This Variable determines if the weapon can defend.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool canDefend { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="ItemSystem_Script_Interface_IWeapon_Attack_" data-uid="ItemSystem.Script.Interface.IWeapon.Attack*"></a>
+  <h4 id="ItemSystem_Script_Interface_IWeapon_Attack" data-uid="ItemSystem.Script.Interface.IWeapon.Attack">Attack()</h4>
+  <div class="markdown level1 summary"><p>This Method is what will happen if canAttack is true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Attack()</code></pre>
+  </div>
+  
+  
+  <a id="ItemSystem_Script_Interface_IWeapon_Parry_" data-uid="ItemSystem.Script.Interface.IWeapon.Parry*"></a>
+  <h4 id="ItemSystem_Script_Interface_IWeapon_Parry" data-uid="ItemSystem.Script.Interface.IWeapon.Parry">Parry()</h4>
+  <div class="markdown level1 summary"><p>This Method is what will happen if canParry is true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Parry()</code></pre>
+  </div>
+  
+  
+  <a id="ItemSystem_Script_Interface_IWeapon_Defend_" data-uid="ItemSystem.Script.Interface.IWeapon.Defend*"></a>
+  <h4 id="ItemSystem_Script_Interface_IWeapon_Defend" data-uid="ItemSystem.Script.Interface.IWeapon.Defend">Defend()</h4>
+  <div class="markdown level1 summary"><p>This Method is what will happen if canDefend is true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Defend()</code></pre>
+  </div>
+  
+  
+  <a id="ItemSystem_Script_Interface_IWeapon_Idle_" data-uid="ItemSystem.Script.Interface.IWeapon.Idle*"></a>
+  <h4 id="ItemSystem_Script_Interface_IWeapon_Idle" data-uid="ItemSystem.Script.Interface.IWeapon.Idle">Idle()</h4>
+  <div class="markdown level1 summary"><p>This Method is what will happen if the weapon is idle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Idle()</code></pre>
+  </div>
+  
+  
+  <a id="ItemSystem_Script_Interface_IWeapon_SetWeaponState_" data-uid="ItemSystem.Script.Interface.IWeapon.SetWeaponState*"></a>
+  <h4 id="ItemSystem_Script_Interface_IWeapon_SetWeaponState" data-uid="ItemSystem.Script.Interface.IWeapon.SetWeaponState">SetWeaponState()</h4>
+  <div class="markdown level1 summary"><p>This Method is what will check if the weapon will attack, parry, defend or idle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetWeaponState()</code></pre>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UpperCaseText_System_Object_">RichText.UpperCaseText(Object)</a>

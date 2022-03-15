@@ -1056,6 +1056,19 @@ references:
   isSpec: "True"
   fullName: InventorySystem.Manager.MouseManager.AddItemDataToPlayerInventory
   nameWithType: MouseManager.AddItemDataToPlayerInventory
+- uid: InventorySystem.Manager.MouseManager.ClearDialogBox
+  name: ClearDialogBox()
+  href: Documentation/InventorySystem/InventorySystem.Manager.MouseManager.html#InventorySystem_Manager_MouseManager_ClearDialogBox
+  commentId: M:InventorySystem.Manager.MouseManager.ClearDialogBox
+  fullName: InventorySystem.Manager.MouseManager.ClearDialogBox()
+  nameWithType: MouseManager.ClearDialogBox()
+- uid: InventorySystem.Manager.MouseManager.ClearDialogBox*
+  name: ClearDialogBox
+  href: Documentation/InventorySystem/InventorySystem.Manager.MouseManager.html#InventorySystem_Manager_MouseManager_ClearDialogBox_
+  commentId: Overload:InventorySystem.Manager.MouseManager.ClearDialogBox
+  isSpec: "True"
+  fullName: InventorySystem.Manager.MouseManager.ClearDialogBox
+  nameWithType: MouseManager.ClearDialogBox
 - uid: InventorySystem.Manager.MouseManager.CloseMouse
   name: CloseMouse()
   href: Documentation/InventorySystem/InventorySystem.Manager.MouseManager.html#InventorySystem_Manager_MouseManager_CloseMouse
@@ -3316,22 +3329,6 @@ references:
   commentId: F:ItemSystem.Editor.ItemIDScrubber.currentLogNumber
   fullName: ItemSystem.Editor.ItemIDScrubber.currentLogNumber
   nameWithType: ItemIDScrubber.currentLogNumber
-- uid: ItemSystem.Editor.ItemIDScrubber.GetAllInstances*
-  name: GetAllInstances
-  href: Documentation/ItemSystem/ItemSystem.Editor.ItemIDScrubber.html#ItemSystem_Editor_ItemIDScrubber_GetAllInstances_
-  commentId: Overload:ItemSystem.Editor.ItemIDScrubber.GetAllInstances
-  isSpec: "True"
-  fullName: ItemSystem.Editor.ItemIDScrubber.GetAllInstances
-  nameWithType: ItemIDScrubber.GetAllInstances
-- uid: ItemSystem.Editor.ItemIDScrubber.GetAllInstances``1
-  name: GetAllInstances<T>()
-  href: Documentation/ItemSystem/ItemSystem.Editor.ItemIDScrubber.html#ItemSystem_Editor_ItemIDScrubber_GetAllInstances__1
-  commentId: M:ItemSystem.Editor.ItemIDScrubber.GetAllInstances``1
-  name.vb: GetAllInstances(Of T)()
-  fullName: ItemSystem.Editor.ItemIDScrubber.GetAllInstances<T>()
-  fullName.vb: ItemSystem.Editor.ItemIDScrubber.GetAllInstances(Of T)()
-  nameWithType: ItemIDScrubber.GetAllInstances<T>()
-  nameWithType.vb: ItemIDScrubber.GetAllInstances(Of T)()
 - uid: ItemSystem.Editor.ItemIDScrubber.items
   name: items
   href: Documentation/ItemSystem/ItemSystem.Editor.ItemIDScrubber.html#ItemSystem_Editor_ItemIDScrubber_items
@@ -3420,6 +3417,38 @@ references:
   commentId: N:ItemSystem.Script.Interface
   fullName: ItemSystem.Script.Interface
   nameWithType: ItemSystem.Script.Interface
+- uid: ItemSystem.Script.Interface.IConsume
+  name: IConsume
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IConsume.html
+  commentId: T:ItemSystem.Script.Interface.IConsume
+  fullName: ItemSystem.Script.Interface.IConsume
+  nameWithType: IConsume
+- uid: ItemSystem.Script.Interface.IConsume.amount
+  name: amount
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IConsume.html#ItemSystem_Script_Interface_IConsume_amount
+  commentId: P:ItemSystem.Script.Interface.IConsume.amount
+  fullName: ItemSystem.Script.Interface.IConsume.amount
+  nameWithType: IConsume.amount
+- uid: ItemSystem.Script.Interface.IConsume.amount*
+  name: amount
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IConsume.html#ItemSystem_Script_Interface_IConsume_amount_
+  commentId: Overload:ItemSystem.Script.Interface.IConsume.amount
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IConsume.amount
+  nameWithType: IConsume.amount
+- uid: ItemSystem.Script.Interface.IConsume.Use
+  name: Use()
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IConsume.html#ItemSystem_Script_Interface_IConsume_Use
+  commentId: M:ItemSystem.Script.Interface.IConsume.Use
+  fullName: ItemSystem.Script.Interface.IConsume.Use()
+  nameWithType: IConsume.Use()
+- uid: ItemSystem.Script.Interface.IConsume.Use*
+  name: Use
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IConsume.html#ItemSystem_Script_Interface_IConsume_Use_
+  commentId: Overload:ItemSystem.Script.Interface.IConsume.Use
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IConsume.Use
+  nameWithType: IConsume.Use
 - uid: ItemSystem.Script.Interface.IPickUp
   name: IPickUp
   href: Documentation/ItemSystem/ItemSystem.Script.Interface.IPickUp.html
@@ -3452,6 +3481,161 @@ references:
   isSpec: "True"
   fullName: ItemSystem.Script.Interface.IPickUp.Pickup
   nameWithType: IPickUp.Pickup
+- uid: ItemSystem.Script.Interface.IUse
+  name: IUse
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IUse.html
+  commentId: T:ItemSystem.Script.Interface.IUse
+  fullName: ItemSystem.Script.Interface.IUse
+  nameWithType: IUse
+- uid: ItemSystem.Script.Interface.IUse.canUse
+  name: canUse
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IUse.html#ItemSystem_Script_Interface_IUse_canUse
+  commentId: P:ItemSystem.Script.Interface.IUse.canUse
+  fullName: ItemSystem.Script.Interface.IUse.canUse
+  nameWithType: IUse.canUse
+- uid: ItemSystem.Script.Interface.IUse.canUse*
+  name: canUse
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IUse.html#ItemSystem_Script_Interface_IUse_canUse_
+  commentId: Overload:ItemSystem.Script.Interface.IUse.canUse
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IUse.canUse
+  nameWithType: IUse.canUse
+- uid: ItemSystem.Script.Interface.IUse.Use
+  name: Use()
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IUse.html#ItemSystem_Script_Interface_IUse_Use
+  commentId: M:ItemSystem.Script.Interface.IUse.Use
+  fullName: ItemSystem.Script.Interface.IUse.Use()
+  nameWithType: IUse.Use()
+- uid: ItemSystem.Script.Interface.IUse.Use*
+  name: Use
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IUse.html#ItemSystem_Script_Interface_IUse_Use_
+  commentId: Overload:ItemSystem.Script.Interface.IUse.Use
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IUse.Use
+  nameWithType: IUse.Use
+- uid: ItemSystem.Script.Interface.IWeapon
+  name: IWeapon
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html
+  commentId: T:ItemSystem.Script.Interface.IWeapon
+  fullName: ItemSystem.Script.Interface.IWeapon
+  nameWithType: IWeapon
+- uid: ItemSystem.Script.Interface.IWeapon.Attack
+  name: Attack()
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_Attack
+  commentId: M:ItemSystem.Script.Interface.IWeapon.Attack
+  fullName: ItemSystem.Script.Interface.IWeapon.Attack()
+  nameWithType: IWeapon.Attack()
+- uid: ItemSystem.Script.Interface.IWeapon.Attack*
+  name: Attack
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_Attack_
+  commentId: Overload:ItemSystem.Script.Interface.IWeapon.Attack
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IWeapon.Attack
+  nameWithType: IWeapon.Attack
+- uid: ItemSystem.Script.Interface.IWeapon.canAttack
+  name: canAttack
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_canAttack
+  commentId: P:ItemSystem.Script.Interface.IWeapon.canAttack
+  fullName: ItemSystem.Script.Interface.IWeapon.canAttack
+  nameWithType: IWeapon.canAttack
+- uid: ItemSystem.Script.Interface.IWeapon.canAttack*
+  name: canAttack
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_canAttack_
+  commentId: Overload:ItemSystem.Script.Interface.IWeapon.canAttack
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IWeapon.canAttack
+  nameWithType: IWeapon.canAttack
+- uid: ItemSystem.Script.Interface.IWeapon.canDefend
+  name: canDefend
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_canDefend
+  commentId: P:ItemSystem.Script.Interface.IWeapon.canDefend
+  fullName: ItemSystem.Script.Interface.IWeapon.canDefend
+  nameWithType: IWeapon.canDefend
+- uid: ItemSystem.Script.Interface.IWeapon.canDefend*
+  name: canDefend
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_canDefend_
+  commentId: Overload:ItemSystem.Script.Interface.IWeapon.canDefend
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IWeapon.canDefend
+  nameWithType: IWeapon.canDefend
+- uid: ItemSystem.Script.Interface.IWeapon.canParry
+  name: canParry
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_canParry
+  commentId: P:ItemSystem.Script.Interface.IWeapon.canParry
+  fullName: ItemSystem.Script.Interface.IWeapon.canParry
+  nameWithType: IWeapon.canParry
+- uid: ItemSystem.Script.Interface.IWeapon.canParry*
+  name: canParry
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_canParry_
+  commentId: Overload:ItemSystem.Script.Interface.IWeapon.canParry
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IWeapon.canParry
+  nameWithType: IWeapon.canParry
+- uid: ItemSystem.Script.Interface.IWeapon.Defend
+  name: Defend()
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_Defend
+  commentId: M:ItemSystem.Script.Interface.IWeapon.Defend
+  fullName: ItemSystem.Script.Interface.IWeapon.Defend()
+  nameWithType: IWeapon.Defend()
+- uid: ItemSystem.Script.Interface.IWeapon.Defend*
+  name: Defend
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_Defend_
+  commentId: Overload:ItemSystem.Script.Interface.IWeapon.Defend
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IWeapon.Defend
+  nameWithType: IWeapon.Defend
+- uid: ItemSystem.Script.Interface.IWeapon.Idle
+  name: Idle()
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_Idle
+  commentId: M:ItemSystem.Script.Interface.IWeapon.Idle
+  fullName: ItemSystem.Script.Interface.IWeapon.Idle()
+  nameWithType: IWeapon.Idle()
+- uid: ItemSystem.Script.Interface.IWeapon.Idle*
+  name: Idle
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_Idle_
+  commentId: Overload:ItemSystem.Script.Interface.IWeapon.Idle
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IWeapon.Idle
+  nameWithType: IWeapon.Idle
+- uid: ItemSystem.Script.Interface.IWeapon.Parry
+  name: Parry()
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_Parry
+  commentId: M:ItemSystem.Script.Interface.IWeapon.Parry
+  fullName: ItemSystem.Script.Interface.IWeapon.Parry()
+  nameWithType: IWeapon.Parry()
+- uid: ItemSystem.Script.Interface.IWeapon.Parry*
+  name: Parry
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_Parry_
+  commentId: Overload:ItemSystem.Script.Interface.IWeapon.Parry
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IWeapon.Parry
+  nameWithType: IWeapon.Parry
+- uid: ItemSystem.Script.Interface.IWeapon.SetWeaponState
+  name: SetWeaponState()
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_SetWeaponState
+  commentId: M:ItemSystem.Script.Interface.IWeapon.SetWeaponState
+  fullName: ItemSystem.Script.Interface.IWeapon.SetWeaponState()
+  nameWithType: IWeapon.SetWeaponState()
+- uid: ItemSystem.Script.Interface.IWeapon.SetWeaponState*
+  name: SetWeaponState
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_SetWeaponState_
+  commentId: Overload:ItemSystem.Script.Interface.IWeapon.SetWeaponState
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IWeapon.SetWeaponState
+  nameWithType: IWeapon.SetWeaponState
+- uid: ItemSystem.Script.Interface.IWeapon.State
+  name: v
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_State
+  commentId: P:ItemSystem.Script.Interface.IWeapon.State
+  fullName: ItemSystem.Script.Interface.IWeapon.State
+  nameWithType: IWeapon.State
+- uid: ItemSystem.Script.Interface.IWeapon.State*
+  name: State
+  href: Documentation/ItemSystem/ItemSystem.Script.Interface.IWeapon.html#ItemSystem_Script_Interface_IWeapon_State_
+  commentId: Overload:ItemSystem.Script.Interface.IWeapon.State
+  isSpec: "True"
+  fullName: ItemSystem.Script.Interface.IWeapon.State
+  nameWithType: IWeapon.State
 - uid: UtilitySystem
   name: UtilitySystem
   href: Documentation/UtilitySystem/UtilitySystem.html
@@ -3586,6 +3770,667 @@ references:
   isSpec: "True"
   fullName: UtilitySystem.Extension.TransformExtension.ResetTransformation
   nameWithType: TransformExtension.ResetTransformation
+- uid: UtilitySystem.Extension.VisualElementExtension
+  name: VisualElementExtension
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html
+  commentId: T:UtilitySystem.Extension.VisualElementExtension
+  fullName: UtilitySystem.Extension.VisualElementExtension
+  nameWithType: VisualElementExtension
+- uid: UtilitySystem.Extension.VisualElementExtension.BorderRadius(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,System.Single[])
+  name: BorderRadius(VisualElement, LengthUnit, Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_BorderRadius_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.BorderRadius(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,System.Single[])
+  name.vb: BorderRadius(VisualElement, LengthUnit, Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.BorderRadius(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.BorderRadius(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, System.Single())
+  nameWithType: VisualElementExtension.BorderRadius(VisualElement, LengthUnit, Single[])
+  nameWithType.vb: VisualElementExtension.BorderRadius(VisualElement, LengthUnit, Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.BorderRadius(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit[],System.Single[])
+  name: BorderRadius(VisualElement, LengthUnit[], Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_BorderRadius_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit___System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.BorderRadius(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit[],System.Single[])
+  name.vb: BorderRadius(VisualElement, LengthUnit(), Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.BorderRadius(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit[], System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.BorderRadius(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit(), System.Single())
+  nameWithType: VisualElementExtension.BorderRadius(VisualElement, LengthUnit[], Single[])
+  nameWithType.vb: VisualElementExtension.BorderRadius(VisualElement, LengthUnit(), Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.BorderRadius*
+  name: BorderRadius
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_BorderRadius_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.BorderRadius
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.BorderRadius
+  nameWithType: VisualElementExtension.BorderRadius
+- uid: UtilitySystem.Extension.VisualElementExtension.BorderStyleColor(UnityEngine.UIElements.VisualElement,UnityEngine.Color[])
+  name: BorderStyleColor(VisualElement, Color[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_BorderStyleColor_UnityEngine_UIElements_VisualElement_UnityEngine_Color___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.BorderStyleColor(UnityEngine.UIElements.VisualElement,UnityEngine.Color[])
+  name.vb: BorderStyleColor(VisualElement, Color())
+  fullName: UtilitySystem.Extension.VisualElementExtension.BorderStyleColor(UnityEngine.UIElements.VisualElement, UnityEngine.Color[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.BorderStyleColor(UnityEngine.UIElements.VisualElement, UnityEngine.Color())
+  nameWithType: VisualElementExtension.BorderStyleColor(VisualElement, Color[])
+  nameWithType.vb: VisualElementExtension.BorderStyleColor(VisualElement, Color())
+- uid: UtilitySystem.Extension.VisualElementExtension.BorderStyleColor*
+  name: BorderStyleColor
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_BorderStyleColor_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.BorderStyleColor
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.BorderStyleColor
+  nameWithType: VisualElementExtension.BorderStyleColor
+- uid: UtilitySystem.Extension.VisualElementExtension.BorderWidth(UnityEngine.UIElements.VisualElement,System.Single[])
+  name: BorderWidth(VisualElement, Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_BorderWidth_UnityEngine_UIElements_VisualElement_System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.BorderWidth(UnityEngine.UIElements.VisualElement,System.Single[])
+  name.vb: BorderWidth(VisualElement, Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.BorderWidth(UnityEngine.UIElements.VisualElement, System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.BorderWidth(UnityEngine.UIElements.VisualElement, System.Single())
+  nameWithType: VisualElementExtension.BorderWidth(VisualElement, Single[])
+  nameWithType.vb: VisualElementExtension.BorderWidth(VisualElement, Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.BorderWidth*
+  name: BorderWidth
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_BorderWidth_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.BorderWidth
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.BorderWidth
+  nameWithType: VisualElementExtension.BorderWidth
+- uid: UtilitySystem.Extension.VisualElementExtension.Child(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.VisualElement,System.Boolean)
+  name: Child(VisualElement, VisualElement, Boolean)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Child_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_VisualElement_System_Boolean_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.Child(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.VisualElement,System.Boolean)
+  fullName: UtilitySystem.Extension.VisualElementExtension.Child(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.VisualElement, System.Boolean)
+  nameWithType: VisualElementExtension.Child(VisualElement, VisualElement, Boolean)
+- uid: UtilitySystem.Extension.VisualElementExtension.Child*
+  name: Child
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Child_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.Child
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.Child
+  nameWithType: VisualElementExtension.Child
+- uid: UtilitySystem.Extension.VisualElementExtension.PickModeOFF(UnityEngine.UIElements.VisualElement)
+  name: PickModeOFF(VisualElement)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PickModeOFF_UnityEngine_UIElements_VisualElement_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.PickModeOFF(UnityEngine.UIElements.VisualElement)
+  fullName: UtilitySystem.Extension.VisualElementExtension.PickModeOFF(UnityEngine.UIElements.VisualElement)
+  nameWithType: VisualElementExtension.PickModeOFF(VisualElement)
+- uid: UtilitySystem.Extension.VisualElementExtension.PickModeOFF*
+  name: PickModeOFF
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PickModeOFF_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.PickModeOFF
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.PickModeOFF
+  nameWithType: VisualElementExtension.PickModeOFF
+- uid: UtilitySystem.Extension.VisualElementExtension.PickModeON(UnityEngine.UIElements.VisualElement)
+  name: PickModeON(VisualElement)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PickModeON_UnityEngine_UIElements_VisualElement_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.PickModeON(UnityEngine.UIElements.VisualElement)
+  fullName: UtilitySystem.Extension.VisualElementExtension.PickModeON(UnityEngine.UIElements.VisualElement)
+  nameWithType: VisualElementExtension.PickModeON(VisualElement)
+- uid: UtilitySystem.Extension.VisualElementExtension.PickModeON*
+  name: PickModeON
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PickModeON_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.PickModeON
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.PickModeON
+  nameWithType: VisualElementExtension.PickModeON
+- uid: UtilitySystem.Extension.VisualElementExtension.PositionBL(UnityEngine.UIElements.VisualElement,System.Single,System.Single)
+  name: PositionBL(VisualElement, Single, Single)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PositionBL_UnityEngine_UIElements_VisualElement_System_Single_System_Single_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.PositionBL(UnityEngine.UIElements.VisualElement,System.Single,System.Single)
+  fullName: UtilitySystem.Extension.VisualElementExtension.PositionBL(UnityEngine.UIElements.VisualElement, System.Single, System.Single)
+  nameWithType: VisualElementExtension.PositionBL(VisualElement, Single, Single)
+- uid: UtilitySystem.Extension.VisualElementExtension.PositionBL(UnityEngine.UIElements.VisualElement,UnityEngine.Vector2)
+  name: PositionBL(VisualElement, Vector2)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PositionBL_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.PositionBL(UnityEngine.UIElements.VisualElement,UnityEngine.Vector2)
+  fullName: UtilitySystem.Extension.VisualElementExtension.PositionBL(UnityEngine.UIElements.VisualElement, UnityEngine.Vector2)
+  nameWithType: VisualElementExtension.PositionBL(VisualElement, Vector2)
+- uid: UtilitySystem.Extension.VisualElementExtension.PositionBL*
+  name: PositionBL
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PositionBL_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.PositionBL
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.PositionBL
+  nameWithType: VisualElementExtension.PositionBL
+- uid: UtilitySystem.Extension.VisualElementExtension.PositionBR(UnityEngine.UIElements.VisualElement,System.Single,System.Single)
+  name: PositionBR(VisualElement, Single, Single)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PositionBR_UnityEngine_UIElements_VisualElement_System_Single_System_Single_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.PositionBR(UnityEngine.UIElements.VisualElement,System.Single,System.Single)
+  fullName: UtilitySystem.Extension.VisualElementExtension.PositionBR(UnityEngine.UIElements.VisualElement, System.Single, System.Single)
+  nameWithType: VisualElementExtension.PositionBR(VisualElement, Single, Single)
+- uid: UtilitySystem.Extension.VisualElementExtension.PositionBR(UnityEngine.UIElements.VisualElement,UnityEngine.Vector2)
+  name: PositionBR(VisualElement, Vector2)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PositionBR_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.PositionBR(UnityEngine.UIElements.VisualElement,UnityEngine.Vector2)
+  fullName: UtilitySystem.Extension.VisualElementExtension.PositionBR(UnityEngine.UIElements.VisualElement, UnityEngine.Vector2)
+  nameWithType: VisualElementExtension.PositionBR(VisualElement, Vector2)
+- uid: UtilitySystem.Extension.VisualElementExtension.PositionBR*
+  name: PositionBR
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PositionBR_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.PositionBR
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.PositionBR
+  nameWithType: VisualElementExtension.PositionBR
+- uid: UtilitySystem.Extension.VisualElementExtension.PositionTL(UnityEngine.UIElements.VisualElement,System.Single,System.Single)
+  name: PositionTL(VisualElement, Single, Single)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PositionTL_UnityEngine_UIElements_VisualElement_System_Single_System_Single_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.PositionTL(UnityEngine.UIElements.VisualElement,System.Single,System.Single)
+  fullName: UtilitySystem.Extension.VisualElementExtension.PositionTL(UnityEngine.UIElements.VisualElement, System.Single, System.Single)
+  nameWithType: VisualElementExtension.PositionTL(VisualElement, Single, Single)
+- uid: UtilitySystem.Extension.VisualElementExtension.PositionTL(UnityEngine.UIElements.VisualElement,UnityEngine.Vector2)
+  name: PositionTL(VisualElement, Vector2)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PositionTL_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.PositionTL(UnityEngine.UIElements.VisualElement,UnityEngine.Vector2)
+  fullName: UtilitySystem.Extension.VisualElementExtension.PositionTL(UnityEngine.UIElements.VisualElement, UnityEngine.Vector2)
+  nameWithType: VisualElementExtension.PositionTL(VisualElement, Vector2)
+- uid: UtilitySystem.Extension.VisualElementExtension.PositionTL*
+  name: PositionTL
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PositionTL_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.PositionTL
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.PositionTL
+  nameWithType: VisualElementExtension.PositionTL
+- uid: UtilitySystem.Extension.VisualElementExtension.PositionTR(UnityEngine.UIElements.VisualElement,System.Single,System.Single)
+  name: PositionTR(VisualElement, Single, Single)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PositionTR_UnityEngine_UIElements_VisualElement_System_Single_System_Single_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.PositionTR(UnityEngine.UIElements.VisualElement,System.Single,System.Single)
+  fullName: UtilitySystem.Extension.VisualElementExtension.PositionTR(UnityEngine.UIElements.VisualElement, System.Single, System.Single)
+  nameWithType: VisualElementExtension.PositionTR(VisualElement, Single, Single)
+- uid: UtilitySystem.Extension.VisualElementExtension.PositionTR(UnityEngine.UIElements.VisualElement,UnityEngine.Vector2)
+  name: PositionTR(VisualElement, Vector2)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PositionTR_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.PositionTR(UnityEngine.UIElements.VisualElement,UnityEngine.Vector2)
+  fullName: UtilitySystem.Extension.VisualElementExtension.PositionTR(UnityEngine.UIElements.VisualElement, UnityEngine.Vector2)
+  nameWithType: VisualElementExtension.PositionTR(VisualElement, Vector2)
+- uid: UtilitySystem.Extension.VisualElementExtension.PositionTR*
+  name: PositionTR
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_PositionTR_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.PositionTR
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.PositionTR
+  nameWithType: VisualElementExtension.PositionTR
+- uid: UtilitySystem.Extension.VisualElementExtension.ResetStyleFloat(UnityEngine.UIElements.StyleFloat)
+  name: ResetStyleFloat(StyleFloat)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_ResetStyleFloat_UnityEngine_UIElements_StyleFloat_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.ResetStyleFloat(UnityEngine.UIElements.StyleFloat)
+  fullName: UtilitySystem.Extension.VisualElementExtension.ResetStyleFloat(UnityEngine.UIElements.StyleFloat)
+  nameWithType: VisualElementExtension.ResetStyleFloat(StyleFloat)
+- uid: UtilitySystem.Extension.VisualElementExtension.ResetStyleFloat*
+  name: ResetStyleFloat
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_ResetStyleFloat_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.ResetStyleFloat
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.ResetStyleFloat
+  nameWithType: VisualElementExtension.ResetStyleFloat
+- uid: UtilitySystem.Extension.VisualElementExtension.ResetStyleLength(UnityEngine.UIElements.StyleLength)
+  name: ResetStyleLength(StyleLength)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_ResetStyleLength_UnityEngine_UIElements_StyleLength_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.ResetStyleLength(UnityEngine.UIElements.StyleLength)
+  fullName: UtilitySystem.Extension.VisualElementExtension.ResetStyleLength(UnityEngine.UIElements.StyleLength)
+  nameWithType: VisualElementExtension.ResetStyleLength(StyleLength)
+- uid: UtilitySystem.Extension.VisualElementExtension.ResetStyleLength*
+  name: ResetStyleLength
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_ResetStyleLength_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.ResetStyleLength
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.ResetStyleLength
+  nameWithType: VisualElementExtension.ResetStyleLength
+- uid: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,System.Single[])
+  name: SetBorderStyle(VisualElement, Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetBorderStyle_UnityEngine_UIElements_VisualElement_System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,System.Single[])
+  name.vb: SetBorderStyle(VisualElement, Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, System.Single())
+  nameWithType: VisualElementExtension.SetBorderStyle(VisualElement, Single[])
+  nameWithType.vb: VisualElementExtension.SetBorderStyle(VisualElement, Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,UnityEngine.Color,System.Single[])
+  name: SetBorderStyle(VisualElement, Color, Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetBorderStyle_UnityEngine_UIElements_VisualElement_UnityEngine_Color_System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,UnityEngine.Color,System.Single[])
+  name.vb: SetBorderStyle(VisualElement, Color, Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, UnityEngine.Color, System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, UnityEngine.Color, System.Single())
+  nameWithType: VisualElementExtension.SetBorderStyle(VisualElement, Color, Single[])
+  nameWithType.vb: VisualElementExtension.SetBorderStyle(VisualElement, Color, Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,UnityEngine.Color[],System.Single[])
+  name: SetBorderStyle(VisualElement, Color[], Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetBorderStyle_UnityEngine_UIElements_VisualElement_UnityEngine_Color___System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,UnityEngine.Color[],System.Single[])
+  name.vb: SetBorderStyle(VisualElement, Color(), Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, UnityEngine.Color[], System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, UnityEngine.Color(), System.Single())
+  nameWithType: VisualElementExtension.SetBorderStyle(VisualElement, Color[], Single[])
+  nameWithType.vb: VisualElementExtension.SetBorderStyle(VisualElement, Color(), Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,UnityEngine.Color,System.Single[])
+  name: SetBorderStyle(VisualElement, LengthUnit, Color, Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetBorderStyle_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_UnityEngine_Color_System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,UnityEngine.Color,System.Single[])
+  name.vb: SetBorderStyle(VisualElement, LengthUnit, Color, Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, UnityEngine.Color, System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, UnityEngine.Color, System.Single())
+  nameWithType: VisualElementExtension.SetBorderStyle(VisualElement, LengthUnit, Color, Single[])
+  nameWithType.vb: VisualElementExtension.SetBorderStyle(VisualElement, LengthUnit, Color, Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,UnityEngine.Color[],System.Single[])
+  name: SetBorderStyle(VisualElement, LengthUnit, Color[], Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetBorderStyle_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_UnityEngine_Color___System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,UnityEngine.Color[],System.Single[])
+  name.vb: SetBorderStyle(VisualElement, LengthUnit, Color(), Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, UnityEngine.Color[], System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, UnityEngine.Color(), System.Single())
+  nameWithType: VisualElementExtension.SetBorderStyle(VisualElement, LengthUnit, Color[], Single[])
+  nameWithType.vb: VisualElementExtension.SetBorderStyle(VisualElement, LengthUnit, Color(), Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit[],UnityEngine.Color,System.Single[])
+  name: SetBorderStyle(VisualElement, LengthUnit[], Color, Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetBorderStyle_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit___UnityEngine_Color_System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit[],UnityEngine.Color,System.Single[])
+  name.vb: SetBorderStyle(VisualElement, LengthUnit(), Color, Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit[], UnityEngine.Color, System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit(), UnityEngine.Color, System.Single())
+  nameWithType: VisualElementExtension.SetBorderStyle(VisualElement, LengthUnit[], Color, Single[])
+  nameWithType.vb: VisualElementExtension.SetBorderStyle(VisualElement, LengthUnit(), Color, Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit[],UnityEngine.Color[],System.Single[])
+  name: SetBorderStyle(VisualElement, LengthUnit[], Color[], Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetBorderStyle_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit___UnityEngine_Color___System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit[],UnityEngine.Color[],System.Single[])
+  name.vb: SetBorderStyle(VisualElement, LengthUnit(), Color(), Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit[], UnityEngine.Color[], System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit(), UnityEngine.Color(), System.Single())
+  nameWithType: VisualElementExtension.SetBorderStyle(VisualElement, LengthUnit[], Color[], Single[])
+  nameWithType.vb: VisualElementExtension.SetBorderStyle(VisualElement, LengthUnit(), Color(), Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle*
+  name: SetBorderStyle
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetBorderStyle_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.SetBorderStyle
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetBorderStyle
+  nameWithType: VisualElementExtension.SetBorderStyle
+- uid: UtilitySystem.Extension.VisualElementExtension.SetFont(UnityEngine.UIElements.VisualElement,UnityEngine.Font)
+  name: SetFont(VisualElement, Font)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetFont_UnityEngine_UIElements_VisualElement_UnityEngine_Font_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetFont(UnityEngine.UIElements.VisualElement,UnityEngine.Font)
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetFont(UnityEngine.UIElements.VisualElement, UnityEngine.Font)
+  nameWithType: VisualElementExtension.SetFont(VisualElement, Font)
+- uid: UtilitySystem.Extension.VisualElementExtension.SetFont*
+  name: SetFont
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetFont_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.SetFont
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetFont
+  nameWithType: VisualElementExtension.SetFont
+- uid: UtilitySystem.Extension.VisualElementExtension.SetMarginStyle(UnityEngine.UIElements.VisualElement,System.Single[])
+  name: SetMarginStyle(VisualElement, Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetMarginStyle_UnityEngine_UIElements_VisualElement_System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetMarginStyle(UnityEngine.UIElements.VisualElement,System.Single[])
+  name.vb: SetMarginStyle(VisualElement, Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetMarginStyle(UnityEngine.UIElements.VisualElement, System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetMarginStyle(UnityEngine.UIElements.VisualElement, System.Single())
+  nameWithType: VisualElementExtension.SetMarginStyle(VisualElement, Single[])
+  nameWithType.vb: VisualElementExtension.SetMarginStyle(VisualElement, Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetMarginStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,System.Single[])
+  name: SetMarginStyle(VisualElement, LengthUnit, Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetMarginStyle_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetMarginStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,System.Single[])
+  name.vb: SetMarginStyle(VisualElement, LengthUnit, Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetMarginStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetMarginStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, System.Single())
+  nameWithType: VisualElementExtension.SetMarginStyle(VisualElement, LengthUnit, Single[])
+  nameWithType.vb: VisualElementExtension.SetMarginStyle(VisualElement, LengthUnit, Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetMarginStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit[],System.Single[])
+  name: SetMarginStyle(VisualElement, LengthUnit[], Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetMarginStyle_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit___System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetMarginStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit[],System.Single[])
+  name.vb: SetMarginStyle(VisualElement, LengthUnit(), Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetMarginStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit[], System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetMarginStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit(), System.Single())
+  nameWithType: VisualElementExtension.SetMarginStyle(VisualElement, LengthUnit[], Single[])
+  nameWithType.vb: VisualElementExtension.SetMarginStyle(VisualElement, LengthUnit(), Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetMarginStyle*
+  name: SetMarginStyle
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetMarginStyle_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.SetMarginStyle
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetMarginStyle
+  nameWithType: VisualElementExtension.SetMarginStyle
+- uid: UtilitySystem.Extension.VisualElementExtension.SetPaddingStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,System.Single[])
+  name: SetPaddingStyle(VisualElement, LengthUnit, Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetPaddingStyle_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetPaddingStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,System.Single[])
+  name.vb: SetPaddingStyle(VisualElement, LengthUnit, Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetPaddingStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetPaddingStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, System.Single())
+  nameWithType: VisualElementExtension.SetPaddingStyle(VisualElement, LengthUnit, Single[])
+  nameWithType.vb: VisualElementExtension.SetPaddingStyle(VisualElement, LengthUnit, Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetPaddingStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit[],System.Single[])
+  name: SetPaddingStyle(VisualElement, LengthUnit[], Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetPaddingStyle_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit___System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetPaddingStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit[],System.Single[])
+  name.vb: SetPaddingStyle(VisualElement, LengthUnit(), Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetPaddingStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit[], System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetPaddingStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit(), System.Single())
+  nameWithType: VisualElementExtension.SetPaddingStyle(VisualElement, LengthUnit[], Single[])
+  nameWithType.vb: VisualElementExtension.SetPaddingStyle(VisualElement, LengthUnit(), Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetPaddingStyle*
+  name: SetPaddingStyle
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetPaddingStyle_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.SetPaddingStyle
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetPaddingStyle
+  nameWithType: VisualElementExtension.SetPaddingStyle
+- uid: UtilitySystem.Extension.VisualElementExtension.SetSizeStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,System.Single[])
+  name: SetSizeStyle(VisualElement, LengthUnit, Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetSizeStyle_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetSizeStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,System.Single[])
+  name.vb: SetSizeStyle(VisualElement, LengthUnit, Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetSizeStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetSizeStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, System.Single())
+  nameWithType: VisualElementExtension.SetSizeStyle(VisualElement, LengthUnit, Single[])
+  nameWithType.vb: VisualElementExtension.SetSizeStyle(VisualElement, LengthUnit, Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetSizeStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,UnityEngine.UIElements.LengthUnit,System.Single[])
+  name: SetSizeStyle(VisualElement, LengthUnit, LengthUnit, Single[])
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetSizeStyle_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_UnityEngine_UIElements_LengthUnit_System_Single___
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetSizeStyle(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.LengthUnit,UnityEngine.UIElements.LengthUnit,System.Single[])
+  name.vb: SetSizeStyle(VisualElement, LengthUnit, LengthUnit, Single())
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetSizeStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, UnityEngine.UIElements.LengthUnit, System.Single[])
+  fullName.vb: UtilitySystem.Extension.VisualElementExtension.SetSizeStyle(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.LengthUnit, UnityEngine.UIElements.LengthUnit, System.Single())
+  nameWithType: VisualElementExtension.SetSizeStyle(VisualElement, LengthUnit, LengthUnit, Single[])
+  nameWithType.vb: VisualElementExtension.SetSizeStyle(VisualElement, LengthUnit, LengthUnit, Single())
+- uid: UtilitySystem.Extension.VisualElementExtension.SetSizeStyle*
+  name: SetSizeStyle
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetSizeStyle_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.SetSizeStyle
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetSizeStyle
+  nameWithType: VisualElementExtension.SetSizeStyle
+- uid: UtilitySystem.Extension.VisualElementExtension.SetStyleColor(UnityEngine.UIElements.StyleColor,UnityEngine.Color)
+  name: SetStyleColor(StyleColor, Color)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetStyleColor_UnityEngine_UIElements_StyleColor_UnityEngine_Color_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetStyleColor(UnityEngine.UIElements.StyleColor,UnityEngine.Color)
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetStyleColor(UnityEngine.UIElements.StyleColor, UnityEngine.Color)
+  nameWithType: VisualElementExtension.SetStyleColor(StyleColor, Color)
+- uid: UtilitySystem.Extension.VisualElementExtension.SetStyleColor*
+  name: SetStyleColor
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetStyleColor_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.SetStyleColor
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetStyleColor
+  nameWithType: VisualElementExtension.SetStyleColor
+- uid: UtilitySystem.Extension.VisualElementExtension.SetTogglePick(UnityEngine.UIElements.VisualElement)
+  name: SetTogglePick(VisualElement)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetTogglePick_UnityEngine_UIElements_VisualElement_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.SetTogglePick(UnityEngine.UIElements.VisualElement)
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetTogglePick(UnityEngine.UIElements.VisualElement)
+  nameWithType: VisualElementExtension.SetTogglePick(VisualElement)
+- uid: UtilitySystem.Extension.VisualElementExtension.SetTogglePick*
+  name: SetTogglePick
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetTogglePick_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.SetTogglePick
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.SetTogglePick
+  nameWithType: VisualElementExtension.SetTogglePick
+- uid: UtilitySystem.Extension.VisualElementExtension.StyleSheet(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.StyleSheet,System.Boolean)
+  name: StyleSheet(VisualElement, StyleSheet, Boolean)
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_StyleSheet_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleSheet_System_Boolean_
+  commentId: M:UtilitySystem.Extension.VisualElementExtension.StyleSheet(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.StyleSheet,System.Boolean)
+  fullName: UtilitySystem.Extension.VisualElementExtension.StyleSheet(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheet, System.Boolean)
+  nameWithType: VisualElementExtension.StyleSheet(VisualElement, StyleSheet, Boolean)
+- uid: UtilitySystem.Extension.VisualElementExtension.StyleSheet*
+  name: StyleSheet
+  href: Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_StyleSheet_
+  commentId: Overload:UtilitySystem.Extension.VisualElementExtension.StyleSheet
+  isSpec: "True"
+  fullName: UtilitySystem.Extension.VisualElementExtension.StyleSheet
+  nameWithType: VisualElementExtension.StyleSheet
+- uid: UtilitySystem.Script
+  name: UtilitySystem.Script
+  href: Documentation/UtilitySystem/UtilitySystem.Script.html
+  commentId: N:UtilitySystem.Script
+  fullName: UtilitySystem.Script
+  nameWithType: UtilitySystem.Script
+- uid: UtilitySystem.Script.Assets
+  name: Assets
+  href: Documentation/UtilitySystem/UtilitySystem.Script.Assets.html
+  commentId: T:UtilitySystem.Script.Assets
+  fullName: UtilitySystem.Script.Assets
+  nameWithType: Assets
+- uid: UtilitySystem.Script.Assets.GetAllInstances*
+  name: GetAllInstances
+  href: Documentation/UtilitySystem/UtilitySystem.Script.Assets.html#UtilitySystem_Script_Assets_GetAllInstances_
+  commentId: Overload:UtilitySystem.Script.Assets.GetAllInstances
+  isSpec: "True"
+  fullName: UtilitySystem.Script.Assets.GetAllInstances
+  nameWithType: Assets.GetAllInstances
+- uid: UtilitySystem.Script.Assets.GetAllInstances``1
+  name: GetAllInstances<T>()
+  href: Documentation/UtilitySystem/UtilitySystem.Script.Assets.html#UtilitySystem_Script_Assets_GetAllInstances__1
+  commentId: M:UtilitySystem.Script.Assets.GetAllInstances``1
+  name.vb: GetAllInstances(Of T)()
+  fullName: UtilitySystem.Script.Assets.GetAllInstances<T>()
+  fullName.vb: UtilitySystem.Script.Assets.GetAllInstances(Of T)()
+  nameWithType: Assets.GetAllInstances<T>()
+  nameWithType.vb: Assets.GetAllInstances(Of T)()
+- uid: UtilitySystem.Script.RichText
+  name: RichText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html
+  commentId: T:UtilitySystem.Script.RichText
+  fullName: UtilitySystem.Script.RichText
+  nameWithType: RichText
+- uid: UtilitySystem.Script.RichText.BoldText(System.Object)
+  name: BoldText(Object)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BoldText_System_Object_
+  commentId: M:UtilitySystem.Script.RichText.BoldText(System.Object)
+  fullName: UtilitySystem.Script.RichText.BoldText(System.Object)
+  nameWithType: RichText.BoldText(Object)
+- uid: UtilitySystem.Script.RichText.BoldText*
+  name: BoldText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BoldText_
+  commentId: Overload:UtilitySystem.Script.RichText.BoldText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.BoldText
+  nameWithType: RichText.BoldText
+- uid: UtilitySystem.Script.RichText.BooleanText(System.Boolean)
+  name: BooleanText(Boolean)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BooleanText_System_Boolean_
+  commentId: M:UtilitySystem.Script.RichText.BooleanText(System.Boolean)
+  fullName: UtilitySystem.Script.RichText.BooleanText(System.Boolean)
+  nameWithType: RichText.BooleanText(Boolean)
+- uid: UtilitySystem.Script.RichText.BooleanText*
+  name: BooleanText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BooleanText_
+  commentId: Overload:UtilitySystem.Script.RichText.BooleanText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.BooleanText
+  nameWithType: RichText.BooleanText
+- uid: UtilitySystem.Script.RichText.ColoredText(System.Object,System.String)
+  name: ColoredText(Object, String)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ColoredText_System_Object_System_String_
+  commentId: M:UtilitySystem.Script.RichText.ColoredText(System.Object,System.String)
+  fullName: UtilitySystem.Script.RichText.ColoredText(System.Object, System.String)
+  nameWithType: RichText.ColoredText(Object, String)
+- uid: UtilitySystem.Script.RichText.ColoredText(System.Object,UnityEngine.Color)
+  name: ColoredText(Object, Color)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ColoredText_System_Object_UnityEngine_Color_
+  commentId: M:UtilitySystem.Script.RichText.ColoredText(System.Object,UnityEngine.Color)
+  fullName: UtilitySystem.Script.RichText.ColoredText(System.Object, UnityEngine.Color)
+  nameWithType: RichText.ColoredText(Object, Color)
+- uid: UtilitySystem.Script.RichText.ColoredText*
+  name: ColoredText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ColoredText_
+  commentId: Overload:UtilitySystem.Script.RichText.ColoredText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.ColoredText
+  nameWithType: RichText.ColoredText
+- uid: UtilitySystem.Script.RichText.ItalicText(System.Object)
+  name: ItalicText(Object)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ItalicText_System_Object_
+  commentId: M:UtilitySystem.Script.RichText.ItalicText(System.Object)
+  fullName: UtilitySystem.Script.RichText.ItalicText(System.Object)
+  nameWithType: RichText.ItalicText(Object)
+- uid: UtilitySystem.Script.RichText.ItalicText*
+  name: ItalicText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ItalicText_
+  commentId: Overload:UtilitySystem.Script.RichText.ItalicText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.ItalicText
+  nameWithType: RichText.ItalicText
+- uid: UtilitySystem.Script.RichText.LowerCaseText(System.Object)
+  name: LowerCaseText(Object)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_LowerCaseText_System_Object_
+  commentId: M:UtilitySystem.Script.RichText.LowerCaseText(System.Object)
+  fullName: UtilitySystem.Script.RichText.LowerCaseText(System.Object)
+  nameWithType: RichText.LowerCaseText(Object)
+- uid: UtilitySystem.Script.RichText.LowerCaseText*
+  name: LowerCaseText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_LowerCaseText_
+  commentId: Overload:UtilitySystem.Script.RichText.LowerCaseText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.LowerCaseText
+  nameWithType: RichText.LowerCaseText
+- uid: UtilitySystem.Script.RichText.NewLine
+  name: NewLine
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_NewLine
+  commentId: P:UtilitySystem.Script.RichText.NewLine
+  fullName: UtilitySystem.Script.RichText.NewLine
+  nameWithType: RichText.NewLine
+- uid: UtilitySystem.Script.RichText.NewLine*
+  name: NewLine
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_NewLine_
+  commentId: Overload:UtilitySystem.Script.RichText.NewLine
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.NewLine
+  nameWithType: RichText.NewLine
+- uid: UtilitySystem.Script.RichText.PositionText(System.Object,System.Single)
+  name: PositionText(Object, Single)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_PositionText_System_Object_System_Single_
+  commentId: M:UtilitySystem.Script.RichText.PositionText(System.Object,System.Single)
+  fullName: UtilitySystem.Script.RichText.PositionText(System.Object, System.Single)
+  nameWithType: RichText.PositionText(Object, Single)
+- uid: UtilitySystem.Script.RichText.PositionText*
+  name: PositionText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_PositionText_
+  commentId: Overload:UtilitySystem.Script.RichText.PositionText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.PositionText
+  nameWithType: RichText.PositionText
+- uid: UtilitySystem.Script.RichText.SetText(System.Collections.Generic.List{System.Func{System.String}})
+  name: SetText(List<Func<String>>)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SetText_System_Collections_Generic_List_System_Func_System_String___
+  commentId: M:UtilitySystem.Script.RichText.SetText(System.Collections.Generic.List{System.Func{System.String}})
+  name.vb: SetText(List(Of Func(Of String)))
+  fullName: UtilitySystem.Script.RichText.SetText(System.Collections.Generic.List<System.Func<System.String>>)
+  fullName.vb: UtilitySystem.Script.RichText.SetText(System.Collections.Generic.List(Of System.Func(Of System.String)))
+  nameWithType: RichText.SetText(List<Func<String>>)
+  nameWithType.vb: RichText.SetText(List(Of Func(Of String)))
+- uid: UtilitySystem.Script.RichText.SetText*
+  name: SetText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SetText_
+  commentId: Overload:UtilitySystem.Script.RichText.SetText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.SetText
+  nameWithType: RichText.SetText
+- uid: UtilitySystem.Script.RichText.SizeText(System.Object,System.Int32)
+  name: SizeText(Object, Int32)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SizeText_System_Object_System_Int32_
+  commentId: M:UtilitySystem.Script.RichText.SizeText(System.Object,System.Int32)
+  fullName: UtilitySystem.Script.RichText.SizeText(System.Object, System.Int32)
+  nameWithType: RichText.SizeText(Object, Int32)
+- uid: UtilitySystem.Script.RichText.SizeText*
+  name: SizeText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SizeText_
+  commentId: Overload:UtilitySystem.Script.RichText.SizeText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.SizeText
+  nameWithType: RichText.SizeText
+- uid: UtilitySystem.Script.RichText.StrikeText(System.Object)
+  name: StrikeText(Object)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_StrikeText_System_Object_
+  commentId: M:UtilitySystem.Script.RichText.StrikeText(System.Object)
+  fullName: UtilitySystem.Script.RichText.StrikeText(System.Object)
+  nameWithType: RichText.StrikeText(Object)
+- uid: UtilitySystem.Script.RichText.StrikeText*
+  name: StrikeText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_StrikeText_
+  commentId: Overload:UtilitySystem.Script.RichText.StrikeText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.StrikeText
+  nameWithType: RichText.StrikeText
+- uid: UtilitySystem.Script.RichText.SubText(System.Object)
+  name: SubText(Object)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SubText_System_Object_
+  commentId: M:UtilitySystem.Script.RichText.SubText(System.Object)
+  fullName: UtilitySystem.Script.RichText.SubText(System.Object)
+  nameWithType: RichText.SubText(Object)
+- uid: UtilitySystem.Script.RichText.SubText*
+  name: SubText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SubText_
+  commentId: Overload:UtilitySystem.Script.RichText.SubText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.SubText
+  nameWithType: RichText.SubText
+- uid: UtilitySystem.Script.RichText.SupText(System.Object)
+  name: SupText(Object)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SupText_System_Object_
+  commentId: M:UtilitySystem.Script.RichText.SupText(System.Object)
+  fullName: UtilitySystem.Script.RichText.SupText(System.Object)
+  nameWithType: RichText.SupText(Object)
+- uid: UtilitySystem.Script.RichText.SupText*
+  name: SupText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SupText_
+  commentId: Overload:UtilitySystem.Script.RichText.SupText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.SupText
+  nameWithType: RichText.SupText
+- uid: UtilitySystem.Script.RichText.Tab
+  name: Tab
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_Tab
+  commentId: P:UtilitySystem.Script.RichText.Tab
+  fullName: UtilitySystem.Script.RichText.Tab
+  nameWithType: RichText.Tab
+- uid: UtilitySystem.Script.RichText.Tab*
+  name: Tab
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_Tab_
+  commentId: Overload:UtilitySystem.Script.RichText.Tab
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.Tab
+  nameWithType: RichText.Tab
+- uid: UtilitySystem.Script.RichText.Text(System.Object)
+  name: Text(Object)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_Text_System_Object_
+  commentId: M:UtilitySystem.Script.RichText.Text(System.Object)
+  fullName: UtilitySystem.Script.RichText.Text(System.Object)
+  nameWithType: RichText.Text(Object)
+- uid: UtilitySystem.Script.RichText.Text*
+  name: Text
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_Text_
+  commentId: Overload:UtilitySystem.Script.RichText.Text
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.Text
+  nameWithType: RichText.Text
+- uid: UtilitySystem.Script.RichText.UnderLineText(System.Object)
+  name: UnderLineText(Object)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UnderLineText_System_Object_
+  commentId: M:UtilitySystem.Script.RichText.UnderLineText(System.Object)
+  fullName: UtilitySystem.Script.RichText.UnderLineText(System.Object)
+  nameWithType: RichText.UnderLineText(Object)
+- uid: UtilitySystem.Script.RichText.UnderLineText*
+  name: UnderLineText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UnderLineText_
+  commentId: Overload:UtilitySystem.Script.RichText.UnderLineText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.UnderLineText
+  nameWithType: RichText.UnderLineText
+- uid: UtilitySystem.Script.RichText.UpperCaseText(System.Object)
+  name: UpperCaseText(Object)
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UpperCaseText_System_Object_
+  commentId: M:UtilitySystem.Script.RichText.UpperCaseText(System.Object)
+  fullName: UtilitySystem.Script.RichText.UpperCaseText(System.Object)
+  nameWithType: RichText.UpperCaseText(Object)
+- uid: UtilitySystem.Script.RichText.UpperCaseText*
+  name: UpperCaseText
+  href: Documentation/UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UpperCaseText_
+  commentId: Overload:UtilitySystem.Script.RichText.UpperCaseText
+  isSpec: "True"
+  fullName: UtilitySystem.Script.RichText.UpperCaseText
+  nameWithType: RichText.UpperCaseText
 - uid: UtilitySystem.Tool
   name: UtilitySystem.Tool
   href: Documentation/UtilitySystem/UtilitySystem.Tool.html
@@ -3719,6 +4564,19 @@ references:
   isSpec: "True"
   fullName: UtilitySystem.Tool.Timer.Timer
   nameWithType: Timer.Timer
+- uid: UtilitySystem.Tool.Timer.CurrentTime
+  name: CurrentTime
+  href: Documentation/UtilitySystem/UtilitySystem.Tool.Timer.html#UtilitySystem_Tool_Timer_CurrentTime
+  commentId: P:UtilitySystem.Tool.Timer.CurrentTime
+  fullName: UtilitySystem.Tool.Timer.CurrentTime
+  nameWithType: Timer.CurrentTime
+- uid: UtilitySystem.Tool.Timer.CurrentTime*
+  name: CurrentTime
+  href: Documentation/UtilitySystem/UtilitySystem.Tool.Timer.html#UtilitySystem_Tool_Timer_CurrentTime_
+  commentId: Overload:UtilitySystem.Tool.Timer.CurrentTime
+  isSpec: "True"
+  fullName: UtilitySystem.Tool.Timer.CurrentTime
+  nameWithType: Timer.CurrentTime
 - uid: UtilitySystem.Tool.Timer.ResetTimer
   name: ResetTimer()
   href: Documentation/UtilitySystem/UtilitySystem.Tool.Timer.html#UtilitySystem_Tool_Timer_ResetTimer
@@ -3777,6 +4635,141 @@ references:
   commentId: N:UtilitySystem.UI
   fullName: UtilitySystem.UI
   nameWithType: UtilitySystem.UI
+- uid: UtilitySystem.UI.DialogBox
+  name: DialogBox
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html
+  commentId: T:UtilitySystem.UI.DialogBox
+  fullName: UtilitySystem.UI.DialogBox
+  nameWithType: DialogBox
+- uid: UtilitySystem.UI.DialogBox.#ctor
+  name: DialogBox()
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox__ctor
+  commentId: M:UtilitySystem.UI.DialogBox.#ctor
+  fullName: UtilitySystem.UI.DialogBox.DialogBox()
+  nameWithType: DialogBox.DialogBox()
+- uid: UtilitySystem.UI.DialogBox.#ctor(System.String,UnityEngine.Vector2,UnityEngine.UIElements.StyleSheet)
+  name: DialogBox(String, Vector2, StyleSheet)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox__ctor_System_String_UnityEngine_Vector2_UnityEngine_UIElements_StyleSheet_
+  commentId: M:UtilitySystem.UI.DialogBox.#ctor(System.String,UnityEngine.Vector2,UnityEngine.UIElements.StyleSheet)
+  fullName: UtilitySystem.UI.DialogBox.DialogBox(System.String, UnityEngine.Vector2, UnityEngine.UIElements.StyleSheet)
+  nameWithType: DialogBox.DialogBox(String, Vector2, StyleSheet)
+- uid: UtilitySystem.UI.DialogBox.#ctor*
+  name: DialogBox
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox__ctor_
+  commentId: Overload:UtilitySystem.UI.DialogBox.#ctor
+  isSpec: "True"
+  fullName: UtilitySystem.UI.DialogBox.DialogBox
+  nameWithType: DialogBox.DialogBox
+- uid: UtilitySystem.UI.DialogBox.Close
+  name: Close()
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_Close
+  commentId: M:UtilitySystem.UI.DialogBox.Close
+  fullName: UtilitySystem.UI.DialogBox.Close()
+  nameWithType: DialogBox.Close()
+- uid: UtilitySystem.UI.DialogBox.Close*
+  name: Close
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_Close_
+  commentId: Overload:UtilitySystem.UI.DialogBox.Close
+  isSpec: "True"
+  fullName: UtilitySystem.UI.DialogBox.Close
+  nameWithType: DialogBox.Close
+- uid: UtilitySystem.UI.DialogBox.Collapse
+  name: Collapse()
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_Collapse
+  commentId: M:UtilitySystem.UI.DialogBox.Collapse
+  fullName: UtilitySystem.UI.DialogBox.Collapse()
+  nameWithType: DialogBox.Collapse()
+- uid: UtilitySystem.UI.DialogBox.Collapse*
+  name: Collapse
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_Collapse_
+  commentId: Overload:UtilitySystem.UI.DialogBox.Collapse
+  isSpec: "True"
+  fullName: UtilitySystem.UI.DialogBox.Collapse
+  nameWithType: DialogBox.Collapse
+- uid: UtilitySystem.UI.DialogBox.Content(UnityEngine.UIElements.VisualElement,System.Boolean)
+  name: Content(VisualElement, Boolean)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_Content_UnityEngine_UIElements_VisualElement_System_Boolean_
+  commentId: M:UtilitySystem.UI.DialogBox.Content(UnityEngine.UIElements.VisualElement,System.Boolean)
+  fullName: UtilitySystem.UI.DialogBox.Content(UnityEngine.UIElements.VisualElement, System.Boolean)
+  nameWithType: DialogBox.Content(VisualElement, Boolean)
+- uid: UtilitySystem.UI.DialogBox.Content*
+  name: Content
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_Content_
+  commentId: Overload:UtilitySystem.UI.DialogBox.Content
+  isSpec: "True"
+  fullName: UtilitySystem.UI.DialogBox.Content
+  nameWithType: DialogBox.Content
+- uid: UtilitySystem.UI.DialogBox.Footer(UnityEngine.UIElements.VisualElement,System.Boolean)
+  name: Footer(VisualElement, Boolean)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_Footer_UnityEngine_UIElements_VisualElement_System_Boolean_
+  commentId: M:UtilitySystem.UI.DialogBox.Footer(UnityEngine.UIElements.VisualElement,System.Boolean)
+  fullName: UtilitySystem.UI.DialogBox.Footer(UnityEngine.UIElements.VisualElement, System.Boolean)
+  nameWithType: DialogBox.Footer(VisualElement, Boolean)
+- uid: UtilitySystem.UI.DialogBox.Footer*
+  name: Footer
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_Footer_
+  commentId: Overload:UtilitySystem.UI.DialogBox.Footer
+  isSpec: "True"
+  fullName: UtilitySystem.UI.DialogBox.Footer
+  nameWithType: DialogBox.Footer
+- uid: UtilitySystem.UI.DialogBox.Maximize
+  name: Maximize()
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_Maximize
+  commentId: M:UtilitySystem.UI.DialogBox.Maximize
+  fullName: UtilitySystem.UI.DialogBox.Maximize()
+  nameWithType: DialogBox.Maximize()
+- uid: UtilitySystem.UI.DialogBox.Maximize*
+  name: Maximize
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_Maximize_
+  commentId: Overload:UtilitySystem.UI.DialogBox.Maximize
+  isSpec: "True"
+  fullName: UtilitySystem.UI.DialogBox.Maximize
+  nameWithType: DialogBox.Maximize
+- uid: UtilitySystem.UI.DialogBox.Title(UnityEngine.UIElements.VisualElement,System.Boolean)
+  name: Title(VisualElement, Boolean)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_Title_UnityEngine_UIElements_VisualElement_System_Boolean_
+  commentId: M:UtilitySystem.UI.DialogBox.Title(UnityEngine.UIElements.VisualElement,System.Boolean)
+  fullName: UtilitySystem.UI.DialogBox.Title(UnityEngine.UIElements.VisualElement, System.Boolean)
+  nameWithType: DialogBox.Title(VisualElement, Boolean)
+- uid: UtilitySystem.UI.DialogBox.Title*
+  name: Title
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_Title_
+  commentId: Overload:UtilitySystem.UI.DialogBox.Title
+  isSpec: "True"
+  fullName: UtilitySystem.UI.DialogBox.Title
+  nameWithType: DialogBox.Title
+- uid: UtilitySystem.UI.DialogBox.UpdatePosition(UnityEngine.Vector2)
+  name: UpdatePosition(Vector2)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_UpdatePosition_UnityEngine_Vector2_
+  commentId: M:UtilitySystem.UI.DialogBox.UpdatePosition(UnityEngine.Vector2)
+  fullName: UtilitySystem.UI.DialogBox.UpdatePosition(UnityEngine.Vector2)
+  nameWithType: DialogBox.UpdatePosition(Vector2)
+- uid: UtilitySystem.UI.DialogBox.UpdatePosition*
+  name: UpdatePosition
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_UpdatePosition_
+  commentId: Overload:UtilitySystem.UI.DialogBox.UpdatePosition
+  isSpec: "True"
+  fullName: UtilitySystem.UI.DialogBox.UpdatePosition
+  nameWithType: DialogBox.UpdatePosition
+- uid: UtilitySystem.UI.DialogBox.UxmlFactory
+  name: DialogBox.UxmlFactory
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.UxmlFactory.html
+  commentId: T:UtilitySystem.UI.DialogBox.UxmlFactory
+  fullName: UtilitySystem.UI.DialogBox.UxmlFactory
+  nameWithType: DialogBox.UxmlFactory
+- uid: UtilitySystem.UI.DialogBox.WindowDragInit
+  name: WindowDragInit()
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_WindowDragInit
+  commentId: M:UtilitySystem.UI.DialogBox.WindowDragInit
+  fullName: UtilitySystem.UI.DialogBox.WindowDragInit()
+  nameWithType: DialogBox.WindowDragInit()
+- uid: UtilitySystem.UI.DialogBox.WindowDragInit*
+  name: WindowDragInit
+  href: Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html#UtilitySystem_UI_DialogBox_WindowDragInit_
+  commentId: Overload:UtilitySystem.UI.DialogBox.WindowDragInit
+  isSpec: "True"
+  fullName: UtilitySystem.UI.DialogBox.WindowDragInit
+  nameWithType: DialogBox.WindowDragInit
 - uid: UtilitySystem.UI.Icon
   name: Icon
   href: Documentation/UtilitySystem/UtilitySystem.UI.Icon.html
@@ -3789,12 +4782,12 @@ references:
   commentId: M:UtilitySystem.UI.Icon.#ctor
   fullName: UtilitySystem.UI.Icon.Icon()
   nameWithType: Icon.Icon()
-- uid: UtilitySystem.UI.Icon.#ctor(InventorySystem.Data.InventoryItem)
-  name: Icon(InventoryItem)
-  href: Documentation/UtilitySystem/UtilitySystem.UI.Icon.html#UtilitySystem_UI_Icon__ctor_InventorySystem_Data_InventoryItem_
-  commentId: M:UtilitySystem.UI.Icon.#ctor(InventorySystem.Data.InventoryItem)
-  fullName: UtilitySystem.UI.Icon.Icon(InventorySystem.Data.InventoryItem)
-  nameWithType: Icon.Icon(InventoryItem)
+- uid: UtilitySystem.UI.Icon.#ctor(UnityEngine.Sprite,System.Int32,System.Boolean,UnityEngine.UIElements.StyleSheet)
+  name: Icon(Sprite, Int32, Boolean, StyleSheet)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.Icon.html#UtilitySystem_UI_Icon__ctor_UnityEngine_Sprite_System_Int32_System_Boolean_UnityEngine_UIElements_StyleSheet_
+  commentId: M:UtilitySystem.UI.Icon.#ctor(UnityEngine.Sprite,System.Int32,System.Boolean,UnityEngine.UIElements.StyleSheet)
+  fullName: UtilitySystem.UI.Icon.Icon(UnityEngine.Sprite, System.Int32, System.Boolean, UnityEngine.UIElements.StyleSheet)
+  nameWithType: Icon.Icon(Sprite, Int32, Boolean, StyleSheet)
 - uid: UtilitySystem.UI.Icon.#ctor*
   name: Icon
   href: Documentation/UtilitySystem/UtilitySystem.UI.Icon.html#UtilitySystem_UI_Icon__ctor_
@@ -3859,6 +4852,12 @@ references:
   commentId: M:UtilitySystem.UI.Slot.#ctor
   fullName: UtilitySystem.UI.Slot.Slot()
   nameWithType: Slot.Slot()
+- uid: UtilitySystem.UI.Slot.#ctor(System.Int32,UtilitySystem.UI.Icon,UnityEngine.UIElements.StyleSheet)
+  name: Slot(Int32, Icon, StyleSheet)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.Slot.html#UtilitySystem_UI_Slot__ctor_System_Int32_UtilitySystem_UI_Icon_UnityEngine_UIElements_StyleSheet_
+  commentId: M:UtilitySystem.UI.Slot.#ctor(System.Int32,UtilitySystem.UI.Icon,UnityEngine.UIElements.StyleSheet)
+  fullName: UtilitySystem.UI.Slot.Slot(System.Int32, UtilitySystem.UI.Icon, UnityEngine.UIElements.StyleSheet)
+  nameWithType: Slot.Slot(Int32, Icon, StyleSheet)
 - uid: UtilitySystem.UI.Slot.#ctor*
   name: Slot
   href: Documentation/UtilitySystem/UtilitySystem.UI.Slot.html#UtilitySystem_UI_Slot__ctor_
@@ -3911,12 +4910,12 @@ references:
   commentId: F:UtilitySystem.UI.Slot.key
   fullName: UtilitySystem.UI.Slot.key
   nameWithType: Slot.key
-- uid: UtilitySystem.UI.Slot.SetIcon(InventorySystem.Data.InventoryItem)
-  name: SetIcon(InventoryItem)
-  href: Documentation/UtilitySystem/UtilitySystem.UI.Slot.html#UtilitySystem_UI_Slot_SetIcon_InventorySystem_Data_InventoryItem_
-  commentId: M:UtilitySystem.UI.Slot.SetIcon(InventorySystem.Data.InventoryItem)
-  fullName: UtilitySystem.UI.Slot.SetIcon(InventorySystem.Data.InventoryItem)
-  nameWithType: Slot.SetIcon(InventoryItem)
+- uid: UtilitySystem.UI.Slot.SetIcon(UnityEngine.Sprite,System.Int32,System.Boolean)
+  name: SetIcon(Sprite, Int32, Boolean)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.Slot.html#UtilitySystem_UI_Slot_SetIcon_UnityEngine_Sprite_System_Int32_System_Boolean_
+  commentId: M:UtilitySystem.UI.Slot.SetIcon(UnityEngine.Sprite,System.Int32,System.Boolean)
+  fullName: UtilitySystem.UI.Slot.SetIcon(UnityEngine.Sprite, System.Int32, System.Boolean)
+  nameWithType: Slot.SetIcon(Sprite, Int32, Boolean)
 - uid: UtilitySystem.UI.Slot.SetIcon(UtilitySystem.UI.Icon)
   name: SetIcon(Icon)
   href: Documentation/UtilitySystem/UtilitySystem.UI.Slot.html#UtilitySystem_UI_Slot_SetIcon_UtilitySystem_UI_Icon_
@@ -3977,12 +4976,12 @@ references:
   commentId: M:UtilitySystem.UI.SpriteElement.#ctor
   fullName: UtilitySystem.UI.SpriteElement.SpriteElement()
   nameWithType: SpriteElement.SpriteElement()
-- uid: UtilitySystem.UI.SpriteElement.#ctor(UnityEngine.Sprite)
-  name: SpriteElement(Sprite)
-  href: Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.html#UtilitySystem_UI_SpriteElement__ctor_UnityEngine_Sprite_
-  commentId: M:UtilitySystem.UI.SpriteElement.#ctor(UnityEngine.Sprite)
-  fullName: UtilitySystem.UI.SpriteElement.SpriteElement(UnityEngine.Sprite)
-  nameWithType: SpriteElement.SpriteElement(Sprite)
+- uid: UtilitySystem.UI.SpriteElement.#ctor(UnityEngine.Sprite,UnityEngine.UIElements.StyleSheet)
+  name: SpriteElement(Sprite, StyleSheet)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.html#UtilitySystem_UI_SpriteElement__ctor_UnityEngine_Sprite_UnityEngine_UIElements_StyleSheet_
+  commentId: M:UtilitySystem.UI.SpriteElement.#ctor(UnityEngine.Sprite,UnityEngine.UIElements.StyleSheet)
+  fullName: UtilitySystem.UI.SpriteElement.SpriteElement(UnityEngine.Sprite, UnityEngine.UIElements.StyleSheet)
+  nameWithType: SpriteElement.SpriteElement(Sprite, StyleSheet)
 - uid: UtilitySystem.UI.SpriteElement.#ctor*
   name: SpriteElement
   href: Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.html#UtilitySystem_UI_SpriteElement__ctor_
@@ -4022,3 +5021,156 @@ references:
   commentId: T:UtilitySystem.UI.SpriteElement.UxmlFactory
   fullName: UtilitySystem.UI.SpriteElement.UxmlFactory
   nameWithType: SpriteElement.UxmlFactory
+- uid: UtilitySystem.UI.ToolTip
+  name: ToolTip
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html
+  commentId: T:UtilitySystem.UI.ToolTip
+  fullName: UtilitySystem.UI.ToolTip
+  nameWithType: ToolTip
+- uid: UtilitySystem.UI.ToolTip.#ctor
+  name: ToolTip()
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip__ctor
+  commentId: M:UtilitySystem.UI.ToolTip.#ctor
+  fullName: UtilitySystem.UI.ToolTip.ToolTip()
+  nameWithType: ToolTip.ToolTip()
+- uid: UtilitySystem.UI.ToolTip.#ctor(UnityEngine.Font,System.Int32,UnityEngine.UIElements.StyleSheet)
+  name: ToolTip(Font, Int32, StyleSheet)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip__ctor_UnityEngine_Font_System_Int32_UnityEngine_UIElements_StyleSheet_
+  commentId: M:UtilitySystem.UI.ToolTip.#ctor(UnityEngine.Font,System.Int32,UnityEngine.UIElements.StyleSheet)
+  fullName: UtilitySystem.UI.ToolTip.ToolTip(UnityEngine.Font, System.Int32, UnityEngine.UIElements.StyleSheet)
+  nameWithType: ToolTip.ToolTip(Font, Int32, StyleSheet)
+- uid: UtilitySystem.UI.ToolTip.#ctor*
+  name: ToolTip
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip__ctor_
+  commentId: Overload:UtilitySystem.UI.ToolTip.#ctor
+  isSpec: "True"
+  fullName: UtilitySystem.UI.ToolTip.ToolTip
+  nameWithType: ToolTip.ToolTip
+- uid: UtilitySystem.UI.ToolTip.AddText(System.Collections.Generic.List{System.Func{System.String}})
+  name: AddText(List<Func<String>>)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_AddText_System_Collections_Generic_List_System_Func_System_String___
+  commentId: M:UtilitySystem.UI.ToolTip.AddText(System.Collections.Generic.List{System.Func{System.String}})
+  name.vb: AddText(List(Of Func(Of String)))
+  fullName: UtilitySystem.UI.ToolTip.AddText(System.Collections.Generic.List<System.Func<System.String>>)
+  fullName.vb: UtilitySystem.UI.ToolTip.AddText(System.Collections.Generic.List(Of System.Func(Of System.String)))
+  nameWithType: ToolTip.AddText(List<Func<String>>)
+  nameWithType.vb: ToolTip.AddText(List(Of Func(Of String)))
+- uid: UtilitySystem.UI.ToolTip.AddText(System.Func{System.String})
+  name: AddText(Func<String>)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_AddText_System_Func_System_String__
+  commentId: M:UtilitySystem.UI.ToolTip.AddText(System.Func{System.String})
+  name.vb: AddText(Func(Of String))
+  fullName: UtilitySystem.UI.ToolTip.AddText(System.Func<System.String>)
+  fullName.vb: UtilitySystem.UI.ToolTip.AddText(System.Func(Of System.String))
+  nameWithType: ToolTip.AddText(Func<String>)
+  nameWithType.vb: ToolTip.AddText(Func(Of String))
+- uid: UtilitySystem.UI.ToolTip.AddText(System.String)
+  name: AddText(String)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_AddText_System_String_
+  commentId: M:UtilitySystem.UI.ToolTip.AddText(System.String)
+  fullName: UtilitySystem.UI.ToolTip.AddText(System.String)
+  nameWithType: ToolTip.AddText(String)
+- uid: UtilitySystem.UI.ToolTip.AddText*
+  name: AddText
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_AddText_
+  commentId: Overload:UtilitySystem.UI.ToolTip.AddText
+  isSpec: "True"
+  fullName: UtilitySystem.UI.ToolTip.AddText
+  nameWithType: ToolTip.AddText
+- uid: UtilitySystem.UI.ToolTip.HideToolTip
+  name: HideToolTip()
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_HideToolTip
+  commentId: M:UtilitySystem.UI.ToolTip.HideToolTip
+  fullName: UtilitySystem.UI.ToolTip.HideToolTip()
+  nameWithType: ToolTip.HideToolTip()
+- uid: UtilitySystem.UI.ToolTip.HideToolTip*
+  name: HideToolTip
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_HideToolTip_
+  commentId: Overload:UtilitySystem.UI.ToolTip.HideToolTip
+  isSpec: "True"
+  fullName: UtilitySystem.UI.ToolTip.HideToolTip
+  nameWithType: ToolTip.HideToolTip
+- uid: UtilitySystem.UI.ToolTip.RemoveText
+  name: RemoveText()
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_RemoveText
+  commentId: M:UtilitySystem.UI.ToolTip.RemoveText
+  fullName: UtilitySystem.UI.ToolTip.RemoveText()
+  nameWithType: ToolTip.RemoveText()
+- uid: UtilitySystem.UI.ToolTip.RemoveText*
+  name: RemoveText
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_RemoveText_
+  commentId: Overload:UtilitySystem.UI.ToolTip.RemoveText
+  isSpec: "True"
+  fullName: UtilitySystem.UI.ToolTip.RemoveText
+  nameWithType: ToolTip.RemoveText
+- uid: UtilitySystem.UI.ToolTip.ShowToolTip
+  name: ShowToolTip()
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_ShowToolTip
+  commentId: M:UtilitySystem.UI.ToolTip.ShowToolTip
+  fullName: UtilitySystem.UI.ToolTip.ShowToolTip()
+  nameWithType: ToolTip.ShowToolTip()
+- uid: UtilitySystem.UI.ToolTip.ShowToolTip*
+  name: ShowToolTip
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_ShowToolTip_
+  commentId: Overload:UtilitySystem.UI.ToolTip.ShowToolTip
+  isSpec: "True"
+  fullName: UtilitySystem.UI.ToolTip.ShowToolTip
+  nameWithType: ToolTip.ShowToolTip
+- uid: UtilitySystem.UI.ToolTip.Style
+  name: Style()
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_Style
+  commentId: M:UtilitySystem.UI.ToolTip.Style
+  fullName: UtilitySystem.UI.ToolTip.Style()
+  nameWithType: ToolTip.Style()
+- uid: UtilitySystem.UI.ToolTip.Style*
+  name: Style
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_Style_
+  commentId: Overload:UtilitySystem.UI.ToolTip.Style
+  isSpec: "True"
+  fullName: UtilitySystem.UI.ToolTip.Style
+  nameWithType: ToolTip.Style
+- uid: UtilitySystem.UI.ToolTip.TextSize(System.Int32)
+  name: TextSize(Int32)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_TextSize_System_Int32_
+  commentId: M:UtilitySystem.UI.ToolTip.TextSize(System.Int32)
+  fullName: UtilitySystem.UI.ToolTip.TextSize(System.Int32)
+  nameWithType: ToolTip.TextSize(Int32)
+- uid: UtilitySystem.UI.ToolTip.TextSize*
+  name: TextSize
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_TextSize_
+  commentId: Overload:UtilitySystem.UI.ToolTip.TextSize
+  isSpec: "True"
+  fullName: UtilitySystem.UI.ToolTip.TextSize
+  nameWithType: ToolTip.TextSize
+- uid: UtilitySystem.UI.ToolTip.UpdatePosition(UnityEngine.Vector2)
+  name: UpdatePosition(Vector2)
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_UpdatePosition_UnityEngine_Vector2_
+  commentId: M:UtilitySystem.UI.ToolTip.UpdatePosition(UnityEngine.Vector2)
+  fullName: UtilitySystem.UI.ToolTip.UpdatePosition(UnityEngine.Vector2)
+  nameWithType: ToolTip.UpdatePosition(Vector2)
+- uid: UtilitySystem.UI.ToolTip.UpdatePosition*
+  name: UpdatePosition
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_UpdatePosition_
+  commentId: Overload:UtilitySystem.UI.ToolTip.UpdatePosition
+  isSpec: "True"
+  fullName: UtilitySystem.UI.ToolTip.UpdatePosition
+  nameWithType: ToolTip.UpdatePosition
+- uid: UtilitySystem.UI.ToolTip.UpdateText
+  name: UpdateText()
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_UpdateText
+  commentId: M:UtilitySystem.UI.ToolTip.UpdateText
+  fullName: UtilitySystem.UI.ToolTip.UpdateText()
+  nameWithType: ToolTip.UpdateText()
+- uid: UtilitySystem.UI.ToolTip.UpdateText*
+  name: UpdateText
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html#UtilitySystem_UI_ToolTip_UpdateText_
+  commentId: Overload:UtilitySystem.UI.ToolTip.UpdateText
+  isSpec: "True"
+  fullName: UtilitySystem.UI.ToolTip.UpdateText
+  nameWithType: ToolTip.UpdateText
+- uid: UtilitySystem.UI.ToolTip.UxmlFactory
+  name: ToolTip.UxmlFactory
+  href: Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.UxmlFactory.html
+  commentId: T:UtilitySystem.UI.ToolTip.UxmlFactory
+  fullName: UtilitySystem.UI.ToolTip.UxmlFactory
+  nameWithType: ToolTip.UxmlFactory

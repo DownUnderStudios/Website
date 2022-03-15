@@ -548,7 +548,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AddItem(Icon icon, int key, InventoryType type, InventoryItem item)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddItem(Icon icon, int key, InventoryType type, InventoryItem item)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -583,21 +583,6 @@
         <td><span class="parametername">item</span></td>
         <td><p>the Item that will be picked out of the inventory. </p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
@@ -648,10 +633,19 @@
   </table>
   
   
+  <a id="InventorySystem_Manager_MouseManager_ClearDialogBox_" data-uid="InventorySystem.Manager.MouseManager.ClearDialogBox*"></a>
+  <h4 id="InventorySystem_Manager_MouseManager_ClearDialogBox" data-uid="InventorySystem.Manager.MouseManager.ClearDialogBox">ClearDialogBox()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDialogBox()</code></pre>
+  </div>
+  
+  
   <a id="InventorySystem_Manager_MouseManager_CloseMouse_" data-uid="InventorySystem.Manager.MouseManager.CloseMouse*"></a>
   <h4 id="InventorySystem_Manager_MouseManager_CloseMouse" data-uid="InventorySystem.Manager.MouseManager.CloseMouse">CloseMouse()</h4>
   <div class="markdown level1 summary"><p>This Method will return the Item to it&apos;s Inventory.
-DetailScreen will have it&apos;s display turned off.
 and RemoveItem Method.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -709,28 +703,13 @@ and RemoveItem Method.</p>
   
   <a id="InventorySystem_Manager_MouseManager_UpdateCount_" data-uid="InventorySystem.Manager.MouseManager.UpdateCount*"></a>
   <h4 id="InventorySystem_Manager_MouseManager_UpdateCount" data-uid="InventorySystem.Manager.MouseManager.UpdateCount">UpdateCount()</h4>
-  <div class="markdown level1 summary"><p>This Method will update the Icon attached to the mouse.</p>
+  <div class="markdown level1 summary"><p>This Method will update the Icon attached to the mouse or remove the item from the mouse if the amount is 0.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool UpdateCount()</code></pre>
+    <pre><code class="lang-csharp hljs">public void UpdateCount()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="events">Events
   </h3>
   
@@ -783,6 +762,46 @@ and RemoveItem Method.</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UpperCaseText_System_Object_">RichText.UpperCaseText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_LowerCaseText_System_Object_">RichText.LowerCaseText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BoldText_System_Object_">RichText.BoldText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ItalicText_System_Object_">RichText.ItalicText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_Text_System_Object_">RichText.Text(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UnderLineText_System_Object_">RichText.UnderLineText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_StrikeText_System_Object_">RichText.StrikeText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SupText_System_Object_">RichText.SupText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SubText_System_Object_">RichText.SubText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_PositionText_System_Object_System_Single_">RichText.PositionText(Object, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SizeText_System_Object_System_Int32_">RichText.SizeText(Object, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ColoredText_System_Object_System_String_">RichText.ColoredText(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ColoredText_System_Object_UnityEngine_Color_">RichText.ColoredText(Object, Color)</a>
+  </div>
 </article>
           </div>
           
