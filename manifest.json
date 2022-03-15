@@ -927,7 +927,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.TransformExtension.html",
-          "hash": "c7wBDCI+e4/NfpXfhyHsWhhF/M1owSENheknVv6xYaU="
+          "hash": "Gh/+gh8NCaj8KCG8RXCqnNH/YB6M8f3rSRyQeMKQa80="
         }
       },
       "is_incremental": false,
@@ -939,7 +939,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html",
-          "hash": "IRTi44ROmGVbXZusUltyFXgC1/H/sZaFnBXZcB06F54="
+          "hash": "HGjLR+Lk7gIp3wM/68dlchNH5dZWLnlmnFNY4j3Drl8="
         }
       },
       "is_incremental": false,
@@ -975,7 +975,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.Script.RichText.html",
-          "hash": "rAJs0KtLiEseWsdis7eoGyJICJuKggo3MXhDiWSRn68="
+          "hash": "U2+cF4mSzs5OY+w2pMO4YZgFQUz+CPMDUgifn/A27JE="
         }
       },
       "is_incremental": false,
@@ -999,7 +999,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.Tool.CustomLogger.html",
-          "hash": "pgb82xA2UylaWHnlNWzEEJwSQsruDyG3F4OyKh0qFTI="
+          "hash": "wNdsTCLdHgFc+HahtMzEOpP6pLYxJ80g6Th3CTLusvQ="
         }
       },
       "is_incremental": false,
@@ -1035,7 +1035,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.UxmlFactory.html",
-          "hash": "FPXKazqKpUdM6ZGUlWimw6TmFYuRJdx5bNoN2pIcplQ="
+          "hash": "EeAcAa2ZSUkbNoFHXdAS8sYJJeWQ/gNka8eKK/9ZDm4="
         }
       },
       "is_incremental": false,
@@ -1047,7 +1047,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.DialogBox.html",
-          "hash": "KrAOeG0NSjTB9ik0wpay05MAk7s60EMehTEuqCnDf/w="
+          "hash": "v2n3S5qJ6xTHMP/5mlgHL5O+RIk0KJ37bqwQYxUc4e0="
         }
       },
       "is_incremental": false,
@@ -1059,7 +1059,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Icon.UxmlFactory.html",
-          "hash": "W4F/WMG9/QdUsTYeFMu60TILo2U2HVlkaLILTMz5gzY="
+          "hash": "1hDKouBGeyhSiekvRII+zdCsx3Ms856OJQRTHwN0i7I="
         }
       },
       "is_incremental": false,
@@ -1071,7 +1071,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Icon.html",
-          "hash": "Q1R863N9aLPQbXVRg0pmx86KtZ+HtW2qwe4rXt2abkU="
+          "hash": "zuRRy0jgAOAW1RAtGpqcLBi/msNcDQxKibOH8rOAGyg="
         }
       },
       "is_incremental": false,
@@ -1083,7 +1083,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Slot.UxmlFactory.html",
-          "hash": "tb6fQOMOLj1aN8HtnSHlRzymkuKPKXqKiA0I4Sab/oo="
+          "hash": "K2ZhFg+j7Y/gqmhyvUG+LMCZtf7LaBSJ3xeenDuLUpA="
         }
       },
       "is_incremental": false,
@@ -1095,7 +1095,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.Slot.html",
-          "hash": "kKaNPEtTBa+S76S5vm3P4chszq7D/54Uc3PU5YR7NQk="
+          "hash": "KN6w7uo3cM6+KMk55pJoDXDnrIwSpAOV6dn/+DrX0Fo="
         }
       },
       "is_incremental": false,
@@ -1107,7 +1107,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.UxmlFactory.html",
-          "hash": "c6Z5avhf7r5V/moJCHPnQpUrMfbD2JKEXUjJPyIC8xY="
+          "hash": "GtMNo6Agrj+L7G+02idfHH+fgSwSpDd0vfhnlpOSRKs="
         }
       },
       "is_incremental": false,
@@ -1119,7 +1119,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.SpriteElement.html",
-          "hash": "aOVomZTt1OTWcsLaZc+rO1WvHJFNFaGRjT7yMnl1ErU="
+          "hash": "Jxy016ptHhjwfVnvqVzwDzuDnjh5S2Ze5WoVrdjfA2c="
         }
       },
       "is_incremental": false,
@@ -1131,7 +1131,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.UxmlFactory.html",
-          "hash": "LccLeUA7SiAqyrMPmJoXoWL8ltTckaIJb+tbj8G+/NQ="
+          "hash": "RP5ac+D7aAWsc/fiiAj16weeH3pKGgvsoyPfpMzeyik="
         }
       },
       "is_incremental": false,
@@ -1143,7 +1143,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/UtilitySystem/UtilitySystem.UI.ToolTip.html",
-          "hash": "phJZ0z68uaHwObSk7vS26cslnhXnLfaFlFKllonX0To="
+          "hash": "rLl2uTOupP39f3Fx5Qp1KnNqUUpGzaaDWbWbrijeN2o="
         }
       },
       "is_incremental": false,
@@ -1873,25 +1873,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 20,
-          "skipped_file_count": 0
+          "skipped_file_count": 20
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 85,
-          "skipped_file_count": 0
+          "skipped_file_count": 85
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
