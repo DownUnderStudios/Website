@@ -197,7 +197,6 @@ ul.nav>li.active.in>a.active {
     color: var(--Nav-color);
     content: "-";
     display: table;
-    margin-top: 3px;
     text-align: center;
 }
 
@@ -211,24 +210,26 @@ ul.nav>li.active.in>a.active {
     color: var(--Nav-color);
     content: "+";
     display: table;
-    margin-top: 3px;
     text-align: center;
 }
 
-li>.expand-stub::before{
+.toc .nav>li>.expand-stub::before{
     margin-top: 4px;
 }
-li.active>.expand-stub::before{
+.toc .nav>li.active>.expand-stub::before{
     margin-top: 5px;
 }
-li.in.active>.expand-stub::before{
+.toc .nav>li.in.active>.expand-stub::before{
     margin-top: 11px;
 }
-.level1>li>.expand-stub::before{
+.toc .nav>.level1>li>.expand-stub::before{
     margin-top: 6px;
 }
-.level1>li.active>.expand-stub::before{
+.toc .nav>.level1>li.active>.expand-stub::before{
     margin-top: 7px;
+}
+.toc .nav>.level1>li.in.active>.expand-stub::before{
+    margin-top: 11px;
 }
 
 .sidefilter {
