@@ -215,24 +215,19 @@ ul.nav>li.active.in>a.active {
     text-align: center;
 }
 
-.toc .nav>li>.expand-stub::before
-{
+li>.expand-stub::before{
     margin-top: 4px;
 }
-.toc .nav>li.active>.expand-stub::before
-{
+li.active>.expand-stub::before{
     margin-top: 5px;
 }
-.toc .nav>li.in.active>.expand-stub::before
-{
+li.in.active>.expand-stub::before{
     margin-top: 11px;
 }
-.toc .nav.level1>li>.expand-stub::before
-{
+.level1>li>.expand-stub::before{
     margin-top: 6px;
 }
-.toc .nav.level1>li.active>.expand-stub::before
-{
+.level1>li.active>.expand-stub::before{
     margin-top: 7px;
 }
 
