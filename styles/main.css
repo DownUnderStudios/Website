@@ -1,0 +1,397 @@
+/* COLOR VARIABLES*/
+:root {
+    --Text-color: #465563;
+    --Heading-color: #000;
+    --Unity-color: #222c37;
+    --Nav-color: #fff;
+    --Nav-Link-color-active: #15abb6;
+    --Heading-Link-color-active: #00cccc;
+    --Nav-Link-color: #aaaaaa55;
+    --Nav-Link-color-text: #333333;
+    --Nav-Link-color-hover: #77777777;
+    --Link-color: #506075;
+    --Link-background-color: #506075;
+    --Info-color: #1976d2;
+    --Info-background-color: #e3f2fd;
+    --Tip-color: #646464;
+    --Tip-background-color: #e9e9e9;
+    --Warning-color: #f57f17;
+    --Warning-background-color: #fff3e0;
+    --Danger-color: #d32f2f;
+    --Danger-background-color: #ffebee;
+    --Box-shadow: 0px 1px 5px 0px rgba(100, 100, 100, 0.5);
+    --font-family-1: Consolas, Monaco, 'Andale Mono', monospace;
+    --font-family-2: 'Roboto', sans-serif;
+}
+
+body {
+    color: var(--Text-color);
+    font-family: var(--font-family-2);
+    line-height: 1.5;
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    word-wrap: break-word
+}
+
+#wrapper {
+    min-height: 100%;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+.hljs-attr, .hljs-selector-attr, .hljs-selector-class, .hljs-selector-id, .hljs-selector-pseudo, .hljs-title {
+    color: var(--Unity-color);
+}
+/* HEADINGS */
+
+h1 {
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--Heading-color);
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.8;
+    color: var(--Heading-color);
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.8;
+    color: var(--Heading-color);
+}
+
+h5 {
+    font-size: 14px;
+    padding: 10px 0px;
+    color: var(--Heading-color);
+    font-weight: bold;
+}
+
+article h1, article h2, article h3, article h4 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+article h4 {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* NAVBAR */
+
+.navbar-brand>img {
+    color: var(--Nav-color);
+}
+
+.navbar {
+    border: none;
+    /* Both navbars use box-shadow */
+    -webkit-box-shadow: var(--Box-shadow);
+    -moz-box-shadow: var(--Box-shadow);
+    box-shadow: var(--Box-shadow);
+}
+
+.subnav {
+    border-top: 1px solid #ddd;
+    background: var(--Nav-color);
+}
+
+.navbar-inverse {
+    background: var(--Unity-color);
+    z-index: 100;
+}
+
+ul.level1.breadcrumb>li>a {
+    color: var(--Link-color);
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-text {
+    color: var(--Nav-color);
+    background: var(--Unity-color);
+    border-bottom: 3px solid transparent;
+    padding-bottom: 12px;
+    text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: var(--Heading-Link-color-active);
+    border-bottom: 3px solid var(--Heading-Link-color-active);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: var(--Heading-Link-color-active);
+    border-bottom: 3px solid var(--Heading-Link-color-active);
+    text-decoration: underline;
+}
+
+.navbar-form .form-control {
+    border: none;
+    border-radius: 20px;
+}
+
+/* SIDEBAR */
+
+.toc {
+    margin: 0px 1px 0px 0px;
+    padding: 0 20px;
+}
+
+.toc .nav>li>a {
+    color: var(--Text-color);
+    text-decoration: none;
+}
+
+.toc .nav>li>a:hover {
+    color: var(--Nav-Link-color-text);
+    text-decoration: underline;
+    background: var(--Nav-Link-color-hover);
+}
+.toc .nav>li.active>a:hover {
+    background: var(--Nav-Link-color-hover);
+    text-decoration: underline;
+}
+.toc .nav>li.active>a.active:hover {
+    background: var(--Nav-Link-color-hover);
+    text-decoration: underline;
+}
+/*selected element in sidebar at level 2*/
+ul.nav>li.active.in>a.active {
+    padding: 5px 8px;
+    text-decoration: none;
+}
+.toc .nav>li.active>a.active {
+    color: var(--Nav-Link-color-text);
+    text-decoration: none;
+    background: var(--Nav-Link-color);
+    border-bottom: 1px solid #aaaaaa;
+    border-bottom-right-radius: 0px;
+}
+.toc .level2 {
+    font-weight: normal;
+    margin-top: 0;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.toc .level3>li {
+    font-weight: normal;
+    margin-left: 12px;
+    font-size: 14px;
+}
+.toc .level4>li {
+    font-weight: normal;
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.toc .nav>li.active>.expand-stub::before, .toc .nav>li.in>.expand-stub::before, .toc .nav>li.in.active>.expand-stub::before, .toc .nav>li.filtered>.expand-stub::before {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    border: --Nav-Link-color-active 1px solid;
+    font-size: 8px;
+    background: var(--Nav-Link-color-active);
+    color: var(--Nav-color);
+    content: "-";
+    display: table;
+    text-align: center;
+}
+
+.toc .nav>li>.expand-stub::before, .toc .nav>li.active>.expand-stub::before {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    border: --Nav-Link-color-active 1px solid;
+    font-size: 8px;
+    background: var(--Nav-Link-color-active);
+    color: var(--Nav-color);
+    content: "+";
+    display: table;
+    text-align: center;
+}
+
+.toc .nav>li>.expand-stub::before{
+    margin-top: 4px;
+}
+.toc .nav>li.active>.expand-stub::before{
+    margin-top: 5px;
+}
+.toc .nav>li.in.active>.expand-stub::before{
+    margin-top: 11px;
+}
+.toc .nav>.level1>li>.expand-stub::before{
+    margin-top: 6px;
+}
+.toc .nav>.level1>li.active>.expand-stub::before{
+    margin-top: 7px;
+}
+.toc .nav>.level1>li.in.active>.expand-stub::before{
+    margin-top: 11px;
+}
+
+.sidefilter {
+    background: var(--Nav-color);
+}
+
+.toc-filter {
+    padding: 10px;
+    margin: 0;
+}
+
+.toc-filter>input {
+    border: 2px solid #ddd;
+    border-radius: 20px;
+}
+
+.toc-filter>.filter-icon {
+    display: none;
+}
+.toc-filter>.clear-icon {
+    display: none;
+}
+
+.sidetoc>.toc {
+    background: var(--Nav-color);
+    overflow-x: hidden;
+    height: 100%;
+    border-top:  2px solid #ddd;
+}
+
+/* ALERTS */
+
+.alert {
+    padding: 0px 0px 5px 0px;
+    color: inherit;
+    background-color: inherit;
+    border: none;
+    box-shadow: 0px 2px 2px 0px rgba(100, 100, 100, 0.4);
+}
+
+.alert>p {
+    margin-bottom: 0;
+    padding: 5px 10px;
+}
+
+.alert>ul {
+    margin-bottom: 0;
+    padding: 5px 40px;
+}
+
+.alert>h5 {
+    padding: 10px 15px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+}
+
+.alert-info>h5 {
+    color: var(--Info-color);
+    border-bottom: 4px solid var(--Info-color);
+    background: var(--Info-background-color);
+}
+
+/*custom tip alert*/
+.alert-tip>h5 {
+    color: var(--Tip-color);
+    border-bottom: 4px solid var(--Tip-color);
+    background: var(--Tip-background-color);
+    content: "\e162";
+}
+
+.alert-tip h5:before {
+    content: "\e162";
+}
+
+.alert-warning>h5 {
+    color: var(--Warning-color);
+    border-bottom: 4px solid var(--Warning-color);
+    background: var(--Warning-background-color);
+}
+
+.alert-danger>h5 {
+    color: var(--Danger-color);
+    border-bottom: 4px solid var(--Danger-color);
+    background: var(--Danger-background-color);
+}
+
+button, a {
+    color: var(--Link-color);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button:hover, button:focus, a:hover, a:focus {
+    color: var(--Link-color);
+    text-decoration: none;
+}
+
+.affix>ul>li.active>a, .affix>ul>li.active>a:before {
+    color: var(--Nav-Link-color-text);
+    background: var(--Nav-Link-color);
+    font-weight: bold;
+}
+.affix ul > li > a {
+    padding: 5px 12px;
+    color: var(--Nav-Link-color-text);
+}
+.affix ul > li.active > a, .affix ul > li.active > a:before {
+    color: var(Nav-Link-color-active);
+}
+.decalaration, .fieldValue, .parameters, .returns {
+    color: var(--Text-color);
+}
+article {
+    display: block;
+}
+div[classs=implements] > div {
+    display: none;
+}
+div[classs=implements]:hover > div{
+    display: block;
+    content: '↳';
+    margin-right: 5px;
+}
+div[classs=implements]:hover > div::before{
+    content: '↳';
+    margin-right: 5px;
+}
+.inheritedMembers > div {
+    display: none;
+}
+.inheritedMembers:hover > div{
+    display: block;
+}
+.inheritedMembers:hover > div::before{
+    content: '↳';
+    margin-right: 5px;
+}
+
+
+/* CODE HIGHLIGHT */
+
+pre {
+    font-family: var(--font-family-1);
+    margin: 0 0 30px 0;
+    border: 1px solid #ddd;
+    font-size: 0.9375em;
+    color: var(--Nav-Link-color-active);
+    overflow: auto;
+    border-radius: 5px;
+}
+
+/* Full width */
+@media (min-width:992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 100%;
+    }
+}
