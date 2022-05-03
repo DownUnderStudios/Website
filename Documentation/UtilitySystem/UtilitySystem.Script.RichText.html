@@ -91,7 +91,7 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">RichText</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="UtilitySystem.Script.html">UtilitySystem.Script</a></h6>
+  <h6><strong>Namespace</strong>: <span class="xref">DownUnderStudios.UtilitySystem.Script</span></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
   <h5 id="UtilitySystem_Script_RichText_syntax">Syntax</h5>
   <div class="codewrapper">
@@ -103,7 +103,7 @@
   
   <a id="UtilitySystem_Script_RichText_NewLine_" data-uid="UtilitySystem.Script.RichText.NewLine*"></a>
   <h4 id="UtilitySystem_Script_RichText_NewLine" data-uid="UtilitySystem.Script.RichText.NewLine">NewLine</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a new line string.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a new line string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -129,7 +129,7 @@
   
   <a id="UtilitySystem_Script_RichText_Tab_" data-uid="UtilitySystem.Script.RichText.Tab*"></a>
   <h4 id="UtilitySystem_Script_RichText_Tab" data-uid="UtilitySystem.Script.RichText.Tab">Tab</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a tab gap string.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a tab gap string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -157,7 +157,7 @@
   
   <a id="UtilitySystem_Script_RichText_BoldText_" data-uid="UtilitySystem.Script.RichText.BoldText*"></a>
   <h4 id="UtilitySystem_Script_RichText_BoldText_System_Object_" data-uid="UtilitySystem.Script.RichText.BoldText(System.Object)">BoldText(Object)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string that is bold.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that is bold.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -193,7 +193,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that is set to bold. </p>
+        <td><p>This will return a string that is set to bold. </p>
 </td>
       </tr>
     </tbody>
@@ -202,7 +202,7 @@
   
   <a id="UtilitySystem_Script_RichText_BooleanText_" data-uid="UtilitySystem.Script.RichText.BooleanText*"></a>
   <h4 id="UtilitySystem_Script_RichText_BooleanText_System_Boolean_" data-uid="UtilitySystem.Script.RichText.BooleanText(System.Boolean)">BooleanText(Boolean)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string that is either colored green for true or red for false.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that is either colored green for true or red for false.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -238,7 +238,115 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that is either colored green for true or red for false. </p>
+        <td><p>This will return a string that is either colored green for true or red for false. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_RichText_BooleanText_" data-uid="UtilitySystem.Script.RichText.BooleanText*"></a>
+  <h4 id="UtilitySystem_Script_RichText_BooleanText_System_Object_System_Boolean_" data-uid="UtilitySystem.Script.RichText.BooleanText(System.Object,System.Boolean)">BooleanText(Object, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that is either colored green for true or red for false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string BooleanText(this object arg, bool check)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>This is the object that will be passed in and will be added into a string. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">check</span></td>
+        <td><p>This is the boolean that will determine if true or false. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>This will return a string that is either colored green for true or red for false. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_RichText_BooleanText_" data-uid="UtilitySystem.Script.RichText.BooleanText*"></a>
+  <h4 id="UtilitySystem_Script_RichText_BooleanText_System_Object_System_Boolean_UnityEngine_Color_" data-uid="UtilitySystem.Script.RichText.BooleanText(System.Object,System.Boolean,UnityEngine.Color)">BooleanText(Object, Boolean, Color)</h4>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that is either colored green for true or red for false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string BooleanText(this object arg, bool check, Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>This is the object that will be passed in and will be added into a string. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">check</span></td>
+        <td><p>This is the boolean that will determine if true or false. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>if true set the text to the color else return without color. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>This will return a string that is either colored green for true or red for false. </p>
 </td>
       </tr>
     </tbody>
@@ -247,7 +355,7 @@
   
   <a id="UtilitySystem_Script_RichText_ColoredText_" data-uid="UtilitySystem.Script.RichText.ColoredText*"></a>
   <h4 id="UtilitySystem_Script_RichText_ColoredText_System_Object_System_String_" data-uid="UtilitySystem.Script.RichText.ColoredText(System.Object,System.String)">ColoredText(Object, String)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string that will color the text</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that will color the text.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -289,7 +397,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that is colored from the color param. </p>
+        <td><p>This will return a string that is colored from the color param. </p>
 </td>
       </tr>
     </tbody>
@@ -298,7 +406,7 @@
   
   <a id="UtilitySystem_Script_RichText_ColoredText_" data-uid="UtilitySystem.Script.RichText.ColoredText*"></a>
   <h4 id="UtilitySystem_Script_RichText_ColoredText_System_Object_UnityEngine_Color_" data-uid="UtilitySystem.Script.RichText.ColoredText(System.Object,UnityEngine.Color)">ColoredText(Object, Color)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string that will color the text.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that will color the text.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -322,7 +430,7 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/2021.2/Documentation/ScriptReference/Color.html">Color</a></td>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Color.html">Color</a></td>
         <td><span class="parametername">color</span></td>
         <td><p>this is the color that will be used to color the text.</p>
 </td>
@@ -340,7 +448,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that is colored from the color param. </p>
+        <td><p>This will return a string that is colored from the color param. </p>
 </td>
       </tr>
     </tbody>
@@ -349,7 +457,7 @@
   
   <a id="UtilitySystem_Script_RichText_ItalicText_" data-uid="UtilitySystem.Script.RichText.ItalicText*"></a>
   <h4 id="UtilitySystem_Script_RichText_ItalicText_System_Object_" data-uid="UtilitySystem.Script.RichText.ItalicText(System.Object)">ItalicText(Object)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string that is italic.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that is italic.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -385,7 +493,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that is given an italic lean. </p>
+        <td><p>This will return a string that is given an italic lean. </p>
 </td>
       </tr>
     </tbody>
@@ -394,7 +502,7 @@
   
   <a id="UtilitySystem_Script_RichText_LowerCaseText_" data-uid="UtilitySystem.Script.RichText.LowerCaseText*"></a>
   <h4 id="UtilitySystem_Script_RichText_LowerCaseText_System_Object_" data-uid="UtilitySystem.Script.RichText.LowerCaseText(System.Object)">LowerCaseText(Object)</h4>
-  <div class="markdown level1 summary"><p>This Method will return a string to an lowercase</p>
+  <div class="markdown level1 summary"><p>This will return a string to an lowercase</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -430,7 +538,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that is all lowercase. </p>
+        <td><p>This will return a string that is all lowercase. </p>
 </td>
       </tr>
     </tbody>
@@ -439,7 +547,7 @@
   
   <a id="UtilitySystem_Script_RichText_PositionText_" data-uid="UtilitySystem.Script.RichText.PositionText*"></a>
   <h4 id="UtilitySystem_Script_RichText_PositionText_System_Object_System_Single_" data-uid="UtilitySystem.Script.RichText.PositionText(System.Object,System.Single)">PositionText(Object, Single)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string that is a set position for the text on the line.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that is a set position for the text on the line.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -481,7 +589,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that is set at a position. </p>
+        <td><p>This will return a string that is set at a position. </p>
 </td>
       </tr>
     </tbody>
@@ -490,7 +598,7 @@
   
   <a id="UtilitySystem_Script_RichText_SetText_" data-uid="UtilitySystem.Script.RichText.SetText*"></a>
   <h4 id="UtilitySystem_Script_RichText_SetText_System_Collections_Generic_List_System_Func_System_String___" data-uid="UtilitySystem.Script.RichText.SetText(System.Collections.Generic.List{System.Func{System.String}})">SetText(List&lt;Func&lt;String&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string that is either colored green for true or red for false.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that is either colored green for true or red for false.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -526,7 +634,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string from the StringBuilder. </p>
+        <td><p>This will return a string from the StringBuilder. </p>
 </td>
       </tr>
     </tbody>
@@ -535,7 +643,7 @@
   
   <a id="UtilitySystem_Script_RichText_SizeText_" data-uid="UtilitySystem.Script.RichText.SizeText*"></a>
   <h4 id="UtilitySystem_Script_RichText_SizeText_System_Object_System_Int32_" data-uid="UtilitySystem.Script.RichText.SizeText(System.Object,System.Int32)">SizeText(Object, Int32)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string that is the size for the text.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that is the size for the text.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -577,7 +685,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that has it&apos;s size changed to the size param. </p>
+        <td><p>This will return a string that has it&apos;s size changed to the size param. </p>
 </td>
       </tr>
     </tbody>
@@ -586,7 +694,7 @@
   
   <a id="UtilitySystem_Script_RichText_StrikeText_" data-uid="UtilitySystem.Script.RichText.StrikeText*"></a>
   <h4 id="UtilitySystem_Script_RichText_StrikeText_System_Object_" data-uid="UtilitySystem.Script.RichText.StrikeText(System.Object)">StrikeText(Object)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string that is strikethough.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that is strikethough.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -622,7 +730,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that has a line though it. </p>
+        <td><p>This will return a string that has a line though it. </p>
 </td>
       </tr>
     </tbody>
@@ -631,7 +739,7 @@
   
   <a id="UtilitySystem_Script_RichText_SubText_" data-uid="UtilitySystem.Script.RichText.SubText*"></a>
   <h4 id="UtilitySystem_Script_RichText_SubText_System_Object_" data-uid="UtilitySystem.Script.RichText.SubText(System.Object)">SubText(Object)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string that is lowered.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that is lowered.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -667,7 +775,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that is lower then other text. </p>
+        <td><p>This will return a string that is lower then other text. </p>
 </td>
       </tr>
     </tbody>
@@ -676,7 +784,7 @@
   
   <a id="UtilitySystem_Script_RichText_SupText_" data-uid="UtilitySystem.Script.RichText.SupText*"></a>
   <h4 id="UtilitySystem_Script_RichText_SupText_System_Object_" data-uid="UtilitySystem.Script.RichText.SupText(System.Object)">SupText(Object)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string that is raised.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that is raised.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -712,7 +820,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that is higher then other text . </p>
+        <td><p>This will return a string that is higher then other text . </p>
 </td>
       </tr>
     </tbody>
@@ -721,7 +829,7 @@
   
   <a id="UtilitySystem_Script_RichText_Text_" data-uid="UtilitySystem.Script.RichText.Text*"></a>
   <h4 id="UtilitySystem_Script_RichText_Text_System_Object_" data-uid="UtilitySystem.Script.RichText.Text(System.Object)">Text(Object)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -757,7 +865,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that is a generic text string. </p>
+        <td><p>This will return a string that is a generic text string. </p>
 </td>
       </tr>
     </tbody>
@@ -766,7 +874,7 @@
   
   <a id="UtilitySystem_Script_RichText_UnderLineText_" data-uid="UtilitySystem.Script.RichText.UnderLineText*"></a>
   <h4 id="UtilitySystem_Script_RichText_UnderLineText_System_Object_" data-uid="UtilitySystem.Script.RichText.UnderLineText(System.Object)">UnderLineText(Object)</h4>
-  <div class="markdown level1 summary"><p>This Method will place an object and create a string that is underline.</p>
+  <div class="markdown level1 summary"><p>This will take an object and create a string that is underline.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -802,7 +910,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that is underlined. </p>
+        <td><p>This will return a string that is underlined. </p>
 </td>
       </tr>
     </tbody>
@@ -811,7 +919,7 @@
   
   <a id="UtilitySystem_Script_RichText_UpperCaseText_" data-uid="UtilitySystem.Script.RichText.UpperCaseText*"></a>
   <h4 id="UtilitySystem_Script_RichText_UpperCaseText_System_Object_" data-uid="UtilitySystem.Script.RichText.UpperCaseText(System.Object)">UpperCaseText(Object)</h4>
-  <div class="markdown level1 summary"><p>This Method will return a string to an uppercase</p>
+  <div class="markdown level1 summary"><p>This will return a string to an uppercase</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -847,7 +955,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>This Method will return a string that is all uppercase. </p>
+        <td><p>This will return a string that is all uppercase. </p>
 </td>
       </tr>
     </tbody>
