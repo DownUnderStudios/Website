@@ -1,0 +1,913 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DictionaryActions
+   | Inventory System Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DictionaryActions
+   | Inventory System Documentation ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../resources/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="InventorySystem.Script.DictionaryActions">
+  
+  
+  <h1 id="InventorySystem_Script_DictionaryActions" data-uid="InventorySystem.Script.DictionaryActions" class="text-break">Class DictionaryActions
+  </h1>
+  <div class="markdown level0 summary"><p>This static class is used to perform actions on Inventory Dictionary.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">DictionaryActions</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="InventorySystem.Script.html">InventorySystem.Script</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="InventorySystem_Script_DictionaryActions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class DictionaryActions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_AddItemInToDictionary_" data-uid="InventorySystem.Script.DictionaryActions.AddItemInToDictionary*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_AddItemInToDictionary_InventorySystem_UI_InventoryElement_System_Boolean_InventorySystem_Data_InventoryItem___" data-uid="InventorySystem.Script.DictionaryActions.AddItemInToDictionary(InventorySystem.UI.InventoryElement,System.Boolean,InventorySystem.Data.InventoryItem[])">AddItemInToDictionary(InventoryElement, Boolean, InventoryItem[])</h4>
+  <div class="markdown level1 summary"><p>This will add an item to the dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AddItemInToDictionary(InventoryElement target, bool canMerge, params InventoryItem[] items)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InventorySystem.UI.InventoryElement.html">InventoryElement</a></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>This is the InventoryElement who&apos;s dictionary the item will be added to. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">canMerge</span></td>
+        <td><p>The boolean will determine if the item will marge with other dictionary entries of the same item. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>[]</td>
+        <td><span class="parametername">items</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>Return true if the item is Added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_AddItemInToDictionary_" data-uid="InventorySystem.Script.DictionaryActions.AddItemInToDictionary*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_AddItemInToDictionary_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Int32_System_Boolean_InventorySystem_Data_InventoryItem___" data-uid="InventorySystem.Script.DictionaryActions.AddItemInToDictionary(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Int32,System.Boolean,InventorySystem.Data.InventoryItem[])">AddItemInToDictionary(Dictionary&lt;Int32, InventoryItem&gt;, Int32, Boolean, InventoryItem[])</h4>
+  <div class="markdown level1 summary"><p>This will add an item to the dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AddItemInToDictionary(Dictionary&lt;int, InventoryItem&gt; dictionary, int size, bool canMerge, params InventoryItem[] items)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that the item will be added to. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">canMerge</span></td>
+        <td><p>The boolean will determine if the item will marge with other dictionary entries of the same item. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>[]</td>
+        <td><span class="parametername">items</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>Return true if the item is Added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_AmountCanFillOfItem_" data-uid="InventorySystem.Script.DictionaryActions.AmountCanFillOfItem*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_AmountCanFillOfItem_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__InventorySystem_Data_InventoryItem_" data-uid="InventorySystem.Script.DictionaryActions.AmountCanFillOfItem(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},InventorySystem.Data.InventoryItem)">AmountCanFillOfItem(Dictionary&lt;Int32, InventoryItem&gt;, InventoryItem)</h4>
+  <div class="markdown level1 summary"><p>This will check the dictionary for the same item as the param item.
+and count the free space in each item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int AmountCanFillOfItem(Dictionary&lt;int, InventoryItem&gt; dictionary, InventoryItem item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that will be used to get the amount. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>This is the Item that will be used to search. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The Return is the amount of free space on all of the param item in dictionary. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_ConsolidateInventory_" data-uid="InventorySystem.Script.DictionaryActions.ConsolidateInventory*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_ConsolidateInventory_InventorySystem_UI_InventoryElement_" data-uid="InventorySystem.Script.DictionaryActions.ConsolidateInventory(InventorySystem.UI.InventoryElement)">ConsolidateInventory(InventoryElement)</h4>
+  <div class="markdown level1 summary"><p>This will Consolidate InventoryItem(s) into the smallest number of stacks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ConsolidateInventory(InventoryElement target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InventorySystem.UI.InventoryElement.html">InventoryElement</a></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>this is the InventoryElement who&apos;s dictionary will be consolidated. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_ConsolidateInventory_" data-uid="InventorySystem.Script.DictionaryActions.ConsolidateInventory*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_ConsolidateInventory_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Int32_" data-uid="InventorySystem.Script.DictionaryActions.ConsolidateInventory(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Int32)">ConsolidateInventory(Dictionary&lt;Int32, InventoryItem&gt;, Int32)</h4>
+  <div class="markdown level1 summary"><p>This will Consolidate InventoryItem(s) into the smallest number of stacks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ConsolidateInventory(Dictionary&lt;int, InventoryItem&gt; dictionary, int size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that will be consolidated. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The size of the dictionary. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_ConsolidateInventoryItems_" data-uid="InventorySystem.Script.DictionaryActions.ConsolidateInventoryItems*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_ConsolidateInventoryItems_InventorySystem_UI_InventoryElement_" data-uid="InventorySystem.Script.DictionaryActions.ConsolidateInventoryItems(InventorySystem.UI.InventoryElement)">ConsolidateInventoryItems(InventoryElement)</h4>
+  <div class="markdown level1 summary"><p>This will Consolidate InventoryItem(s) into the smallest number of stacks without moving slots.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ConsolidateInventoryItems(InventoryElement target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InventorySystem.UI.InventoryElement.html">InventoryElement</a></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>this is the InventoryElement who&apos;s dictionary will be consolidated. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_ConvertDictionaryToStorage_" data-uid="InventorySystem.Script.DictionaryActions.ConvertDictionaryToStorage*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_ConvertDictionaryToStorage_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__" data-uid="InventorySystem.Script.DictionaryActions.ConvertDictionaryToStorage(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem})">ConvertDictionaryToStorage(Dictionary&lt;Int32, InventoryItem&gt;)</h4>
+  <div class="markdown level1 summary"><p>This will add dictionary into the KeyItem list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;KeyItem&gt; ConvertDictionaryToStorage(Dictionary&lt;int, InventoryItem&gt; dictionary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that will added into the list of KeyItem(s). </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="InventorySystem.Data.KeyItem.html">KeyItem</a>&gt;</td>
+        <td><p>The return is the list of KeyItem(s). </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_ConvertStorageToDictionary_" data-uid="InventorySystem.Script.DictionaryActions.ConvertStorageToDictionary*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_ConvertStorageToDictionary_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Collections_Generic_List_InventorySystem_Data_KeyItem__" data-uid="InventorySystem.Script.DictionaryActions.ConvertStorageToDictionary(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Collections.Generic.List{InventorySystem.Data.KeyItem})">ConvertStorageToDictionary(Dictionary&lt;Int32, InventoryItem&gt;, List&lt;KeyItem&gt;)</h4>
+  <div class="markdown level1 summary"><p>This will add KeyItem list into the dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ConvertStorageToDictionary(Dictionary&lt;int, InventoryItem&gt; dictionary, List&lt;KeyItem&gt; items)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that will take the KeyItem(s). </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="InventorySystem.Data.KeyItem.html">KeyItem</a>&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>This is the list of KeyItem(s) that will be added into the dictionary. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_GetTransferItem_" data-uid="InventorySystem.Script.DictionaryActions.GetTransferItem*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_GetTransferItem_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Int32_" data-uid="InventorySystem.Script.DictionaryActions.GetTransferItem(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Int32)">GetTransferItem(Dictionary&lt;Int32, InventoryItem&gt;, Int32)</h4>
+  <div class="markdown level1 summary"><p>This will create a TransferItem for the dictionary value at the param key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TransferItem GetTransferItem(Dictionary&lt;int, InventoryItem&gt; dictionary, int key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that will be used to get the TransferItem&apos;s Item. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>This is the key that will be used to located the item in the dictionary. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InventorySystem.Data.TransferItem.html">TransferItem</a></td>
+        <td><p>The return is the TransferItem that is create. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_MergeItemAtDictionaryKey_" data-uid="InventorySystem.Script.DictionaryActions.MergeItemAtDictionaryKey*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_MergeItemAtDictionaryKey_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__InventorySystem_Data_InventoryItem_System_Int32_" data-uid="InventorySystem.Script.DictionaryActions.MergeItemAtDictionaryKey(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},InventorySystem.Data.InventoryItem,System.Int32)">MergeItemAtDictionaryKey(Dictionary&lt;Int32, InventoryItem&gt;, InventoryItem, Int32)</h4>
+  <div class="markdown level1 summary"><p>This will merge the Item into the dictionary at the index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool MergeItemAtDictionaryKey(Dictionary&lt;int, InventoryItem&gt; dictionary, InventoryItem item, int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that will be used to merge an item at an index. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>This is the item to be added. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>This is the index of the dictionary to be added to. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>if the item has been merged fully or partially return true. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_RemoveItems_" data-uid="InventorySystem.Script.DictionaryActions.RemoveItems*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_RemoveItems_InventorySystem_UI_InventoryElement_System_Int32___" data-uid="InventorySystem.Script.DictionaryActions.RemoveItems(InventorySystem.UI.InventoryElement,System.Int32[])">RemoveItems(InventoryElement, Int32[])</h4>
+  <div class="markdown level1 summary"><p>This will remove item(s) from the dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveItems(InventoryElement target, params int[] keys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InventorySystem.UI.InventoryElement.html">InventoryElement</a></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>This is the InventoryElement who&apos;s dictionary the item will be removed from. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>[]</td>
+        <td><span class="parametername">keys</span></td>
+        <td><p>these params will be the keys pointing to the dictionary&apos;s entries to be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_RemoveItems_" data-uid="InventorySystem.Script.DictionaryActions.RemoveItems*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_RemoveItems_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Int32___" data-uid="InventorySystem.Script.DictionaryActions.RemoveItems(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Int32[])">RemoveItems(Dictionary&lt;Int32, InventoryItem&gt;, Int32[])</h4>
+  <div class="markdown level1 summary"><p>This will remove item(s) from the dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveItems(Dictionary&lt;int, InventoryItem&gt; dictionary, params int[] keys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that the item will be removed from. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>[]</td>
+        <td><span class="parametername">keys</span></td>
+        <td><p>these params will be the keys pointing to the dictionary&apos;s entries to be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_SortByAmount_" data-uid="InventorySystem.Script.DictionaryActions.SortByAmount*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_SortByAmount_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Boolean_" data-uid="InventorySystem.Script.DictionaryActions.SortByAmount(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Boolean)">SortByAmount(Dictionary&lt;Int32, InventoryItem&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This will sort the dictionary by item current stack, either Ascending or Desending order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, InventoryItem&gt; SortByAmount(Dictionary&lt;int, InventoryItem&gt; dictionary, bool isDescending)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that will be sortted. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isDescending</span></td>
+        <td><p>This is the boolean that if true will choose to order by Desending. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><p>Return the dictionary after it has been sortted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_SortByCost_" data-uid="InventorySystem.Script.DictionaryActions.SortByCost*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_SortByCost_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Boolean_" data-uid="InventorySystem.Script.DictionaryActions.SortByCost(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Boolean)">SortByCost(Dictionary&lt;Int32, InventoryItem&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This will sort the dictionary by item cost, either Ascending or Desending order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, InventoryItem&gt; SortByCost(Dictionary&lt;int, InventoryItem&gt; dictionary, bool isDescending)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that will be sortted. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isDescending</span></td>
+        <td><p>This is the boolean that if true will choose to order by Desending. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><p>Return the dictionary after it has been sortted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_SortByName_" data-uid="InventorySystem.Script.DictionaryActions.SortByName*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_SortByName_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Boolean_" data-uid="InventorySystem.Script.DictionaryActions.SortByName(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Boolean)">SortByName(Dictionary&lt;Int32, InventoryItem&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This will sort the dictionary by item name, either Ascending or Desending order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, InventoryItem&gt; SortByName(Dictionary&lt;int, InventoryItem&gt; dictionary, bool isDescending)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that will be sortted. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isDescending</span></td>
+        <td><p>This is the boolean that if true will choose to order by Desending. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><p>Return the dictionary after it has been sortted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_SortByType_" data-uid="InventorySystem.Script.DictionaryActions.SortByType*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_SortByType_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Boolean_" data-uid="InventorySystem.Script.DictionaryActions.SortByType(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Boolean)">SortByType(Dictionary&lt;Int32, InventoryItem&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This will sort the dictionary by item type, either Ascending or Desending order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, InventoryItem&gt; SortByType(Dictionary&lt;int, InventoryItem&gt; dictionary, bool isDescending)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that will be sortted. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isDescending</span></td>
+        <td><p>This is the boolean that if true will choose to order by Desending. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><p>Return the dictionary after it has been sortted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_DictionaryActions_SortByWeight_" data-uid="InventorySystem.Script.DictionaryActions.SortByWeight*"></a>
+  <h4 id="InventorySystem_Script_DictionaryActions_SortByWeight_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Boolean_" data-uid="InventorySystem.Script.DictionaryActions.SortByWeight(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Boolean)">SortByWeight(Dictionary&lt;Int32, InventoryItem&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This will sort the dictionary by item weight, either Ascending or Desending order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, InventoryItem&gt; SortByWeight(Dictionary&lt;int, InventoryItem&gt; dictionary, bool isDescending)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>This is the dictionary that will be sortted. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isDescending</span></td>
+        <td><p>This is the boolean that if true will choose to order by Desending. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
+        <td><p>Return the dictionary after it has been sortted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Inventory System Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

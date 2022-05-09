@@ -1,0 +1,1604 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CreateElements
+   | Inventory System Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CreateElements
+   | Inventory System Documentation ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../resources/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UtilitySystem.Script.CreateElements">
+  
+  
+  <h1 id="UtilitySystem_Script_CreateElements" data-uid="UtilitySystem.Script.CreateElements" class="text-break">Class CreateElements
+  </h1>
+  <div class="markdown level0 summary"><p>This static class will allow the creation of UI Toolkit elements.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">CreateElements</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UtilitySystem.Script.html">UtilitySystem.Script</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="UtilitySystem_Script_CreateElements_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class CreateElements</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Button_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Button*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Button_UnityEngine_UIElements_VisualElement_System_Action_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Button(UnityEngine.UIElements.VisualElement,System.Action)">CreateElement_Button(VisualElement, Action)</h4>
+  <div class="markdown level1 summary"><p>This will create a Button and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Button CreateElement_Button(this VisualElement parent, Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>This is the action when the Button is clicked. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.Button.html">Button</a></td>
+        <td><p>The return is the Button that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ContextMenu*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_ContextMenuItemData___" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ContextMenu(UnityEngine.UIElements.VisualElement,UtilitySystem.Data.ContextMenuItemData[])">CreateElement_ContextMenu(VisualElement, ContextMenuItemData[])</h4>
+  <div class="markdown level1 summary"><p>This will create a ContextMenuElement and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ContextMenuElement CreateElement_ContextMenu(this VisualElement parent, params ContextMenuItemData[] data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.Data.ContextMenuItemData.html">ContextMenuItemData</a>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>These params are the data of the Context Menu. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.UI.ContextMenuElement.html">ContextMenuElement</a></td>
+        <td><p>The return is the ContextMenuElement that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ContextMenu*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_UnityEngine_UIElements_VisualElement_System_Collections_Generic_List_UtilitySystem_Data_ContextMenuItemData__" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ContextMenu(UnityEngine.UIElements.VisualElement,System.Collections.Generic.List{UtilitySystem.Data.ContextMenuItemData})">CreateElement_ContextMenu(VisualElement, List&lt;ContextMenuItemData&gt;)</h4>
+  <div class="markdown level1 summary"><p>This will create a ContextMenuElement and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ContextMenuElement CreateElement_ContextMenu(this VisualElement parent, List&lt;ContextMenuItemData&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="UtilitySystem.Data.ContextMenuItemData.html">ContextMenuItemData</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>These are the data of the Context Menu. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.UI.ContextMenuElement.html">ContextMenuElement</a></td>
+        <td><p>The return is the ContextMenuElement that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_Item_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ContextMenu_Item*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_Item_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_ContextMenuItemData_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ContextMenu_Item(UnityEngine.UIElements.VisualElement,UtilitySystem.Data.ContextMenuItemData)">CreateElement_ContextMenu_Item(VisualElement, ContextMenuItemData)</h4>
+  <div class="markdown level1 summary"><p>This will create a ContextMenuItemElement and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ContextMenuItemElement CreateElement_ContextMenu_Item(this VisualElement parent, ContextMenuItemData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.Data.ContextMenuItemData.html">ContextMenuItemData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>This is the data of the Context Menu Item. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.UI.ContextMenuItemElement.html">ContextMenuItemElement</a></td>
+        <td><p>The return is the ContextMenuItemElement that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_Item_Button_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ContextMenu_Item_Button*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_Item_Button_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_ContextMenuItemButtonData_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ContextMenu_Item_Button(UnityEngine.UIElements.VisualElement,UtilitySystem.Data.ContextMenuItemButtonData)">CreateElement_ContextMenu_Item_Button(VisualElement, ContextMenuItemButtonData)</h4>
+  <div class="markdown level1 summary"><p>This will create a ContextMenuItemButtonElement and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ContextMenuItemButtonElement CreateElement_ContextMenu_Item_Button(this VisualElement parent, ContextMenuItemButtonData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.Data.ContextMenuItemButtonData.html">ContextMenuItemButtonData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>This is the data of the Context Menu button. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.UI.ContextMenuItemButtonElement.html">ContextMenuItemButtonElement</a></td>
+        <td><p>The return is the ContextMenuItemButtonElement that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_Item_Parent_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ContextMenu_Item_Parent*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_Item_Parent_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_ContextMenuItemParentData_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ContextMenu_Item_Parent(UnityEngine.UIElements.VisualElement,UtilitySystem.Data.ContextMenuItemParentData)">CreateElement_ContextMenu_Item_Parent(VisualElement, ContextMenuItemParentData)</h4>
+  <div class="markdown level1 summary"><p>This will create a ContextMenuItemParentElement and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ContextMenuItemParentElement CreateElement_ContextMenu_Item_Parent(this VisualElement parent, ContextMenuItemParentData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.Data.ContextMenuItemParentData.html">ContextMenuItemParentData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>This is the data of the Context Menu Parent. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.UI.ContextMenuItemParentElement.html">ContextMenuItemParentElement</a></td>
+        <td><p>The return is the ContextMenuItemParentElement that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_ContextMenuItem_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ContextMenuItem*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_ContextMenuItem_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_ContextMenuItemData_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ContextMenuItem(UnityEngine.UIElements.VisualElement,UtilitySystem.Data.ContextMenuItemData)">CreateElement_ContextMenuItem(VisualElement, ContextMenuItemData)</h4>
+  <div class="markdown level1 summary"><p>This will create a ContextMenuItemElement and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ContextMenuItemElement CreateElement_ContextMenuItem(this VisualElement parent, ContextMenuItemData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.Data.ContextMenuItemData.html">ContextMenuItemData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>This is the data of the Context Menu. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.UI.ContextMenuItemElement.html">ContextMenuItemElement</a></td>
+        <td><p>The return is the ContextMenuItemElement that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_DialogBox_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_DialogBox*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_DialogBox_UnityEngine_UIElements_VisualElement_System_String_System_String_System_Boolean_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_DialogBox(UnityEngine.UIElements.VisualElement,System.String,System.String,System.Boolean)">CreateElement_DialogBox(VisualElement, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This will create a DialogBoxElement and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DialogBoxElement CreateElement_DialogBox(this VisualElement parent, string UID, string titleText, bool isDisplay = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">UID</span></td>
+        <td><p>This is the Unique ID of the DialogBox. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">titleText</span></td>
+        <td><p>This is the title of the DialogBox. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isDisplay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.UI.DialogBoxElement.html">DialogBoxElement</a></td>
+        <td><p>The return is the DialogBoxElement that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_DialogBox_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_DialogBox*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_DialogBox_UnityEngine_UIElements_VisualElement_System_String_System_String_UnityEngine_UIElements_VisualElement_System_Boolean_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_DialogBox(UnityEngine.UIElements.VisualElement,System.String,System.String,UnityEngine.UIElements.VisualElement,System.Boolean)">CreateElement_DialogBox(VisualElement, String, String, VisualElement, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This will create a DialogBoxElement and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DialogBoxElement CreateElement_DialogBox(this VisualElement parent, string UID, string titleText, VisualElement content, bool isDisplay = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">UID</span></td>
+        <td><p>This is the Unique ID of the DialogBox. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">titleText</span></td>
+        <td><p>This is the title of the DialogBox. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">content</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isDisplay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.UI.DialogBoxElement.html">DialogBoxElement</a></td>
+        <td><p>The return is the DialogBoxElement that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Dropdown_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Dropdown*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Dropdown_UnityEngine_UIElements_VisualElement_System_String_System_Collections_Generic_List_System_String__System_Int32_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Dropdown(UnityEngine.UIElements.VisualElement,System.String,System.Collections.Generic.List{System.String},System.Int32)">CreateElement_Dropdown(VisualElement, String, List&lt;String&gt;, Int32)</h4>
+  <div class="markdown level1 summary"><p>This will create a DropdownField and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DropdownField CreateElement_Dropdown(this VisualElement parent, string label = null, List&lt;string&gt; choices = null, int defaultIndex = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>This is the label of the DropdownField. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">choices</span></td>
+        <td><p>This is the choices of the DropdownField. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">defaultIndex</span></td>
+        <td><p>This is the defaultIndex of the DropdownField. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.DropdownField</span></td>
+        <td><p>The return is the DropdownField that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Foldout_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Foldout*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Foldout_UnityEngine_UIElements_VisualElement_System_String_System_Boolean_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Foldout(UnityEngine.UIElements.VisualElement,System.String,System.Boolean)">CreateElement_Foldout(VisualElement, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This will create a Foldout and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Foldout CreateElement_Foldout(this VisualElement parent, string label = null, bool isOpen = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>This is the label of the Foldout. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isOpen</span></td>
+        <td><p>This is the boolean that opens the Foldout. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.Foldout.html">Foldout</a></td>
+        <td><p>The return is the Foldout that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Label_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Label*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Label_UnityEngine_UIElements_VisualElement_System_String_System_Boolean_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Label(UnityEngine.UIElements.VisualElement,System.String,System.Boolean)">CreateElement_Label(VisualElement, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This will create a Label and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Label CreateElement_Label(this VisualElement parent, string text, bool enableRichText = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>This is the text of the Label. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">enableRichText</span></td>
+        <td><p>This is the boolean that will enable Rich Text for the Label. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.Label.html">Label</a></td>
+        <td><p>The return is the Label that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_ListView_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ListView*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_ListView__1_UnityEngine_UIElements_VisualElement_System_Collections_Generic_List___0__System_Single_UnityEngine_UIElements_SelectionType_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ListView``1(UnityEngine.UIElements.VisualElement,System.Collections.Generic.List{``0},System.Single,UnityEngine.UIElements.SelectionType)">CreateElement_ListView&lt;TValue&gt;(VisualElement, List&lt;TValue&gt;, Single, SelectionType)</h4>
+  <div class="markdown level1 summary"><p>This will create a ListView and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ListView CreateElement_ListView&lt;TValue&gt;(this VisualElement parent, List&lt;TValue&gt; items, float itemHeight = -1F, SelectionType type = SelectionType.Single)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;TValue&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>This is the items of the ListView. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">itemHeight</span></td>
+        <td><p>This is the height of the item in the list in pixel of the ListView. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.SelectionType.html">SelectionType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>This is the type of selection for the ListView. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.ListView.html">ListView</a></td>
+        <td><p>The return is the ListView that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Progress_Bar_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Progress_Bar*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Progress_Bar_UnityEngine_UIElements_VisualElement_System_String_System_Single_System_Single_System_Single_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Progress_Bar(UnityEngine.UIElements.VisualElement,System.String,System.Single,System.Single,System.Single)">CreateElement_Progress_Bar(VisualElement, String, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>This will create a ProgressBar and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ProgressBar CreateElement_Progress_Bar(this VisualElement parent, string title, float lowValue, float highValue, float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>This is the title of the ProgressBar. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">lowValue</span></td>
+        <td><p>This is the lowValue of the ProgressBar. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">highValue</span></td>
+        <td><p>This is the highValue of the ProgressBar. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>This is the value of the ProgressBar. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.ProgressBar</span></td>
+        <td><p>The return is the ProgressBar that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Radio_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Radio*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Radio_UnityEngine_UIElements_VisualElement_System_Boolean_System_String_System_Boolean_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Radio(UnityEngine.UIElements.VisualElement,System.Boolean,System.String,System.Boolean)">CreateElement_Radio(VisualElement, Boolean, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This will create a RadioButton and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RadioButton CreateElement_Radio(this VisualElement parent, bool value, string label = null, bool isSelected = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>This is the label of the RadioButton. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isSelected</span></td>
+        <td><p>If true the radio button will be selected. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.RadioButton</span></td>
+        <td><p>The return is the RadioButton that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Radio_Group_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Radio_Group*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Radio_Group_UnityEngine_UIElements_VisualElement_System_String_System_String___" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Radio_Group(UnityEngine.UIElements.VisualElement,System.String,System.String[])">CreateElement_Radio_Group(VisualElement, String, String[])</h4>
+  <div class="markdown level1 summary"><p>This will create a RadioButtonGroup and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RadioButtonGroup CreateElement_Radio_Group(this VisualElement parent, string label = null, params string[] choices)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>This is the label of the RadioButtonGroup. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">choices</span></td>
+        <td><p>This is the choices of the RadioButtonGroup. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.RadioButtonGroup</span></td>
+        <td><p>The return is the RadioButtonGroup that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_ScrollView_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ScrollView*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_ScrollView_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_ScrollViewMode_UnityEngine_UIElements_VisualElement___" data-uid="UtilitySystem.Script.CreateElements.CreateElement_ScrollView(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.ScrollViewMode,UnityEngine.UIElements.VisualElement[])">CreateElement_ScrollView(VisualElement, ScrollViewMode, VisualElement[])</h4>
+  <div class="markdown level1 summary"><p>This will create a ScrollView and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ScrollView CreateElement_ScrollView(this VisualElement parent, ScrollViewMode scrollViewMode, params VisualElement[] children)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.ScrollViewMode.html">ScrollViewMode</a></td>
+        <td><span class="parametername">scrollViewMode</span></td>
+        <td><p>This is the scroll view of the ScrollView. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a>[]</td>
+        <td><span class="parametername">children</span></td>
+        <td><p>This is params the children of the ScrollView. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.ScrollView.html">ScrollView</a></td>
+        <td><p>The return is the ScrollView that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Slider_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Slider*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Slider_UnityEngine_UIElements_VisualElement_System_Single_System_Single_System_String_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Slider(UnityEngine.UIElements.VisualElement,System.Single,System.Single,System.String)">CreateElement_Slider(VisualElement, Single, Single, String)</h4>
+  <div class="markdown level1 summary"><p>This will create a Slider and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Slider CreateElement_Slider(this VisualElement parent, float minAmount, float MaxAmount, string label = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">minAmount</span></td>
+        <td><p>This is the minAmount of the Slider. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">MaxAmount</span></td>
+        <td><p>This is the MaxAmount of the Slider. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>This is the label of the Slider. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.Slider.html">Slider</a></td>
+        <td><p>The return is the Slider that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Slider_Int_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Slider_Int*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Slider_Int_UnityEngine_UIElements_VisualElement_System_Int32_System_Int32_System_String_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Slider_Int(UnityEngine.UIElements.VisualElement,System.Int32,System.Int32,System.String)">CreateElement_Slider_Int(VisualElement, Int32, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>This will create a SliderInt and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SliderInt CreateElement_Slider_Int(this VisualElement parent, int minAmount, int MaxAmount, string label = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">minAmount</span></td>
+        <td><p>This is the minAmount of the SliderInt. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">MaxAmount</span></td>
+        <td><p>This is the MaxAmount of the SliderInt. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>This is the label of the SliderInt. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.SliderInt.html">SliderInt</a></td>
+        <td><p>The return is the SliderInt that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Slider_Min_Max_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Slider_Min_Max*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Slider_Min_Max_UnityEngine_UIElements_VisualElement_System_String_System_Single_System_Single_System_Single_System_Single_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Slider_Min_Max(UnityEngine.UIElements.VisualElement,System.String,System.Single,System.Single,System.Single,System.Single)">CreateElement_Slider_Min_Max(VisualElement, String, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>This will create a MinMaxSlider and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MinMaxSlider CreateElement_Slider_Min_Max(this VisualElement parent, string label = null, float minValue = 0F, float maxValue = 10F, float minLimit = -3.40282347E+38F, float maxLimit = 3.40282347E+38F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>This is the label of the MinMaxSlider. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">minValue</span></td>
+        <td><p>This is the minValue of the MinMaxSlider. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">maxValue</span></td>
+        <td><p>This is the maxValue of the MinMaxSlider. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">minLimit</span></td>
+        <td><p>This is the minLimit of the MinMaxSlider. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">maxLimit</span></td>
+        <td><p>This is the maxLimit of the MinMaxSlider. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.MinMaxSlider.html">MinMaxSlider</a></td>
+        <td><p>The return is the MinMaxSlider that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Sprite_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Sprite*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Sprite_UnityEngine_UIElements_VisualElement_UnityEngine_Sprite_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Sprite(UnityEngine.UIElements.VisualElement,UnityEngine.Sprite)">CreateElement_Sprite(VisualElement, Sprite)</h4>
+  <div class="markdown level1 summary"><p>This will create a SpriteElement and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SpriteElement CreateElement_Sprite(this VisualElement parent, Sprite sprite)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Sprite.html">Sprite</a></td>
+        <td><span class="parametername">sprite</span></td>
+        <td><p>This is the sprite of the element. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.UI.SpriteElement.html">SpriteElement</a></td>
+        <td><p>The return is the SpriteElement that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_TextField_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_TextField*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_TextField_UnityEngine_UIElements_VisualElement_System_String_System_Int32_System_Boolean_System_Boolean_System_Char_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_TextField(UnityEngine.UIElements.VisualElement,System.String,System.Int32,System.Boolean,System.Boolean,System.Char)">CreateElement_TextField(VisualElement, String, Int32, Boolean, Boolean, Char)</h4>
+  <div class="markdown level1 summary"><p>This will create a TextField and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextField CreateElement_TextField(this VisualElement parent, string label = null, int maxLength = 0, bool multiline = false, bool isPasswordField = false, char maskChar = '*')</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>This is the label of the TextField. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxLength</span></td>
+        <td><p>This is the maxLength of the TextField. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">multiline</span></td>
+        <td><p>This will determine  of the TextField. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isPasswordField</span></td>
+        <td><p>This is the boolean for passwords. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a></td>
+        <td><span class="parametername">maskChar</span></td>
+        <td><p>This is the character that will be used for the password. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.TextField.html">TextField</a></td>
+        <td><p>The return is the TextField that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Toggle_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Toggle*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Toggle_UnityEngine_UIElements_VisualElement_System_String_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Toggle(UnityEngine.UIElements.VisualElement,System.String)">CreateElement_Toggle(VisualElement, String)</h4>
+  <div class="markdown level1 summary"><p>This will create a Toggle and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Toggle CreateElement_Toggle(this VisualElement parent, string label)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>This is the label of the Toggle. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.Toggle.html">Toggle</a></td>
+        <td><p>The return is the Toggle that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_Tooltip_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Tooltip*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_Tooltip_UnityEngine_UIElements_VisualElement_UnityEngine_Font_System_Int32_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_Tooltip(UnityEngine.UIElements.VisualElement,UnityEngine.Font,System.Int32)">CreateElement_Tooltip(VisualElement, Font, Int32)</h4>
+  <div class="markdown level1 summary"><p>This will create a ToolTipElement and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ToolTipElement CreateElement_Tooltip(this VisualElement parent, Font font = null, int textSize = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Font.html">Font</a></td>
+        <td><span class="parametername">font</span></td>
+        <td><p>This is the font of the tooltip. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">textSize</span></td>
+        <td><p>This is the size of the tooltip. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UtilitySystem.UI.ToolTipElement.html">ToolTipElement</a></td>
+        <td><p>The return is the ToolTipElement that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UtilitySystem_Script_CreateElements_CreateElement_VisualElement_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_VisualElement*"></a>
+  <h4 id="UtilitySystem_Script_CreateElements_CreateElement_VisualElement_UnityEngine_UIElements_VisualElement_" data-uid="UtilitySystem.Script.CreateElements.CreateElement_VisualElement(UnityEngine.UIElements.VisualElement)">CreateElement_VisualElement(VisualElement)</h4>
+  <div class="markdown level1 summary"><p>This will create a VisualElement and add to the element that invokes this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VisualElement CreateElement_VisualElement(this VisualElement parent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>This param is the element that invokes the method. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><p>The return is the VisualElement that is created. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Inventory System Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
