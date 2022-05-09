@@ -1,0 +1,1085 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SlotPopupElement
+   | Inventory System Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SlotPopupElement
+   | Inventory System Documentation ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../resources/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../resources/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="InventorySystem.UI.SlotPopupElement">
+  
+  
+  <h1 id="InventorySystem_UI_SlotPopupElement" data-uid="InventorySystem.UI.SlotPopupElement" class="text-break">Class SlotPopupElement
+  </h1>
+  <div class="markdown level0 summary"><p>This class is the popup for the Slot, for the splitting and dropping. </p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.CallbackEventHandler.html">CallbackEventHandler</a></div>
+    <div class="level2"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.Focusable.html">Focusable</a></div>
+    <div class="level3"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></div>
+    <div class="level4"><a class="xref" href="../UtilitySystem/UtilitySystem.UI.PopupBaseElement.html">PopupBaseElement</a></div>
+    <div class="level5"><span class="xref">SlotPopupElement</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.UI.PopupBaseElement.html#UtilitySystem_UI_PopupBaseElement_titleText">PopupBaseElement.titleText</a>
+    </div>
+    <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.UI.PopupBaseElement.html#UtilitySystem_UI_PopupBaseElement_background">PopupBaseElement.background</a>
+    </div>
+    <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.UI.PopupBaseElement.html#UtilitySystem_UI_PopupBaseElement_contentParent">PopupBaseElement.contentParent</a>
+    </div>
+    <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.UI.PopupBaseElement.html#UtilitySystem_UI_PopupBaseElement_buttonParent">PopupBaseElement.buttonParent</a>
+    </div>
+    <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.UI.PopupBaseElement.html#UtilitySystem_UI_PopupBaseElement_cancelButton">PopupBaseElement.cancelButton</a>
+    </div>
+    <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.UI.PopupBaseElement.html#UtilitySystem_UI_PopupBaseElement_submitButton">PopupBaseElement.submitButton</a>
+    </div>
+    <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.UI.PopupBaseElement.html#UtilitySystem_UI_PopupBaseElement_Cancel">PopupBaseElement.Cancel()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="InventorySystem.UI.html">InventorySystem.UI</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="InventorySystem_UI_SlotPopupElement_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SlotPopupElement : PopupBaseElement, IEventHandler, ITransform, ITransitionAnimations, IExperimentalFeatures, IVisualElementScheduler, IResolvedStyle</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="InventorySystem_UI_SlotPopupElement__ctor_" data-uid="InventorySystem.UI.SlotPopupElement.#ctor*"></a>
+  <h4 id="InventorySystem_UI_SlotPopupElement__ctor" data-uid="InventorySystem.UI.SlotPopupElement.#ctor">SlotPopupElement()</h4>
+  <div class="markdown level1 summary"><p>This is the constructor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlotPopupElement()</code></pre>
+  </div>
+  
+  
+  <a id="InventorySystem_UI_SlotPopupElement__ctor_" data-uid="InventorySystem.UI.SlotPopupElement.#ctor*"></a>
+  <h4 id="InventorySystem_UI_SlotPopupElement__ctor_UnityEngine_Vector2_System_Int32_InventorySystem_UI_InventoryElement_System_Boolean_" data-uid="InventorySystem.UI.SlotPopupElement.#ctor(UnityEngine.Vector2,System.Int32,InventorySystem.UI.InventoryElement,System.Boolean)">SlotPopupElement(Vector2, Int32, InventoryElement, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This is the constructor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlotPopupElement(Vector2 size, int key, InventoryElement From, bool isSplit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2.html">Vector2</a></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>This is the size of the popup. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>This the key of the item in the dictionary. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="InventorySystem.UI.InventoryElement.html">InventoryElement</a></td>
+        <td><span class="parametername">From</span></td>
+        <td><p>This is the From of the dictionary. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isSplit</span></td>
+        <td><p>This bool will determine if it will split or drop the item. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="InventorySystem_UI_SlotPopupElement_GenerateElements_" data-uid="InventorySystem.UI.SlotPopupElement.GenerateElements*"></a>
+  <h4 id="InventorySystem_UI_SlotPopupElement_GenerateElements" data-uid="InventorySystem.UI.SlotPopupElement.GenerateElements">GenerateElements()</h4>
+  <div class="markdown level1 summary"><p>This will generate the elements for the popup</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void GenerateElements()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="../UtilitySystem/UtilitySystem.UI.PopupBaseElement.html#UtilitySystem_UI_PopupBaseElement_GenerateElements">PopupBaseElement.GenerateElements()</a></div>
+  
+  
+  <a id="InventorySystem_UI_SlotPopupElement_Style_" data-uid="InventorySystem.UI.SlotPopupElement.Style*"></a>
+  <h4 id="InventorySystem_UI_SlotPopupElement_Style_UnityEngine_Vector2_" data-uid="InventorySystem.UI.SlotPopupElement.Style(UnityEngine.Vector2)">Style(Vector2)</h4>
+  <div class="markdown level1 summary"><p>This will style the element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Style(Vector2 size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2.html">Vector2</a></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="../UtilitySystem/UtilitySystem.UI.PopupBaseElement.html#UtilitySystem_UI_PopupBaseElement_Style_UnityEngine_Vector2_">PopupBaseElement.Style(Vector2)</a></div>
+  
+  
+  <a id="InventorySystem_UI_SlotPopupElement_Submit_" data-uid="InventorySystem.UI.SlotPopupElement.Submit*"></a>
+  <h4 id="InventorySystem_UI_SlotPopupElement_Submit" data-uid="InventorySystem.UI.SlotPopupElement.Submit">Submit()</h4>
+  <div class="markdown level1 summary"><p>This will be invoke by the submit button
+and will either drop or split the item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Submit()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="../UtilitySystem/UtilitySystem.UI.PopupBaseElement.html#UtilitySystem_UI_PopupBaseElement_Submit">PopupBaseElement.Submit()</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_BackGround_Color_UnityEngine_UIElements_VisualElement_UnityEngine_Color_">VisualElementStyleExtension.BackGround_Color(VisualElement, Color)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Background_Image_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_Background_">VisualElementStyleExtension.Background_Image(VisualElement, Background)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Background_Image_UnityEngine_UIElements_VisualElement_UnityEngine_Texture2D_">VisualElementStyleExtension.Background_Image(VisualElement, Texture2D)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Background_Image_UnityEngine_UIElements_VisualElement_UnityEngine_Sprite_">VisualElementStyleExtension.Background_Image(VisualElement, Sprite)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Background_Image_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Background_Image(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Color_UnityEngine_UIElements_VisualElement_UnityEngine_Color_">VisualElementStyleExtension.Color(VisualElement, Color)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Color_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Color(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Color_Top_UnityEngine_UIElements_VisualElement_UnityEngine_Color_">VisualElementStyleExtension.Border_Color_Top(VisualElement, Color)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Color_Top_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Border_Color_Top(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Color_Right_UnityEngine_UIElements_VisualElement_UnityEngine_Color_">VisualElementStyleExtension.Border_Color_Right(VisualElement, Color)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Color_Right_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Border_Color_Right(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Color_Bottom_UnityEngine_UIElements_VisualElement_UnityEngine_Color_">VisualElementStyleExtension.Border_Color_Bottom(VisualElement, Color)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Color_Bottom_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Border_Color_Bottom(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Color_Left_UnityEngine_UIElements_VisualElement_UnityEngine_Color_">VisualElementStyleExtension.Border_Color_Left(VisualElement, Color)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Color_Left_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Border_Color_Left(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Color_UnityEngine_UIElements_VisualElement_UnityEngine_Color___">VisualElementStyleExtension.Border_Color(VisualElement, Color[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Color_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword___">VisualElementStyleExtension.Border_Color(VisualElement, StyleKeyword[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetRadius_Top_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetRadius_Top(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetRadius_Bottom_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetRadius_Bottom(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetRadius_Size_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetRadius_Size(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Radius_Top_Left_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Border_Radius_Top_Left(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Radius_Top_Left_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Border_Radius_Top_Left(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Radius_Top_Right_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Border_Radius_Top_Right(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Radius_Top_Right_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Border_Radius_Top_Right(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Radius_Bottom_Left_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Border_Radius_Bottom_Left(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Radius_Bottom_Left_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Border_Radius_Bottom_Left(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Radius_Bottom_Right_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Border_Radius_Bottom_Right(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Radius_Bottom_Right_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Border_Radius_Bottom_Right(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Radius_UnityEngine_UIElements_VisualElement_System_Single___">VisualElementStyleExtension.Border_Radius(VisualElement, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Radius_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_System_Single___">VisualElementStyleExtension.Border_Radius(VisualElement, LengthUnit, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Radius_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit___System_Single___">VisualElementStyleExtension.Border_Radius(VisualElement, LengthUnit[], Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Radius_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword___">VisualElementStyleExtension.Border_Radius(VisualElement, StyleKeyword[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetBorder_Width_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetBorder_Width(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetBorder_Height_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetBorder_Height(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetBorder_Size_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetBorder_Size(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Width_Top_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementStyleExtension.Border_Width_Top(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Width_Top_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Border_Width_Top(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Width_Right_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementStyleExtension.Border_Width_Right(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Width_Right_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Border_Width_Right(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Width_Bottom_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementStyleExtension.Border_Width_Bottom(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Width_Bottom_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Border_Width_Bottom(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Width_Left_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementStyleExtension.Border_Width_Left(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Width_Left_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Border_Width_Left(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Width_UnityEngine_UIElements_VisualElement_System_Single___">VisualElementStyleExtension.Border_Width(VisualElement, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_Width_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword___">VisualElementStyleExtension.Border_Width(VisualElement, StyleKeyword[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_UnityEngine_UIElements_VisualElement_System_Single___">VisualElementStyleExtension.Border(VisualElement, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_UnityEngine_UIElements_VisualElement_UnityEngine_Color_System_Single___">VisualElementStyleExtension.Border(VisualElement, Color, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_UnityEngine_UIElements_VisualElement_UnityEngine_Color___System_Single___">VisualElementStyleExtension.Border(VisualElement, Color[], Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_UnityEngine_Color_System_Single___">VisualElementStyleExtension.Border(VisualElement, LengthUnit, Color, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_UnityEngine_Color___System_Single___">VisualElementStyleExtension.Border(VisualElement, LengthUnit, Color[], Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit___UnityEngine_Color_System_Single___">VisualElementStyleExtension.Border(VisualElement, LengthUnit[], Color, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit___UnityEngine_Color___System_Single___">VisualElementStyleExtension.Border(VisualElement, LengthUnit[], Color[], Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Border_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword___">VisualElementStyleExtension.Border(VisualElement, StyleKeyword[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetMargin_Width_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetMargin_Width(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetMargin_Height_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetMargin_Height(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetMargin_Size_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetMargin_Size(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Margin_Top_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Margin_Top(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Margin_Top_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Margin_Top(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Margin_Right_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Margin_Right(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Margin_Right_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Margin_Right(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Margin_Bottom_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Margin_Bottom(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Margin_Bottom_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Margin_Bottom(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Margin_Left_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Margin_Left(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Margin_Left_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Margin_Left(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Margin_UnityEngine_UIElements_VisualElement_System_Single___">VisualElementStyleExtension.Margin(VisualElement, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Margin_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit___System_Single___">VisualElementStyleExtension.Margin(VisualElement, LengthUnit[], Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Margin_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_System_Single___">VisualElementStyleExtension.Margin(VisualElement, LengthUnit, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Margin_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword___">VisualElementStyleExtension.Margin(VisualElement, StyleKeyword[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetPadding_Width_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetPadding_Width(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetPadding_Height_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetPadding_Height(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetPadding_Size_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetPadding_Size(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Padding_Top_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Padding_Top(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Padding_Top_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Padding_Top(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Padding_Right_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Padding_Right(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Padding_Right_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Padding_Right(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Padding_Bottom_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Padding_Bottom(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Padding_Bottom_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Padding_Bottom(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Padding_Left_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Padding_Left(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Padding_Left_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Padding_Left(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Padding_UnityEngine_UIElements_VisualElement_System_Single___">VisualElementStyleExtension.Padding(VisualElement, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Padding_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_System_Single___">VisualElementStyleExtension.Padding(VisualElement, LengthUnit, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Padding_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit___System_Single___">VisualElementStyleExtension.Padding(VisualElement, LengthUnit[], Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Padding_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword___">VisualElementStyleExtension.Padding(VisualElement, StyleKeyword[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Width_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Size_Width(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Width_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Size_Width(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Height_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Size_Height(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Height_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Size_Height(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_UnityEngine_UIElements_VisualElement_System_Single___">VisualElementStyleExtension.Size(VisualElement, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_System_Single___">VisualElementStyleExtension.Size(VisualElement, LengthUnit, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_UnityEngine_UIElements_LengthUnit_System_Single___">VisualElementStyleExtension.Size(VisualElement, LengthUnit, LengthUnit, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_UnityEngine_UIElements_LengthUnit___">VisualElementStyleExtension.Size(VisualElement, Vector2, LengthUnit[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Size(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetSize_UnityEngine_UIElements_VisualElement_System_Boolean_System_Boolean_">VisualElementStyleExtension.GetSize(VisualElement, Boolean, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Width_Min_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Size_Width_Min(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Width_Min_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Size_Width_Min(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Height_Min_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Size_Height_Min(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Height_Min_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Size_Height_Min(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Min_UnityEngine_UIElements_VisualElement_System_Single___">VisualElementStyleExtension.Size_Min(VisualElement, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Min_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_System_Single___">VisualElementStyleExtension.Size_Min(VisualElement, LengthUnit, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Min_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_UnityEngine_UIElements_LengthUnit_System_Single___">VisualElementStyleExtension.Size_Min(VisualElement, LengthUnit, LengthUnit, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Min_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_UnityEngine_UIElements_LengthUnit___">VisualElementStyleExtension.Size_Min(VisualElement, Vector2, LengthUnit[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Min_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Size_Min(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetSize_Min_UnityEngine_UIElements_VisualElement_System_Boolean_System_Boolean_">VisualElementStyleExtension.GetSize_Min(VisualElement, Boolean, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Width_Max_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Size_Width_Max(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Width_Max_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Size_Width_Max(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Height_Max_UnityEngine_UIElements_VisualElement_System_Single_UnityEngine_UIElements_LengthUnit_">VisualElementStyleExtension.Size_Height_Max(VisualElement, Single, LengthUnit)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Height_Max_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Size_Height_Max(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Max_UnityEngine_UIElements_VisualElement_System_Single___">VisualElementStyleExtension.Size_Max(VisualElement, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Max_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_System_Single___">VisualElementStyleExtension.Size_Max(VisualElement, LengthUnit, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Max_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_LengthUnit_UnityEngine_UIElements_LengthUnit_System_Single___">VisualElementStyleExtension.Size_Max(VisualElement, LengthUnit, LengthUnit, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Max_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_UnityEngine_UIElements_LengthUnit___">VisualElementStyleExtension.Size_Max(VisualElement, Vector2, LengthUnit[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Size_Max_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Size_Max(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetSize_Max_UnityEngine_UIElements_VisualElement_System_Boolean_System_Boolean_">VisualElementStyleExtension.GetSize_Max(VisualElement, Boolean, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_SetDisplay_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_DisplayStyle_">VisualElementStyleExtension.SetDisplay(VisualElement, DisplayStyle)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_GetDisplay_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.GetDisplay(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Display_ToggleVisibility_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.Display_ToggleVisibility(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Display_Hide_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.Display_Hide(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Display_Show_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.Display_Show(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Display_IsInvisible_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.Display_IsInvisible(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Display_IsVisible_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.Display_IsVisible(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_StylePosition_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_Position_">VisualElementStyleExtension.StylePosition(VisualElement, Position)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_StylePosition_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.StylePosition(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_StylePosition_Toggle_UnityEngine_UIElements_VisualElement_">VisualElementStyleExtension.StylePosition_Toggle(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_StylePosition_Top_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementStyleExtension.StylePosition_Top(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_StylePosition_Top_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.StylePosition_Top(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_StylePosition_Right_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementStyleExtension.StylePosition_Right(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_StylePosition_Right_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.StylePosition_Right(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_StylePosition_Bottom_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementStyleExtension.StylePosition_Bottom(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_StylePosition_Bottom_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.StylePosition_Bottom(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_StylePosition_Left_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementStyleExtension.StylePosition_Left(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_StylePosition_Left_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.StylePosition_Left(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Position_Top_Left_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_">VisualElementStyleExtension.Position_Top_Left(VisualElement, Vector2)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Position_Top_Left_UnityEngine_UIElements_VisualElement_System_Single_System_Single_">VisualElementStyleExtension.Position_Top_Left(VisualElement, Single, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Position_Top_Right_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_">VisualElementStyleExtension.Position_Top_Right(VisualElement, Vector2)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Position_Top_Right_UnityEngine_UIElements_VisualElement_System_Single_System_Single_">VisualElementStyleExtension.Position_Top_Right(VisualElement, Single, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Position_Bottom_Left_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_">VisualElementStyleExtension.Position_Bottom_Left(VisualElement, Vector2)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Position_Bottom_Left_UnityEngine_UIElements_VisualElement_System_Single_System_Single_">VisualElementStyleExtension.Position_Bottom_Left(VisualElement, Single, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Position_Bottom_Right_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_">VisualElementStyleExtension.Position_Bottom_Right(VisualElement, Vector2)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Position_Bottom_Right_UnityEngine_UIElements_VisualElement_System_Single_System_Single_">VisualElementStyleExtension.Position_Bottom_Right(VisualElement, Single, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Anchored_Position_Top_Left_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_UIAnchorEnum_">VisualElementStyleExtension.Anchored_Position_Top_Left(VisualElement, UIAnchorEnum)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Anchored_Position_Top_Right_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_UIAnchorEnum_">VisualElementStyleExtension.Anchored_Position_Top_Right(VisualElement, UIAnchorEnum)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Anchored_Position_Bottom_Left_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_UIAnchorEnum_">VisualElementStyleExtension.Anchored_Position_Bottom_Left(VisualElement, UIAnchorEnum)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Anchored_Position_Bottom_Right_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_UIAnchorEnum_">VisualElementStyleExtension.Anchored_Position_Bottom_Right(VisualElement, UIAnchorEnum)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Align_Content_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_Align_">VisualElementStyleExtension.Align_Content(VisualElement, Align)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Align_Content_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Align_Content(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Align_Item_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_Align_">VisualElementStyleExtension.Align_Item(VisualElement, Align)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Align_Item_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Align_Item(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Align_Self_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_Align_">VisualElementStyleExtension.Align_Self(VisualElement, Align)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Align_Self_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Align_Self(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Flex_Wrap_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_Wrap_">VisualElementStyleExtension.Flex_Wrap(VisualElement, Wrap)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Flex_Wrap_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Flex_Wrap(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Flex_Shrink_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementStyleExtension.Flex_Shrink(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Flex_Shrink_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Flex_Shrink(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Flex_Grow_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementStyleExtension.Flex_Grow(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Flex_Grow_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Flex_Grow(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Flex_Direction_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_FlexDirection_">VisualElementStyleExtension.Flex_Direction(VisualElement, FlexDirection)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Flex_Direction_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Flex_Direction(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Flex_Basis_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementStyleExtension.Flex_Basis(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Flex_Basis_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Flex_Basis(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_White_Space_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_WhiteSpace_">VisualElementStyleExtension.White_Space(VisualElement, WhiteSpace)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_White_Space_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.White_Space(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Font_Size_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementStyleExtension.Font_Size(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Font_Size_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Font_Size(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Font_UnityEngine_UIElements_VisualElement_UnityEngine_Font_">VisualElementStyleExtension.Font(VisualElement, Font)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Font_UnityEngine_UIElements_VisualElement_UnityEngine_TextCore_Text_FontAsset_">VisualElementStyleExtension.Font(VisualElement, FontAsset)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Text_Position_UnityEngine_UIElements_VisualElement_UnityEngine_TextAnchor_">VisualElementStyleExtension.Text_Position(VisualElement, TextAnchor)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Overflow_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_Overflow_">VisualElementStyleExtension.Overflow(VisualElement, Overflow)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementStyleExtension.html#UtilitySystem_Extension_VisualElementStyleExtension_Overflow_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleKeyword_">VisualElementStyleExtension.Overflow(VisualElement, StyleKeyword)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_ViewDataKey_UnityEngine_UIElements_VisualElement_System_String_">VisualElementExtension.ViewDataKey(VisualElement, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_UsageHints_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_UsageHints_">VisualElementExtension.UsageHints(VisualElement, UsageHints)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_ToolTip_UnityEngine_UIElements_VisualElement_System_String_">VisualElementExtension.ToolTip(VisualElement, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetLayout_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetLayout(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetLayoutSize_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetLayoutSize(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetLayoutWidth_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetLayoutWidth(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetLayoutHeight_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetLayoutHeight(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetLayoutPosition_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetLayoutPosition(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetLayoutPositionX_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetLayoutPositionX(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetLayoutPositionY_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetLayoutPositionY(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetWorldBound_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetWorldBound(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetWorldBoundSize_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetWorldBoundSize(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetWorldBoundPosition_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetWorldBoundPosition(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetLocalBound_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetLocalBound(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetLocalBoundSize_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetLocalBoundSize(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetLocalBoundPosition_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetLocalBoundPosition(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Pick_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_PickingMode_">VisualElementExtension.Pick(VisualElement, PickingMode)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Pick_Toggle_UnityEngine_UIElements_VisualElement_">VisualElementExtension.Pick_Toggle(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Pick_OFF_UnityEngine_UIElements_VisualElement_">VisualElementExtension.Pick_OFF(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Pick_ON_UnityEngine_UIElements_VisualElement_">VisualElementExtension.Pick_ON(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Focus_UnityEngine_UIElements_VisualElement_System_Boolean_">VisualElementExtension.Focus(VisualElement, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Focus_Toggle_UnityEngine_UIElements_VisualElement_">VisualElementExtension.Focus_Toggle(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Focus_OFF_UnityEngine_UIElements_VisualElement_">VisualElementExtension.Focus_OFF(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Focus_ON_UnityEngine_UIElements_VisualElement_">VisualElementExtension.Focus_ON(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetVisible_UnityEngine_UIElements_VisualElement_System_Boolean_">VisualElementExtension.SetVisible(VisualElement, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetVisible_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetVisible(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Visible_ToggleVisibility_UnityEngine_UIElements_VisualElement_">VisualElementExtension.Visible_ToggleVisibility(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Visible_Hide_UnityEngine_UIElements_VisualElement_">VisualElementExtension.Visible_Hide(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Visible_Show_UnityEngine_UIElements_VisualElement_">VisualElementExtension.Visible_Show(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Visible_IsInvisible_UnityEngine_UIElements_VisualElement_">VisualElementExtension.Visible_IsInvisible(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Visible_IsVisible_UnityEngine_UIElements_VisualElement_">VisualElementExtension.Visible_IsVisible(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_ResetRotation_UnityEngine_UIElements_VisualElement_">VisualElementExtension.ResetRotation(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetTransform_Rotate_UnityEngine_UIElements_VisualElement_UnityEngine_Vector3_">VisualElementExtension.SetTransform_Rotate(VisualElement, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetTransform_Rotate_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetTransform_Rotate(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Rotate_Clockwise_UnityEngine_UIElements_VisualElement_UnityEngine_Vector3_">VisualElementExtension.Rotate_Clockwise(VisualElement, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Rotate_Counter_Clockwise_UnityEngine_UIElements_VisualElement_UnityEngine_Vector3_">VisualElementExtension.Rotate_Counter_Clockwise(VisualElement, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Rotate_Clockwise_X_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementExtension.Rotate_Clockwise_X(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Rotate_Counter_Clockwise_X_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementExtension.Rotate_Counter_Clockwise_X(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_RotateY_Clockwise_Y_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementExtension.RotateY_Clockwise_Y(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Rotate_Counter_Clockwise_Y_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementExtension.Rotate_Counter_Clockwise_Y(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Rotate_Clockwise_Z_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementExtension.Rotate_Clockwise_Z(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Rotate_Counter_Clockwise_Z_UnityEngine_UIElements_VisualElement_System_Single_">VisualElementExtension.Rotate_Counter_Clockwise_Z(VisualElement, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetTransform_Position_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_">VisualElementExtension.SetTransform_Position(VisualElement, Vector2)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetTransform_Position_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetTransform_Position(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_SetTransform_Scale_UnityEngine_UIElements_VisualElement_UnityEngine_Vector3_">VisualElementExtension.SetTransform_Scale(VisualElement, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetTransform_Scale_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetTransform_Scale(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Child_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_VisualElement_System_Boolean_">VisualElementExtension.Child(VisualElement, VisualElement, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_StyleSheet_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_StyleSheet_System_Boolean_">VisualElementExtension.StyleSheet(VisualElement, StyleSheet, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_Name_UnityEngine_UIElements_VisualElement_System_String_">VisualElementExtension.Name(VisualElement, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_GetElementSize_UnityEngine_UIElements_VisualElement_">VisualElementExtension.GetElementSize(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_ScreenBound_UnityEngine_UIElements_VisualElement_">VisualElementExtension.ScreenBound(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_MouseGrab_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_">VisualElementExtension.MouseGrab(VisualElement, Vector2)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_MouseRelease_UnityEngine_UIElements_VisualElement_">VisualElementExtension.MouseRelease(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Extension.VisualElementExtension.html#UtilitySystem_Extension_VisualElementExtension_UpdatePosition_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_">VisualElementExtension.UpdatePosition(VisualElement, Vector2)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UpperCaseText_System_Object_">RichText.UpperCaseText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_LowerCaseText_System_Object_">RichText.LowerCaseText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BoldText_System_Object_">RichText.BoldText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ItalicText_System_Object_">RichText.ItalicText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_Text_System_Object_">RichText.Text(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UnderLineText_System_Object_">RichText.UnderLineText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_StrikeText_System_Object_">RichText.StrikeText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SupText_System_Object_">RichText.SupText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SubText_System_Object_">RichText.SubText(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_PositionText_System_Object_System_Single_">RichText.PositionText(Object, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SizeText_System_Object_System_Int32_">RichText.SizeText(Object, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ColoredText_System_Object_System_String_">RichText.ColoredText(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ColoredText_System_Object_UnityEngine_Color_">RichText.ColoredText(Object, Color)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BooleanText_System_Object_System_Boolean_">RichText.BooleanText(Object, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BooleanText_System_Object_System_Boolean_UnityEngine_Color_">RichText.BooleanText(Object, Boolean, Color)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Label_UnityEngine_UIElements_VisualElement_System_String_System_Boolean_">CreateElements.CreateElement_Label(VisualElement, String, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_VisualElement_UnityEngine_UIElements_VisualElement_">CreateElements.CreateElement_VisualElement(VisualElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_ScrollView_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_ScrollViewMode_UnityEngine_UIElements_VisualElement___">CreateElements.CreateElement_ScrollView(VisualElement, ScrollViewMode, VisualElement[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_ListView__1_UnityEngine_UIElements_VisualElement_System_Collections_Generic_List___0__System_Single_UnityEngine_UIElements_SelectionType_">CreateElements.CreateElement_ListView&lt;TValue&gt;(VisualElement, List&lt;TValue&gt;, Single, SelectionType)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Button_UnityEngine_UIElements_VisualElement_System_Action_">CreateElements.CreateElement_Button(VisualElement, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Toggle_UnityEngine_UIElements_VisualElement_System_String_">CreateElements.CreateElement_Toggle(VisualElement, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_TextField_UnityEngine_UIElements_VisualElement_System_String_System_Int32_System_Boolean_System_Boolean_System_Char_">CreateElements.CreateElement_TextField(VisualElement, String, Int32, Boolean, Boolean, Char)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Foldout_UnityEngine_UIElements_VisualElement_System_String_System_Boolean_">CreateElements.CreateElement_Foldout(VisualElement, String, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Slider_UnityEngine_UIElements_VisualElement_System_Single_System_Single_System_String_">CreateElements.CreateElement_Slider(VisualElement, Single, Single, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Slider_Int_UnityEngine_UIElements_VisualElement_System_Int32_System_Int32_System_String_">CreateElements.CreateElement_Slider_Int(VisualElement, Int32, Int32, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Slider_Min_Max_UnityEngine_UIElements_VisualElement_System_String_System_Single_System_Single_System_Single_System_Single_">CreateElements.CreateElement_Slider_Min_Max(VisualElement, String, Single, Single, Single, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Progress_Bar_UnityEngine_UIElements_VisualElement_System_String_System_Single_System_Single_System_Single_">CreateElements.CreateElement_Progress_Bar(VisualElement, String, Single, Single, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Dropdown_UnityEngine_UIElements_VisualElement_System_String_System_Collections_Generic_List_System_String__System_Int32_">CreateElements.CreateElement_Dropdown(VisualElement, String, List&lt;String&gt;, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Radio_UnityEngine_UIElements_VisualElement_System_Boolean_System_String_System_Boolean_">CreateElements.CreateElement_Radio(VisualElement, Boolean, String, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Radio_Group_UnityEngine_UIElements_VisualElement_System_String_System_String___">CreateElements.CreateElement_Radio_Group(VisualElement, String, String[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_ContextMenuItem_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_ContextMenuItemData_">CreateElements.CreateElement_ContextMenuItem(VisualElement, ContextMenuItemData)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_ContextMenuItemData___">CreateElements.CreateElement_ContextMenu(VisualElement, ContextMenuItemData[])</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_UnityEngine_UIElements_VisualElement_System_Collections_Generic_List_UtilitySystem_Data_ContextMenuItemData__">CreateElements.CreateElement_ContextMenu(VisualElement, List&lt;ContextMenuItemData&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_Item_Parent_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_ContextMenuItemParentData_">CreateElements.CreateElement_ContextMenu_Item_Parent(VisualElement, ContextMenuItemParentData)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_Item_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_ContextMenuItemData_">CreateElements.CreateElement_ContextMenu_Item(VisualElement, ContextMenuItemData)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_ContextMenu_Item_Button_UnityEngine_UIElements_VisualElement_UtilitySystem_Data_ContextMenuItemButtonData_">CreateElements.CreateElement_ContextMenu_Item_Button(VisualElement, ContextMenuItemButtonData)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_DialogBox_UnityEngine_UIElements_VisualElement_System_String_System_String_System_Boolean_">CreateElements.CreateElement_DialogBox(VisualElement, String, String, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_DialogBox_UnityEngine_UIElements_VisualElement_System_String_System_String_UnityEngine_UIElements_VisualElement_System_Boolean_">CreateElements.CreateElement_DialogBox(VisualElement, String, String, VisualElement, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Tooltip_UnityEngine_UIElements_VisualElement_UnityEngine_Font_System_Int32_">CreateElements.CreateElement_Tooltip(VisualElement, Font, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Sprite_UnityEngine_UIElements_VisualElement_UnityEngine_Sprite_">CreateElements.CreateElement_Sprite(VisualElement, Sprite)</a>
+  </div>
+  <div>
+      <a class="xref" href="InventorySystem.Script.CreateElements.html#InventorySystem_Script_CreateElements_CreateElement_Slot_UnityEngine_UIElements_VisualElement_System_Int32_">CreateElements.CreateElement_Slot(VisualElement, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="InventorySystem.Script.CreateElements.html#InventorySystem_Script_CreateElements_CreateElement_Inventory_UnityEngine_UIElements_VisualElement_System_Int32_System_Int32_InventorySystem_Data_Inventory_">CreateElements.CreateElement_Inventory(VisualElement, Int32, Int32, Inventory)</a>
+  </div>
+  <div>
+      <a class="xref" href="InventorySystem.Script.CreateElements.html#InventorySystem_Script_CreateElements_CreateElement_Icon_UnityEngine_UIElements_VisualElement_InventorySystem_Data_InventoryItem_">CreateElements.CreateElement_Icon(VisualElement, InventoryItem)</a>
+  </div>
+  <div>
+      <a class="xref" href="InventorySystem.Script.CreateElements.html#InventorySystem_Script_CreateElements_CreateElement_SlotPopup_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_System_Int32_InventorySystem_UI_InventoryElement_System_Boolean_">CreateElements.CreateElement_SlotPopup(VisualElement, Vector2, Int32, InventoryElement, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="InventorySystem.Script.CreateElements.html#InventorySystem_Script_CreateElements_CreateElement_TransferPopup_UnityEngine_UIElements_VisualElement_UnityEngine_Vector2_InventorySystem_Data_TransferItem_InventorySystem_UI_InventoryElement_InventorySystem_UI_InventoryElement_">CreateElements.CreateElement_TransferPopup(VisualElement, Vector2, TransferItem, InventoryElement, InventoryElement)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Inventory System Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
