@@ -109,7 +109,7 @@ public class Timer</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Timer(Action action, float timer, bool isStopped = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public Timer(Action action, float timer, bool isRunning = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -135,8 +135,8 @@ public class Timer</code></pre>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">isStopped</span></td>
-        <td><p>This param if true will set the timer to stop from the start. (default false).</p>
+        <td><span class="parametername">isRunning</span></td>
+        <td><p>This param if true will set the timer to start or stop. (default true).</p>
 </td>
       </tr>
     </tbody>

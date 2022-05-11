@@ -366,7 +366,8 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">decimalPoint</span></td>
-        <td></td>
+        <td><p>How many Decimal places. </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -381,24 +382,78 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><p>Return the Kilograms </p>
+        <td><p>Return the Kilograms. </p>
 </td>
       </tr>
     </tbody>
   </table>
   <h5 id="UtilitySystem_Extension_FloatExtension_WeightGramToKilogram_System_Single_System_Int32__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>1000 Grams is the same as 1 Kilogram. </p>
+  <div class="markdown level1 remarks"><p>1 Grams is the same as 0.001 Kilogram. </p>
+</div>
+  
+  
+  <a id="UtilitySystem_Extension_FloatExtension_WeightGramToOunce_" data-uid="UtilitySystem.Extension.FloatExtension.WeightGramToOunce*"></a>
+  <h4 id="UtilitySystem_Extension_FloatExtension_WeightGramToOunce_System_Single_System_Int32_" data-uid="UtilitySystem.Extension.FloatExtension.WeightGramToOunce(System.Single,System.Int32)">WeightGramToOunce(Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>This will divide the value by 28.35</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float WeightGramToOunce(this float value, int decimalPoint = 2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The Pound that will converted to Ounce. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">decimalPoint</span></td>
+        <td><p>How many Decimal places. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><p>Return the Ounce. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="UtilitySystem_Extension_FloatExtension_WeightGramToOunce_System_Single_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>1 Grams is the same as 0.035274 Ounce. </p>
 </div>
   
   
   <a id="UtilitySystem_Extension_FloatExtension_WeightKilogramToGram_" data-uid="UtilitySystem.Extension.FloatExtension.WeightKilogramToGram*"></a>
-  <h4 id="UtilitySystem_Extension_FloatExtension_WeightKilogramToGram_System_Single_" data-uid="UtilitySystem.Extension.FloatExtension.WeightKilogramToGram(System.Single)">WeightKilogramToGram(Single)</h4>
+  <h4 id="UtilitySystem_Extension_FloatExtension_WeightKilogramToGram_System_Single_System_Int32_" data-uid="UtilitySystem.Extension.FloatExtension.WeightKilogramToGram(System.Single,System.Int32)">WeightKilogramToGram(Single, Int32)</h4>
   <div class="markdown level1 summary"><p>This will multiple the value by 1000</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float WeightKilogramToGram(this float value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float WeightKilogramToGram(this float value, int decimalPoint = 2)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -416,6 +471,12 @@
         <td><p>The kilograms that will converted to Grams. </p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">decimalPoint</span></td>
+        <td><p>How many Decimal places. </p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -429,13 +490,283 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><p>Return the Grams </p>
+        <td><p>Return the Grams. </p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="UtilitySystem_Extension_FloatExtension_WeightKilogramToGram_System_Single__remarks">Remarks</h5>
+  <h5 id="UtilitySystem_Extension_FloatExtension_WeightKilogramToGram_System_Single_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>1 Kilogram is the same as 1000 Grams. </p>
+</div>
+  
+  
+  <a id="UtilitySystem_Extension_FloatExtension_WeightKiloGramToPound_" data-uid="UtilitySystem.Extension.FloatExtension.WeightKiloGramToPound*"></a>
+  <h4 id="UtilitySystem_Extension_FloatExtension_WeightKiloGramToPound_System_Single_System_Int32_" data-uid="UtilitySystem.Extension.FloatExtension.WeightKiloGramToPound(System.Single,System.Int32)">WeightKiloGramToPound(Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>This will divide the value by 2.205</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float WeightKiloGramToPound(this float value, int decimalPoint = 2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The Kilogram that will converted to Pound. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">decimalPoint</span></td>
+        <td><p>How many Decimal places. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><p>Return the Pound. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="UtilitySystem_Extension_FloatExtension_WeightKiloGramToPound_System_Single_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>1 Kilogram is the same as 2.20462 Pound. </p>
+</div>
+  
+  
+  <a id="UtilitySystem_Extension_FloatExtension_WeightOunceToGram_" data-uid="UtilitySystem.Extension.FloatExtension.WeightOunceToGram*"></a>
+  <h4 id="UtilitySystem_Extension_FloatExtension_WeightOunceToGram_System_Single_System_Int32_" data-uid="UtilitySystem.Extension.FloatExtension.WeightOunceToGram(System.Single,System.Int32)">WeightOunceToGram(Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>This will multiple the value by 28.35</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float WeightOunceToGram(this float value, int decimalPoint = 2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The Ounce that will converted to Gram. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">decimalPoint</span></td>
+        <td><p>How many Decimal places. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><p>Return the Gram. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="UtilitySystem_Extension_FloatExtension_WeightOunceToGram_System_Single_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>1 Ounce is the same as 28.3495 Gram. </p>
+</div>
+  
+  
+  <a id="UtilitySystem_Extension_FloatExtension_WeightOunceToPound_" data-uid="UtilitySystem.Extension.FloatExtension.WeightOunceToPound*"></a>
+  <h4 id="UtilitySystem_Extension_FloatExtension_WeightOunceToPound_System_Single_System_Int32_" data-uid="UtilitySystem.Extension.FloatExtension.WeightOunceToPound(System.Single,System.Int32)">WeightOunceToPound(Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>This will divide the value by 16</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float WeightOunceToPound(this float value, int decimalPoint = 2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The Ounce that will converted to Pound. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">decimalPoint</span></td>
+        <td><p>How many Decimal places. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><p>Return the Pound. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="UtilitySystem_Extension_FloatExtension_WeightOunceToPound_System_Single_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>1 Ounce is the same as 0.0625 Pound. </p>
+</div>
+  
+  
+  <a id="UtilitySystem_Extension_FloatExtension_WeightPoundToKiloGram_" data-uid="UtilitySystem.Extension.FloatExtension.WeightPoundToKiloGram*"></a>
+  <h4 id="UtilitySystem_Extension_FloatExtension_WeightPoundToKiloGram_System_Single_System_Int32_" data-uid="UtilitySystem.Extension.FloatExtension.WeightPoundToKiloGram(System.Single,System.Int32)">WeightPoundToKiloGram(Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>This will multiple the value by 2.205</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float WeightPoundToKiloGram(this float value, int decimalPoint = 2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The Pound that will converted to Kilogram. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">decimalPoint</span></td>
+        <td><p>How many Decimal places. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><p>Return the Kilogram. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="UtilitySystem_Extension_FloatExtension_WeightPoundToKiloGram_System_Single_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>1 Pound is the same as 0.453592 Kilogram. </p>
+</div>
+  
+  
+  <a id="UtilitySystem_Extension_FloatExtension_WeightPoundToOunce_" data-uid="UtilitySystem.Extension.FloatExtension.WeightPoundToOunce*"></a>
+  <h4 id="UtilitySystem_Extension_FloatExtension_WeightPoundToOunce_System_Single_System_Int32_" data-uid="UtilitySystem.Extension.FloatExtension.WeightPoundToOunce(System.Single,System.Int32)">WeightPoundToOunce(Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>This will multiple the value by 16</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float WeightPoundToOunce(this float value, int decimalPoint = 2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The Pound that will converted to Ounce. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">decimalPoint</span></td>
+        <td><p>How many Decimal places. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><p>Return the Ounce. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="UtilitySystem_Extension_FloatExtension_WeightPoundToOunce_System_Single_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>1 Pound is the same as 16 Ounce. </p>
 </div>
 </article>
           </div>

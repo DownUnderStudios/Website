@@ -456,13 +456,13 @@
   
   
   <a id="UtilitySystem_Script_RichText_CurrencyText_" data-uid="UtilitySystem.Script.RichText.CurrencyText*"></a>
-  <h4 id="UtilitySystem_Script_RichText_CurrencyText_System_ValueTuple_System_Int32_System_Int32_System_Int32__System_Boolean_System_Boolean_System_Boolean_" data-uid="UtilitySystem.Script.RichText.CurrencyText(System.ValueTuple{System.Int32,System.Int32,System.Int32},System.Boolean,System.Boolean,System.Boolean)">CurrencyText((Int32, Int32, Int32), Boolean, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"><p>This will take a 3 int value that represents god,silver,copper.</p>
+  <h4 id="UtilitySystem_Script_RichText_CurrencyText_System_Int32_" data-uid="UtilitySystem.Script.RichText.CurrencyText(System.Int32)">CurrencyText(Int32)</h4>
+  <div class="markdown level1 summary"><p>This will take a 3 int value that represents gold,silver,copper or $ amount.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string CurrencyText(this (int, int, int) arg, bool getGold = true, bool getSilver = true, bool getCopper = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string CurrencyText(this int arg)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -475,25 +475,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetuple-3">(T1, T2, T3)</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">arg</span></td>
         <td><p>The 3 values to be converted to string. </p>
 </td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">getGold</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">getSilver</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">getCopper</span></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
@@ -513,9 +498,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="UtilitySystem_Script_RichText_CurrencyText_System_ValueTuple_System_Int32_System_Int32_System_Int32__System_Boolean_System_Boolean_System_Boolean__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This will return the currency value </p>
-</div>
   
   
   <a id="UtilitySystem_Script_RichText_ItalicText_" data-uid="UtilitySystem.Script.RichText.ItalicText*"></a>
@@ -1026,13 +1008,14 @@
   
   
   <a id="UtilitySystem_Script_RichText_WeightText_" data-uid="UtilitySystem.Script.RichText.WeightText*"></a>
-  <h4 id="UtilitySystem_Script_RichText_WeightText_System_Single_" data-uid="UtilitySystem.Script.RichText.WeightText(System.Single)">WeightText(Single)</h4>
-  <div class="markdown level1 summary"><p>This will take a float value that represents weight and will convert to either kilograms or grams. based on weight amount.</p>
+  <h4 id="UtilitySystem_Script_RichText_WeightText_System_Single_System_Boolean_" data-uid="UtilitySystem.Script.RichText.WeightText(System.Single,System.Boolean)">WeightText(Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This will take a float value that represents weight.
+And will convert to either metric or imperial. based on weight amount.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string WeightText(this float arg)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string WeightText(this float arg, bool IsMetric = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1049,6 +1032,11 @@
         <td><span class="parametername">arg</span></td>
         <td><p>The weight value to be converted to string. </p>
 </td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">IsMetric</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1068,9 +1056,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="UtilitySystem_Script_RichText_WeightText_System_Single__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>if the value is over 1000 grams then it will convert to kilograms. and reflect that as either &quot;Kg&quot; or &quot;g&quot; respectively. </p>
-</div>
 </article>
           </div>
           
