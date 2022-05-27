@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class InventoryTraderManager
+    <title>Class InventoryManager
    | Inventory System Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class InventoryTraderManager
+    <meta name="title" content="Class InventoryManager
    | Inventory System Documentation ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -78,12 +78,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="InventorySystem.Script.InventoryTraderManager">
+            <article class="content wrap" id="_content" data-uid="InventorySystem.Script.InventoryManager">
   
   
-  <h1 id="InventorySystem_Script_InventoryTraderManager" data-uid="InventorySystem.Script.InventoryTraderManager" class="text-break">Class InventoryTraderManager
+  <h1 id="InventorySystem_Script_InventoryManager" data-uid="InventorySystem.Script.InventoryManager" class="text-break">Class InventoryManager
   </h1>
-  <div class="markdown level0 summary"><p>This class handles the inventories and logic for transfering of item(s) from 1 inventory to another.</p>
+  <div class="markdown level0 summary"><p>This class handles the inventories and logic for transferring of item(s) from 1 inventory to another.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -93,20 +93,20 @@
     <div class="level2"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Component.html">Component</a></div>
     <div class="level3"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Behaviour.html">Behaviour</a></div>
     <div class="level4"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
-    <div class="level5"><span class="xref">InventoryTraderManager</span></div>
+    <div class="level5"><span class="xref">InventoryManager</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="InventorySystem.Script.html">InventorySystem.Script</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="InventorySystem_Script_InventoryTraderManager_syntax">Syntax</h5>
+  <h5 id="InventorySystem_Script_InventoryManager_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[RequireComponent(typeof(UIDocument))]
-public class InventoryTraderManager : MonoBehaviour</code></pre>
+public class InventoryManager : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="InventorySystem_Script_InventoryTraderManager_contextMenu" data-uid="InventorySystem.Script.InventoryTraderManager.contextMenu">contextMenu</h4>
+  <h4 id="InventorySystem_Script_InventoryManager_contextMenu" data-uid="InventorySystem.Script.InventoryManager.contextMenu">contextMenu</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -130,8 +130,9 @@ public class InventoryTraderManager : MonoBehaviour</code></pre>
   </table>
   
   
-  <h4 id="InventorySystem_Script_InventoryTraderManager_CurrencyState" data-uid="InventorySystem.Script.InventoryTraderManager.CurrencyState">CurrencyState</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="InventorySystem_Script_InventoryManager_CurrencyState" data-uid="InventorySystem.Script.InventoryManager.CurrencyState">CurrencyState</h4>
+  <div class="markdown level1 summary"><p>This is the value that is used to determine what currency will be used.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -155,13 +156,13 @@ public bool CurrencyState</code></pre>
   </table>
   
   
-  <h4 id="InventorySystem_Script_InventoryTraderManager_Instance" data-uid="InventorySystem.Script.InventoryTraderManager.Instance">Instance</h4>
+  <h4 id="InventorySystem_Script_InventoryManager_Instance" data-uid="InventorySystem.Script.InventoryManager.Instance">Instance</h4>
   <div class="markdown level1 summary"><p>This is a singleton Instance variable.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static InventoryTraderManager Instance</code></pre>
+    <pre><code class="lang-csharp hljs">public static InventoryManager Instance</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -173,15 +174,16 @@ public bool CurrencyState</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="InventorySystem.Script.InventoryTraderManager.html">InventoryTraderManager</a></td>
+        <td><a class="xref" href="InventorySystem.Script.InventoryManager.html">InventoryManager</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="InventorySystem_Script_InventoryTraderManager_WeightState" data-uid="InventorySystem.Script.InventoryTraderManager.WeightState">WeightState</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="InventorySystem_Script_InventoryManager_WeightState" data-uid="InventorySystem.Script.InventoryManager.WeightState">WeightState</h4>
+  <div class="markdown level1 summary"><p>This is the value that is used to determine what weight will be used.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -207,8 +209,8 @@ public bool WeightState</code></pre>
   </h3>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_CountAll_" data-uid="InventorySystem.Script.InventoryTraderManager.CountAll*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_CountAll" data-uid="InventorySystem.Script.InventoryTraderManager.CountAll">CountAll</h4>
+  <a id="InventorySystem_Script_InventoryManager_CountAll_" data-uid="InventorySystem.Script.InventoryManager.CountAll*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_CountAll" data-uid="InventorySystem.Script.InventoryManager.CountAll">CountAll</h4>
   <div class="markdown level1 summary"><p>This Property is the count of the inventories.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -233,8 +235,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_CountLoots_" data-uid="InventorySystem.Script.InventoryTraderManager.CountLoots*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_CountLoots" data-uid="InventorySystem.Script.InventoryTraderManager.CountLoots">CountLoots</h4>
+  <a id="InventorySystem_Script_InventoryManager_CountLoots_" data-uid="InventorySystem.Script.InventoryManager.CountLoots*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_CountLoots" data-uid="InventorySystem.Script.InventoryManager.CountLoots">CountLoots</h4>
   <div class="markdown level1 summary"><p>This Property is the count of the inventories of type Loot.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -259,8 +261,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_CountPlayers_" data-uid="InventorySystem.Script.InventoryTraderManager.CountPlayers*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_CountPlayers" data-uid="InventorySystem.Script.InventoryTraderManager.CountPlayers">CountPlayers</h4>
+  <a id="InventorySystem_Script_InventoryManager_CountPlayers_" data-uid="InventorySystem.Script.InventoryManager.CountPlayers*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_CountPlayers" data-uid="InventorySystem.Script.InventoryManager.CountPlayers">CountPlayers</h4>
   <div class="markdown level1 summary"><p>This Property is the count of the inventories of type Player.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -285,8 +287,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_CountStorages_" data-uid="InventorySystem.Script.InventoryTraderManager.CountStorages*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_CountStorages" data-uid="InventorySystem.Script.InventoryTraderManager.CountStorages">CountStorages</h4>
+  <a id="InventorySystem_Script_InventoryManager_CountStorages_" data-uid="InventorySystem.Script.InventoryManager.CountStorages*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_CountStorages" data-uid="InventorySystem.Script.InventoryManager.CountStorages">CountStorages</h4>
   <div class="markdown level1 summary"><p>This Property is the count of the inventories of type Storage.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -311,8 +313,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_CountTraders_" data-uid="InventorySystem.Script.InventoryTraderManager.CountTraders*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_CountTraders" data-uid="InventorySystem.Script.InventoryTraderManager.CountTraders">CountTraders</h4>
+  <a id="InventorySystem_Script_InventoryManager_CountTraders_" data-uid="InventorySystem.Script.InventoryManager.CountTraders*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_CountTraders" data-uid="InventorySystem.Script.InventoryManager.CountTraders">CountTraders</h4>
   <div class="markdown level1 summary"><p>This Property is the count of the inventories of type Trader.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -337,14 +339,14 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_dialogboxes_" data-uid="InventorySystem.Script.InventoryTraderManager.dialogboxes*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_dialogboxes" data-uid="InventorySystem.Script.InventoryTraderManager.dialogboxes">dialogboxes</h4>
+  <a id="InventorySystem_Script_InventoryManager_dialogBoxes_" data-uid="InventorySystem.Script.InventoryManager.dialogBoxes*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_dialogBoxes" data-uid="InventorySystem.Script.InventoryManager.dialogBoxes">dialogBoxes</h4>
   <div class="markdown level1 summary"><p>This is the list of DialogBoxes that hold an InventoryElement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;DialogBoxElement&gt; dialogboxes { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;DialogBoxElement&gt; dialogBoxes { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -363,8 +365,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_FindAll_" data-uid="InventorySystem.Script.InventoryTraderManager.FindAll*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_FindAll" data-uid="InventorySystem.Script.InventoryTraderManager.FindAll">FindAll</h4>
+  <a id="InventorySystem_Script_InventoryManager_FindAll_" data-uid="InventorySystem.Script.InventoryManager.FindAll*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_FindAll" data-uid="InventorySystem.Script.InventoryManager.FindAll">FindAll</h4>
   <div class="markdown level1 summary"><p>This Property is all of the InventoryElements in inventories.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -389,8 +391,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_FindLoots_" data-uid="InventorySystem.Script.InventoryTraderManager.FindLoots*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_FindLoots" data-uid="InventorySystem.Script.InventoryTraderManager.FindLoots">FindLoots</h4>
+  <a id="InventorySystem_Script_InventoryManager_FindLoots_" data-uid="InventorySystem.Script.InventoryManager.FindLoots*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_FindLoots" data-uid="InventorySystem.Script.InventoryManager.FindLoots">FindLoots</h4>
   <div class="markdown level1 summary"><p>This Property is all of the InventoryElements in inventories of type Loot.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -415,8 +417,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_FindPlayer_" data-uid="InventorySystem.Script.InventoryTraderManager.FindPlayer*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_FindPlayer" data-uid="InventorySystem.Script.InventoryTraderManager.FindPlayer">FindPlayer</h4>
+  <a id="InventorySystem_Script_InventoryManager_FindPlayer_" data-uid="InventorySystem.Script.InventoryManager.FindPlayer*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_FindPlayer" data-uid="InventorySystem.Script.InventoryManager.FindPlayer">FindPlayer</h4>
   <div class="markdown level1 summary"><p>This Property is all of the InventoryElements in inventories of type Player.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -441,8 +443,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_FindStorages_" data-uid="InventorySystem.Script.InventoryTraderManager.FindStorages*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_FindStorages" data-uid="InventorySystem.Script.InventoryTraderManager.FindStorages">FindStorages</h4>
+  <a id="InventorySystem_Script_InventoryManager_FindStorages_" data-uid="InventorySystem.Script.InventoryManager.FindStorages*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_FindStorages" data-uid="InventorySystem.Script.InventoryManager.FindStorages">FindStorages</h4>
   <div class="markdown level1 summary"><p>This Property is all of the InventoryElements in inventories  of type Storage.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -467,8 +469,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_FindTraders_" data-uid="InventorySystem.Script.InventoryTraderManager.FindTraders*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_FindTraders" data-uid="InventorySystem.Script.InventoryTraderManager.FindTraders">FindTraders</h4>
+  <a id="InventorySystem_Script_InventoryManager_FindTraders_" data-uid="InventorySystem.Script.InventoryManager.FindTraders*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_FindTraders" data-uid="InventorySystem.Script.InventoryManager.FindTraders">FindTraders</h4>
   <div class="markdown level1 summary"><p>This Property is all of the InventoryElements in inventories of type Trader.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -495,8 +497,8 @@ public bool WeightState</code></pre>
   </h3>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_AddInventory_" data-uid="InventorySystem.Script.InventoryTraderManager.AddInventory*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_AddInventory_InventorySystem_UI_InventoryElement_" data-uid="InventorySystem.Script.InventoryTraderManager.AddInventory(InventorySystem.UI.InventoryElement)">AddInventory(InventoryElement)</h4>
+  <a id="InventorySystem_Script_InventoryManager_AddInventory_" data-uid="InventorySystem.Script.InventoryManager.AddInventory*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_AddInventory_InventorySystem_UI_InventoryElement_" data-uid="InventorySystem.Script.InventoryManager.AddInventory(InventorySystem.UI.InventoryElement)">AddInventory(InventoryElement)</h4>
   <div class="markdown level1 summary"><p>This will add an InventoryElement to the inventories list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -524,8 +526,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_ContextMenu_" data-uid="InventorySystem.Script.InventoryTraderManager.ContextMenu*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_ContextMenu_InventorySystem_UI_InventoryElement_InventorySystem_UI_SlotElement_" data-uid="InventorySystem.Script.InventoryTraderManager.ContextMenu(InventorySystem.UI.InventoryElement,InventorySystem.UI.SlotElement)">ContextMenu(InventoryElement, SlotElement)</h4>
+  <a id="InventorySystem_Script_InventoryManager_ContextMenu_" data-uid="InventorySystem.Script.InventoryManager.ContextMenu*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_ContextMenu_InventorySystem_UI_InventoryElement_InventorySystem_UI_SlotElement_" data-uid="InventorySystem.Script.InventoryManager.ContextMenu(InventorySystem.UI.InventoryElement,InventorySystem.UI.SlotElement)">ContextMenu(InventoryElement, SlotElement)</h4>
   <div class="markdown level1 summary"><p>This will Create a context menu from the button on the inventory.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -559,8 +561,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_ContextMenu_" data-uid="InventorySystem.Script.InventoryTraderManager.ContextMenu*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_ContextMenu_InventorySystem_UI_InventoryElement_UnityEngine_UIElements_Button_" data-uid="InventorySystem.Script.InventoryTraderManager.ContextMenu(InventorySystem.UI.InventoryElement,UnityEngine.UIElements.Button)">ContextMenu(InventoryElement, Button)</h4>
+  <a id="InventorySystem_Script_InventoryManager_ContextMenu_" data-uid="InventorySystem.Script.InventoryManager.ContextMenu*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_ContextMenu_InventorySystem_UI_InventoryElement_UnityEngine_UIElements_Button_" data-uid="InventorySystem.Script.InventoryManager.ContextMenu(InventorySystem.UI.InventoryElement,UnityEngine.UIElements.Button)">ContextMenu(InventoryElement, Button)</h4>
   <div class="markdown level1 summary"><p>This will Create a context menu from the button on the inventory.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -594,14 +596,14 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_CreateInventoryElement_" data-uid="InventorySystem.Script.InventoryTraderManager.CreateInventoryElement*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_CreateInventoryElement_InventorySystem_Data_Inventory_System_Int32_UnityEngine_Vector2_UtilitySystem_UI_DialogBoxElement__" data-uid="InventorySystem.Script.InventoryTraderManager.CreateInventoryElement(InventorySystem.Data.Inventory,System.Int32,UnityEngine.Vector2,UtilitySystem.UI.DialogBoxElement@)">CreateInventoryElement(Inventory, Int32, Vector2, out DialogBoxElement)</h4>
+  <a id="InventorySystem_Script_InventoryManager_CreateInventoryElement_" data-uid="InventorySystem.Script.InventoryManager.CreateInventoryElement*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_CreateInventoryElement_InventorySystem_Data_Inventory_System_Int32_System_Int32_UnityEngine_Vector2_UtilitySystem_UI_DialogBoxElement__" data-uid="InventorySystem.Script.InventoryManager.CreateInventoryElement(InventorySystem.Data.Inventory,System.Int32,System.Int32,UnityEngine.Vector2,UtilitySystem.UI.DialogBoxElement@)">CreateInventoryElement(Inventory, Int32, Int32, Vector2, out DialogBoxElement)</h4>
   <div class="markdown level1 summary"><p>This will create the InventoryElement for the inventory.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CreateInventoryElement(Inventory inventory, int size, Vector2 position, out DialogBoxElement dialogBox)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CreateInventoryElement(Inventory inventory, int size, int row, Vector2 position, out DialogBoxElement dialogBox)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -624,6 +626,11 @@ public bool WeightState</code></pre>
         <td><span class="parametername">size</span></td>
         <td><p>This is the number of Slots that the UI will have. </p>
 </td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">row</span></td>
+        <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2.html">Vector2</a></td>
@@ -657,8 +664,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_DetailBox_" data-uid="InventorySystem.Script.InventoryTraderManager.DetailBox*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_DetailBox_System_Int32_InventorySystem_UI_InventoryElement_" data-uid="InventorySystem.Script.InventoryTraderManager.DetailBox(System.Int32,InventorySystem.UI.InventoryElement)">DetailBox(Int32, InventoryElement)</h4>
+  <a id="InventorySystem_Script_InventoryManager_DetailBox_" data-uid="InventorySystem.Script.InventoryManager.DetailBox*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_DetailBox_System_Int32_InventorySystem_UI_InventoryElement_" data-uid="InventorySystem.Script.InventoryManager.DetailBox(System.Int32,InventorySystem.UI.InventoryElement)">DetailBox(Int32, InventoryElement)</h4>
   <div class="markdown level1 summary"><p>This will create a DialogBoxElement for the item details.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -692,8 +699,51 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_OpenSlotPopup_" data-uid="InventorySystem.Script.InventoryTraderManager.OpenSlotPopup*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_OpenSlotPopup_System_Int32_InventorySystem_UI_InventoryElement_System_Boolean_" data-uid="InventorySystem.Script.InventoryTraderManager.OpenSlotPopup(System.Int32,InventorySystem.UI.InventoryElement,System.Boolean)">OpenSlotPopup(Int32, InventoryElement, Boolean)</h4>
+  <a id="InventorySystem_Script_InventoryManager_GetCountTypes_" data-uid="InventorySystem.Script.InventoryManager.GetCountTypes*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_GetCountTypes_InventorySystem_UI_InventoryElement_" data-uid="InventorySystem.Script.InventoryManager.GetCountTypes(InventorySystem.UI.InventoryElement)">GetCountTypes(InventoryElement)</h4>
+  <div class="markdown level1 summary"><p>Check how many inventory type are in the inventories</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetCountTypes(InventoryElement target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InventorySystem.UI.InventoryElement.html">InventoryElement</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Script_InventoryManager_OpenSlotPopup_" data-uid="InventorySystem.Script.InventoryManager.OpenSlotPopup*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_OpenSlotPopup_System_Int32_InventorySystem_UI_InventoryElement_System_Boolean_" data-uid="InventorySystem.Script.InventoryManager.OpenSlotPopup(System.Int32,InventorySystem.UI.InventoryElement,System.Boolean)">OpenSlotPopup(Int32, InventoryElement, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -729,8 +779,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_OpenTransferPopup_" data-uid="InventorySystem.Script.InventoryTraderManager.OpenTransferPopup*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_OpenTransferPopup_InventorySystem_Data_TransferItem_InventorySystem_UI_InventoryElement_InventorySystem_UI_InventoryElement_" data-uid="InventorySystem.Script.InventoryTraderManager.OpenTransferPopup(InventorySystem.Data.TransferItem,InventorySystem.UI.InventoryElement,InventorySystem.UI.InventoryElement)">OpenTransferPopup(TransferItem, InventoryElement, InventoryElement)</h4>
+  <a id="InventorySystem_Script_InventoryManager_OpenTransferPopup_" data-uid="InventorySystem.Script.InventoryManager.OpenTransferPopup*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_OpenTransferPopup_InventorySystem_Data_TransferItem_InventorySystem_UI_InventoryElement_InventorySystem_UI_InventoryElement_" data-uid="InventorySystem.Script.InventoryManager.OpenTransferPopup(InventorySystem.Data.TransferItem,InventorySystem.UI.InventoryElement,InventorySystem.UI.InventoryElement)">OpenTransferPopup(TransferItem, InventoryElement, InventoryElement)</h4>
   <div class="markdown level1 summary"><p>This will open a popup UI for transfer an item from an inventory to another.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -770,8 +820,8 @@ public bool WeightState</code></pre>
   </table>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_RemoveContextMenu_" data-uid="InventorySystem.Script.InventoryTraderManager.RemoveContextMenu*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_RemoveContextMenu" data-uid="InventorySystem.Script.InventoryTraderManager.RemoveContextMenu">RemoveContextMenu()</h4>
+  <a id="InventorySystem_Script_InventoryManager_RemoveContextMenu_" data-uid="InventorySystem.Script.InventoryManager.RemoveContextMenu*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_RemoveContextMenu" data-uid="InventorySystem.Script.InventoryManager.RemoveContextMenu">RemoveContextMenu()</h4>
   <div class="markdown level1 summary"><p>This will remove the context menu from the UI if it exist.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -781,8 +831,8 @@ public bool WeightState</code></pre>
   </div>
   
   
-  <a id="InventorySystem_Script_InventoryTraderManager_RemoveInventory_" data-uid="InventorySystem.Script.InventoryTraderManager.RemoveInventory*"></a>
-  <h4 id="InventorySystem_Script_InventoryTraderManager_RemoveInventory_InventorySystem_UI_InventoryElement_" data-uid="InventorySystem.Script.InventoryTraderManager.RemoveInventory(InventorySystem.UI.InventoryElement)">RemoveInventory(InventoryElement)</h4>
+  <a id="InventorySystem_Script_InventoryManager_RemoveInventory_" data-uid="InventorySystem.Script.InventoryManager.RemoveInventory*"></a>
+  <h4 id="InventorySystem_Script_InventoryManager_RemoveInventory_InventorySystem_UI_InventoryElement_" data-uid="InventorySystem.Script.InventoryManager.RemoveInventory(InventorySystem.UI.InventoryElement)">RemoveInventory(InventoryElement)</h4>
   <div class="markdown level1 summary"><p>This will remove an InventoryElement to the inventories list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class WorldItem
+    <title>Class Movement
    | Inventory System Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class WorldItem
+    <meta name="title" content="Class Movement
    | Inventory System Documentation ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -78,13 +78,13 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="InventorySystem.Script.WorldItem">
+            <article class="content wrap" id="_content" data-uid="UtilitySystem.Script.Movement">
   
   
-  <h1 id="InventorySystem_Script_WorldItem" data-uid="InventorySystem.Script.WorldItem" class="text-break">Class WorldItem
+  <h1 id="UtilitySystem_Script_Movement" data-uid="UtilitySystem.Script.Movement" class="text-break">Class Movement
   </h1>
-  <div class="markdown level0 summary"><p>This abstract class is the base of any item in the world.
-such as the &quot;PickupItem&quot; or the &quot;EquippedItem&quot;.</p>
+  <div class="markdown level0 summary"><p>This class is drop an go movement script that will follow the player object.
+useful for testing.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -94,31 +94,25 @@ such as the &quot;PickupItem&quot; or the &quot;EquippedItem&quot;.</p>
     <div class="level2"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Component.html">Component</a></div>
     <div class="level3"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Behaviour.html">Behaviour</a></div>
     <div class="level4"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
-    <div class="level5"><span class="xref">WorldItem</span></div>
-      <div class="level6"><a class="xref" href="InventorySystem.Script.EquippedItem.html">EquippedItem</a></div>
-      <div class="level6"><a class="xref" href="InventorySystem.Script.PickupItem.html">PickupItem</a></div>
+    <div class="level5"><span class="xref">Movement</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="InventorySystem.Script.html">InventorySystem.Script</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UtilitySystem.Script.html">UtilitySystem.Script</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="InventorySystem_Script_WorldItem_syntax">Syntax</h5>
+  <h5 id="UtilitySystem_Script_Movement_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class WorldItem : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class Movement : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="InventorySystem_Script_WorldItem_item" data-uid="InventorySystem.Script.WorldItem.item">item</h4>
-  <div class="markdown level1 summary"><p>This is the item that is related to this world item.
-The &quot;InventoryItem&quot; is used over the &quot;ItemData&quot; as the amount will be needed
-for pickup as it could be a stack of the item.
-Or could be a consumable equipped item.</p>
+  <h4 id="UtilitySystem_Script_Movement_Instance" data-uid="UtilitySystem.Script.Movement.Instance">Instance</h4>
+  <div class="markdown level1 summary"><p>This is a singleton instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SerializeField]
-public InventoryItem item</code></pre>
+    <pre><code class="lang-csharp hljs">public static Movement Instance</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -130,56 +124,56 @@ public InventoryItem item</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a></td>
+        <td><a class="xref" href="UtilitySystem.Script.Movement.html">Movement</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UpperCaseText_System_Object_">RichText.UpperCaseText(Object)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UpperCaseText_System_Object_">RichText.UpperCaseText(Object)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_LowerCaseText_System_Object_">RichText.LowerCaseText(Object)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_LowerCaseText_System_Object_">RichText.LowerCaseText(Object)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BoldText_System_Object_">RichText.BoldText(Object)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BoldText_System_Object_">RichText.BoldText(Object)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ItalicText_System_Object_">RichText.ItalicText(Object)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ItalicText_System_Object_">RichText.ItalicText(Object)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_Text_System_Object_">RichText.Text(Object)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_Text_System_Object_">RichText.Text(Object)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UnderLineText_System_Object_">RichText.UnderLineText(Object)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UnderLineText_System_Object_">RichText.UnderLineText(Object)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_StrikeText_System_Object_">RichText.StrikeText(Object)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_StrikeText_System_Object_">RichText.StrikeText(Object)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SupText_System_Object_">RichText.SupText(Object)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SupText_System_Object_">RichText.SupText(Object)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SubText_System_Object_">RichText.SubText(Object)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SubText_System_Object_">RichText.SubText(Object)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_PositionText_System_Object_System_Single_">RichText.PositionText(Object, Single)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_PositionText_System_Object_System_Single_">RichText.PositionText(Object, Single)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SizeText_System_Object_System_Int32_">RichText.SizeText(Object, Int32)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_SizeText_System_Object_System_Int32_">RichText.SizeText(Object, Int32)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ColoredText_System_Object_System_String_">RichText.ColoredText(Object, String)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ColoredText_System_Object_System_String_">RichText.ColoredText(Object, String)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ColoredText_System_Object_UnityEngine_Color_">RichText.ColoredText(Object, Color)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_ColoredText_System_Object_UnityEngine_Color_">RichText.ColoredText(Object, Color)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BooleanText_System_Object_System_Boolean_">RichText.BooleanText(Object, Boolean)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BooleanText_System_Object_System_Boolean_">RichText.BooleanText(Object, Boolean)</a>
   </div>
   <div>
-      <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BooleanText_System_Object_System_Boolean_UnityEngine_Color_">RichText.BooleanText(Object, Boolean, Color)</a>
+      <a class="xref" href="UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_BooleanText_System_Object_System_Boolean_UnityEngine_Color_">RichText.BooleanText(Object, Boolean, Color)</a>
   </div>
 </article>
           </div>

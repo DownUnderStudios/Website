@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Player
+    <title>Class WorldItem
    | Inventory System Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Player
+    <meta name="title" content="Class WorldItem
    | Inventory System Documentation ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -78,12 +78,13 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="InventorySystem.Script.Player">
+            <article class="content wrap" id="_content" data-uid="ItemSystem.Script.WorldItem">
   
   
-  <h1 id="InventorySystem_Script_Player" data-uid="InventorySystem.Script.Player" class="text-break">Class Player
+  <h1 id="ItemSystem_Script_WorldItem" data-uid="ItemSystem.Script.WorldItem" class="text-break">Class WorldItem
   </h1>
-  <div class="markdown level0 summary"><p>This class is the script thats applied to a player Character.</p>
+  <div class="markdown level0 summary"><p>This abstract class is the base of any item in the world.
+such as the &quot;PickupItem&quot; or the &quot;EquippedItem&quot;.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -93,170 +94,53 @@
     <div class="level2"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Component.html">Component</a></div>
     <div class="level3"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Behaviour.html">Behaviour</a></div>
     <div class="level4"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
-    <div class="level5"><a class="xref" href="InventorySystem.Script.InventoryTarget.html">InventoryTarget</a></div>
-    <div class="level6"><span class="xref">Player</span></div>
+    <div class="level5"><span class="xref">WorldItem</span></div>
+      <div class="level6"><a class="xref" href="../InventorySystem/InventorySystem.Script.EquippedItem.html">EquippedItem</a></div>
+      <div class="level6"><a class="xref" href="../InventorySystem/InventorySystem.Script.PickupItem.html">PickupItem</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_inventory">InventoryTarget.inventory</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_inventorySlotLength">InventoryTarget.inventorySlotLength</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_inventoryRowLength">InventoryTarget.inventoryRowLength</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_inventoryUIPosition">InventoryTarget.inventoryUIPosition</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_inventoryUI">InventoryTarget.inventoryUI</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_HasInventory">InventoryTarget.HasInventory</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_IsInventoryOpen">InventoryTarget.IsInventoryOpen</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_OpenInventory">InventoryTarget.OpenInventory()</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_CloseInventory">InventoryTarget.CloseInventory()</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_InitInventory">InventoryTarget.InitInventory()</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_OnDestroy">InventoryTarget.OnDestroy()</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_GetContent">InventoryTarget.GetContent</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="InventorySystem.Script.html">InventorySystem.Script</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ItemSystem.Script.html">ItemSystem.Script</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="InventorySystem_Script_Player_syntax">Syntax</h5>
+  <h5 id="ItemSystem_Script_WorldItem_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Player : InventoryTarget</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class WorldItem : MonoBehaviour</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="InventorySystem_Script_Player_equippedItem" data-uid="InventorySystem.Script.Player.equippedItem">equippedItem</h4>
-  <div class="markdown level1 summary"><p>This is the gameobject for the item in the playerHand.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject equippedItem</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/GameObject.html">GameObject</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="InventorySystem_Script_Player_Instance" data-uid="InventorySystem.Script.Player.Instance">Instance</h4>
-  <div class="markdown level1 summary"><p>This is a singleton instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Player Instance</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InventorySystem.Script.Player.html">Player</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="InventorySystem_Script_Player_playerHand" data-uid="InventorySystem.Script.Player.playerHand">playerHand</h4>
-  <div class="markdown level1 summary"><p>This is the gameobject for the hand.
-When item is equipped it will be apply to the hand.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject playerHand</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/GameObject.html">GameObject</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="InventorySystem_Script_Player_useItem" data-uid="InventorySystem.Script.Player.useItem">useItem</h4>
-  <div class="markdown level1 summary"><p>This is for when the equippedItem is used.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action useItem</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="InventorySystem_Script_Player_DestroyHeldObjects_" data-uid="InventorySystem.Script.Player.DestroyHeldObjects*"></a>
-  <h4 id="InventorySystem_Script_Player_DestroyHeldObjects" data-uid="InventorySystem.Script.Player.DestroyHeldObjects">DestroyHeldObjects()</h4>
-  <div class="markdown level1 summary"><p>This will destroy the items in the player&apos;s hand.</p>
+  <a id="ItemSystem_Script_WorldItem_SetItem_" data-uid="ItemSystem.Script.WorldItem.SetItem*"></a>
+  <h4 id="ItemSystem_Script_WorldItem_SetItem_ItemSystem_Data_ItemData_System_Int32_" data-uid="ItemSystem.Script.WorldItem.SetItem(ItemSystem.Data.ItemData,System.Int32)">SetItem(ItemData, Int32)</h4>
+  <div class="markdown level1 summary"><p>This will set the item and amount.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DestroyHeldObjects()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetItem(ItemData item, int amount)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ItemSystem.Data.ItemData.html">ItemData</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>This is the item to be added. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>This is the amount to be added. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="../UtilitySystem/UtilitySystem.Script.RichText.html#UtilitySystem_Script_RichText_UpperCaseText_System_Object_">RichText.UpperCaseText(Object)</a>

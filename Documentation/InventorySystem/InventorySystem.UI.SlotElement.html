@@ -117,13 +117,13 @@ public class SlotElement : VisualElement, IEventHandler, ITransform, ITransition
   
   
   <a id="InventorySystem_UI_SlotElement__ctor_" data-uid="InventorySystem.UI.SlotElement.#ctor*"></a>
-  <h4 id="InventorySystem_UI_SlotElement__ctor_System_Int32_UnityEngine_UIElements_StyleSheet_" data-uid="InventorySystem.UI.SlotElement.#ctor(System.Int32,UnityEngine.UIElements.StyleSheet)">SlotElement(Int32, StyleSheet)</h4>
+  <h4 id="InventorySystem_UI_SlotElement__ctor_System_Int32_System_Boolean_UnityEngine_UIElements_StyleSheet_" data-uid="InventorySystem.UI.SlotElement.#ctor(System.Int32,System.Boolean,UnityEngine.UIElements.StyleSheet)">SlotElement(Int32, Boolean, StyleSheet)</h4>
   <div class="markdown level1 summary"><p>This is a constructor and will set the style for the Slot.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SlotElement(int key, StyleSheet style = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public SlotElement(int key, bool isActive = true, StyleSheet style = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,17 +138,50 @@ public class SlotElement : VisualElement, IEventHandler, ITransform, ITransition
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>this is the slots position in the ui list. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isActive</span></td>
+        <td><p>this will determine if the slot can be interacted with. </p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.StyleSheet.html">StyleSheet</a></td>
         <td><span class="parametername">style</span></td>
-        <td></td>
+        <td><p>This is if you want ot add a stylesheet to this element. </p>
+</td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="InventorySystem_UI_SlotElement_Active_" data-uid="InventorySystem.UI.SlotElement.Active*"></a>
+  <h4 id="InventorySystem_UI_SlotElement_Active" data-uid="InventorySystem.UI.SlotElement.Active">Active</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Active { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="InventorySystem_UI_SlotElement_GetIcon_" data-uid="InventorySystem.UI.SlotElement.GetIcon*"></a>
@@ -314,13 +347,13 @@ public bool HasIcon { get; }</code></pre>
   
   
   <a id="InventorySystem_UI_SlotElement_UpdateSlot_" data-uid="InventorySystem.UI.SlotElement.UpdateSlot*"></a>
-  <h4 id="InventorySystem_UI_SlotElement_UpdateSlot_InventorySystem_Data_InventoryItem_" data-uid="InventorySystem.UI.SlotElement.UpdateSlot(InventorySystem.Data.InventoryItem)">UpdateSlot(InventoryItem)</h4>
+  <h4 id="InventorySystem_UI_SlotElement_UpdateSlot_InventorySystem_Data_InventoryItem_System_Boolean_" data-uid="InventorySystem.UI.SlotElement.UpdateSlot(InventorySystem.Data.InventoryItem,System.Boolean)">UpdateSlot(InventoryItem, Boolean)</h4>
   <div class="markdown level1 summary"><p>This will update the slot&apos;s icon with the new item.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateSlot(InventoryItem item)</code></pre>
+    <pre><code class="lang-csharp hljs">public void UpdateSlot(InventoryItem item, bool isActive)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -337,6 +370,11 @@ public bool HasIcon { get; }</code></pre>
         <td><span class="parametername">item</span></td>
         <td><p>this is the item that will update the slot&apos;s icon. </p>
 </td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isActive</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1128,7 +1166,7 @@ public bool HasIcon { get; }</code></pre>
       <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Sprite_UnityEngine_UIElements_VisualElement_UnityEngine_Sprite_">CreateElements.CreateElement_Sprite(VisualElement, Sprite)</a>
   </div>
   <div>
-      <a class="xref" href="InventorySystem.Script.CreateElements.html#InventorySystem_Script_CreateElements_CreateElement_Slot_UnityEngine_UIElements_VisualElement_System_Int32_">CreateElements.CreateElement_Slot(VisualElement, Int32)</a>
+      <a class="xref" href="InventorySystem.Script.CreateElements.html#InventorySystem_Script_CreateElements_CreateElement_Slot_UnityEngine_UIElements_VisualElement_System_Int32_System_Boolean_">CreateElements.CreateElement_Slot(VisualElement, Int32, Boolean)</a>
   </div>
   <div>
       <a class="xref" href="InventorySystem.Script.CreateElements.html#InventorySystem_Script_CreateElements_CreateElement_Inventory_UnityEngine_UIElements_VisualElement_System_Int32_System_Int32_InventorySystem_Data_Inventory_">CreateElements.CreateElement_Inventory(VisualElement, Int32, Int32, Inventory)</a>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Player
+    <title>Class EnemyList
    | Inventory System Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Player
+    <meta name="title" content="Class EnemyList
    | Inventory System Documentation ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -78,13 +78,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="InventorySystem.Script.Player">
+            <article class="content wrap" id="_content" data-uid="InventorySystem.Script.EnemyList">
   
   
-  <h1 id="InventorySystem_Script_Player" data-uid="InventorySystem.Script.Player" class="text-break">Class Player
+  <h1 id="InventorySystem_Script_EnemyList" data-uid="InventorySystem.Script.EnemyList" class="text-break">Class EnemyList
   </h1>
-  <div class="markdown level0 summary"><p>This class is the script thats applied to a player Character.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -93,65 +92,25 @@
     <div class="level2"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Component.html">Component</a></div>
     <div class="level3"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Behaviour.html">Behaviour</a></div>
     <div class="level4"><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
-    <div class="level5"><a class="xref" href="InventorySystem.Script.InventoryTarget.html">InventoryTarget</a></div>
-    <div class="level6"><span class="xref">Player</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_inventory">InventoryTarget.inventory</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_inventorySlotLength">InventoryTarget.inventorySlotLength</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_inventoryRowLength">InventoryTarget.inventoryRowLength</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_inventoryUIPosition">InventoryTarget.inventoryUIPosition</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_inventoryUI">InventoryTarget.inventoryUI</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_HasInventory">InventoryTarget.HasInventory</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_IsInventoryOpen">InventoryTarget.IsInventoryOpen</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_OpenInventory">InventoryTarget.OpenInventory()</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_CloseInventory">InventoryTarget.CloseInventory()</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_InitInventory">InventoryTarget.InitInventory()</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_OnDestroy">InventoryTarget.OnDestroy()</a>
-    </div>
-    <div>
-      <a class="xref" href="InventorySystem.Script.InventoryTarget.html#InventorySystem_Script_InventoryTarget_GetContent">InventoryTarget.GetContent</a>
-    </div>
+    <div class="level5"><span class="xref">EnemyList</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="InventorySystem.Script.html">InventorySystem.Script</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="InventorySystem_Script_Player_syntax">Syntax</h5>
+  <h5 id="InventorySystem_Script_EnemyList_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Player : InventoryTarget</code></pre>
+    <pre><code class="lang-csharp hljs">public class EnemyList : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="InventorySystem_Script_Player_equippedItem" data-uid="InventorySystem.Script.Player.equippedItem">equippedItem</h4>
-  <div class="markdown level1 summary"><p>This is the gameobject for the item in the playerHand.</p>
+  <h4 id="InventorySystem_Script_EnemyList_enemies" data-uid="InventorySystem.Script.EnemyList.enemies">enemies</h4>
+  <div class="markdown level1 summary"><p>This is the list of enemy that will be killed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject equippedItem</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;Enemy&gt; enemies</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,83 +122,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/GameObject.html">GameObject</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="InventorySystem_Script_Player_Instance" data-uid="InventorySystem.Script.Player.Instance">Instance</h4>
-  <div class="markdown level1 summary"><p>This is a singleton instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Player Instance</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InventorySystem.Script.Player.html">Player</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="InventorySystem_Script_Player_playerHand" data-uid="InventorySystem.Script.Player.playerHand">playerHand</h4>
-  <div class="markdown level1 summary"><p>This is the gameobject for the hand.
-When item is equipped it will be apply to the hand.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject playerHand</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/GameObject.html">GameObject</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="InventorySystem_Script_Player_useItem" data-uid="InventorySystem.Script.Player.useItem">useItem</h4>
-  <div class="markdown level1 summary"><p>This is for when the equippedItem is used.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action useItem</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="InventorySystem.Script.Enemy.html">Enemy</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -248,14 +131,36 @@ When item is equipped it will be apply to the hand.</p>
   </h3>
   
   
-  <a id="InventorySystem_Script_Player_DestroyHeldObjects_" data-uid="InventorySystem.Script.Player.DestroyHeldObjects*"></a>
-  <h4 id="InventorySystem_Script_Player_DestroyHeldObjects" data-uid="InventorySystem.Script.Player.DestroyHeldObjects">DestroyHeldObjects()</h4>
-  <div class="markdown level1 summary"><p>This will destroy the items in the player&apos;s hand.</p>
+  <a id="InventorySystem_Script_EnemyList_Awake_" data-uid="InventorySystem.Script.EnemyList.Awake*"></a>
+  <h4 id="InventorySystem_Script_EnemyList_Awake" data-uid="InventorySystem.Script.EnemyList.Awake">Awake()</h4>
+  <div class="markdown level1 summary"><p>This will get all of the enemy types in child gameobject.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DestroyHeldObjects()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="InventorySystem_Script_EnemyList_KillEnemies_" data-uid="InventorySystem.Script.EnemyList.KillEnemies*"></a>
+  <h4 id="InventorySystem_Script_EnemyList_KillEnemies" data-uid="InventorySystem.Script.EnemyList.KillEnemies">KillEnemies()</h4>
+  <div class="markdown level1 summary"><p>This will kill all of the enemy inventories.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void KillEnemies()</code></pre>
+  </div>
+  
+  
+  <a id="InventorySystem_Script_EnemyList_Update_" data-uid="InventorySystem.Script.EnemyList.Update*"></a>
+  <h4 id="InventorySystem_Script_EnemyList_Update" data-uid="InventorySystem.Script.EnemyList.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>This will check inputs to determine to kill enemies and open-close inventories.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

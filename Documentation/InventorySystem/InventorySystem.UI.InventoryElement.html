@@ -214,31 +214,6 @@ public class InventoryElement : VisualElement, IEventHandler, ITransform, ITrans
   </table>
   
   
-  <h4 id="InventorySystem_UI_InventoryElement_footer" data-uid="InventorySystem.UI.InventoryElement.footer">footer</h4>
-  <div class="markdown level1 summary"><p>This is the footer section.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VisualElement footer</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <h4 id="InventorySystem_UI_InventoryElement_header" data-uid="InventorySystem.UI.InventoryElement.header">header</h4>
   <div class="markdown level1 summary"><p>This is the header section.</p>
 </div>
@@ -265,7 +240,7 @@ public class InventoryElement : VisualElement, IEventHandler, ITransform, ITrans
   
   
   <h4 id="InventorySystem_UI_InventoryElement_isDescending" data-uid="InventorySystem.UI.InventoryElement.isDescending">isDescending</h4>
-  <div class="markdown level1 summary"><p>this boolean is used in sort and if it should be ascending or desending.</p>
+  <div class="markdown level1 summary"><p>this is used in sort and if it should be ascending or descending.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -283,6 +258,31 @@ public class InventoryElement : VisualElement, IEventHandler, ITransform, ITrans
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="InventorySystem_UI_InventoryElement_numberOfSlots" data-uid="InventorySystem.UI.InventoryElement.numberOfSlots">numberOfSlots</h4>
+  <div class="markdown level1 summary"><p>This is the number of slots in the ui.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numberOfSlots</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1603,7 +1603,7 @@ then clear the slotsToUpdate list.</p>
       <a class="xref" href="../UtilitySystem/UtilitySystem.Script.CreateElements.html#UtilitySystem_Script_CreateElements_CreateElement_Sprite_UnityEngine_UIElements_VisualElement_UnityEngine_Sprite_">CreateElements.CreateElement_Sprite(VisualElement, Sprite)</a>
   </div>
   <div>
-      <a class="xref" href="InventorySystem.Script.CreateElements.html#InventorySystem_Script_CreateElements_CreateElement_Slot_UnityEngine_UIElements_VisualElement_System_Int32_">CreateElements.CreateElement_Slot(VisualElement, Int32)</a>
+      <a class="xref" href="InventorySystem.Script.CreateElements.html#InventorySystem_Script_CreateElements_CreateElement_Slot_UnityEngine_UIElements_VisualElement_System_Int32_System_Boolean_">CreateElements.CreateElement_Slot(VisualElement, Int32, Boolean)</a>
   </div>
   <div>
       <a class="xref" href="InventorySystem.Script.CreateElements.html#InventorySystem_Script_CreateElements_CreateElement_Inventory_UnityEngine_UIElements_VisualElement_System_Int32_System_Int32_InventorySystem_Data_Inventory_">CreateElements.CreateElement_Inventory(VisualElement, Int32, Int32, Inventory)</a>

@@ -158,31 +158,6 @@ public class Inventory : ScriptableObject</code></pre>
   </table>
   
   
-  <h4 id="InventorySystem_Data_Inventory_size" data-uid="InventorySystem.Data.Inventory.size">size</h4>
-  <div class="markdown level1 summary"><p>This is the size of the inventory.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int size</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <h4 id="InventorySystem_Data_Inventory_Storage" data-uid="InventorySystem.Data.Inventory.Storage">Storage</h4>
   <div class="markdown level1 summary"><p>This is where the contents of the inventory is held.</p>
 </div>
@@ -286,6 +261,34 @@ public int CurrencyValue { get; set; }</code></pre>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="InventorySystem_Data_Inventory_Size_" data-uid="InventorySystem.Data.Inventory.Size*"></a>
+  <h4 id="InventorySystem_Data_Inventory_Size" data-uid="InventorySystem.Data.Inventory.Size">Size</h4>
+  <div class="markdown level1 summary"><p>This is the Size of the inventory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+public int Size { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>This will Update the Storage when changed. </p>
+</td>
       </tr>
     </tbody>
   </table>

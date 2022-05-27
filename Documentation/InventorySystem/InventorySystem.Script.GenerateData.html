@@ -130,60 +130,6 @@
   </h3>
   
   
-  <a id="InventorySystem_Script_GenerateData_CreateInventory_" data-uid="InventorySystem.Script.GenerateData.CreateInventory*"></a>
-  <h4 id="InventorySystem_Script_GenerateData_CreateInventory_InventorySystem_Data_Inventory_System_Int32_System_Collections_Generic_List_ItemSystem_Data_ItemData__System_Int32_System_Boolean_" data-uid="InventorySystem.Script.GenerateData.CreateInventory(InventorySystem.Data.Inventory,System.Int32,System.Collections.Generic.List{ItemSystem.Data.ItemData},System.Int32,System.Boolean)">CreateInventory(Inventory, Int32, List&lt;ItemData&gt;, Int32, Boolean)</h4>
-  <div class="markdown level1 summary"><p>This will create an Inventory add items to an inventory&apos;s storageData.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void CreateInventory(Inventory inventory, int slotLine, List&lt;ItemData&gt; itemDataList, int inventoryGold, bool isRandom = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InventorySystem.Data.Inventory.html">Inventory</a></td>
-        <td><span class="parametername">inventory</span></td>
-        <td><p>Inventory file after it is created. </p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">slotLine</span></td>
-        <td><p>how many slot will the UI have per row.
-so the inventory&apos;s can be determined along with number of items to be added. </p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="../ItemSystem/ItemSystem.Data.ItemData.html">ItemData</a>&gt;</td>
-        <td><span class="parametername">itemDataList</span></td>
-        <td><p>list of ItemDat files that will be added to the inventory. between(1 - Max Stack). </p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">inventoryGold</span></td>
-        <td><p>the amount of gold the inventory will have or will be the max random range if isRandom is true.  </p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">isRandom</span></td>
-        <td><p>if true each item will be given a random key. else 1 by 1. </p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="InventorySystem_Script_GenerateData_CreateInventoryItem_" data-uid="InventorySystem.Script.GenerateData.CreateInventoryItem*"></a>
   <h4 id="InventorySystem_Script_GenerateData_CreateInventoryItem_System_String_System_Int32_" data-uid="InventorySystem.Script.GenerateData.CreateInventoryItem(System.String,System.Int32)">CreateInventoryItem(String, Int32)</h4>
   <div class="markdown level1 summary"><p>This will create an InventoryItem and add an amount to it.</p>

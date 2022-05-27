@@ -271,35 +271,6 @@ and count the free space in each item.</p>
   
   
   <a id="InventorySystem_Script_DictionaryActions_ConsolidateInventory_" data-uid="InventorySystem.Script.DictionaryActions.ConsolidateInventory*"></a>
-  <h4 id="InventorySystem_Script_DictionaryActions_ConsolidateInventory_InventorySystem_UI_InventoryElement_" data-uid="InventorySystem.Script.DictionaryActions.ConsolidateInventory(InventorySystem.UI.InventoryElement)">ConsolidateInventory(InventoryElement)</h4>
-  <div class="markdown level1 summary"><p>This will Consolidate InventoryItem(s) into the smallest number of stacks.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ConsolidateInventory(InventoryElement target)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InventorySystem.UI.InventoryElement.html">InventoryElement</a></td>
-        <td><span class="parametername">target</span></td>
-        <td><p>this is the InventoryElement who&apos;s dictionary will be consolidated. </p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="InventorySystem_Script_DictionaryActions_ConsolidateInventory_" data-uid="InventorySystem.Script.DictionaryActions.ConsolidateInventory*"></a>
   <h4 id="InventorySystem_Script_DictionaryActions_ConsolidateInventory_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Int32_" data-uid="InventorySystem.Script.DictionaryActions.ConsolidateInventory(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Int32)">ConsolidateInventory(Dictionary&lt;Int32, InventoryItem&gt;, Int32)</h4>
   <div class="markdown level1 summary"><p>This will Consolidate InventoryItem(s) into the smallest number of stacks.</p>
 </div>
@@ -494,63 +465,6 @@ and count the free space in each item.</p>
   </table>
   
   
-  <a id="InventorySystem_Script_DictionaryActions_MergeItemAtDictionaryKey_" data-uid="InventorySystem.Script.DictionaryActions.MergeItemAtDictionaryKey*"></a>
-  <h4 id="InventorySystem_Script_DictionaryActions_MergeItemAtDictionaryKey_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__InventorySystem_Data_InventoryItem_System_Int32_" data-uid="InventorySystem.Script.DictionaryActions.MergeItemAtDictionaryKey(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},InventorySystem.Data.InventoryItem,System.Int32)">MergeItemAtDictionaryKey(Dictionary&lt;Int32, InventoryItem&gt;, InventoryItem, Int32)</h4>
-  <div class="markdown level1 summary"><p>This will merge the Item into the dictionary at the index.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool MergeItemAtDictionaryKey(Dictionary&lt;int, InventoryItem&gt; dictionary, InventoryItem item, int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
-        <td><span class="parametername">dictionary</span></td>
-        <td><p>This is the dictionary that will be used to merge an item at an index. </p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a></td>
-        <td><span class="parametername">item</span></td>
-        <td><p>This is the item to be added. </p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">index</span></td>
-        <td><p>This is the index of the dictionary to be added to. </p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><p>if the item has been merged fully or partially return true. </p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="InventorySystem_Script_DictionaryActions_RemoveItems_" data-uid="InventorySystem.Script.DictionaryActions.RemoveItems*"></a>
   <h4 id="InventorySystem_Script_DictionaryActions_RemoveItems_InventorySystem_UI_InventoryElement_System_Int32___" data-uid="InventorySystem.Script.DictionaryActions.RemoveItems(InventorySystem.UI.InventoryElement,System.Int32[])">RemoveItems(InventoryElement, Int32[])</h4>
   <div class="markdown level1 summary"><p>This will remove item(s) from the dictionary.</p>
@@ -623,7 +537,7 @@ and count the free space in each item.</p>
   
   <a id="InventorySystem_Script_DictionaryActions_SortByAmount_" data-uid="InventorySystem.Script.DictionaryActions.SortByAmount*"></a>
   <h4 id="InventorySystem_Script_DictionaryActions_SortByAmount_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Boolean_" data-uid="InventorySystem.Script.DictionaryActions.SortByAmount(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Boolean)">SortByAmount(Dictionary&lt;Int32, InventoryItem&gt;, Boolean)</h4>
-  <div class="markdown level1 summary"><p>This will sort the dictionary by item current stack, either Ascending or Desending order.</p>
+  <div class="markdown level1 summary"><p>This will sort the dictionary by item current stack, either Ascending or Descending order.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -643,13 +557,13 @@ and count the free space in each item.</p>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
         <td><span class="parametername">dictionary</span></td>
-        <td><p>This is the dictionary that will be sortted. </p>
+        <td><p>This is the dictionary that will be sorted. </p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">isDescending</span></td>
-        <td><p>This is the boolean that if true will choose to order by Desending. </p>
+        <td><p>This is the boolean that if true will choose to order by Descending. </p>
 </td>
       </tr>
     </tbody>
@@ -665,7 +579,7 @@ and count the free space in each item.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
-        <td><p>Return the dictionary after it has been sortted.</p>
+        <td><p>Return the dictionary after it has been sorted.</p>
 </td>
       </tr>
     </tbody>
@@ -674,7 +588,7 @@ and count the free space in each item.</p>
   
   <a id="InventorySystem_Script_DictionaryActions_SortByCost_" data-uid="InventorySystem.Script.DictionaryActions.SortByCost*"></a>
   <h4 id="InventorySystem_Script_DictionaryActions_SortByCost_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Boolean_" data-uid="InventorySystem.Script.DictionaryActions.SortByCost(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Boolean)">SortByCost(Dictionary&lt;Int32, InventoryItem&gt;, Boolean)</h4>
-  <div class="markdown level1 summary"><p>This will sort the dictionary by item cost, either Ascending or Desending order.</p>
+  <div class="markdown level1 summary"><p>This will sort the dictionary by item cost, either Ascending or Descending order.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -694,13 +608,13 @@ and count the free space in each item.</p>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
         <td><span class="parametername">dictionary</span></td>
-        <td><p>This is the dictionary that will be sortted. </p>
+        <td><p>This is the dictionary that will be sorted. </p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">isDescending</span></td>
-        <td><p>This is the boolean that if true will choose to order by Desending. </p>
+        <td><p>This is the boolean that if true will choose to order by Descending. </p>
 </td>
       </tr>
     </tbody>
@@ -716,7 +630,7 @@ and count the free space in each item.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
-        <td><p>Return the dictionary after it has been sortted.</p>
+        <td><p>Return the dictionary after it has been sorted.</p>
 </td>
       </tr>
     </tbody>
@@ -725,7 +639,7 @@ and count the free space in each item.</p>
   
   <a id="InventorySystem_Script_DictionaryActions_SortByName_" data-uid="InventorySystem.Script.DictionaryActions.SortByName*"></a>
   <h4 id="InventorySystem_Script_DictionaryActions_SortByName_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Boolean_" data-uid="InventorySystem.Script.DictionaryActions.SortByName(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Boolean)">SortByName(Dictionary&lt;Int32, InventoryItem&gt;, Boolean)</h4>
-  <div class="markdown level1 summary"><p>This will sort the dictionary by item name, either Ascending or Desending order.</p>
+  <div class="markdown level1 summary"><p>This will sort the dictionary by item name, either Ascending or Descending order.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -745,13 +659,13 @@ and count the free space in each item.</p>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
         <td><span class="parametername">dictionary</span></td>
-        <td><p>This is the dictionary that will be sortted. </p>
+        <td><p>This is the dictionary that will be sorted. </p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">isDescending</span></td>
-        <td><p>This is the boolean that if true will choose to order by Desending. </p>
+        <td><p>This is the boolean that if true will choose to order by Descending. </p>
 </td>
       </tr>
     </tbody>
@@ -767,7 +681,7 @@ and count the free space in each item.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
-        <td><p>Return the dictionary after it has been sortted.</p>
+        <td><p>Return the dictionary after it has been sorted.</p>
 </td>
       </tr>
     </tbody>
@@ -776,7 +690,7 @@ and count the free space in each item.</p>
   
   <a id="InventorySystem_Script_DictionaryActions_SortByType_" data-uid="InventorySystem.Script.DictionaryActions.SortByType*"></a>
   <h4 id="InventorySystem_Script_DictionaryActions_SortByType_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Boolean_" data-uid="InventorySystem.Script.DictionaryActions.SortByType(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Boolean)">SortByType(Dictionary&lt;Int32, InventoryItem&gt;, Boolean)</h4>
-  <div class="markdown level1 summary"><p>This will sort the dictionary by item type, either Ascending or Desending order.</p>
+  <div class="markdown level1 summary"><p>This will sort the dictionary by item type, either Ascending or Descending order.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -796,13 +710,13 @@ and count the free space in each item.</p>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
         <td><span class="parametername">dictionary</span></td>
-        <td><p>This is the dictionary that will be sortted. </p>
+        <td><p>This is the dictionary that will be sorted. </p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">isDescending</span></td>
-        <td><p>This is the boolean that if true will choose to order by Desending. </p>
+        <td><p>This is the boolean that if true will choose to order by Descending. </p>
 </td>
       </tr>
     </tbody>
@@ -818,7 +732,7 @@ and count the free space in each item.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
-        <td><p>Return the dictionary after it has been sortted.</p>
+        <td><p>Return the dictionary after it has been sorted.</p>
 </td>
       </tr>
     </tbody>
@@ -827,7 +741,7 @@ and count the free space in each item.</p>
   
   <a id="InventorySystem_Script_DictionaryActions_SortByWeight_" data-uid="InventorySystem.Script.DictionaryActions.SortByWeight*"></a>
   <h4 id="InventorySystem_Script_DictionaryActions_SortByWeight_System_Collections_Generic_Dictionary_System_Int32_InventorySystem_Data_InventoryItem__System_Boolean_" data-uid="InventorySystem.Script.DictionaryActions.SortByWeight(System.Collections.Generic.Dictionary{System.Int32,InventorySystem.Data.InventoryItem},System.Boolean)">SortByWeight(Dictionary&lt;Int32, InventoryItem&gt;, Boolean)</h4>
-  <div class="markdown level1 summary"><p>This will sort the dictionary by item weight, either Ascending or Desending order.</p>
+  <div class="markdown level1 summary"><p>This will sort the dictionary by item weight, either Ascending or Descending order.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -847,13 +761,13 @@ and count the free space in each item.</p>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
         <td><span class="parametername">dictionary</span></td>
-        <td><p>This is the dictionary that will be sortted. </p>
+        <td><p>This is the dictionary that will be sorted. </p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">isDescending</span></td>
-        <td><p>This is the boolean that if true will choose to order by Desending. </p>
+        <td><p>This is the boolean that if true will choose to order by Descending. </p>
 </td>
       </tr>
     </tbody>
@@ -869,7 +783,7 @@ and count the free space in each item.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="InventorySystem.Data.InventoryItem.html">InventoryItem</a>&gt;</td>
-        <td><p>Return the dictionary after it has been sortted.</p>
+        <td><p>Return the dictionary after it has been sorted.</p>
 </td>
       </tr>
     </tbody>
